@@ -1,5 +1,5 @@
 /**
- * Implement Gatsby's Browser APIs in this file.
+ * Implement Gatsby's Browser APIs here
  *
  * See: https://www.gatsbyjs.com/docs/browser-apis/
  */
