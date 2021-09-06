@@ -28,20 +28,29 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
+
         }}
       >
         <main>{children}</main>
+
         <footer
           style={{
-            marginTop: `2rem`,
+            display: `block`,
+            position: `fixed`,
+            bottom: `0`,
+            margin: `0 auto`,
+            width: `100%`,
+            maxWidth: `100%`,
+            padding: `0 auto`,
+            textAlign: `center`,
+            marginTop: `1rem`,
+            background: `#037fb7`,
+            color: `#fff`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
+          © soundwanders {new Date().getFullYear()}
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+
         </footer>
       </div>
     </>

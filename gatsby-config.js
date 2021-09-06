@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `jcoletta.com`,
+    title: `gatsby portfolio`,
     description: `gatsby portfolio site`,
     author: `@gatsbyjs`,
     siteUrl: `https://github.com/soundwanders/greatgatsby`,
@@ -8,6 +8,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
