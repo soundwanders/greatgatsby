@@ -1,9 +1,9 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import styled from "styled-components"
+import { StyledLink } from "../components/common/styledlinks"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Container404 = styled.div`
   display: flex;
@@ -34,13 +34,6 @@ const GoHome = styled.p`
   padding: 1rem 0;
 `
 
-const StyledLink = styled(props => <Link {...props}/>)`
-  color: #00557e;
-  font-size: 1em;
-  text-decoration: none;
-  padding: 0 2rem;
-`
-
 const NotFoundPage = () => (
   <Layout>
     <Seo title="404 Not Found" />
@@ -49,7 +42,7 @@ const NotFoundPage = () => (
         <ErrorText>You just hit a route that doesn&#39;t exist </ErrorText>
 
         <StaticImage
-          src="../images/lost.png"
+          src="../images/lost404.png"
           width={535}
           formats={["AUTO", "WEBP", "AVIF"]}
           alt="Lost in Space"

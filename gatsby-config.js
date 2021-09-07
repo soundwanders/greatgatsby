@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `gatsby portfolio`,
-    description: `gatsby portfolio site`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://github.com/soundwanders/greatgatsby`,
+    title: `JColetta`,
+    description: `Jared Coletta's Developer Portfolio`,
+    author: `Jared Coletta`,
+    siteUrl: `https://github.com/soundwanders/greatgatsby/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,8 +27,17 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
+    },
+    {
+      resolve: "gatsby-source-graphql",
+			options: {
+				typeName: "GitHub",
+				fieldName: "github",
+				url: "https://api.github.com/graphql",
+				fetchOptions: {},
+			},
     },
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
