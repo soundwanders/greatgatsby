@@ -1,22 +1,24 @@
-export const Footer = styled.footer`
-    display: block;
-    position: fixed;
-    bottom: 0;
-    margin: 0 auto;
-    width: 100%;
-    maxWidth: 100%;
-    padding: 0 auto;
-    textAlign: center;
-    marginTop: 1rem;
-    background: #037fb7;
-    color: #fff;
+import styled from 'styled-components';
+
+export const Foot = styled.footer`
+  display: block;
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+  width: 100%;
+  maxWidth: 100%;
+  padding: 0 auto;
+  textAlign: center;
+  marginTop: 1rem;
+  background: #037fb7;
+  color: #fff;
 `
 
 export const Flex = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  
+
   @media (max-width: 680px) {
     flex-direction: column;
     text-align: center;
@@ -24,7 +26,7 @@ export const Flex = styled.div`
   }
 `;
 
-export const Links = styled.div`
+export const FooterLinks = styled.div`
   display: flex;
   align-items: center;
   a {

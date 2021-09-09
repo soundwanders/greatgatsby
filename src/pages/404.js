@@ -1,11 +1,9 @@
-import * as React from "react"
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import styled from "styled-components"
-import { StyledLink } from "../components/common/styledlinks"
-import { StaticImage } from "gatsby-plugin-image"
+import React from "react";
+import { Layout, StyledLink, Seo } from "components/common";
+import { StaticImage } from "gatsby-plugin-image";
+import styled from 'styled-components';
 
-const Container404 = styled.div`
+export const Container = styled.div`
   display: flex;
   width: 100%;
   margin: 0;
@@ -14,13 +12,13 @@ const Container404 = styled.div`
   justify-content: center;
 `
 
-const H404 = styled.h2`
+export const Header = styled.h2`
   display: inherit;
   font-size: 3em;
   padding: 1rem 0;
 `
 
-const ErrorText = styled.p`
+export const ErrorText = styled.p`
   font-size: 1.5em;
   display: inherit;
   justify-content: center;
@@ -28,33 +26,33 @@ const ErrorText = styled.p`
   padding: 1rem 0;
 `
 
-const GoHome = styled.p`
+export const GoHome = styled.p`
   font-size: 1.5em;
   text-align: center;
   padding: 1rem 0;
 `
 
-const NotFoundPage = () => (
+const PageNotFound = () => (
   <Layout>
     <Seo title="404 Not Found" />
-    <Container404>
-        <H404>&#129306; 404: Not Found</H404>
-        <ErrorText>You just hit a route that doesn&#39;t exist </ErrorText>
+    <Container>
+        <Header>&#129306; 404: Not Found</Header>
+    
+        <ErrorText>Sorry, page cannot be found. It may be lost in space...</ErrorText>
 
         <StaticImage
-          src="../images/lost404.png"
-          width={535}
-          formats={["AUTO", "WEBP", "AVIF"]}
-          alt="Lost in Space"
-          style={{ marginBottom: `1.45rem`, borderRadius: `1rem`}}
+        src="../images/lost.png"
+        width={535}
+        formats={["AUTO", "WEBP", "AVIF"]}
+        alt="Lost in Space"
+        style={{ marginBottom: `1.45rem`, borderRadius: `1rem`}}
         />
 
         <GoHome>
-          <StyledLink to="/">Lost? Return Home!</StyledLink>
+        <StyledLink to="/">Lost? Return Home!</StyledLink>
         </GoHome>
-    </Container404>
+    </Container>
   </Layout>
-)
+);
 
-export default NotFoundPage
-
+export default PageNotFound;

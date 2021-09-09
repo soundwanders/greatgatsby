@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `JColetta`,
-    description: `Jared Coletta's Developer Portfolio`,
+    description: `Jared Coletta Developer Portfolio`,
     author: `Jared Coletta`,
     siteUrl: `https://github.com/soundwanders/greatgatsby/`,
   },
@@ -27,18 +27,21 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icons/favicon.png`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: "gatsby-source-graphql",
-			options: {
-				typeName: "GitHub",
-				fieldName: "github",
-				url: "https://api.github.com/graphql",
-				fetchOptions: {},
-			},
-    },
+ 
+//     {
+//       resolve: "gatsby-source-graphql",
+// 			options: {
+// 				typeName: "GitHub",
+// 				fieldName: "github",
+// 				url: "https://api.github.com/graphql",
+// 				fetchOptions: {},
+// 			},
+//     },
+
+
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

@@ -1,9 +1,7 @@
-import * as React from "react";
+import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-import { StyledLink } from "../components/common/styledLinks";
-import Layout from "../components/layout";
-import Seo from "../components/seo/seo";
-import { Container, Subcontainer, User, Subtitle, Pages } from '../components/homepage/style';
+import { Layout, Seo, StyledLink } from "components/common";
+import { Container, Subcontainer, User, Subtitle, Pages } from './style';
 
 const HomePage = () => (
   <Layout>
@@ -27,6 +25,6 @@ const HomePage = () => (
       </Subcontainer>
     </Container>
   </Layout>
-)
+);
 
-export default HomePage
+export default HomePage;
