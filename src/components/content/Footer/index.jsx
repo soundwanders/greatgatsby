@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'common';
+import { Container } from 'components/common';
 import { Foot, Flex, FooterLinks } from './style';
 import socials from './socials.json';
 

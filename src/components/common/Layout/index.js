@@ -8,8 +8,8 @@
 import * as React from "react";
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
-import { Header } from "components";
-import { Footer } from "components";
+import { Header } from "components/content/Header";
+import { Footer } from "components/content/Footer";
 import "./layout.css";
 
 const Layout = ({ children }) => {

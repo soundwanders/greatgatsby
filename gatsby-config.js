@@ -10,6 +10,12 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-styled-components`,
     {
+			resolve: `gatsby-plugin-canonical-urls`,
+			options: {
+				siteUrl: `https://github.com/soundwanders/greatgatsby/`,
+			},
+		},
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
@@ -20,6 +26,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
+
       options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,

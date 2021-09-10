@@ -71,5 +71,5 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-# stashed files
-/stash
+# Package-Lock
+package-lock.json
