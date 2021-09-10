@@ -11,5 +11,4 @@ const NavLinks = ({ desktop }) => {
         </Wrapper>
     )
 };
-
 export default NavLinks;

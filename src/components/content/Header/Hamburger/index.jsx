@@ -2,7 +2,6 @@ import React from 'react';
 import { Wrapper, Bar } from './style';
 
 const Hamburger = ({ sidebar, toggle }) => {
-
     return (
         <Wrapper sidebar={sidebar} onClick={() => toggle(!sidebar)}>
             <Bar top sidebar={sidebar}/>

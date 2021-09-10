@@ -5,7 +5,7 @@ import Sidebar from './Sidebar';
 import { Wrapper, Overlay } from './style';
 import PropTypes from "prop-types";
 
-const Header = () => {
+export const Header = () => {
   const [sidebar, toggle] = useState(false);
 
   return (
@@ -25,5 +25,3 @@ Header.propTypes = {
 Header.defaultProps = {
   siteTitle: ``,
 };
-
-export default Header;

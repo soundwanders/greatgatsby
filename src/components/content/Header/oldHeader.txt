@@ -2,7 +2,7 @@
 // import PropTypes from "prop-types"
 // import { StyledLink } from "components/common";
 
-const Header = ({ siteTitle }) => (
+export const Header = ({ siteTitle }) => (
   <header
     style={{
       margin: `0 auto`,
@@ -44,4 +44,3 @@ Header.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header

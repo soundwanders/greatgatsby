@@ -1,12 +1,13 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-import { Layout, Seo, StyledLink } from "components/common";
-import { Container, Subcontainer, User, Subtitle, Pages } from './style';
+import { Seo, StyledLink } from "components/common";
+import { Subcontainer, User, Subtitle, Pages } from './style';
+import { Container } from 'components/common';
 
-const HomePage = () => (
-  <Layout>
-    <Seo title="Home" />
+export const HomePage = () => {
+  return (
     <Container>
+      <Seo title="Home" />
       <Subcontainer>
         <User>Jared Coletta</User>
         <Subtitle>Front-end Developer</Subtitle>
@@ -15,7 +16,7 @@ const HomePage = () => (
           width={300}
           quality={95}
           formats={["AUTO", "WEBP", "AVIF"]}
-          alt="gatsby latsby"
+          alt="gatsby"
           style={{ marginBottom: `1.45rem` }}
         />
         <Pages>
@@ -24,7 +25,5 @@ const HomePage = () => (
         </Pages>
       </Subcontainer>
     </Container>
-  </Layout>
-);
-
-export default HomePage;
+  )
+};

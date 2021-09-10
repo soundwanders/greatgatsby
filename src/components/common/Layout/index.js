@@ -1,18 +1,15 @@
 /**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
+ Queries for data with useStaticQuery: https://www.gatsbyjs.com/docs/use-static-query/
+*/
 
-import * as React from "react";
+import React from 'react';
+import { Header } from 'components/content';
+import { Footer } from 'components/content';
+import { Global } from './style';
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
-import { Header } from "components/content/Header";
-import { Footer } from "components/content/Footer";
-import "./layout.css";
 
-const Layout = ({ children }) => {
+export const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -25,17 +22,14 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Global />
       <Header siteTitle={data.site.siteMetadata?.title || ``} />
-
-        <main>{children}</main>
-
+      {children}
       <Footer />
     </>
-  )
-}
+  );
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
-
-export default Layout
+};

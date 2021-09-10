@@ -3,7 +3,8 @@ import { Container } from 'components/common';
 import { Foot, Flex, FooterLinks } from './style';
 import socials from './socials.json';
 
-export const Footer = () => (
+export const Footer = () => {
+  return (
     <Foot>
         <Flex as={Container}>
             <span>
@@ -20,4 +21,5 @@ export const Footer = () => (
             </FooterLinks>
         </Flex>
     </Foot>
-);
+  )
+};
