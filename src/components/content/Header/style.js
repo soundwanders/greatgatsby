@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   background: transparent;
-  width: 100%;
+  width: 95%;
 `;
 
 export const Overlay = styled.div`

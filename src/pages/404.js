@@ -12,7 +12,7 @@ export const Container = styled.div`
   justify-content: center;
 `
 
-export const Header = styled.h2`
+export const Title = styled.h2`
   display: inherit;
   font-size: 3em;
   padding: 1rem 0;
@@ -36,7 +36,7 @@ const PageNotFound = () => (
   <Layout>
     <Seo title="404 Not Found" />
     <Container>
-        <Header>&#129306; 404: Not Found</Header>
+        <Title>&#129306; 404: Not Found</Title>
     
         <ErrorText>Sorry, page cannot be found. It may be lost in space...</ErrorText>
 

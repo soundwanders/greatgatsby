@@ -4,9 +4,12 @@ export const Wrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 0;
+    padding: inherit;
+    padding: 1rem;
+    overflow: hidden;
+    max-width: 95%;
 `;
 
 export const Brand = styled.a`
-    color: blue;
+    color: #000;
 `;

@@ -7,6 +7,7 @@ import PropTypes from "prop-types";
 
 export const Header = () => {
   const [sidebar, toggle] = useState(false);
+  const siteTitle = 'JColetta';
 
   return (
     <Wrapper>
@@ -16,12 +17,4 @@ export const Header = () => {
       <Sidebar sidebar={sidebar} toggle={toggle} />
     </Wrapper>
   );
-};
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-};
-
-Header.defaultProps = {
-  siteTitle: ``,
 };

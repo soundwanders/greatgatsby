@@ -604,7 +604,6 @@ export const Global = createGlobalStyle`
       padding: 0;
       font-family: 'Roboto', Helvetica, sans-serif;
       color: #663399,
-      background-color: #663399;
       transition: .3s all;
       font-weight: normal;
       word-wrap: break-word;

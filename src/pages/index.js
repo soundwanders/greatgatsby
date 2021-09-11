@@ -6,8 +6,6 @@ const Home = () => (
 	<Layout>
 		<Seo />
 		<HomePage />
-        <AboutPage />
-		<Projects />
 	</Layout>
 );
 
