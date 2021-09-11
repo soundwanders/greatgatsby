@@ -42,7 +42,7 @@ module.exports = {
       options: {
         typeName: "GitHub",
         fieldName: "github",
-        url: "https:api.github.com/graphql",
+        url: "https://api.github.com/graphql",
         fetchOptions: {},
       },
     },
