@@ -41,7 +41,7 @@ const PageNotFound = () => (
         <ErrorText>Sorry, page cannot be found. It may be lost in space...</ErrorText>
 
         <StaticImage
-        src="../images/lost.png"
+        src="../assets/lost.png"
         width={535}
         formats={["AUTO", "WEBP", "AVIF"]}
         alt="Lost in Space"

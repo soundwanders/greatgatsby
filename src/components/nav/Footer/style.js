@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Foot = styled.footer`
   display: block;
-  position: fixed;
   bottom: 0;
   margin: 0 auto;
   width: 100%;

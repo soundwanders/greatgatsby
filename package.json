@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.13.2",
+    "gatsby-source-graphql": "^3.13.0",
     "prettier": "2.3.2"
   },
   "keywords": [

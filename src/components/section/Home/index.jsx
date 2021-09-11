@@ -1,10 +1,10 @@
 import React from "react";
-import { Container, Seo, StyledLink } from "components/common";
-import { Subcontainer, User, Subtitle, Pages } from './style';
+import { Seo, StyledLink } from "components/common";
+import { HomeContainer, Subcontainer, User, Subtitle, Pages } from './style';
 
 export const HomePage = () => {
   return (
-    <Container>
+    <HomeContainer>
         <Seo title="Home" />
         <Subcontainer>
           <User>Jared Coletta</User>
@@ -14,6 +14,6 @@ export const HomePage = () => {
             <StyledLink to="/about/">About Me</StyledLink>
           </Pages>
         </Subcontainer>
-    </Container>
+    </HomeContainer>
   )
 };

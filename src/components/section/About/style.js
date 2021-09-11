@@ -9,8 +9,7 @@ export const Container = styled.div`
   padding: 0;
   width: 100%;
   max-width: 100%;
-  height: 90vh;
   overflow-x: hidden;
-  background-color: #DFDBE5;
+  background-color: #DFFBE5;
   z-index: -2;
 `

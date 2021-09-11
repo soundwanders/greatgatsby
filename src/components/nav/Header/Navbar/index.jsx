@@ -5,7 +5,7 @@ import { BlockContainer } from 'components/common';
 import { Wrapper, Brand } from './style';
 
 const Navbar = () => {
-  const siteTitle = "JCOLETTA";
+  const title = "JCOLETTA";
   
   return (
     <Wrapper as={BlockContainer}>
@@ -19,7 +19,7 @@ const Navbar = () => {
         border: `2px solid green`,
         textDecoration: `none`,
       }}>
-      { siteTitle }
+      { title }
       </h1>
 
       <NavLinks desktop />

@@ -3,8 +3,8 @@
 */
 
 import React from 'react';
-import { Header } from 'components/content';
-import { Footer } from 'components/content';
+import { Header } from 'components/nav';
+import { Footer } from 'components/nav';
 import { Global } from './style';
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";

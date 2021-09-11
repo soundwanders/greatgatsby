@@ -1,9 +1,10 @@
 import React from "react";
-import { Container, Seo, StyledLink } from "components/common"
+import { Seo, StyledLink } from "components/common";
+import { Container } from './style';
 
-export const AboutPage = () => {
+export const About = () => {
     return (
-        <Container>
+        <Container id="about">
             <Seo title="About" />
             <h1>About</h1>
             <p>bla lorem ipsum fulcrum</p>

@@ -1,11 +1,13 @@
 import React from "react";
 import { Layout, Seo } from "components/common";
-import { HomePage, AboutPage, Projects } from "components/content";
+import { HomePage, About, Projects } from "components/section";
 
 const Home = () => (
 	<Layout>
 		<Seo />
 		<HomePage />
+		<About />
+		<Projects />
 	</Layout>
 );
 

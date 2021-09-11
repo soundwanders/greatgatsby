@@ -1,5 +1,20 @@
 import styled from 'styled-components';
 
+export const ProjectContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 90vh;
+  overflow-x: hidden;
+  background-color: #DFDBE5;
+  z-index: -2;
+`
+
 export const Grid = styled.div`
   display: grid;
   align-items: center;

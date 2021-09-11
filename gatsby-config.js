@@ -3,7 +3,7 @@ module.exports = {
     title: `JColetta`,
     description: `Jared Coletta Developer Portfolio`,
     author: `Jared Coletta`,
-    siteUrl: `https://github.com/soundwanders/greatgatsby/`,
+    siteUrl: `https:github.com/soundwanders/greatgatsby/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -12,14 +12,14 @@ module.exports = {
     {
 			resolve: `gatsby-plugin-canonical-urls`,
 			options: {
-				siteUrl: `https://github.com/soundwanders/greatgatsby/`,
+				siteUrl: `https:github.com/soundwanders/greatgatsby/`,
 			},
 		},
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `assets`,
+        path: `${__dirname}/src/assets`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -34,24 +34,20 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/icons/favicon.png`, // This path is relative to the root of the site.
+        icon: `src/assets/icons/favicon.png`,  // This path is relative to the site's root
       },
     },
- 
-//     {
-//       resolve: "gatsby-source-graphql",
-// 			options: {
-// 				typeName: "GitHub",
-// 				fieldName: "github",
-// 				url: "https://api.github.com/graphql",
-// 				fetchOptions: {},
-// 			},
-//     },
-
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        typeName: "GitHub",
+        fieldName: "github",
+        url: "https:api.github.com/graphql",
+        fetchOptions: {},
+      },
+    },
 
     `gatsby-plugin-gatsby-cloud`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }

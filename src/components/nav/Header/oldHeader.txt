@@ -1,6 +1,6 @@
-// import * as React from "react"
-// import PropTypes from "prop-types"
-// import { StyledLink } from "components/common";
+import * as React from "react"
+import PropTypes from "prop-types"
+import { StyledLink } from "components/common";
 
 export const Header = ({ siteTitle }) => (
   <header
@@ -43,4 +43,3 @@ Header.propTypes = {
 Header.defaultProps = {
   siteTitle: ``,
 }
-
