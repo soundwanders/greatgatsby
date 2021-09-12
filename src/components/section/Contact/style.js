@@ -58,8 +58,7 @@ export const Photo = styled.div`
   img {
     flex: 1;
     flex-direction: column;
-    margin-right: 5rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     width: 90%;
   }
 `;
