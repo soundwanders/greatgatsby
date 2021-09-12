@@ -1,9 +1,12 @@
+require("dotenv").config({
+	path: `.env`,
+});
+
 module.exports = {
   siteMetadata: {
     title: `JColetta`,
     description: `Jared Coletta Developer Portfolio`,
     author: `Jared Coletta`,
-
     siteUrl: `https://jcoletta.vercel.app/`,
   },
   plugins: [

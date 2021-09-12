@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <Wrapper as={BlockContainer}>
       <Brand as={Link} to="/">
-        soundwanders
+        
       </Brand>
 
       <NavLinks desktop />

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   position: fixed;
+  flex-shrink: 
   align-items: center;
   justify-content: space-between;
   padding: inherit;

@@ -8,7 +8,7 @@
 
 <div align="center">
 
- ![Vercel](https://img.shields.io/static/v1?label=Deployed%20with&message=Vercel&color=blueviolet)
+ ![Vercel](https://img.shields.io/static/v1?label=Deployed%20with&message=Vercel&color=lightyellow)
 
 </div>
 
@@ -24,7 +24,7 @@
 - Form submissions secured by Google Recaptcha
 - Form endpoint provided by <a href="https://formium.io" rel="noopener noreferral" style="text-decoration: none;">Formium</a>
 
-### 🧐 What the Gatsby?
+### &#x1F9D0; What's Going On In There?
 
 1.  **`/src`**: This directory contains all of the code related to what you will see on the front-end of this Gatsby site. Name `src` is a convention for “source code”.
 
