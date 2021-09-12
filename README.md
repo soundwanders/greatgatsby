@@ -6,6 +6,12 @@
  Gatsby Portfolio
 </h1>
 
+<div align="center">
+
+ ![Vercel](https://img.shields.io/static/v1?label=Deployed_With&message=Vercel&color=brightgreen)
+
+</div>
+
 ## 🛸 Technology
 
 - Gatsby
@@ -16,7 +22,7 @@
 - Prettier
 - Continuous Deployment with <a href="https://vercel.com/" rel="noopener noreferral" style="text-decoration: none;">Vercel</a>
 - Form submissions secured with Google Recaptcha services
-- Headless Contact form endpoint provided by <a href="https://formium.io" rel="noopener noreferral" style="text-decoration: none;">Formium</a> API
+- Headless Contact form built with <a href="https://formium.io" rel="noopener noreferral" style="text-decoration: none;">Formium</a> API
 
 ## 🥸 What's Inside?
 
@@ -37,13 +43,11 @@
 6.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
 7. **`jsconfig.json`**: The jsconfig file is used by VSCode (Development Environment) and it specifies the root files and the options for the features of JavaScript language service.
+
 ## 🚀 Continuous Deployment
 
-Each push to branch 'main' triggers a deployment to jcoletta.vercel.app
+On each push to branch 'main' truggers a redeployment to [jcoletta.vercel.app](https://jcoletta.vercel.app)
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-default)
 
 ## 🐛 Report A Bug
 
@@ -57,4 +61,4 @@ If you encounter any bugs or issues, I encourage you to contribute &smile;
 
 ### License
 
-<a href="https://mit-license.org/" rel="noopener noreferral" style="text-decoration: none;">The MIT License (MIT)</a>
+[The MIT License](https://www.mit.edu/~amini/LICENSE.md)
