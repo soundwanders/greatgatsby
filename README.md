@@ -45,7 +45,7 @@
 
 ## 🚀 Continuous Deployment
 
-On each push to branch 'main' truggers a redeployment to [jcoletta.vercel.app](https://jcoletta.vercel.app)
+Each push to branch 'main' triggers redeployment to [jcoletta.vercel.app](https://jcoletta.vercel.app)
 
 
 ## 🐛 Report A Bug
