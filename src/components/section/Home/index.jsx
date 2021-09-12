@@ -4,7 +4,7 @@ import { HomeContainer, Subcontainer, User, Subtitle, Pages } from './style';
 
 export const HomePage = () => {
   return (
-    <HomeContainer>
+    <HomeContainer id="home">
         <Seo title="Home" />
         <Subcontainer>
           <User>Jared Coletta</User>

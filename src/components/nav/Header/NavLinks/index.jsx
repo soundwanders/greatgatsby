@@ -6,8 +6,9 @@ const NavLinks = ({ desktop }) => {
     return (
         <Wrapper desktop={desktop}>
             <AnchorLink href="#home">Home</AnchorLink>
-            <AnchorLink href="#about">About</AnchorLink>
             <AnchorLink href="#projects">Projects</AnchorLink>
+            <AnchorLink href="#about">About</AnchorLink>
+            <AnchorLink href="#projects">Contact</AnchorLink>
         </Wrapper>
     )
 };
