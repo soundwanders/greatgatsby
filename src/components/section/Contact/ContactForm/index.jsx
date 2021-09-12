@@ -35,8 +35,8 @@ const ContactForm = () => (
           method: "POST",
           url:
             process.env.NODE_ENV !== "development"
-              ? `jcoletta.vercel.app/api/contact`
-              : "http://localhost:3000/api/contact",
+              ? `jcoletta.vercel.app/contact`
+              : "http://localhost:8000/contact",
           headers: {
             "Content-Type": "application/json",
           },

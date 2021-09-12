@@ -30,11 +30,12 @@ export const Subcontainer = styled.div`
   overflow-x: hidden;
 `;
 
-export const User = styled.h2`
+export const User = styled.h1`
   display: inherit;
+  text-align: center;
   margin: 0 0 0.5rem 0;
   padding: 0;
-  font-size: 7vmax;
+  font-size: 5vmax;
 `;
 
 export const Subtitle = styled.p`

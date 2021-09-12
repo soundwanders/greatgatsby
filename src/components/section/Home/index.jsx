@@ -8,7 +8,7 @@ export const HomePage = () => {
       <Seo title="Home" />
       <Subcontainer>
         <User>Jared Coletta</User>
-        <Subtitle>Front-end Developer</Subtitle>
+        <Subtitle>Web Developer</Subtitle>
         <Pages>
           <StyledLink to="/projects/">Projects</StyledLink> <br />
           <StyledLink to="/about/">About Me</StyledLink>

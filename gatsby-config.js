@@ -3,7 +3,7 @@ module.exports = {
     title: `JColetta`,
     description: `Jared Coletta Developer Portfolio`,
     author: `Jared Coletta`,
-    siteUrl: `https:github.com/soundwanders/greatgatsby/`,
+    siteUrl: `https://jcoletta.vercel.app/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -12,7 +12,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https:github.com/soundwanders/greatgatsby/`,
+        siteUrl: `https://jcoletta.vercel.app/`,
       },
     },
     {

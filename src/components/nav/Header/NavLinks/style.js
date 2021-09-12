@@ -14,6 +14,11 @@ export const Wrapper = styled.div`
       desktop
         ? `
             display: flex;
+            float: left;
+            margin: 0 2rem;
+            padding: 0.75rem 0;
+            font-size: 2rem;
+            font-weight: 600;
             align-items: center;
             a {
                 margin-right: 1rem;
@@ -26,14 +31,16 @@ export const Wrapper = styled.div`
             }
         `
         : `
-        padding: 3rem;
         display: flex;
+        margin: 0 auto;
+        padding: 3rem;
+        float: none;
         flex-direction: column;
         a {
-                margin-bottom: 1rem;
-                &:last-child {
-                        margin-bottom: unset;
-                }
+            margin-bottom: 1rem;
+            &:last-child {
+                margin-bottom: unset;
+            }
         }
     `}
 `;

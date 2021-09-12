@@ -3,7 +3,7 @@
   "private": true,
   "description": "J Coletta Developer Portfolio",
   "version": "0.1.0",
-  "author": "soundwanders@gmail.com>",
+  "author": "soundwanders",
   "dependencies": {
     "axios": "^0.21.4",
     "defer-to-connect": "^2.0.1",

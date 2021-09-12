@@ -1,12 +1,15 @@
 import React from "react";
-import { Container } from "components/common";
-import { Wrapper, Details } from "./style";
+import { ContactContainer, Wrapper, Details, Photo} from "./style";
 import ContactForm from "./ContactForm";
 
 export const Contact = () => (
-  <Wrapper as={Container} id="contact">
+  <Wrapper as={ContactContainer} id="contact">
     <Details>
+      <h1>CONTACT</h1>
       <ContactForm />
     </Details>
+    <Photo>
+      <img src="https://res.cloudinary.com/cloudwanders/image/upload/v1631420037/contact_zbo6bv.svg" alt="Contact Form, Send me a message!" />
+    </Photo>
   </Wrapper>
 );

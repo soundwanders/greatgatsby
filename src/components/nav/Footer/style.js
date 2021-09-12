@@ -5,12 +5,13 @@ export const Foot = styled.footer`
   bottom: 0;
   margin: 0 auto;
   width: 100%;
-  maxwidth: 100%;
-  padding: 0 auto;
+  maxWidth: 100%;
+  padding: 0;
   textalign: center;
   margintop: 1rem;
-  background: #037fb7;
-  color: #fff;
+  background: pink;
+  color: #000;
+  overflow: hidden;
 `;
 
 export const Flex = styled.div`
@@ -31,7 +32,7 @@ export const FooterLinks = styled.div`
   a {
     margin: 0 0.5rem;
     img {
-      margin: 0;
+      margin: 0 1rem;
     }
     &:first-child,
     &:last-child {
