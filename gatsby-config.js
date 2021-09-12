@@ -3,6 +3,7 @@ module.exports = {
     title: `JColetta`,
     description: `Jared Coletta Developer Portfolio`,
     author: `Jared Coletta`,
+
     siteUrl: `https://jcoletta.vercel.app/`,
   },
   plugins: [
@@ -47,7 +48,6 @@ module.exports = {
     //   },
     // },
 
-    // `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-offline`,
   ],
 };

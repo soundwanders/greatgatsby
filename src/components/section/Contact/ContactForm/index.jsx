@@ -4,7 +4,7 @@ import Recaptcha from "react-google-recaptcha";
 import * as Yup from "yup";
 import { Formik, Form, FastField, ErrorMessage } from "formik";
 import { Button, Input } from "components/common";
-import { Error, Center, InputField } from "./style";
+import { FormContainer, Error, Center, InputField } from "./style";
 
 const ContactForm = () => (
   <Formik
@@ -35,8 +35,8 @@ const ContactForm = () => (
           method: "POST",
           url:
             process.env.NODE_ENV !== "development"
-              ? `jcoletta.vercel.app/`
-              : "http://localhost:8000/",
+              ? `jcoletta.vercel.app/api/contact`
+              : "http://localhost:8000/api/contact",
           headers: {
             "Content-Type": "application/json",
           },
@@ -57,6 +57,7 @@ const ContactForm = () => (
     }}
   >
     {({ values, touched, errors, setFieldValue, isSubmitting }) => (
+    <FormContainer>
       <Form>
         <InputField>
           <Input
@@ -115,8 +116,7 @@ const ContactForm = () => (
           <InputField>
             <Center>
               <h4>
-                Your message has been successfully sent, I will get back to you
-                ASAP!
+                Your message has been successfully sent, I'll be in touch ASAP!
               </h4>
             </Center>
           </InputField>
@@ -127,6 +127,7 @@ const ContactForm = () => (
           </Button>
         </Center>
       </Form>
+    </FormContainer>
     )}
   </Formik>
 );

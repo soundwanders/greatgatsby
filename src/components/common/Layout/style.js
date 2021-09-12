@@ -4,6 +4,7 @@ export const Global = createGlobalStyle`
   html {
     width: 100%;
     max-width: 100%;
+    overflow-x: hidden;
     font-family: 'Roboto', Helvetica, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -416,7 +417,7 @@ export const Global = createGlobalStyle`
     }
     blockquote {
       margin-left: 1.45rem;
-      margin-right: 1.45rem;
+      : 1.45rem;
       margin-top: 0;
       padding-bottom: 0;
       padding-left: 0;

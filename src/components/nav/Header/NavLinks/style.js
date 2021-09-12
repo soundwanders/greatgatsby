@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
             font-weight: 600;
             align-items: center;
             a {
-                margin-right: 1rem;
+                padding-right: 1rem;
                 &:last-child {
                     margin-right: unset;
                 }

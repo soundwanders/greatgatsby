@@ -27,7 +27,6 @@ export const Subcontainer = styled.div`
   max-height: 60vh;
   background: #fff;
   border-radius: 2rem;
-  overflow-x: hidden;
 `;
 
 export const User = styled.h1`
@@ -35,7 +34,7 @@ export const User = styled.h1`
   text-align: center;
   margin: 0 0 0.5rem 0;
   padding: 0;
-  font-size: 5vmax;
+  font-size: 9vmax;
 `;
 
 export const Subtitle = styled.p`

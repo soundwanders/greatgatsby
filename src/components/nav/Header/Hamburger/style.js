@@ -32,7 +32,7 @@ export const Bar = styled.div`
   width: 1.6rem;
   height: 0.15rem;
   margin-bottom: 0.3rem;
-  background-color: #212121;
+  background-color: #000;
   box-shadow 250ms,
     opacity 500ms,
 	transition: transform 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91),

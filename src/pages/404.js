@@ -51,7 +51,7 @@ const PageNotFound = () => (
       />
 
       <GoHome>
-        <StyledLink to="/">Lost? Return Home!</StyledLink>
+        <StyledLink to="/">Let's Go Home</StyledLink>
       </GoHome>
     </Container>
   </Layout>
