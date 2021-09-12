@@ -28,9 +28,9 @@
 
 1.  **`/src`**: This directory contains all of the code related to what you will see on the front-end of site. Name `src` is a convention for “source code”.
 
-2. **`/components/common`**: This directory holds all common components which are resuable, shared UI elements such as Input or Button.
+2. **`/components/common`**: This directory holds all common components which are resuable, shared UI elements such as Inputs or Buttons.
 
-3. **`/components/content`**: This directory holds all components and styles for page's content. Content components are exported and rendered by the browser.
+3. **`/components/content`**: This directory holds all unique components and styles that are combined to create page. Each Section is a standalone component, and all components are combined to create the site.
 
 4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
@@ -39,7 +39,6 @@
 4.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/) for more detail).
 
 5.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
-
 6.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
 7. **`jsconfig.json`**: The jsconfig file is used by VSCode (Development Environment) and it specifies the root files and the options for the features of JavaScript language service.
