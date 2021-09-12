@@ -5,7 +5,7 @@ export const Foot = styled.footer`
   bottom: 0;
   margin: 0 auto;
   width: 100%;
-  maxWidth: 100%;
+  maxwidth: 100%;
   padding: 0;
   textalign: center;
   margintop: 1rem;

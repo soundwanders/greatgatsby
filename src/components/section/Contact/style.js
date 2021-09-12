@@ -12,9 +12,8 @@ export const Wrapper = styled.div`
 `;
 
 export const Container = styled.div`
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
-  width: 90%;
   @media (min-width: 601px) {
     width: 90%;
   }
@@ -24,10 +23,9 @@ export const Container = styled.div`
 `;
 
 export const Details = styled.div`
-  margin-left: 6rem;
+  margin-left: 2rem;
+  padding-left: 3rem;
   flex: 1;
-  min-width: 0;
-  padding-right: 2rem;
   @media (max-width: 960px) {
     padding-right: unset;
     width: 100%;
@@ -50,15 +48,18 @@ export const Details = styled.div`
 export const Photo = styled.div`
   display: flex;
   flex: 1;
+  padding-top: 4rem;
+  padding-right: 4rem;
   overflow: hidden;
   @media (max-width: 960px) {
     width: 80%;
     margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-right: 0;
   }
   img {
     flex: 1;
     flex-direction: column;
-    margin-top: 2rem;
-    width: 90%;
+    width: 9 0%;
   }
 `;

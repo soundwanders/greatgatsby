@@ -43,7 +43,7 @@ export const Bar = styled.div`
     top &&
     sidebar &&
     `
-		background-color: pink;
+		background-color: #1e90ff;
 		transform: translateY(8px) rotate(-135deg);
 	    `}
   ${({ mid, sidebar }) =>
@@ -56,7 +56,7 @@ export const Bar = styled.div`
     bottom &&
     sidebar &&
     `
-            background-color: green;
+            background-color: #1e90ff;
             transform: translateY(-6px) rotate(-45deg);
         `}
 `;

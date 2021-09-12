@@ -10,7 +10,7 @@ const Navbar = () => {
       <Brand as={Link} to="/">
         soundwanders
       </Brand>
-      
+
       <NavLinks desktop />
     </Wrapper>
   );
