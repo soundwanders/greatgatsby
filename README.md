@@ -30,7 +30,7 @@
 
 2. **`/components/common`**: This directory holds all common components which are resuable, shared UI elements such as Inputs or Buttons.
 
-3. **`/components/content`**: This directory holds all unique components and styles that are combined to create page. Each Section is a standalone component, and all components are combined to create the site.
+3. **`/components/content`**: This directory holds all unique components and styles for the page's individual sections. Each section is a standalone component that is combined with the others to create the page display.
 
 4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
