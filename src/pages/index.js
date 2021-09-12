@@ -1,14 +1,15 @@
 import React from "react";
 import { Layout, Seo } from "components/common";
-import { HomePage, About, Projects } from "components/section";
+import { HomePage, Projects, About, Contact } from "components/section";
 
 const Home = () => (
-	<Layout>
-		<Seo />
-		<HomePage />
-		<About />
-		<Projects />
-	</Layout>
+  <Layout>
+    <Seo />
+    <HomePage />
+    <About />
+    <Projects />
+    <Contact />
+  </Layout>
 );
 
 export default Home;

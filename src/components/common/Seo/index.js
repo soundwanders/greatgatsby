@@ -9,8 +9,7 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 
-
-export function Seo ({ description, lang, meta, title }) {
+export function Seo({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -23,10 +22,10 @@ export function Seo ({ description, lang, meta, title }) {
         }
       }
     `
-  )
+  );
 
-  const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+  const metaDescription = description || site.siteMetadata.description;
+  const defaultTitle = site.siteMetadata?.title;
 
   return (
     <Helmet
@@ -70,18 +69,18 @@ export function Seo ({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     />
-  )
+  );
 }
 
 Seo.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
-}
+};
 
 Seo.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
-}
+};

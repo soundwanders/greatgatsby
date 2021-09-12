@@ -1,17 +1,17 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Foot = styled.footer`
   display: block;
   bottom: 0;
   margin: 0 auto;
   width: 100%;
-  maxWidth: 100%;
+  maxwidth: 100%;
   padding: 0 auto;
-  textAlign: center;
-  marginTop: 1rem;
+  textalign: center;
+  margintop: 1rem;
   background: #037fb7;
   color: #fff;
-`
+`;
 
 export const Flex = styled.div`
   display: flex;

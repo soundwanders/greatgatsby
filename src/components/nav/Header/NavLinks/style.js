@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 // the ? : operators for the desktop style props is an Inline If-Else with a conditional operator
 // Logic ==> condition ? true : false
@@ -10,9 +10,9 @@ export const Wrapper = styled.div`
     @media (max-width: 960px) {
         color: none;
     }
-    ${
-        ({ desktop }) => desktop ? 
-        `
+    ${({ desktop }) =>
+      desktop
+        ? `
             display: flex;
             align-items: center;
             a {
@@ -25,8 +25,7 @@ export const Wrapper = styled.div`
                 display: none;
             }
         `
-        :
-        `
+        : `
         padding: 3rem;
         display: flex;
         flex-direction: column;

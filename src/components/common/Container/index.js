@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
@@ -11,6 +11,6 @@ export const Container = styled.div`
   max-width: 100%;
   height: 90vh;
   overflow-x: hidden;
-  background-color: #DFDBE5;
+  background-color: #dfdbe5;
   z-index: -2;
-`
+`;

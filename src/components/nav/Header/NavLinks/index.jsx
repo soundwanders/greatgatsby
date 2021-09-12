@@ -1,15 +1,15 @@
-import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { Wrapper } from './style';
+import React from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import { Wrapper } from "./style";
 
 const NavLinks = ({ desktop }) => {
-    return (
-        <Wrapper desktop={desktop}>
-            <AnchorLink href="#home">Home</AnchorLink>
-            <AnchorLink href="#projects">Projects</AnchorLink>
-            <AnchorLink href="#about">About</AnchorLink>
-            <AnchorLink href="#projects">Contact</AnchorLink>
-        </Wrapper>
-    )
+  return (
+    <Wrapper desktop={desktop}>
+      <AnchorLink href="#home">Home</AnchorLink>
+      <AnchorLink href="#projects">Projects</AnchorLink>
+      <AnchorLink href="#about">About</AnchorLink>
+      <AnchorLink href="#projects">Contact</AnchorLink>
+    </Wrapper>
+  );
 };
 export default NavLinks;

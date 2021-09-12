@@ -12,9 +12,9 @@
     "icon": "assets/icons/linkedin.svg"
   },
   {
-      "id": 2,
-      "name": "StackOverflow",
-      "link": "https://stackoverflow.com/users/14271738/soundwanders",
-      "icon": "../assets/icons/github.svg"
+    "id": 2,
+    "name": "StackOverflow",
+    "link": "https://stackoverflow.com/users/14271738/soundwanders",
+    "icon": "../assets/icons/github.svg"
   }
 ]

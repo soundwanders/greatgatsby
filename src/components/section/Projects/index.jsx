@@ -13,5 +13,5 @@ export const Projects = () => {
         <StyledLink to="/">Return Home</StyledLink>
       </Grid>
     </ProjectContainer>
-  )
+  );
 };

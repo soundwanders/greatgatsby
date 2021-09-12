@@ -10,11 +10,11 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-styled-components`,
     {
-			resolve: `gatsby-plugin-canonical-urls`,
-			options: {
-				siteUrl: `https:github.com/soundwanders/greatgatsby/`,
-			},
-		},
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https:github.com/soundwanders/greatgatsby/`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -34,20 +34,20 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/icons/favicon.png`,  // This path is relative to the site's root
+        icon: `src/assets/icons/favicon.png`, // This path is relative to the site's root
       },
     },
-    {
-      resolve: "gatsby-source-graphql",
-      options: {
-        typeName: "GitHub",
-        fieldName: "github",
-        url: "https://api.github.com/graphql",
-        fetchOptions: {},
-      },
-    },
+    // {
+    //   resolve: "gatsby-source-graphql",
+    //   options: {
+    //     typeName: "GitHub",
+    //     fieldName: "github",
+    //     url: "https://api.github.com/graphql",
+    //     fetchOptions: {},
+    //   },
+    // },
 
-    `gatsby-plugin-gatsby-cloud`,
+    // `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-offline`,
   ],
-}
+};

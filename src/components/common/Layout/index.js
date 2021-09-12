@@ -2,10 +2,10 @@
  Queries for data with useStaticQuery: https://www.gatsbyjs.com/docs/use-static-query/
 */
 
-import React from 'react';
-import { Header } from 'components/nav';
-import { Footer } from 'components/nav';
-import { Global } from './style';
+import React from "react";
+import { Header } from "components/nav";
+import { Footer } from "components/nav";
+import { Global } from "./style";
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
@@ -18,7 +18,7 @@ export const Layout = ({ children }) => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <>

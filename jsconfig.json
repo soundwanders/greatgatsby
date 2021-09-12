@@ -1,11 +1,11 @@
 {
-    "compilerOptions": {
-      "target": "ES6",
-      "module": "commonjs",
-      "baseUrl": "./",
-      "experimentalDecorators": true,
-      "allowSyntheticDefaultImports": true,
-      "jsx": "react"
-    },
-    "include": ["src/**/*"]
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "baseUrl": "./",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react"
+  },
+  "include": ["src/**/*"]
 }

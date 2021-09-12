@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
   display: flex;
@@ -11,9 +11,9 @@ export const ProjectContainer = styled.div`
   max-width: 100%;
   height: 90vh;
   overflow-x: hidden;
-  background-color: #DFDBE5;
+  background-color: #dfdbe5;
   z-index: -2;
-`
+`;
 
 export const Grid = styled.div`
   display: grid;
@@ -28,5 +28,4 @@ export const Grid = styled.div`
   @media (max-width: 680px) {
     grid-template-columns: 1fr;
   }
-`
-
+`;
