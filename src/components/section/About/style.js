@@ -5,11 +5,11 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
-  padding: 0;
   width: 100%;
   max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
   overflow-x: hidden;
-  background-color: #dffbe5;
+  background-color: navajowhite;
   z-index: -2;
 `;

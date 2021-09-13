@@ -8,7 +8,7 @@
 
 <div align="center">
 
- ![Vercel](https://img.shields.io/static/v1?label=Deployed%20with&message=Vercel&color=lightyellow)
+![Vercel](https://img.shields.io/static/v1?label=Deployed%20with&message=Vercel&color=lightyellow)
 
 </div>
 
@@ -28,11 +28,11 @@
 
 1.  **`/src`**: This directory contains all of the code related to what you will see on the front-end of this Gatsby site. Name `src` is a convention for “source code”.
 
-2. **`/src/assets`**: This directory holds all media files such as images, icons and illustrations (svgs, pngs, jpegs, etc).
+2.  **`/src/assets`**: This directory holds all media files such as images, icons and illustrations (svgs, pngs, jpegs, etc).
 
-3. **`/components/common`**: This directory holds all 'common' components which are reusable elements like Containers and Buttons.
+3.  **`/components/common`**: This directory holds all 'common' components which are reusable elements like Containers and Buttons.
 
-4. **`/components/content`**: This directory holds all exclusive components for each individual page section. Each section is a standalone component with a styled-components stylesheet attached to it. All components are imported into the 'pages' directory's index file to build the full page design.
+4.  **`/components/content`**: This directory holds all exclusive components for each individual page section. Each section is a standalone component with a styled-components stylesheet attached to it. All components are imported into the 'pages' directory's index file to build the full page design.
 
 5.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent, with plenty of customization options to suit your development style.
 
@@ -46,11 +46,9 @@
 
 10. **`jsconfig.json`**: The jsconfig file is used by VSCode to specify the root files and the configured options for the features of JavaScript language service.
 
-
 ### 🚀 Continuous Deployment
 
 Each push to branch 'main' triggers a deployment to [jcoletta.vercel.app](https://jcoletta.vercel.app)
-
 
 ### 🐛 Report A Bug
 

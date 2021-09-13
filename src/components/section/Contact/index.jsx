@@ -1,13 +1,12 @@
 import React from "react";
-import { Title, ContactContainer, Wrapper, Details, Photo } from "./style";
+import { Title, Container, Wrapper, Details, Photo } from "./style";
 import ContactForm from "./ContactForm";
 
 export const Snail = "Save the Snails 🐌";
 export const Mail = "E-mail Me Instead!";
 
 export const Contact = () => (
-
-  <Wrapper as={ContactContainer} id="contact">
+  <Wrapper as={Container} id="contact">
     <Details>
       <Title>{Snail}</Title>
       <Title>{Mail}</Title>

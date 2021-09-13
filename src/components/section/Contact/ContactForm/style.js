@@ -5,9 +5,9 @@ export const FormContainer = styled.div`
   width: 100%;
   justify-content: center;
   padding: 2rem 0;
-  margin: 0 auto;
+  margin: 0;
   overflow: hidden;
-` 
+`;
 export const Error = styled.span`
   color: #ff4136;
 `;

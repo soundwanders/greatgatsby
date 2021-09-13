@@ -33,7 +33,7 @@ export const Wrapper = styled.div`
         : `
         display: flex;
         margin: 0 auto;
-        padding: 3rem;
+        padding: 0;
         float: none;
         flex-direction: column;
         a {

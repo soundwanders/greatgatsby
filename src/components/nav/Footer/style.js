@@ -5,11 +5,11 @@ export const Foot = styled.footer`
   bottom: 0;
   margin: 0 auto;
   width: 100%;
-  maxWidth: 100%;
-  padding: 0;
+  maxwidth: 100%;
+  padding: 0 2rem;
   textalign: center;
   background: pink;
-  color: #000;  
+  color: #000;
   overflow: hidden;
 `;
 
@@ -17,6 +17,7 @@ export const Flex = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  padding: 1rem;
 
   @media (max-width: 680px) {
     flex-direction: column;
@@ -29,7 +30,10 @@ export const Flex = styled.div`
 export const FooterLinks = styled.div`
   display: flex;
   align-items: center;
-  padding-top: 1rem;
+  @media (max-width: 968px) {
+    padding-top: 1.5rem;
+  }
+
   a {
     margin: 0 0.5rem;
     img {

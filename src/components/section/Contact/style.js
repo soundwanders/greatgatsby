@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   padding: 4rem 0;
-  background: lightblue;
+  background: #46b2f5;
   align-items: flex-start;
   overflow: hidden;
   justify-content: space-between;
@@ -20,7 +20,7 @@ export const Container = styled.div`
     width: 90%;
   }
   @media (min-width: 993px) {
-    width: 80%;
+    width: 100%;
   }
 `;
 
@@ -32,16 +32,14 @@ export const Title = styled.h2`
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  font-size: 3.75rem;
-  color: dodgerblue;
+  font-size: 3.9rem;
+  color: #fff;
   padding: 0.5rem 0;
   margin: 0 auto;
   @media (max-width: 968px) {
     font-size: 1.75rem;
   }
-
-`
-
+`;
 export const Details = styled.div`
   display: flex;
   flex-direction: column;
