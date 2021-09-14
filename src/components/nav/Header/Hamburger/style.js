@@ -17,13 +17,13 @@ export const Wrapper = styled.div`
     sidebar &&
     `
         right: 18%;
-        top: 1.4rem;
+        top: 1.3rem;
         @media (max-width: 960px) {
             right: 35%;
             position: fixed;
         }
         @media (max-width: 600px) {
-            right: 66%;
+            right: 55%;
         }
         `}
 `;
@@ -32,7 +32,7 @@ export const Bar = styled.div`
   width: 1.6rem;
   height: 0.15rem;
   margin-bottom: 0.3rem;
-  background-color: #000;
+  background-color: #222;
   box-shadow 250ms,
     opacity 500ms,
 	transition: transform 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91),
@@ -56,7 +56,7 @@ export const Bar = styled.div`
     bottom &&
     sidebar &&
     `
-            background-color: #1e90ff;
+            background-color: #1873cc;
             transform: translateY(-6px) rotate(-45deg);
         `}
 `;

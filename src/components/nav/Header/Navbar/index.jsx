@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import { BlockContainer } from "components/common";
-import { Wrapper, Brand, Circ } from "./style";
+import { Wrapper, Brand } from "./style";
 import NavLinks from "../NavLinks";
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
     <Wrapper as={BlockContainer}>
       <Brand as={Link} to="/">
         <img
-          src="https://res.cloudinary.com/cloudwanders/image/upload/c_limit,h_42/v1631495024/circ_xbhmfo.png"
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631583260/circ_jsy2xb.png"
           alt="Circle Logo"
         />
       </Brand>

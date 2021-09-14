@@ -67,7 +67,7 @@ export const Global = createGlobalStyle`
     }
     mark {
       background-color: #ff0;
-      color: #000;
+      color: #222;
     }
     small {
       font-size: 80%;

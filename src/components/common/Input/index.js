@@ -7,7 +7,7 @@ export const Input = styled.input`
   border: 1px solid #1e90ff;
   border-radius: 0.5rem;
   transition: 0.3s;
-  padding: 0.8rem 2.5rem;
+  padding: 0.8rem 1rem;
   margin: 0;
   margin-bottom: 1.5rem;
   ${({ error }) =>

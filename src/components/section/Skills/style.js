@@ -17,7 +17,7 @@ export const SkillsContainer = styled.div`
 export const Title = styled.h1`
   font-size: 4vmax;
   font-weight: 600;
-  color: #000;
+  color: #222;
   padding: 0 0 3rem 0;
 `;
 

@@ -6,10 +6,10 @@ export const Foot = styled.footer`
   margin: 0 auto;
   width: 100%;
   maxwidth: 100%;
-  padding: 0 2rem;
+  padding: 0;
   textalign: center;
   background: pink;
-  color: #000;
+  color: #222;
   overflow: hidden;
 `;
 
@@ -17,7 +17,8 @@ export const Flex = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1.5rem 0;
+  white-space: nowrap;
 
   @media (max-width: 680px) {
     flex-direction: column;
@@ -45,3 +46,12 @@ export const FooterLinks = styled.div`
     }
   }
 `;
+
+export const Copyright = styled.span`
+  font-family: monospace, Lucida-Sans, Lucida-Grande, sans-serif;
+  padding-left: 2rem;
+
+  @media (max-width: 968px) {
+    padding-left: 0;
+  }
+`

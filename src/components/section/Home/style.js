@@ -5,8 +5,8 @@ export const HomeContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
-  padding: 0;
+  margin: auto;
+  padding: 2rem 0;
   width: 100%;
   max-width: 100%;
   height: 100vh;
@@ -42,6 +42,7 @@ export const Subtitle = styled.p`
   max-width: 100;
   justify-content: center;
   font-size: 2.5vmax;
+  padding-top: 1rem;
 `;
 
 export const Pages = styled.p`

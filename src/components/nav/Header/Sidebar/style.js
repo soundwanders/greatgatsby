@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   right: -275px;
   opacity: 0;
   overflow: auto;
-  background-color: #ddd;
+  background-color: #ebfaff;
   transition: all 350ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
   z-index: 4;
 
@@ -22,7 +22,7 @@ export const Wrapper = styled.div`
                 width: 40%;
             }
             @media (max-width: 600px) {
-                width: 75%;
+                width: 65%;
             }
         `}
 `;

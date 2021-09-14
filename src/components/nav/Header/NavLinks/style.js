@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
     a {
-    color: #000;
+    color: #222;
     text-decoration: none;
     @media (max-width: 960px) {
         color: none;
@@ -32,8 +32,10 @@ export const Wrapper = styled.div`
         `
         : `
         display: flex;
-        margin: 0 auto;
-        padding: 0;
+        margin: 2.25rem auto;
+        padding: 0 4.5rem;
+        font-size: 1.25rem;
+        font-family: monospace, Lucida-Sans, Lucida-Grande, sans-serif;
         float: none;
         flex-direction: column;
         a {
