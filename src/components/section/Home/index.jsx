@@ -1,6 +1,6 @@
 import React from "react";
 import { Seo } from "components/common";
-import { HomeContainer, Subcontainer, User, Subtitle, Pages } from "./style";
+import { HomeContainer, Subcontainer, User, Subtitle } from "./style";
 
 export const HomePage = () => {
   return (
@@ -9,7 +9,6 @@ export const HomePage = () => {
       <Subcontainer>
         <User>Jared Coletta</User>
         <Subtitle>Web Developer</Subtitle>
-        <Pages />
       </Subcontainer>
     </HomeContainer>
   );

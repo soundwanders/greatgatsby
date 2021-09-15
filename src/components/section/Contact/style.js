@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   display: flex;
-  padding: 4rem 0;
-  background: #46b2f5;
+  padding: 3rem 0;
+  background-image: linear-gradient(to bottom, #46b2f5, #53b8f7, #5fbef8, #6bc3fa, #76c9fb);
   align-items: flex-start;
   overflow: hidden;
   justify-content: space-between;
@@ -16,12 +16,6 @@ export const Container = styled.div`
   width: 100%;
   overflow-x: hidden;
   margin: 0 auto;
-  @media (min-width: 601px) {
-    width: 90%;
-  }
-  @media (min-width: 993px) {
-    width: 100%;
-  }
 `;
 
 export const Title = styled.h2`
@@ -33,11 +27,14 @@ export const Title = styled.h2`
   justify-content: center;
   text-align: center;
   font-size: 3.9rem;
-  color: #fff;
-  padding: 0.5rem 0;
+  color: #f8f8f8;
+  padding: 1rem 0;
   margin: 0 auto;
   @media (max-width: 968px) {
     font-size: 1.75rem;
+  }
+  @media (max-height: 500px) and (max-width:890px) {
+    font-size: 2.25rem;
   }
 `;
 export const Details = styled.div`
@@ -52,27 +49,15 @@ export const Details = styled.div`
     order: 1;
     margin: 0 auto;
   }
-  h1 {
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    color: #212121;
-  }
-  p {
-    margin-bottom: 2.5rem;
-    font-size: 1rem;
-    font-weight: normal;
-    line-height: 1.3;
-    color: #707070;
-  }
-`;
+`
 
 export const Photo = styled.div`
   display: flex;
   flex: 1;
   width: 100%;
   margin: 0;
-  padding-top: 8rem;
-  padding-right: 1rem;
+  padding-top: 10rem;
+  padding-right: 10rem;
   overflow: hidden;
   @media (max-width: 960px) {
     justify-content: flex-end;
@@ -85,6 +70,6 @@ export const Photo = styled.div`
   img {
     flex: 1;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
   }
 `;

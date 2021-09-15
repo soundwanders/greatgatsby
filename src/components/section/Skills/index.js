@@ -1,12 +1,11 @@
 import React from "react";
 import { Seo } from "components/common";
-import { SkillsContainer, Title, Grid, Logo } from "./style";
+import { SkillsContainer, Grid, Logo } from "./style";
 
 export const Skills = () => {
   return (
     <SkillsContainer id="skills">
       <Seo title="Skills" />
-      <Title>Skills</Title>
 
       <Grid>
         <Logo
@@ -25,19 +24,35 @@ export const Skills = () => {
         />
 
         <Logo
-          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631493152/bootstrap_enizh3.png"
-          alt="Bootstrap Logo"
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631493152/rjs_r5on17.png"
+          alt="React Logo"
         />
 
         <Logo
-          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631493152/rjs_r5on17.png"
-          alt="React Logo"
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631493152/bootstrap_enizh3.png"
+          alt="Bootstrap Logo"
         />
 
         <Logo
           src="https://res.cloudinary.com/cloudwanders/image/upload/v1631493152/gb_hya3og.png"
           alt="Gatsby Logo"
         />
+
+        <Logo
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631672260/linux_pyqt33.svg"
+          alt="Linux Logo"
+        />
+
+        <Logo
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631672260/git_cskckl.svg"
+          alt="Git Logo"
+        />
+
+      <Logo
+        src="https://res.cloudinary.com/cloudwanders/image/upload/v1631672260/npm_c7fgg7.svg"
+        alt="Npm Logo"
+      />
+      
       </Grid>
     </SkillsContainer>
   );

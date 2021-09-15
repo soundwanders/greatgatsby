@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
     a {
     color: #222;
     text-decoration: none;
+    z-index: 10;
     @media (max-width: 960px) {
         color: none;
     }

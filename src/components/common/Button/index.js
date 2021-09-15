@@ -5,8 +5,8 @@ export const Button = styled.button`
   padding: 0.5rem 2rem;
   margin-right: 8rem;
   border: none;
-  background: #0074d9;
-  color: #fff;
+  background: #7ac6fa;
+  color: #f8f8f8;
   @media (max-width: 960px) {
     text-align: center;
     margin: 0 auto;

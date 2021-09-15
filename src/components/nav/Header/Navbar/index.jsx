@@ -9,8 +9,9 @@ const Navbar = () => {
     <Wrapper as={BlockContainer}>
       <Brand as={Link} to="/">
         <img
-          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631583260/circ_jsy2xb.png"
-          alt="Circle Logo"
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631676935/donatello_hd2jcj.svg"
+          alt="Donatello Logo, Click to Return to top of Home page"
+          width="13%"
         />
       </Brand>
 

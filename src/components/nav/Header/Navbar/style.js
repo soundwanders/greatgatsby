@@ -6,11 +6,11 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: inherit;
-  padding: 0.5rem;
   overflow: hidden;
   max-width: 95%;
+  z-index: 4;
 `;
 
 export const Brand = styled.a`
-  padding: 0.5rem 0 0 1rem;
+  padding: 1rem;
 `;
