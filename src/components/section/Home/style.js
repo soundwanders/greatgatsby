@@ -22,13 +22,18 @@ export const Subcontainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4rem 3rem;
+  padding: 6rem 3rem;
   width: 50%;
   max-width: 50%;
   max-height: 60vh;
   background: #f8f8f8;
   background-image: linear-gradient(to bottom, #f8f8f8, #f5f5f5, #f2f2f2, #efefef, #ececec);
   border-radius: 2rem;
+
+  @media (max-width: 960px) {
+    transform: translateY(-3rem);
+    padding: 3rem 3rem;
+  }
 `;
 
 export const User = styled.h1`
@@ -36,7 +41,7 @@ export const User = styled.h1`
   text-align: center;
   margin: 0 0 0.5rem 0;
   padding: 0;
-  font-size: 9vmax;
+  font-size: 8.5vmax;
 `;
 
 export const Subtitle = styled.p`

@@ -21,6 +21,7 @@ export const Wrapper = styled.div`
             font-size: 2rem;
             font-weight: 600;
             align-items: center;
+            white-space: pre;
             a {
                 padding-right: 1rem;
                 &:last-child {

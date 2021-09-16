@@ -11,6 +11,7 @@ export const Wrapper = styled.div`
   z-index: 4;
 `;
 
-export const Brand = styled.a`
+export const Brand = styled.div`
+  max-width: 2.5rem;
   padding: 1rem;
 `;
