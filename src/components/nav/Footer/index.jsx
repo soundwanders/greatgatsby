@@ -1,6 +1,6 @@
 import React from "react";
 import { BlockContainer } from "components/common";
-import { Foot, Flex, FooterLinks, Copyright,} from "./style";
+import { Foot, Flex, FooterLinks, Copyright } from "./style";
 import socials from "./socials.json";
 
 export const Footer = () => {
@@ -27,5 +27,5 @@ export const Footer = () => {
         </FooterLinks>
       </Flex>
     </Foot>
-  )
+  );
 };

@@ -3,7 +3,14 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   padding: 3rem 0;
-  background-image: linear-gradient(to bottom, #46b2f5, #53b8f7, #5fbef8, #6bc3fa, #76c9fb);
+  background-image: linear-gradient(
+    to bottom,
+    #46b2f5,
+    #53b8f7,
+    #5fbef8,
+    #6bc3fa,
+    #76c9fb
+  );
   align-items: flex-start;
   overflow: hidden;
   justify-content: space-between;
@@ -33,7 +40,7 @@ export const Title = styled.h2`
   @media (max-width: 968px) {
     font-size: 1.75rem;
   }
-  @media (max-height: 500px) and (max-width:890px) {
+  @media (max-height: 500px) and (max-width: 890px) {
     font-size: 2.25rem;
   }
 `;
@@ -49,7 +56,7 @@ export const Details = styled.div`
     order: 1;
     margin: 0 auto;
   }
-`
+`;
 
 export const Photo = styled.div`
   display: flex;

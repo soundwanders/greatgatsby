@@ -33,7 +33,7 @@ export const InputField = styled.div`
     padding-left: 0;
   }
 
-  @media (max-height: 500px) and (max-width:890px) {
+  @media (max-height: 500px) and (max-width: 890px) {
     width: 55vw;
   }
 `;

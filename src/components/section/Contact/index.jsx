@@ -13,7 +13,7 @@ export const Contact = () => (
       <ContactForm />
     </Details>
     <Photo>
-    <img
+      <img
         src="https://res.cloudinary.com/cloudwanders/image/upload/v1631420037/contact_zbo6bv.svg"
         alt="Contact Form to Send an Email"
       />

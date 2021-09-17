@@ -6,11 +6,11 @@
   Developer Portfolio
 </h1>
 
-<div align="center">
+<a href="https://jcoletta.vercel.app" align="center">
 
 ![Vercel](https://img.shields.io/static/v1?label=Deployed%20with&message=Vercel&color=lightyellow)
 
-</div>
+</a>
 
 ### 🛸 Built With...
 
@@ -18,11 +18,10 @@
 - React
 - Axios
 - Yup
-- Prettier
 - Continuous Deployment with <a href="https://vercel.com/" rel="noopener noreferral" style="text-decoration: none;">Vercel</a>
-- Formik used to validate contact form data
-- Form submissions secured by Google Recaptcha
-- Form endpoint provided by <a href="https://formium.io" rel="noopener noreferral" style="text-decoration: none;">Formium</a>
+- Formik used to validate contact form data before sending
+- Contact submissions are secured by Google Recaptcha to prevent robots & spam
+- Form's endpoint provided by <a href="https://formium.io" rel="noopener noreferral" style="text-decoration: none;">Formium</a>
 
 ### &#x1F9D0; What's Going On In There?
 

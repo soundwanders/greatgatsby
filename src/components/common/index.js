@@ -5,3 +5,4 @@ export * from "./Input";
 export * from "./Layout";
 export * from "./Seo";
 export * from "./StyledLinks";
+export * from "./Card";

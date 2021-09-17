@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `JColetta`,
     description: `Jared Coletta Developer Portfolio`,
-    author: `Jared Coletta`,
+    author: `soundwanders`,
     siteUrl: `https://jcoletta.vercel.app/`,
   },
   plugins: [
@@ -19,38 +19,20 @@ module.exports = {
         siteUrl: `https://jcoletta.vercel.app/`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `assets`,
-        path: `${__dirname}/src/assets`,
-      },
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
-
       options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#323299`,
+        theme_color: `#323299`,
         display: `minimal-ui`,
-        icon: `src/assets/icons/favicon.png`, // This path is relative to the site's root
+        icon: `src/assets/icons/favicon.png`,
       },
     },
-    // {
-    //   resolve: "gatsby-source-graphql",
-    //   options: {
-    //     typeName: "GitHub",
-    //     fieldName: "github",
-    //     url: "https://api.github.com/graphql",
-    //     fetchOptions: {},
-    //   },
-    // },
-
     `gatsby-plugin-offline`,
   ],
 };

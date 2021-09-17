@@ -8,11 +8,11 @@ const Navbar = () => {
   return (
     <Wrapper as={BlockContainer}>
       <Brand as={Link} to="/">
-          <img
-            src="https://res.cloudinary.com/cloudwanders/image/upload/v1631840812/tmnt_qbkwup.svg"
-            alt="Click to Return to top of Home page"
-            width="100%"
-          />
+        <img
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631840812/tmnt_qbkwup.svg"
+          alt="Click to Return to top of Home page"
+          width="100%"
+        />
       </Brand>
 
       <NavLinks desktop />

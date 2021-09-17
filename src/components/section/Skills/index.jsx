@@ -45,11 +45,10 @@ export const Skills = () => {
           alt="Git Logo"
         />
 
-      <ScaledLogo
-        src="https://res.cloudinary.com/cloudwanders/image/upload/v1631672260/npm_c7fgg7.svg"
-        alt="Npm Logo"
-      />
-      
+        <ScaledLogo
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631672260/npm_c7fgg7.svg"
+          alt="Npm Logo"
+        />
       </Grid>
     </SkillsContainer>
   );

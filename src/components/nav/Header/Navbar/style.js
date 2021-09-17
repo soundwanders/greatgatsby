@@ -17,11 +17,11 @@ export const Brand = styled.div`
   @media (max-width: 960px) {
     max-width: 2.5rem;
   }
-    img.svg {
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: -moz-none;
-      -o-user-select: none;
-      user-select: none;
-    }
+  img.svg {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+  }
 `;

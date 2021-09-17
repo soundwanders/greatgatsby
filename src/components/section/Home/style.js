@@ -27,7 +27,14 @@ export const NameContainer = styled.div`
   max-width: 50%;
   max-height: 60vh;
   background: #f8f8f8;
-  background-image: linear-gradient(to bottom, #f8f8f8, #f5f5f5, #f2f2f2, #efefef, #ececec);
+  background-image: linear-gradient(
+    to bottom,
+    #f8f8f8,
+    #f5f5f5,
+    #f2f2f2,
+    #efefef,
+    #ececec
+  );
   border-radius: 2rem;
   @media (max-width: 960px) {
     transform: translateY(-3rem);
