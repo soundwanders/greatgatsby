@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import { BlockContainer } from "components/common";
-import { Wrapper, Brand, Subcontainer } from "./style";
+import { Wrapper, Brand } from "./style";
 import NavLinks from "../NavLinks";
 
 const Navbar = () => {
@@ -9,8 +9,8 @@ const Navbar = () => {
     <Wrapper as={BlockContainer}>
       <Brand as={Link} to="/">
           <img
-            src="https://res.cloudinary.com/cloudwanders/image/upload/v1631676935/donatello_hd2jcj.svg"
-            alt="Donatello Logo, Click to Return to top of Home page"
+            src="https://res.cloudinary.com/cloudwanders/image/upload/v1631840812/tmnt_qbkwup.svg"
+            alt="Click to Return to top of Home page"
             width="100%"
           />
       </Brand>

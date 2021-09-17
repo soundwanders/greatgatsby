@@ -12,6 +12,16 @@ export const Wrapper = styled.div`
 `;
 
 export const Brand = styled.div`
-  max-width: 2.5rem;
+  max-width: 3rem;
   padding: 1rem;
+  @media (max-width: 960px) {
+    max-width: 2.5rem;
+  }
+    img.svg {
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: -moz-none;
+      -o-user-select: none;
+      user-select: none;
+    }
 `;

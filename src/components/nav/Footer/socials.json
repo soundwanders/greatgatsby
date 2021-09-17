@@ -10,11 +10,5 @@
     "name": "LinkedIn",
     "link": "https://linkedin.com/in/jared-coletta",
     "icon": "https://res.cloudinary.com/cloudwanders/image/upload/v1631418386/linkedin_ecqfla.svg"
-  },
-  {
-    "id": 2,
-    "name": "StackOverflow",
-    "link": "https://stackoverflow.com/users/14271738/soundwanders",
-    "icon": "https://res.cloudinary.com/cloudwanders/image/upload/v1631418386/stackoverflow_zem21t.svg"
   }
 ]

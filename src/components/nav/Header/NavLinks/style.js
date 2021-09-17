@@ -16,8 +16,8 @@ export const Wrapper = styled.div`
         ? `
             display: flex;
             float: left;
-            margin: 0 2rem;
-            padding: 0.75rem 0;
+            margin: 0 2.25rem;
+            padding: 0;
             font-size: 2rem;
             font-weight: 600;
             align-items: center;
@@ -37,7 +37,7 @@ export const Wrapper = styled.div`
         margin: 2.25rem auto;
         padding: 0 4.5rem;
         font-size: 1.25rem;
-        font-family: monospace, Lucida-Sans, Lucida-Grande, sans-serif;
+        font-family: monospace, mono, Lucida-Sans, Lucida-Grande, sans-serif;
         float: none;
         flex-direction: column;
         a {

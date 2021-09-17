@@ -44,7 +44,7 @@ export const FooterLinks = styled.div`
   a {
     margin: 0 0.5rem;
     img {
-      margin: 0 1rem;
+      margin: 0 2.25rem;
     }
     &:first-child,
     &:last-child {
@@ -54,7 +54,7 @@ export const FooterLinks = styled.div`
 `;
 
 export const Copyright = styled.span`
-  font-family: monospace, Lucida-Sans, Lucida-Grande, sans-serif;
+  font-family: Ubuntu, monospace, mono, Lucida-Sans, Lucida-Grande, sans-serif;
   padding-bottom: 0.5rem;
   padding-left: 2rem;
 

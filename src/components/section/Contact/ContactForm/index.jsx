@@ -116,8 +116,7 @@ const ContactForm = () => (
             <InputField>
               <Center>
                 <h4>
-                  Your message has been successfully sent, I'll be in touch
-                  ASAP!
+                  Your message has been sent, I will respond ASAP. Thank you!
                 </h4>
               </Center>
             </InputField>

@@ -21,7 +21,7 @@ export const Footer = () => {
               rel="noopener noreferrer"
               aria-label={`Check out my ${name}`}
             >
-              <img width="32" src={icon} alt={name} />
+              <img width="36" src={icon} alt={name} />
             </a>
           ))}
         </FooterLinks>

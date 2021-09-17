@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const Button = styled.button`
-  border-radius: 3px;
+  border-radius: 4px;
   padding: 0.5rem 2rem;
-  margin-right: 8rem;
+  margin-right: 3rem;
   border: none;
-  background: #7ac6fa;
+  background: #222;
   color: #f8f8f8;
+  font-family: Ubuntu, monospace, mono;
   @media (max-width: 960px) {
     text-align: center;
     margin: 0 auto;
@@ -27,6 +28,7 @@ export const Button = styled.button`
   ${({ secondary }) =>
     secondary &&
     `
-		background: #001F3F;
+    background: #222;
+    color: #f8f8f8;
 	`}
 `;

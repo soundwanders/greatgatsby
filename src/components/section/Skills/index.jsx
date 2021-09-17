@@ -1,5 +1,5 @@
 import React from "react";
-import { SkillsContainer, Grid, Logo } from "./style";
+import { SkillsContainer, Grid, Logo, ScaledLogo } from "./style";
 
 export const Skills = () => {
   return (
@@ -20,7 +20,7 @@ export const Skills = () => {
           alt="JavaScript Logo"
         />
 
-        <Logo
+        <ScaledLogo
           src="https://res.cloudinary.com/cloudwanders/image/upload/v1631493152/rjs_r5on17.png"
           alt="React Logo"
         />
@@ -40,12 +40,12 @@ export const Skills = () => {
           alt="Linux Logo"
         />
 
-        <Logo
+        <ScaledLogo
           src="https://res.cloudinary.com/cloudwanders/image/upload/v1631672260/git_cskckl.svg"
           alt="Git Logo"
         />
 
-      <Logo
+      <ScaledLogo
         src="https://res.cloudinary.com/cloudwanders/image/upload/v1631672260/npm_c7fgg7.svg"
         alt="Npm Logo"
       />

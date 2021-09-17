@@ -4,6 +4,7 @@ import { HomePage, Projects, About, Contact, Skills } from "components/section";
 
 const Home = () => (
   <Layout>
+    <Seo />
     <HomePage />
     <About />
     <Projects />

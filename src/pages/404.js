@@ -1,41 +1,11 @@
 import React from "react";
-import { Layout, StyledLink, Seo } from "components/common";
+import { StyledLink, Seo } from "components/common";
 import { StaticImage } from "gatsby-plugin-image";
-import styled from "styled-components";
-
-export const Container = styled.div`
-  display: flex;
-  width: 100%;
-  margin: 0;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`;
-
-export const Title = styled.h2`
-  display: inherit;
-  font-size: 3em;
-  padding: 1rem 0;
-`;
-
-export const ErrorText = styled.p`
-  font-size: 1.5em;
-  display: inherit;
-  justify-content: center;
-  text-align: center;
-  padding: 1rem 0;
-`;
-
-export const GoHome = styled.p`
-  font-size: 1.5em;
-  text-align: center;
-  padding: 1rem 0;
-`;
+import { Container, Title, ErrorText, GoHome } from "components/section/style-404";
 
 const PageNotFound = () => (
-  <Layout>
-    <Seo title="404 Not Found" />
     <Container>
+      <Seo title="404 Not Found" />
       <Title>&#129306; 404: Not Found</Title>
 
       <ErrorText>
@@ -54,7 +24,6 @@ const PageNotFound = () => (
         <StyledLink to="/">Let's Go Home</StyledLink>
       </GoHome>
     </Container>
-  </Layout>
 );
 
 export default PageNotFound;

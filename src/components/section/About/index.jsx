@@ -1,5 +1,5 @@
 import React from "react";
-import { Seo, StyledLink } from "components/common";
+import { StyledLink } from "components/common";
 import { Container } from "./style";
 
 export const About = () => {
