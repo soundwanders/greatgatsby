@@ -52,28 +52,27 @@
 
 .
 └─── src
-     |
-     └── api
-     |
+     │
+     └─── api
+     │
      └─── assets
      │    └── icons            
      │ 
      ├─── components
-     │   │── common
-     │   │── nav
+     │   └── common
+     │   └── nav
      │   └── sections
-     |       |
-     |       └── About
-     |       └── Contact
-     |       └── Home
-     |       └── Projects
-     |       └── Skills
-     |
+     │       └── About
+     │       └── Contact
+     │       └── Home
+     │       └── Projects
+     │       └── Skills
+     │
      ├─── data
-     |    └── config
-     |
+     │    └── config
+     │
      └─── pages
-     |
+     │
      └─── hooks
 
 ```
@@ -84,8 +83,8 @@
 If you encounter any bugs or issues, feel free to contribute &smile;
 
 1. Fork the Project from branch 'main'
-2. Create your Update Branch (`git checkout -b update/FoundYourBugs`)
-3. Commit your Changes (`git commit -m 'Hey you should fix this!'`)
+2. Create your Update Branch (`git checkout -b update/PestControl`)
+3. Commit your Changes (`git commit -m 'Hey, you should fix this'`)
 4. Push to the Branch (`git push origin update/BugSquash`)
 5. Open a Pull Request
 <br />
