@@ -1,6 +1,6 @@
 import React from "react";
 import { Layout, Seo } from "components/common";
-import { HomePage, Projects, About, Contact, Skills } from "components/section";
+import { HomePage, Projects, About, Contact, Skills } from "components/sections";
 
 const Home = () => (
   <Layout>

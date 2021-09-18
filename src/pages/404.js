@@ -6,7 +6,7 @@ import {
   Title,
   ErrorText,
   GoHome,
-} from "components/section/style-404";
+} from "components/sections/style-404";
 
 const PageNotFound = () => (
   <Container>

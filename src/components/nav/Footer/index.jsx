@@ -8,7 +8,7 @@ export const Footer = () => {
     <Foot>
       <Flex as={BlockContainer}>
         <Copyright>
-          © All rights reserved | soundwanders {new Date().getFullYear()}
+          © All Rights Reserved soundwanders {new Date().getFullYear()}
           {` `}
         </Copyright>
 
@@ -21,7 +21,7 @@ export const Footer = () => {
               rel="noopener noreferrer"
               aria-label={`Check out my ${name}`}
             >
-              <img width="36" src={icon} alt={name} />
+              <img width="34" src={icon} alt={name} />
             </a>
           ))}
         </FooterLinks>

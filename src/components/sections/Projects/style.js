@@ -34,12 +34,12 @@ export const Card = styled.div`
   padding: 3rem;
   background: #f2f2f2;
   height: 100%;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.11);
 `;
 
 export const Item = styled.div`
   width: 100%;
   overflow: hidden;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.11);
   padding
 `;
 

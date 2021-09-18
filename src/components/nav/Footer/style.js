@@ -18,8 +18,7 @@ export const Flex = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  width: 90%;
-  maxwidth: 90%;
+  width: 100%;
   padding: 1rem 0;
   white-space: nowrap;
 
@@ -32,7 +31,7 @@ export const Flex = styled.div`
 `;
 
 export const FooterLinks = styled.div`
-  display: flex;
+  display: inherit;
   width: 55%;
   align-items: center;
   padding-top: 2rem;
@@ -53,12 +52,17 @@ export const FooterLinks = styled.div`
   }
 `;
 
-export const Copyright = styled.span`
+export const Copyright = styled.div`
+  display: inherit;
   font-family: Ubuntu, monospace, mono, Lucida-Sans, Lucida-Grande, sans-serif;
   padding-bottom: 0.5rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
+  margin: 0 auto;
+  overflow: hidden;
 
   @media (max-width: 968px) {
     padding-left: 0;
+    font-size: 0.9rem;
+
   }
 `;

@@ -25,8 +25,22 @@ export const Container = styled.div`
   margin: 0 auto;
 `;
 
-export const Title = styled.h2`
+export const Details = styled.div`
   display: flex;
+  flex-direction: column;
+  flex: 1;
+  @media (max-width: 960px) {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+    margin: 0 auto;
+  }
+`;
+
+export const Title = styled.h2`
+  display: inherit;
   width: 100%;
   flex: 1;
   flex-direction: row;
@@ -44,22 +58,9 @@ export const Title = styled.h2`
     font-size: 2.25rem;
   }
 `;
-export const Details = styled.div`
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  @media (max-width: 960px) {
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    order: 1;
-    margin: 0 auto;
-  }
-`;
 
 export const Photo = styled.div`
-  display: flex;
+  display: inherit;
   flex: 1;
   width: 100%;
   margin: 0;
