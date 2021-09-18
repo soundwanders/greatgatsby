@@ -18,12 +18,12 @@ export const Flex = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  width: 95%;
-  maxwidth: 95%;
+  width: 90%;
+  maxwidth: 90%;
   padding: 1rem 0;
   white-space: nowrap;
 
-  @media (max-width: 680px) {
+  @media (max-width: 960px) {
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -44,7 +44,7 @@ export const FooterLinks = styled.div`
   a {
     margin: 0 0.5rem;
     img {
-      margin: 0 2.25rem;
+      margin: 0 2.5rem 0 1.5rem;
     }
     &:first-child,
     &:last-child {
