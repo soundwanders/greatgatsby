@@ -20,30 +20,30 @@
 - Yup
 - Continuous Deployment with <a href="https://vercel.com/" rel="noopener noreferral" style="text-decoration: none;">Vercel</a>
 - Formik used to validate contact form data before sending
-- Contact submissions are secured by Google Recaptcha to prevent robots & spam
-- Form's endpoint provided by <a href="https://formium.io" rel="noopener noreferral" style="text-decoration: none;">Formium</a>
+- Contact Form submissions are secured by Google Recaptcha
+- Form endpoint provided by <a href="https://formium.io" rel="noopener noreferral" style="text-decoration: none;">Formium</a>
 
 ### &#x1F9D0; What's Going On In There?
 
 1.  **`/src`**: This directory contains all of the code related to what you will see on the front-end of this Gatsby site. Name `src` is a convention for “source code”.
 
-2.  **`/src/assets`**: This directory holds all media files such as images, icons and illustrations (svgs, pngs, jpegs, etc).
+2.  **`/src/assets`**: This directory holds all media files such as images, icons and illustrations (svgs, pngs, etc).
 
 3.  **`/components/common`**: This directory holds all 'common' components which are reusable elements like Containers and Buttons.
 
-4.  **`/components/content`**: This directory holds all exclusive components for each individual page section. Each section is a standalone component with a styled-components stylesheet attached to it. All components are imported into the 'pages' directory's index file to build the full page design.
+4.  **`/components/content`**: This directory holds all exclusive components for each page section. Each component is a standalone section with a stylesheet attached to it. All components are imported into the 'pages' directory's index file to build the site.
 
 5.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent, with plenty of customization options to suit your development style.
 
 6.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/). These allow customization/extension of default Gatsby settings affecting the browser.
 
-7.  **`gatsby-config.js`**: This is the main configuration file for any Gatsby site. This is where you can specify information about your site (metadata) like the title and description, which plugins you are using, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/) for more details).
+7.  **`gatsby-config.js`**: This is the main configuration file for any Gatsby site. This is where you can specify information about your site like its title  (metadata), which plugins you are using, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/) for more details).
 
-8.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+8.  **`gatsby-node.js`**: This file is where Gatsby expects to find the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/). When present, these allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
 9.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/). These allow customization of default Gatsby settings affecting server-side rendering.
 
-10. **`jsconfig.json`**: The jsconfig file is used by VSCode to specify the root files and the configured options for the features of JavaScript language service.
+10. **`jsconfig.json`**: The jsconfig file is used by VSCode to specify the root files and configured options for Javascript files
 
 ### 🚀 Continuous Deployment
 

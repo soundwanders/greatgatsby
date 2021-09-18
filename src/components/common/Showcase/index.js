@@ -5,9 +5,3 @@ export const Card = styled.div`
   background: #f2f2f2;
   height: 100%;
 `;
-
-export const TitleWrap = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-`;
