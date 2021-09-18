@@ -22,6 +22,7 @@
 - Used <a href="https://formik.org/" rel="noopener noreferral" style="text-decoration: none;">Formik</a> to validate contact form data before sending
 - Contact Form submissions are secured by Google Recaptcha
 - Form endpoint provided by <a href="https://formium.io" rel="noopener noreferral" style="text-decoration: none;">Formium</a>
+<br /><br />
 
 ### &#x1F9D0; What's Going On In There?
 
@@ -42,11 +43,41 @@
 8.  **`gatsby-config.js`**: This is the main configuration file for any Gatsby site. This is where you can specify information about your site like its title  (metadata), which plugins you are using, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/) for more details).
 
 9.  **`gatsby-node.js`**: This file is where Gatsby expects to find the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/). When present, these allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+<br /><br />
+
+### 🌳 Project Structure
 
 
-### 🚀 Continuous Deployment
+```bash
 
-Each push to branch 'main' triggers a deployment to [jcoletta.vercel.app](https://jcoletta.vercel.app)
+.
+└─── src
+     |
+     └── api
+     |
+     └─── assets
+     │    └── icons            
+     │ 
+     ├─── components
+     │   │── common
+     │   │── nav
+     │   └── sections
+     |       |
+     |       └── About
+     |       └── Contact
+     |       └── Home
+     |       └── Projects
+     |       └── Skills
+     |
+     ├─── data
+     |    └── config
+     |
+     └─── pages
+     |
+     └─── hooks
+
+```
+<br /><br />
 
 ### 🐛 Report A Bug
 
@@ -57,6 +88,7 @@ If you encounter any bugs or issues, feel free to contribute &smile;
 3. Commit your Changes (`git commit -m 'Hey you should fix this!'`)
 4. Push to the Branch (`git push origin update/BugSquash`)
 5. Open a Pull Request
+<br />
 
 ### License
 

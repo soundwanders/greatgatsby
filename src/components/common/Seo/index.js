@@ -1,86 +1,67 @@
-/**
- * SEO component that queries for data with
- *  Gatsby's useStaticQuery React hook
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
-
 import React from "react";
-import PropTypes from "prop-types";
-import { Helmet } from "react-helmet";
-import { useStaticQuery, graphql } from "gatsby";
+import Helmet from "react-helmet";
+import {
+	url,
+	defaultDescription,
+	defaultTitle,
+	socialLinks,
+	address,
+	contact,
+	legalName,
+	creationDate,
+	logo,
+} from "data/config";
 
-export function Seo({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            author
-          }
-        }
-      }
-    `
-  );
+export const Seo = ({ 
+    title = defaultTitle, 
+    description = defaultDescription, 
+    location = "", 
+}) => {
+	const structuredDataOrganization = `{ 
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"legalName": "${legalName}",
+		"url": "${url}"
+		"logo": "${logo}",
+		"creationDate": "${creationDate}",
+		"founders": [{
+			"@type": "Person",
+			"name": "${legalName}"
+		}],
+		"contactPoint": [{
+			"@type": "ContactPoint",
+			"email": "${contact.email}",
+			"contactType": "e-mail soundwanders"
+		}],
+		"address": {
+			"@type": "PostalAddress",
+			"addressRegion": "${address.state}",
+			"addressCountry": "${address.country}",
+		},
+		"sameAs": [
+			"${socialLinks.linkedin}",
+			"${socialLinks.github}"
+		]
+  	}`;
 
-  const metaDescription = description || site.siteMetadata.description;
-  const defaultTitle = site.siteMetadata?.title;
+	return (
+		<Helmet>
+			<meta name="description" content={description} />
+			<meta name="image" content="https://res.cloudinary.com/cloudwanders/image/upload/v1631992563/thumbnail_wkkmvz.png" />
 
-  return (
-    <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ].concat(meta)}
-    />
-  );
-}
+			<meta property="og:url" content={`${url}${location}/?ref=jcoletta.com`} />
+			<meta property="og:type" content="website" />
+			<meta property="og:title" content={title} />
+			<meta property="og:description" content={description} />
+			<meta property="og:image" content="https://res.cloudinary.com/cloudwanders/image/upload/v1631992563/thumbnail_wkkmvz.png"/>
 
-Seo.defaultProps = {
-  lang: `en`,
-  meta: [],
-  description: ``,
-};
-
-Seo.propTypes = {
-  description: PropTypes.string,
-  lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired,
+			<meta name="twitter:card" content="summary" />
+			<meta name="twitter:title" content={title} />
+			<meta name="twitter:description" content={description} />
+			<meta name="twitter:image:src" content="https://res.cloudinary.com/cloudwanders/image/upload/v1631992563/thumbnail_wkkmvz.png" />
+			<script type="application/ld+json">{structuredDataOrganization}</script>
+			<title>{title}</title>
+			<html lang="en" dir="ltr" />
+		</Helmet>
+	);
 };

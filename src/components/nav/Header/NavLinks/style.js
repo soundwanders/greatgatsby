@@ -38,12 +38,12 @@ export const Wrapper = styled.div`
         margin: 2.25rem auto;
         padding: 0 4.5rem;
         font-size: 1.25rem;
-        font-family: monospace, mono, Lucida-Sans, Lucida-Grande, sans-serif;
         float: none;
         flex-direction: column;
         a {
             font-weight: 600;
             margin-bottom: 1rem;
+            
             &:last-child {
                 margin-bottom: unset;
             }

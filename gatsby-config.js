@@ -1,13 +1,15 @@
+const config = require("./src/data/config");
+
 require("dotenv").config({
   path: `.env`,
 });
 
 module.exports = {
   siteMetadata: {
-    title: `JColetta`,
-    description: `Jared Coletta Developer Portfolio`,
-    author: `soundwanders`,
-    siteUrl: `https://jcoletta.vercel.app/`,
+    title: config.defaultTitle,
+    description: config.defaultDescription,
+    author: config.author,
+    siteUrl: config.url,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,7 +18,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://jcoletta.vercel.app/`,
+        siteUrl: config.url,
+      },
+		},
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data/`,
+        ignore: [`**/\.*`],
       },
     },
     `gatsby-transformer-sharp`,
@@ -24,11 +34,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: config.defaultTitle,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#323299`,
-        theme_color: `#323299`,
+        background_color: config.backgroundColor,
+        theme_color: config.themeColor,
         display: `minimal-ui`,
         icon: `src/assets/icons/favicon.png`,
       },
