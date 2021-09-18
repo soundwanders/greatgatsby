@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
     a {
+    font-family: Ubuntu, monospace, mono, Lucida Sans, sans-serif;
     color: #222;
     text-decoration: none;
     z-index: 10;
@@ -41,6 +42,7 @@ export const Wrapper = styled.div`
         float: none;
         flex-direction: column;
         a {
+            font-weight: 600;
             margin-bottom: 1rem;
             &:last-child {
                 margin-bottom: unset;
