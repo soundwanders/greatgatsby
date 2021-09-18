@@ -8,9 +8,9 @@ export const Wrapper = styled.div`
   right: -275px;
   opacity: 0;
   overflow: auto;
-  background-color: #f9fdff;
-  transition: all 350ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
-  z-index: 6;
+  background-color: rgba(245, 245, 245, 0.2);
+  transition: all 350ms cubic-bezier(0.6, 0.05, 0.28, 0.90);
+  z-index: 4;
 
   ${({ active }) =>
     active &&
@@ -22,7 +22,7 @@ export const Wrapper = styled.div`
                 width: 40%;
             }
             @media (max-width: 600px) {
-                width: 65%;
+                width: 50%;
             }
         `}
 `;

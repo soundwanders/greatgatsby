@@ -7,8 +7,10 @@ export const Wrapper = styled.div`
     a {
     font-family: Ubuntu, monospace, mono, Lucida Sans, sans-serif;
     color: #222;
+    text-shadow: 1px 1px #f8f8f8;
+    font-weight: 600;
     text-decoration: none;
-    z-index: 10;
+    z-index: 8;
     @media (max-width: 960px) {
         color: none;
     }
@@ -17,11 +19,11 @@ export const Wrapper = styled.div`
         ? `
             display: flex;
             float: left;
+            align-items: center;
             margin: 0 2.25rem;
             padding: 0;
             font-size: 2rem;
             font-weight: 600;
-            align-items: center;
             white-space: pre;
             a {
                 padding-right: 1rem;
@@ -29,21 +31,25 @@ export const Wrapper = styled.div`
                     margin-right: unset;
                 }
             }
+            a:hover {
+                transform:scale(1.011);
+            }
             @media (max-width: 960px) {
                 display: none;
             }
         `
         : `
         display: flex;
-        margin: 2.25rem auto;
-        padding: 0 4.5rem;
+        justify-content: center;
+        margin: 1rem auto;
+        padding: 3rem 0 0 4rem;
         font-size: 1.25rem;
+        text-shadow: 1px 1.5px #444;
+        color: #f9f9f9;
         float: none;
         flex-direction: column;
         a {
-            font-weight: 600;
             margin-bottom: 1rem;
-            
             &:last-child {
                 margin-bottom: unset;
             }

@@ -7,10 +7,10 @@ export const Wrapper = styled.div`
 
 export const Overlay = styled.div`
   position: fixed;
-  background: rgba(0, 0, 0, 0.7);
+  display: none;
   width: 100%;
   height: 100%;
-  display: none;
+  background: rgba(0, 0, 0, 0.7);
   transition: 0.4s;
   ${({ sidebar }) =>
     sidebar &&

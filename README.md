@@ -19,20 +19,21 @@
 - Axios
 - Yup
 - Continuous Deployment with <a href="https://vercel.com/" rel="noopener noreferral" style="text-decoration: none;">Vercel</a>
-- Used <a href="https://formik.org/" rel="noopener noreferral" style="text-decoration: none;">Formik</a> to validate contact form data before sending
+- Used <a href="https://formik.org/" rel="noopener noreferral" style="text-decoration: none;">Formik</a> to validate contact form data
 - Contact Form submissions are secured by Google Recaptcha
 - Form endpoint provided by <a href="https://formium.io" rel="noopener noreferral" style="text-decoration: none;">Formium</a>
+
 <br /><br />
 
 ### &#x1F9D0; What's Going On In There?
 
-1.  **`/src`**: This directory contains all of the code related to what you will see on the front-end of this Gatsby site. Name `src` is a convention for “source code”.
+1.  **`/src`**: This directory contains all of the code related to what you will see on the front-end of this portfolio site. Name `src` is a convention for “source code”.
 
 2.  **`/src/assets`**: This directory holds all media files such as images, icons and illustrations (svgs, pngs, etc).
 
-3.  **`./components/common`**: This directory holds all 'common' components which are reusable elements like Containers and Buttons.
+3.  **`./components/common`**: This directory holds all 'common' components, which are reusable elements like Containers and Buttons.
 
-4.  **`./components/s`**: This directory holds all of the page sections components, which are imported into the 'pages' directory's to build the site.
+4.  **`./components/s`**: This directory holds all of the page section components, which are imported into the 'pages' directory's to build the site.
 
 5.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent, with plenty of customization options to suit your development style.
 
@@ -43,10 +44,10 @@
 8.  **`gatsby-config.js`**: This is the main configuration file for any Gatsby site. This is where you can specify information about your site like its title  (metadata), which plugins you are using, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/) for more details).
 
 9.  **`gatsby-node.js`**: This file is where Gatsby expects to find the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/). When present, these allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+
 <br /><br />
 
 ### 🌳 Project Structure
-
 
 ```bash
 
@@ -76,7 +77,8 @@
      └─── hooks
 
 ```
-<br /><br />
+
+<br />
 
 ### 🐛 Report A Bug
 
