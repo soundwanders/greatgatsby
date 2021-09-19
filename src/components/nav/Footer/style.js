@@ -55,6 +55,7 @@ export const FooterLinks = styled.div`
 export const Copyright = styled.div`
   display: inherit;
   font-family: Ubuntu, monospace, mono, Lucida-Sans, Lucida-Grande, sans-serif;
+  font-size: 1.1rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   margin: 0 auto;

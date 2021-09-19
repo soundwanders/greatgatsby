@@ -6,32 +6,32 @@ export const Skills = () => {
     <SkillsContainer id="skills">
       <Grid>
         <Logo
-          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631493152/html_firld2.png"
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1632075358/html_wrecgz.png"
           alt="HTML Logo"
         />
 
         <Logo
-          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631495732/css_qxcsvd.png"
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1632075358/css_ggrq5d.png"
           alt="CSS Logo"
         />
 
         <Logo
-          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631493153/js_poxgqr.png"
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1632075359/js_jecjpz.png"
           alt="JavaScript Logo"
         />
 
         <ScaledLogo
-          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631493152/rjs_r5on17.png"
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1632075358/rjs_h2l79p.png"
           alt="React Logo"
         />
 
         <Logo
-          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631493152/bootstrap_enizh3.png"
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1632075358/bootstrap_bhw6mi.png"
           alt="Bootstrap Logo"
         />
 
         <Logo
-          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631493152/gb_hya3og.png"
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1632074664/gb_lmhmjm.svg"
           alt="Gatsby Logo"
         />
 

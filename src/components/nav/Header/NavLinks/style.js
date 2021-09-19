@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
     a {
     font-family: Ubuntu, monospace, mono, Lucida Sans, sans-serif;
     color: #222;
-    text-shadow: 1px 1px #f8f8f8;
+    text-shadow: 1px 0px #f4f4f4;
     font-weight: 600;
     text-decoration: none;
     z-index: 8;

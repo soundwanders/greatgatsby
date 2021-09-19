@@ -10,6 +10,6 @@ export const Container = styled.div`
   margin: 0 auto;
   padding: 2rem 0;
   overflow-x: hidden;
-  background-color: navajowhite;
-  z-index: -2;
+  background-color: #46b2f5;
+  color: #f8f8f8;
 `;
