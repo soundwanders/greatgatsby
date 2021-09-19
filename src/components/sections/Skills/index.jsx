@@ -31,7 +31,7 @@ export const Skills = () => {
         />
 
         <Logo
-          src="https://res.cloudinary.com/cloudwanders/image/upload/v1632074664/gb_lmhmjm.svg"
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1632080285/gb_tzlwo0.png"
           alt="Gatsby Logo"
         />
 
