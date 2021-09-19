@@ -33,7 +33,7 @@
 
 3.  **`./components/common`**: This directory holds all 'common' components, which are reusable elements like Containers and Buttons.
 
-4.  **`./components/s`**: This directory holds all of the page section components, which are imported into the 'pages' directory's to build the site.
+4.  **`./components/sections`**: This directory holds all of the page section components, which are imported into the 'pages' directory's to build the site.
 
 5.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent, with plenty of customization options to suit your development style.
 
