@@ -9,7 +9,7 @@ export const Projects = () => {
           <Card>
             <Item>
               <img
-                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632012483/shelter_otzjek.png"
+                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632014306/shelter_wmcvcn.png"
                 alt="Project Showcase - Helter Shelter"
               />
             </Item>
@@ -18,7 +18,7 @@ export const Projects = () => {
           <Card>
             <Item>
               <img
-                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632012483/bravebear_ydbvd9.png"
+                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632014306/bravebear_zulfbt.png"
                 alt="Project Showcase - BraveBear "
               />
             </Item>
@@ -27,7 +27,7 @@ export const Projects = () => {
           <Card>
             <Item>
               <img
-                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632012914/timbuktu_xwhqig.png"
+                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632014308/timbuktu_bibr7m.png"
                 alt="Project Showcase - Timbuktu"
               />
             </Item>
@@ -36,7 +36,7 @@ export const Projects = () => {
           <Card>
             <Item>
               <img
-                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632012483/nebula_hnyslu.png"
+                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632014307/nebula_ph44fd.png"
                 alt="Project Showcase - Nebula "
               />
             </Item>
@@ -45,7 +45,7 @@ export const Projects = () => {
           <Card>
             <Item>
               <img
-                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632012481/budget_ytthnr.png"
+                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632014306/budget_jgus3s.png"
                 alt="Project Showcase - Budget App"
               />
             </Item>
@@ -54,7 +54,7 @@ export const Projects = () => {
           <Card>
             <Item>
               <img
-                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632012484/scraper_ubqnj3.png"
+                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632014309/scraper_fxvs0w.png"
                 alt="Project Showcase - Node Web Scraper"
               />
             </Item>
