@@ -20,7 +20,7 @@ module.exports = {
       options: {
         siteUrl: config.url,
       },
-		},
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -47,7 +47,7 @@ export const Bar = styled.div`
 		background-color: #a5d2ff;
 		transform: translateY(8px) rotate(-135deg);
     `}
-  
+
   ${({ mid, sidebar }) =>
     mid &&
     sidebar &&

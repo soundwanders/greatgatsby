@@ -10,12 +10,12 @@ export const ProjectContainer = styled.div`
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
-  background-color: #dfdbe5;
+  background-color: #f8f8f8;
   z-index: -2;
 `;
 
 export const Wrapper = styled.div`
-  padding: 5rem 0;
+  width: 100%;
 `;
 
 export const Grid = styled.div`
@@ -27,24 +27,26 @@ export const Grid = styled.div`
 
   @media (max-width: 960px) {
     grid-template-columns: repeat(1, 1fr);
-    gap: 1.75rem;
+    gap: 0;
   }
 `;
 
 export const Card = styled.div`
-  padding: 3rem;
-  background: #f2f2f2;
+  padding: 0.25rem;
+  background: #f8f8f8;
   height: 100%;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.11);
 `;
 
 export const Item = styled.div`
-  width: 100%;
-  overflow: hidden;
-  padding
-`;
-
-export const Content = styled.div`
-  padding: 1rem 0;
-  min-height: 160px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  img {
+    margin: 0;
+    padding: 2rem 0;
+    width: 90%;
+    min-height: 180px;
+  }
 `;

@@ -8,37 +8,55 @@ export const Projects = () => {
         <Grid>
           <Card>
             <Item>
-              <img src="https://res.cloudinary.com/cloudwanders/image/upload/v1631981116/shelter_ivalyk.png" alt="Project Showcase - Helter Shelter" />
+              <img
+                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632012483/shelter_otzjek.png"
+                alt="Project Showcase - Helter Shelter"
+              />
             </Item>
           </Card>
 
           <Card>
             <Item>
-              <img src="https://res.cloudinary.com/cloudwanders/image/upload/v1631981115/bravebear_qbgu0s.png" alt="Project Showcase - BraveBear " />
+              <img
+                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632012483/bravebear_ydbvd9.png"
+                alt="Project Showcase - BraveBear "
+              />
             </Item>
           </Card>
 
           <Card>
             <Item>
-              <img src="https://res.cloudinary.com/cloudwanders/image/upload/v1631981115/timbuktu_yxicpf.png" alt="Project Showcase - Timbuktu" />
-            </Item>
-          </Card>
-          
-          <Card>
-            <Item>
-              <img src="https://res.cloudinary.com/cloudwanders/image/upload/v1631981119/nebula1_prk6ux.png" alt="Project Showcase - Nebula " />
+              <img
+                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632012914/timbuktu_xwhqig.png"
+                alt="Project Showcase - Timbuktu"
+              />
             </Item>
           </Card>
 
           <Card>
             <Item>
-              <img src="https://res.cloudinary.com/cloudwanders/image/upload/v1631981116/budget_rlsxfs.png" alt="Project Showcase - Budget App" />
+              <img
+                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632012483/nebula_hnyslu.png"
+                alt="Project Showcase - Nebula "
+              />
             </Item>
           </Card>
 
           <Card>
             <Item>
-              <img src="https://res.cloudinary.com/cloudwanders/image/upload/v1631981118/scraper_wfl74j.png" alt="Project Showcase - Node Web Scraper" />
+              <img
+                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632012481/budget_ytthnr.png"
+                alt="Project Showcase - Budget App"
+              />
+            </Item>
+          </Card>
+
+          <Card>
+            <Item>
+              <img
+                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632012484/scraper_ubqnj3.png"
+                alt="Project Showcase - Node Web Scraper"
+              />
             </Item>
           </Card>
         </Grid>

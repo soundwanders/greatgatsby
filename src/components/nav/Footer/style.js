@@ -63,6 +63,5 @@ export const Copyright = styled.div`
   @media (max-width: 968px) {
     padding-left: 0;
     font-size: 0.9rem;
-
   }
 `;

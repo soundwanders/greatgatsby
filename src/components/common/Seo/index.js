@@ -1,23 +1,23 @@
 import React from "react";
 import Helmet from "react-helmet";
 import {
-	url,
-	defaultDescription,
-	defaultTitle,
-	socialLinks,
-	address,
-	contact,
-	legalName,
-	creationDate,
-	logo,
+  url,
+  defaultDescription,
+  defaultTitle,
+  socialLinks,
+  address,
+  contact,
+  legalName,
+  creationDate,
+  logo,
 } from "data/config";
 
-export const Seo = ({ 
-    title = defaultTitle, 
-    description = defaultDescription, 
-    location = "", 
+export const Seo = ({
+  title = defaultTitle,
+  description = defaultDescription,
+  location = "",
 }) => {
-	const structuredDataOrganization = `{ 
+  const structuredDataOrganization = `{ 
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"legalName": "${legalName}",
@@ -44,24 +44,33 @@ export const Seo = ({
 		]
   	}`;
 
-	return (
-		<Helmet>
-			<meta name="description" content={description} />
-			<meta name="image" content="https://res.cloudinary.com/cloudwanders/image/upload/v1631992563/thumbnail_wkkmvz.png" />
+  return (
+    <Helmet>
+      <meta name="description" content={description} />
+      <meta
+        name="image"
+        content="https://res.cloudinary.com/cloudwanders/image/upload/v1631992563/thumbnail_wkkmvz.png"
+      />
 
-			<meta property="og:url" content={`${url}${location}/?ref=jcoletta.com`} />
-			<meta property="og:type" content="website" />
-			<meta property="og:title" content={title} />
-			<meta property="og:description" content={description} />
-			<meta property="og:image" content="https://res.cloudinary.com/cloudwanders/image/upload/v1631992563/thumbnail_wkkmvz.png"/>
+      <meta property="og:url" content={`${url}${location}/?ref=jcoletta.com`} />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
+      <meta
+        property="og:image"
+        content="https://res.cloudinary.com/cloudwanders/image/upload/v1631992563/thumbnail_wkkmvz.png"
+      />
 
-			<meta name="twitter:card" content="summary" />
-			<meta name="twitter:title" content={title} />
-			<meta name="twitter:description" content={description} />
-			<meta name="twitter:image:src" content="https://res.cloudinary.com/cloudwanders/image/upload/v1631992563/thumbnail_wkkmvz.png" />
-			<script type="application/ld+json">{structuredDataOrganization}</script>
-			<title>{title}</title>
-			<html lang="en" dir="ltr" />
-		</Helmet>
-	);
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+      <meta
+        name="twitter:image:src"
+        content="https://res.cloudinary.com/cloudwanders/image/upload/v1631992563/thumbnail_wkkmvz.png"
+      />
+      <script type="application/ld+json">{structuredDataOrganization}</script>
+      <title>{title}</title>
+      <html lang="en" dir="ltr" />
+    </Helmet>
+  );
 };
