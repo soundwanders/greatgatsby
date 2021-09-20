@@ -1,9 +1,9 @@
-import React from "react";
-import { Title, Container, Wrapper, Details, Photo } from "./style";
-import ContactForm from "./ContactForm";
+import React from 'react';
+import { Title, Container, Wrapper, Details, Photo } from './style';
+import ContactForm from './ContactForm';
 
-export const Snail = "Save the Snails 🐌";
-export const Mail = "E-mail Me Instead!";
+export const Snail = 'Save the Snails 🐌';
+export const Mail = 'E-mail Me Instead!';
 
 export const Contact = () => (
   <Wrapper as={Container} id="contact">

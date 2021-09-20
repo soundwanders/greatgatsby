@@ -1,18 +1,37 @@
-import React from "react";
-import { ProjectContainer, Wrapper, Grid, Card, Item } from "./style";
+import React, { useState } from 'react';
+import {
+  ProjectContainer,
+  Wrapper,
+  Grid,
+  Card,
+  Item,
+  ModalContainer,
+  ModalButton,
+} from './style';
+import './style.css';
+import { Modal } from './Modal';
 
 export const Projects = () => {
+  const [showModal, setShowModal] = useState(false);
+  const openModal = () => {
+    setShowModal(true);
+  };
+
   return (
     <Wrapper>
       <ProjectContainer id="projects">
         <Grid>
           <Card>
-            <Item>
-              <img
-                src="https://res.cloudinary.com/cloudwanders/image/upload/v1632100132/2shelter_dy1pwr.png"
-                alt="Project Showcase - Helter Shelter"
-              />
-            </Item>
+            <ModalContainer>
+              <Item>
+                <img
+                  src="https://res.cloudinary.com/cloudwanders/image/upload/v1632100132/2shelter_dy1pwr.png"
+                  alt="Project Showcase - Helter Shelter"
+                />
+                <ModalButton onClick={openModal}>Open Modal</ModalButton>
+                {showModal ? <Modal setShowModal={setShowModal} /> : null}
+              </Item>
+            </ModalContainer>
           </Card>
 
           <Card>

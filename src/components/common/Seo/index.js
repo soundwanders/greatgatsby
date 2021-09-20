@@ -1,5 +1,5 @@
-import React from "react";
-import Helmet from "react-helmet";
+import React from 'react';
+import Helmet from 'react-helmet';
 import {
   url,
   defaultDescription,
@@ -10,12 +10,12 @@ import {
   legalName,
   creationDate,
   logo,
-} from "data/config";
+} from 'data/config';
 
 export const Seo = ({
   title = defaultTitle,
   description = defaultDescription,
-  location = "",
+  location = '',
 }) => {
   const structuredDataOrganization = `{ 
 		"@context": "http://schema.org",

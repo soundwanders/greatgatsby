@@ -1,5 +1,5 @@
-import React from "react";
-import { SkillsContainer, Grid, Logo, ScaledLogo } from "./style";
+import React from 'react';
+import { SkillsContainer, Grid, Logo, ScaledLogo } from './style';
 
 export const Skills = () => {
   return (

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 // the ? : operators for the desktop style props is an Inline If-Else with a conditional operator
 // Logic ==> condition ? true : false
@@ -44,7 +44,7 @@ export const Wrapper = styled.div`
         margin: 1rem auto;
         padding: 3rem 0 0 4rem;
         font-size: 1.25rem;
-        text-shadow: 1px 1.5px #444;
+        text-shadow: 1px 0.5px #444;
         color: #f9f9f9;
         float: none;
         flex-direction: column;

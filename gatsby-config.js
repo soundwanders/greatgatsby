@@ -1,6 +1,6 @@
-const config = require("./src/data/config");
+const config = require('./src/data/config');
 
-require("dotenv").config({
+require('dotenv').config({
   path: `.env`,
 });
 

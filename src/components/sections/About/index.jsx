@@ -1,6 +1,6 @@
-import React from "react";
-import { StyledLink } from "components/common";
-import { Container } from "./style";
+import React from 'react';
+import { StyledLink } from 'components/common';
+import { Container } from './style';
 
 export const About = () => {
   return (

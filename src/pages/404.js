@@ -1,12 +1,12 @@
-import React from "react";
-import { StyledLink, Seo } from "components/common";
-import { StaticImage } from "gatsby-plugin-image";
+import React from 'react';
+import { StyledLink, Seo } from 'components/common';
+import { StaticImage } from 'gatsby-plugin-image';
 import {
   Container,
   Title,
   ErrorText,
   GoHome,
-} from "components/sections/style-404";
+} from 'components/sections/style-404';
 
 const PageNotFound = () => (
   <Container>
@@ -20,7 +20,7 @@ const PageNotFound = () => (
     <StaticImage
       src="../assets/lost.png"
       width={535}
-      formats={["AUTO", "WEBP", "AVIF"]}
+      formats={['AUTO', 'WEBP', 'AVIF']}
       alt="Lost in Space"
       style={{ marginBottom: `1.45rem`, borderRadius: `1rem` }}
     />

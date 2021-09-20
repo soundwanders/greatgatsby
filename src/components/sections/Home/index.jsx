@@ -1,6 +1,6 @@
-import React from "react";
-import { Seo } from "components/common";
-import { HomeContainer, User, Subtitle } from "./style";
+import React from 'react';
+import { Seo } from 'components/common';
+import { HomeContainer, User, Subtitle } from './style';
 
 export const HomePage = () => {
   return (

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   display: flex;
@@ -73,9 +73,9 @@ export const Photo = styled.div`
     padding-top: 1rem;
     padding-left: 4rem;
   }
-    img {
-      flex: 1;
-      flex-direction: column;
-      width: 80%;
-    }
+  img {
+    flex: 1;
+    flex-direction: column;
+    width: 80%;
+  }
 `;

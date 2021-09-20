@@ -1,29 +1,29 @@
-import React from "react";
-import axios from "axios";
-import Recaptcha from "react-google-recaptcha";
-import * as Yup from "yup";
-import { Formik, Form, FastField, ErrorMessage } from "formik";
-import { Button, Input } from "components/common";
-import { FormContainer, Error, Center, InputField } from "./style";
+import React from 'react';
+import axios from 'axios';
+import Recaptcha from 'react-google-recaptcha';
+import * as Yup from 'yup';
+import { Formik, Form, FastField, ErrorMessage } from 'formik';
+import { Button, Input } from 'components/common';
+import { FormContainer, Error, Center, InputField } from './style';
 
 const ContactForm = () => (
   <Formik
     initialValues={{
-      name: "",
-      email: "",
-      message: "",
-      recaptcha: "",
+      name: '',
+      email: '',
+      message: '',
+      recaptcha: '',
       success: false,
     }}
     validationSchema={Yup.object().shape({
-      name: Yup.string().required("Full name field is required"),
+      name: Yup.string().required('Full name field is required'),
       email: Yup.string()
-        .email("Invalid email")
-        .required("Email field is required"),
-      message: Yup.string().required("Message field is required"),
+        .email('Invalid email')
+        .required('Email field is required'),
+      message: Yup.string().required('Message field is required'),
       recaptcha:
-        process.env.NODE_ENV !== "development"
-          ? Yup.string().required("Robots are not welcome...yet!")
+        process.env.NODE_ENV !== 'development'
+          ? Yup.string().required('Robots are not welcome...yet!')
           : Yup.string(),
     })}
     onSubmit={async (
@@ -32,13 +32,13 @@ const ContactForm = () => (
     ) => {
       try {
         await axios({
-          method: "POST",
+          method: 'POST',
           url:
-            process.env.NODE_ENV !== "development"
+            process.env.NODE_ENV !== 'development'
               ? `jcoletta.vercel.app/api/contact`
-              : "http://localhost:8000/api/contact",
+              : 'http://localhost:8000/api/contact',
           headers: {
-            "Content-Type": "application/json",
+            'Content-Type': 'application/json',
           },
           data: JSON.stringify({
             name,
@@ -47,12 +47,12 @@ const ContactForm = () => (
           }),
         });
         setSubmitting(false);
-        setFieldValue("success", true);
+        setFieldValue('success', true);
         setTimeout(() => resetForm(), 6000);
       } catch (err) {
         setSubmitting(false);
-        setFieldValue("success", false);
-        alert("Something went wrong, please try again!");
+        setFieldValue('success', false);
+        alert('Something went wrong, please try again!');
       }
     }}
   >
@@ -101,13 +101,13 @@ const ContactForm = () => (
           {values.name &&
             values.email &&
             values.message &&
-            process.env.NODE_ENV !== "development" && (
+            process.env.NODE_ENV !== 'development' && (
               <InputField>
                 <FastField
                   component={Recaptcha}
                   sitekey={process.env.GATSBY_PORTFOLIO_RECAPTCHA_KEY}
                   name="recaptcha"
-                  onChange={value => setFieldValue("recaptcha", value)}
+                  onChange={value => setFieldValue('recaptcha', value)}
                 />
                 <ErrorMessage component={Error} name="recaptcha" />
               </InputField>
