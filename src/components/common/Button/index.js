@@ -7,7 +7,8 @@ export const Button = styled.button`
   border: none;
   background: #3f3d56;
   color: #f8f8f8;
-  font-family: Ubuntu, monospace, mono;
+  text-shadow: 0.125px 0 #fff;
+  font-family: 'Roboto', Ubuntu, Helvetica, sans-serif;
   letter-spacing: 1px;
   @media (max-width: 960px) {
     text-align: center;

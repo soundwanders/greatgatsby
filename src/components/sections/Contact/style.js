@@ -60,24 +60,22 @@ export const Title = styled.h2`
 `;
 
 export const Photo = styled.div`
-  display: inherit;
+  display: inline-block;
   flex: 1;
-  width: 100%;
+  width: 50vh;
   margin: 0;
-  padding-top: 10rem;
-  padding-right: 10rem;
+  padding-top: 14rem;
   overflow: hidden;
   @media (max-width: 960px) {
     justify-content: flex-end;
-    width: 70%;
+    width: 80%;
     margin-bottom: 1rem;
     padding-top: 1rem;
-    padding-right: 0;
-    padding-left: 3.5rem;
+    padding-left: 4rem;
   }
-  img {
-    flex: 1;
-    flex-direction: column;
-    width: 50%;
-  }
+    img {
+      flex: 1;
+      flex-direction: column;
+      width: 80%;
+    }
 `;

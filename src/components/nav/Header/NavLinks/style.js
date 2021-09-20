@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
     a {
-    font-family: Ubuntu, monospace, mono, Lucida Sans, sans-serif;
+    font-family: 'Roboto', Ubuntu, Helvetica, sans-serif;
     color: #222;
     text-shadow: 1px 0px #f4f4f4;
     font-weight: 600;

@@ -18,12 +18,15 @@ export const ProjectContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 4.5rem 0;
   width: 99%;
   max-width: 100%;
   overflow-x: hidden;
   background-image: inherit;
   z-index: -2;
+  @media (max-width: 900px) {
+    padding: 1.5rem 0;
+  }
 `;
 
 export const Grid = styled.div`
@@ -52,22 +55,28 @@ export const Card = styled.div`
 `;
 
 export const Item = styled.div`
-  display: flex;
+  display: grid;
   justify-content: center;
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 2rem 4rem;
   overflow: hidden;
-  object-fit: contain;
-
     img {
-      float: left;
-      width: auto;
-      height: 420px;
-      object-fit: contain;
+      display: flex;
+      width: 710px;
+      height:400px;
+      max-height: 400px;
+      box-shadow: 9px 11px 3px -5px rgba(54,54,54,0.4);
+      -webkit-box-shadow: 9px 11px 3px -5px rgba(54,54,54,0.4);
+      -moz-box-shadow: 9px 11px 3px -5px rgba(54,54,54,0.4);
       @media (max-width: 900px) {
-        width: 92%;
-        height: auto;
+        width: 100%;
+        height: 200px;
+        max-height: 200px;
+        padding: 0;
       }
+    }
+    @media (max-width: 900px) {
+      padding: 1rem 0.25rem;
     }
   }
 `;
