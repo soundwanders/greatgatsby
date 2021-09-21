@@ -625,6 +625,7 @@ export const Global = createGlobalStyle`
 
     input, select, textarea, button {
       &:focus {
+        border: none;
         outline: none;
       }
     }

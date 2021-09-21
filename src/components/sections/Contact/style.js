@@ -51,10 +51,10 @@ export const Title = styled.h2`
   color: #f8f8f8;
   padding: 1rem 0;
   margin: 0 auto;
-  @media (max-width: 968px) {
+  @media (max-width: 900px) {
     font-size: 1.75rem;
   }
-  @media (max-height: 500px) and (max-width: 890px) {
+  @media (max-height: 600px) and (max-width: 900px) {
     font-size: 2.25rem;
   }
 `;
@@ -64,11 +64,15 @@ export const Photo = styled.div`
   flex: 1;
   width: 50vh;
   margin: 0;
-  padding-top: 14rem;
+  padding-top: 4rem;
   overflow: hidden;
-  @media (max-width: 960px) {
-    justify-content: flex-end;
-    width: 80%;
+  @media (max-width: 900px) {
+    width: 50%;
+    margin: 0 auto;
+  }
+  @media (max-width: 600px) {
+    width: 70%;
+    margin: 0 auto;
     margin-bottom: 1rem;
     padding-top: 1rem;
     padding-left: 4rem;

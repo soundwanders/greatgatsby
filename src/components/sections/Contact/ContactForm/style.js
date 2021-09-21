@@ -26,7 +26,7 @@ export const InputField = styled.div`
   margin: 0 auto;
   overflow: hidden;
 
-  @media (max-width: 968px) {
+  @media (max-width: 900px) {
     display: flex;
     justify-content: center;
     width: 90%;

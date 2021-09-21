@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   width: 100%;
+  padding: 3.5rem 0;
   background-image: linear-gradient(
     to bottom,
     #f8f8f8,
@@ -18,7 +19,7 @@ export const ProjectContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding: 4.5rem 0;
+  padding: 4rem 0;
   width: 99%;
   max-width: 100%;
   overflow-x: hidden;
@@ -60,23 +61,35 @@ export const Item = styled.div`
   margin: 0 auto;
   padding: 2rem 4rem;
   overflow: hidden;
+  @media (max-width: 900px) {
+    padding: 1rem 0.25rem;
+  }
     img {
       display: flex;
       width: 710px;
-      height:400px;
+      height: 400px;
       max-height: 400px;
       box-shadow: 9px 11px 3px -5px rgba(54,54,54,0.4);
       -webkit-box-shadow: 9px 11px 3px -5px rgba(54,54,54,0.4);
       -moz-box-shadow: 9px 11px 3px -5px rgba(54,54,54,0.4);
+      
       @media (max-width: 900px) {
+        width: 600px;
+        max-height: 350px;
+      }
+      @media (max-width: 600px) {
         width: 100%;
-        height: 200px;
-        max-height: 200px;
+        max-height: 195px;
         padding: 0;
       }
     }
-    @media (max-width: 900px) {
-      padding: 1rem 0.25rem;
-    }
   }
 `;
+
+export const ModalButton = styled.button`
+  background: transparent;
+  border-style: none;
+  outline: none;
+  color: #222;
+  padding: 1rem;
+`

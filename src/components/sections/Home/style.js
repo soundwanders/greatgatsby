@@ -15,10 +15,10 @@ export const HomeContainer = styled.div`
   background-image: linear-gradient(
     to bottom,
     #f8f8f8,
+    #f7f7f7,
     #f5f5f5,
+    #f4f4f4,
     #f2f2f2,
-    #efefef,
-    #ececec
   );
   z-index: -4;
 `;
@@ -29,10 +29,10 @@ export const User = styled.h1`
   margin: 0 0 0.5rem 0;
   padding: 0;
   font-size: 10vmax;
-  background: #2143ce;
-  background: -webkit-linear-gradient(to right, #2143ce 30%, #ff662e 100%);
-  background: -moz-linear-gradient(to right, #2143ce 30%, #ff662e 100%);
-  background: linear-gradient(to right, #2143ce 30%, #ff662e 100%);
+  background: #5d2ad3;
+  background: -webkit-linear-gradient(to right, #5d2ad3 30%, #ff662e 100%);
+  background: -moz-linear-gradient(to right, #5d2ad3 30%, #ff662e 100%);
+  background: linear-gradient(to right, #5d2ad3 30%, #ff662e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   @media (max-width: 600px) {
@@ -47,8 +47,9 @@ export const Subtitle = styled.h1`
   margin: 0 auto;
   white-space: nowrap;
   font-size: 3vmax;
-  color: #2143ce;
-  padding-top: 1.5rem;
+  color: #734f96;
+  font-weight: 600;
+  padding-top: 2rem;
   @media (max-width: 600px) {
     transform: translateY(-3rem);
   }

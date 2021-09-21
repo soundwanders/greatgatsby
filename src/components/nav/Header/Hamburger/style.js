@@ -20,7 +20,7 @@ export const Wrapper = styled.div`
       right: 18%;
       top: 1.3rem;
       @media (max-width: 960px) {
-          right: 25%;
+          right: 35%;
           position: fixed;
       }
       @media (max-width: 600px) {

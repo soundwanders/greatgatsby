@@ -1,0 +1,45 @@
+.Modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: inherit;
+}
+
+.ModalMain {
+  position: fixed;
+  width: 80%;
+  height: auto;
+  top:50%;
+  left:50%;
+  background: lightblue;
+  transform: translate(-50% , -50%);
+  animation: animateModal 0.3s;
+}
+
+.ToggleModal {
+  background: transparent;
+  color: #222;
+  padding: 1rem;
+  border-style: none;
+  border: none;
+  outline: none;
+}
+
+.DisplayBlock {
+  display: block;
+}
+
+.DisplayNone {
+  display: none;
+}
+
+@keyframes animateModal {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}

@@ -36,7 +36,10 @@ export const FooterLinks = styled.div`
   align-items: center;
   padding-top: 2rem;
   z-index: 2;
-  @media (max-width: 968px) {
+  @media (max-width: 900px) {
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
     padding-top: 1.5rem;
   }
 
@@ -54,15 +57,16 @@ export const FooterLinks = styled.div`
 
 export const Copyright = styled.div`
   display: inherit;
-  font-family: 'Roboto', Ubuntu, Helvetica, sans-serif;
+  font-family: Ubuntu, 'Roboto', Helvetica, sans-serif;
+  letter-spacing: 0.5px;
   font-size: 1.1rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   margin: 0 auto;
   overflow: hidden;
 
-  @media (max-width: 968px) {
-    padding-left: 0;
-    font-size: 0.9rem;
+  @media (max-width: 900px) {
+    padding: 0.5rem 0;
+    font-size: 0.875rem;
   }
 `;

@@ -41,10 +41,12 @@ export const Wrapper = styled.div`
         : `
         display: flex;
         justify-content: center;
-        margin: 1rem auto;
-        padding: 3rem 0 0 4rem;
+        margin: 0 auto;
+        padding: 1rem 0;
+        transform: translateY(3rem);
+        text-align: center;
         font-size: 1.25rem;
-        text-shadow: 1px 0.5px #444;
+        text-shadow: 0.5px 0.5px #444;
         color: #f9f9f9;
         float: none;
         flex-direction: column;
