@@ -74,12 +74,13 @@ export const Item = styled.div`
       -moz-box-shadow: 9px 11px 3px -5px rgba(54,54,54,0.4);
       
       @media (max-width: 900px) {
-        width: 600px;
-        max-height: 350px;
+        width: 520px;
+        max-height: 300px;
       }
       @media (max-width: 600px) {
         width: 100%;
-        max-height: 195px;
+        height: 200px;
+        max-height: 200px;
         padding: 0;
       }
     }

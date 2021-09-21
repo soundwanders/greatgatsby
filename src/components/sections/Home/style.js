@@ -30,9 +30,9 @@ export const User = styled.h1`
   padding: 0;
   font-size: 10vmax;
   background: #5d2ad3;
-  background: -webkit-linear-gradient(to right, #5d2ad3 30%, #ff662e 100%);
-  background: -moz-linear-gradient(to right, #5d2ad3 30%, #ff662e 100%);
-  background: linear-gradient(to right, #5d2ad3 30%, #ff662e 100%);
+  background: -webkit-linear-gradient(to right, #0461ed 30%, #ff662e 100%);
+  background: -moz-linear-gradient(to right, #0461ed 30%, #ff662e 100%);
+  background: linear-gradient(to right, #0461ed 30%, #ff662e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   @media (max-width: 600px) {
@@ -47,7 +47,7 @@ export const Subtitle = styled.h1`
   margin: 0 auto;
   white-space: nowrap;
   font-size: 3vmax;
-  color: #734f96;
+  color: #0461ed;
   font-weight: 600;
   padding-top: 2rem;
   @media (max-width: 600px) {
