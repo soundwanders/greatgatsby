@@ -61,23 +61,18 @@ export const Title = styled.h2`
 
 export const Photo = styled.div`
   display: inline-block;
-  flex: 1;
-  width: 50vh;
-  margin: 0;
-  padding-top: 4rem;
+  width: 55%;
+  margin: 0 auto;
+  padding-top: 10%;
   overflow: hidden;
-  @media (max-width: 900px) {
-    width: 50%;
-    margin: 0 auto;
-  }
   @media (max-width: 600px) {
     width: 70%;
-    margin: 0 auto;
     margin-bottom: 1rem;
     padding-top: 1rem;
     padding-left: 4rem;
   }
   img {
+    display: flex;
     flex: 1;
     flex-direction: column;
     width: 80%;

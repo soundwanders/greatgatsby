@@ -2,14 +2,14 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   width: 100%;
-  padding: 3.5rem 0;
+  padding: 3rem 0;
   background-image: linear-gradient(
     to bottom,
     #f8f8f8,
+    #f7f7f7,
     #f5f5f5,
-    #f2f2f2,
-    #efefef,
-    #ececec
+    #f4f4f4,
+    #f2f2f2
   );
 `;
 
@@ -66,9 +66,9 @@ export const Item = styled.div`
   }
     img {
       display: flex;
-      width: 710px;
-      height: 400px;
-      max-height: 400px;
+      width: 700px;
+      height: 380px;
+      max-height: 380px;
       box-shadow: 9px 11px 3px -5px rgba(54,54,54,0.4);
       -webkit-box-shadow: 9px 11px 3px -5px rgba(54,54,54,0.4);
       -moz-box-shadow: 9px 11px 3px -5px rgba(54,54,54,0.4);
@@ -87,10 +87,9 @@ export const Item = styled.div`
   }
 `;
 
-export const ModalButton = styled.button`
+export const ModalWrapper = styled.button`
   background: transparent;
   border-style: none;
   outline: none;
-  color: #222;
-  padding: 1rem;
-`
+  padding: 0;
+`;

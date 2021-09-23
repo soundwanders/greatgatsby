@@ -13,15 +13,15 @@
   height: auto;
   top: 50%;
   left: 50%;
-  background: lightblue;
+  background: rgb(163, 163, 163);
   transform: translate(-50% , -50%);
   animation: animateModal 0.3s;
 }
 
-.ToggleModal {
+.CloseModal {
   background: transparent;
   color: #222;
-  padding: 0;
+  padding: 1rem;
   border-style: none;
   border: none;
   outline: none;

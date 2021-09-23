@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import styled from 'styled-components';
 
 export const StyledLink = styled(props => <Link {...props} />)`
-  color: maroon;
+  color: #008080;
   text-decoration: none;
   padding: 0 1rem;
 `;

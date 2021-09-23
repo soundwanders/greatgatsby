@@ -8,7 +8,7 @@ export const Modal = ({ handleClose, show, children }) => {
     <div className={showHideClassName}>
       <section className="ModalMain">
         {children}
-        <button className="ToggleModal" type="button" onClick={handleClose}>
+        <button className="CloseModal" type="button" onClick={handleClose}>
           X
         </button>
       </section>

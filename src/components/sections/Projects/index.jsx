@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
-import { ProjectContainer, Wrapper, Grid, Card, Item, ModalButton } from './style';
+import {
+  ProjectContainer,
+  Wrapper,
+  Grid,
+  Card,
+  Item,
+  ModalWrapper,
+} from './style';
 import { Modal } from 'components/common';
 
 export class Projects extends Component {
@@ -29,12 +36,12 @@ export class Projects extends Component {
                   show={this.state.show}
                   handleClose={this.hideModal}
                 ></Modal>
-                <ModalButton type="button" onClick={this.showModal}>
+                <ModalWrapper type="button" onClick={this.showModal}>
                   <img
                     src="https://res.cloudinary.com/cloudwanders/image/upload/v1632100132/2shelter_dy1pwr.png"
                     alt="Project Showcase - Helter Shelter"
                   />
-                </ModalButton>
+                </ModalWrapper>
               </Item>
             </Card>
 

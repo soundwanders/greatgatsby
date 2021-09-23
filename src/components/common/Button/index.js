@@ -20,8 +20,8 @@ export const Button = styled.button`
   &:focus {
     outline: none;
   }
-  &:active{
-    transform: scale(.99);
+  &:active {
+    transform: scale(0.99);
   }
   &:disabled {
     background: #f8f8f8;

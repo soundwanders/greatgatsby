@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
     a {
     font-family: 'Roboto', Ubuntu, Helvetica, sans-serif;
     color: #222;
-    text-shadow: 1px 0px #f4f4f4;
+    text-shadow: 0.2px 0px #f4f4f4;
     font-weight: 600;
     text-decoration: none;
     z-index: 8;
@@ -46,8 +46,8 @@ export const Wrapper = styled.div`
         transform: translateY(3rem);
         text-align: center;
         font-size: 1.25rem;
-        text-shadow: 0.5px 0.5px #444;
-        color: #f9f9f9;
+        text-shadow: 0.5px 0px #f8f8f8;
+        color: #333399;
         float: none;
         flex-direction: column;
         a {
