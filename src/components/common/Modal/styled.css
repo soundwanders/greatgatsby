@@ -9,10 +9,10 @@
 
 .ModalMain {
   position: fixed;
-  width: 80%;
+  width: 60%;
   height: auto;
-  top:50%;
-  left:50%;
+  top: 50%;
+  left: 50%;
   background: lightblue;
   transform: translate(-50% , -50%);
   animation: animateModal 0.3s;
@@ -21,7 +21,7 @@
 .ToggleModal {
   background: transparent;
   color: #222;
-  padding: 1rem;
+  padding: 0;
   border-style: none;
   border: none;
   outline: none;
