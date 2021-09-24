@@ -1,13 +1,5 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
-  position: relative;
-  display: flex;
-  max-width: 100%;
-  background: #000;
-  z-index: -30;
-`;
-
 export const HomeContainer = styled.div`
   display: flex;
   position: relative;
@@ -40,7 +32,7 @@ export const User = styled.h1`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   @media (max-width: 600px) {
-    transform: translateY(-3rem);
+    transform: translateY(-4.5rem);
   }
 `;
 
@@ -49,13 +41,14 @@ export const Subtitle = styled.h1`
   max-width: 100%;
   justify-content: center;
   margin: 0 auto;
+  padding-top: 2rem;
   white-space: nowrap;
   color: #333399;
   letter-spacing: -2px;
   font-size: 2.3vmax;
-  font-family: 'LuloCleanW01-OneBold';
-  padding-top: 2.5rem;
+  font-family: 'LuloCleanW01-OneBold', 'Roboto', sans-serif;
   @media (max-width: 600px) {
-    transform: translateY(-3rem);
+    font-size: 2vmax;
+    transform: translateY(-4.5rem);
   }
 `;

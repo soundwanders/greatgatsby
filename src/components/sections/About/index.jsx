@@ -1,13 +1,25 @@
 import React from 'react';
-import { StyledLink } from 'components/common';
-import { Container } from './style';
+import {
+  Container,
+  Title,
+  Content,
+  DetailsTop,
+  DetailsMid,
+  DetailsBottom,
+} from './style';
 
 export const About = () => {
   return (
     <Container id="about">
-      <h1>About</h1>
-      <p>bla lorem ipsum fulcrum</p>
-      <StyledLink to="/">Return Home</StyledLink>
+      <Title>Hey!</Title>
+      <Title>I Build Things With...</Title>
+      <Content>
+        <DetailsTop>Passion</DetailsTop>
+
+        <DetailsMid>Integrity</DetailsMid>
+
+        <DetailsBottom>Creativity</DetailsBottom>
+      </Content>
     </Container>
   );
 };

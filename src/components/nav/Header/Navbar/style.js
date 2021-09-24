@@ -3,11 +3,12 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   display: flex;
   position: fixed;
+  max-width: 86%;
+  padding: 0.25rem 0;
   align-items: center;
   justify-content: space-between;
-  padding: inherit;
   overflow: hidden;
-  max-width: 95%;
+  background: transparent;
   z-index: 4;
 `;
 

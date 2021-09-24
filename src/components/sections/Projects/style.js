@@ -3,14 +3,6 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   width: 100%;
   padding: 3rem 0;
-  background-image: linear-gradient(
-    to bottom,
-    #f8f8f8,
-    #f7f7f7,
-    #f5f5f5,
-    #f4f4f4,
-    #f2f2f2
-  );
 `;
 
 export const ProjectContainer = styled.div`
@@ -22,8 +14,8 @@ export const ProjectContainer = styled.div`
   padding: 4rem 0;
   width: 99%;
   max-width: 100%;
+  background: inherit;
   overflow-x: hidden;
-  background-image: inherit;
   z-index: -2;
   @media (max-width: 900px) {
     padding: 1.5rem 0;

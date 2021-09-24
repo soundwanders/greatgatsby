@@ -3,6 +3,7 @@ module.exports = {
   defaultDescription: `Welcome to Jared Coletta's Developer Portfolio`,
   author: 'soundwanders',
   url: 'https://jcoletta.vercel.app/',
+  role: 'Web Developer',
   logo: `src/assets/icons/favicon.png`,
   legalName: 'Jared Coletta',
   socialLinks: {

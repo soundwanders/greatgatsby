@@ -1,15 +1,14 @@
 import React from 'react';
 import { Seo } from 'components/common';
-import { Wrapper, HomeContainer, User, Subtitle } from './style';
+import { HomeContainer, User, Subtitle } from './style';
+import config from 'data/config';
 
 export const HomePage = () => {
   return (
-    <Wrapper>
-      <HomeContainer id="home">
-        <Seo title="Home" />
-        <User> Jared Coletta </User>
-        <Subtitle> &#60; Web Developer &#47;&nbsp;&#62;</Subtitle>
-      </HomeContainer>
-    </Wrapper>
+    <HomeContainer id="home">
+      <Seo title="Home" />
+      <User> {config.legalName} </User>
+      <Subtitle> &#60; {config.role} &#47;&nbsp;&#62;</Subtitle>
+    </HomeContainer>
   );
 };
