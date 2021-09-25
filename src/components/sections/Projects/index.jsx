@@ -49,20 +49,11 @@ export class Projects extends Component {
               <Item>
                 <img
                   src="https://res.cloudinary.com/cloudwanders/image/upload/v1632101037/2nebula_p6uq1n.png"
-                  alt="Project Showcase - Nebula "
+                  alt="Project Showcase - Nebula"
                 />
               </Item>
             </Card>
-
-            <Card>
-              <Item>
-                <img
-                  src="https://res.cloudinary.com/cloudwanders/image/upload/v1632100133/2bravebear_gnod6e.png"
-                  alt="Project Showcase - BraveBear "
-                />
-              </Item>
-            </Card>
-
+    
             <Card>
               <Item>
                 <img
@@ -75,8 +66,8 @@ export class Projects extends Component {
             <Card>
               <Item>
                 <img
-                  src="https://res.cloudinary.com/cloudwanders/image/upload/v1632101036/2scraper_ce8h56.png"
-                  alt="Project Showcase - Node Web Scraper"
+                  src="https://res.cloudinary.com/cloudwanders/image/upload/v1632100133/2bravebear_gnod6e.png"
+                  alt="Project Showcase - BraveBear"
                 />
               </Item>
             </Card>
@@ -84,8 +75,17 @@ export class Projects extends Component {
             <Card>
               <Item>
                 <img
-                  src="https://res.cloudinary.com/cloudwanders/image/upload/v1632100133/2budget_smu70d.png"
+                  src="https://res.cloudinary.com/cloudwanders/image/upload/v1632530287/2budget_cxb5gt.png"
                   alt="Project Showcase - Budget App"
+                />
+              </Item>
+            </Card>
+
+            <Card>
+              <Item>
+                <img
+                  src="https://res.cloudinary.com/cloudwanders/image/upload/v1632101036/2scraper_ce8h56.png"
+                  alt="Project Showcase - Node Web Scraper"
                 />
               </Item>
             </Card>

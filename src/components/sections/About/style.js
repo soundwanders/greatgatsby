@@ -8,7 +8,7 @@ export const Container = styled.div`
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 4rem 0;
   overflow-x: hidden;
   color: #222;
   background-color: #f8f8f8;

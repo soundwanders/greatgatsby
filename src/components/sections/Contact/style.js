@@ -2,7 +2,9 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   display: flex;
-  padding: 3rem 0;
+  align-items: flex-start;
+  padding: 6rem 0;
+  justify-content: space-between;
   background-image: linear-gradient(
     to bottom,
     #46b2f5,
@@ -11,9 +13,7 @@ export const Wrapper = styled.div`
     #6bc3fa,
     #76c9fb
   );
-  align-items: flex-start;
   overflow: hidden;
-  justify-content: space-between;
   @media (max-width: 960px) {
     flex-direction: column;
   }
@@ -47,7 +47,7 @@ export const Title = styled.h2`
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  font-size: 3.9rem;
+  font-size: 3.5rem;
   color: #f8f8f8;
   padding: 1rem 0;
   margin: 0 auto;

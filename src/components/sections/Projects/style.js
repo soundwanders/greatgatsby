@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   width: 100%;
-  padding: 3rem 0;
+  padding: 6rem 0;
 `;
 
 export const ProjectContainer = styled.div`
@@ -11,7 +11,7 @@ export const ProjectContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding: 4rem 0;
+  padding: 0;
   width: 99%;
   max-width: 100%;
   background: inherit;
@@ -59,14 +59,15 @@ export const Item = styled.div`
     img {
       display: flex;
       width: 700px;
-      height: 380px;
-      max-height: 380px;
+      height: 420px;
+      max-height: 420px;
       box-shadow: 9px 11px 3px -5px rgba(54,54,54,0.4);
       -webkit-box-shadow: 9px 11px 3px -5px rgba(54,54,54,0.4);
       -moz-box-shadow: 9px 11px 3px -5px rgba(54,54,54,0.4);
       
       @media (max-width: 900px) {
-        width: 520px;
+        width: 500px;
+        height: 300px;
         max-height: 300px;
       }
       @media (max-width: 600px) {
