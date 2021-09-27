@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   display: flex;
   align-items: flex-start;
-  padding: 6rem 0;
+  padding: 5rem 0;
   justify-content: space-between;
   background-image: linear-gradient(
     to bottom,
@@ -14,7 +14,8 @@ export const Wrapper = styled.div`
     #76c9fb
   );
   overflow: hidden;
-  @media (max-width: 960px) {
+  @media (max-width: 900px) {
+    padding: 4rem 0;
     flex-direction: column;
   }
 `;

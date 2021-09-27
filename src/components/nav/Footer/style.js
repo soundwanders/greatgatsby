@@ -30,43 +30,16 @@ export const Flex = styled.div`
   }
 `;
 
-export const FooterLinks = styled.div`
-  display: inherit;
-  width: 55%;
-  align-items: center;
-  padding-top: 2rem;
-  z-index: 2;
-  @media (max-width: 900px) {
-    width: 100%;
-    justify-content: center;
-    margin: 0 auto;
-    padding-top: 1.5rem;
-  }
-
-  a {
-    margin: 0 0.5rem;
-    img {
-      margin: 0 2.5rem 0 1.5rem;
-    }
-    &:first-child,
-    &:last-child {
-      margin: 0;
-    }
-  }
-`;
-
 export const Copyright = styled.div`
   display: inherit;
-  font-family: Ubuntu, 'Roboto', Helvetica, sans-serif;
-  letter-spacing: 0.5px;
-  font-size: 1.1rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
+  padding: 1.25rem 0;
   margin: 0 auto;
   overflow: hidden;
+  font-family: Ubuntu, 'Roboto', Helvetica, sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
 
   @media (max-width: 900px) {
-    padding: 0.5rem 0;
     font-size: 0.875rem;
   }
 `;

@@ -5,4 +5,4 @@ export * from './Input';
 export * from './Layout';
 export * from './Modal';
 export * from './Seo';
-export * from './StyledLinks';
+export * from './StyledLink';

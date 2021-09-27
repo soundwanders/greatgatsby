@@ -20,7 +20,7 @@ export const Wrapper = styled.div`
             display: flex;
             float: left;
             align-items: center;
-            margin: 0 2.25rem;
+            margin: 0 2.5rem;
             padding: 0;
             font-size: 2rem;
             font-weight: 600;
@@ -33,6 +33,9 @@ export const Wrapper = styled.div`
             }
             a:hover {
                 transform:scale(1.011);
+            }
+            img {
+                padding: 0.25rem 0 0 0;
             }
             @media (max-width: 960px) {
                 display: none;
@@ -55,6 +58,10 @@ export const Wrapper = styled.div`
             &:last-child {
                 margin-bottom: unset;
             }
+        }
+        img {
+            margin: 0 auto;
+            transform: translateY(40px);
         }
     `}
 `;

@@ -49,7 +49,7 @@ export const Seo = ({
       <meta name="description" content={description} />
       <meta
         name="image"
-        content="https://res.cloudinary.com/cloudwanders/image/upload/v1631992563/thumbnail_wkkmvz.png"
+        content="https://res.cloudinary.com/cloudwanders/image/upload/v1632713646/thumbnail_bpik7e.png"
       />
 
       <meta property="og:url" content={`${url}${location}/?ref=jcoletta.com`} />
@@ -58,7 +58,7 @@ export const Seo = ({
       <meta property="og:description" content={description} />
       <meta
         property="og:image"
-        content="https://res.cloudinary.com/cloudwanders/image/upload/v1631992563/thumbnail_wkkmvz.png"
+        content="https://res.cloudinary.com/cloudwanders/image/upload/v1632713646/thumbnail_bpik7e.png"
       />
 
       <meta name="twitter:card" content="summary" />
@@ -66,7 +66,7 @@ export const Seo = ({
       <meta name="twitter:description" content={description} />
       <meta
         name="twitter:image:src"
-        content="https://res.cloudinary.com/cloudwanders/image/upload/v1631992563/thumbnail_wkkmvz.png"
+        content="https://res.cloudinary.com/cloudwanders/image/upload/v1632713646/thumbnail_bpik7e.png"
       />
       <script type="application/ld+json">{structuredDataOrganization}</script>
       <title>{title}</title>

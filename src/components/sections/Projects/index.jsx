@@ -53,7 +53,7 @@ export class Projects extends Component {
                 />
               </Item>
             </Card>
-    
+
             <Card>
               <Item>
                 <img
@@ -75,7 +75,7 @@ export class Projects extends Component {
             <Card>
               <Item>
                 <img
-                  src="https://res.cloudinary.com/cloudwanders/image/upload/v1632530287/2budget_cxb5gt.png"
+                  src="https://res.cloudinary.com/cloudwanders/image/upload/v1632706808/2budget_xwrumq.png"
                   alt="Project Showcase - Budget App"
                 />
               </Item>

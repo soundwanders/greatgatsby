@@ -1,30 +1,15 @@
 import React from 'react';
 import { BlockContainer } from 'components/common';
-import { Foot, Flex, FooterLinks, Copyright } from './style';
-import socials from './socials.json';
+import { Foot, Flex, Copyright } from './style';
 
 export const Footer = () => {
   return (
     <Foot>
       <Flex as={BlockContainer}>
         <Copyright>
-          © {new Date().getFullYear()} soundwanders | All Rights Reserved
+          © {new Date().getFullYear()} | soundwanders | All Rights Reserved
           {` `}
         </Copyright>
-
-        <FooterLinks>
-          {socials.map(({ id, name, link, icon }) => (
-            <a
-              key={id}
-              href={link}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`Check out my ${name}`}
-            >
-              <img width="34" src={icon} alt={name} />
-            </a>
-          ))}
-        </FooterLinks>
       </Flex>
     </Foot>
   );
