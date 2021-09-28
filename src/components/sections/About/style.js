@@ -28,6 +28,13 @@ export const Title = styled.h1`
   font-size: 4vmax;
   font-family: 'Roboto', sans-serif;
 `;
+export const Subtitle = styled.h1`
+  display: inherit;
+  text-align: inherit;
+  padding: 1rem 3rem;
+  font-size: 2.5vmax;
+  font-family: inherit;
+`;
 
 export const Content = styled.div`
   display: flex;

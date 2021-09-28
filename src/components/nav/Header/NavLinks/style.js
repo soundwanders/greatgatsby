@@ -30,9 +30,12 @@ export const Wrapper = styled.div`
                 &:last-child {
                     margin-right: unset;
                 }
-            }
-            a:hover {
-                transform:scale(1.011);
+            }    img {
+                display: flex;
+                flex-basis: 100%;
+                flex-direction: column;
+                align-self: center;
+                flex-wrap: nowrap;
             }
             img {
                 padding: 0.25rem 0 0 0;
@@ -43,6 +46,8 @@ export const Wrapper = styled.div`
         `
         : `
         display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
         justify-content: center;
         margin: 0 auto;
         padding: 1rem 0;
@@ -52,16 +57,30 @@ export const Wrapper = styled.div`
         text-shadow: 0.5px 0px #f8f8f8;
         color: #333399;
         float: none;
-        flex-direction: column;
         a {
             margin-bottom: 1rem;
             &:last-child {
                 margin-bottom: unset;
             }
         }
-        img {
-            margin: 0 auto;
-            transform: translateY(40px);
-        }
     `}
+`;
+
+export const Socials = styled.div`
+  display: grid;
+  bottom: 0;
+  align-items: center;
+  grid-template-columns: repeat(2, 0.5fr);
+  grid-template-rows: 4fr;
+  @media (max-width: 900px) {
+    padding: 4rem 1rem 0 1rem;
+  }
+
+  img {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    flex-wrap: nowrap;
+    padding: 0.1rem;
+  }
 `;

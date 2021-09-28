@@ -1,6 +1,6 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { Wrapper } from './style';
+import { Wrapper, Socials } from './style';
 import socialData from './socials.json';
 
 const NavLinks = ({ desktop }) => {
@@ -10,17 +10,19 @@ const NavLinks = ({ desktop }) => {
       <AnchorLink href="#about">About</AnchorLink>
       <AnchorLink href="#projects">Projects</AnchorLink>
       <AnchorLink href="#contact">Contact</AnchorLink>
-      {socialData.map(({ id, name, link, icon }) => (
-        <a
-          key={id}
-          href={link}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label={`Check out my ${name}`}
-        >
-          <img width="36" src={icon} alt={name} />
-        </a>
-      ))}
+      <Socials>
+        {socialData.map(({ id, name, link, icon }) => (
+          <a
+            key={id}
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Check out my ${name}`}
+          >
+            <img width="36" src={icon} alt={name} />
+          </a>
+        ))}
+      </Socials>
     </Wrapper>
   );
 };

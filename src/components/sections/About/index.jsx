@@ -2,6 +2,7 @@ import React from 'react';
 import {
   Container,
   Title,
+  Subtitle,
   Content,
   DetailsTop,
   DetailsMid,
@@ -11,14 +12,12 @@ import {
 export const About = () => {
   return (
     <Container id="about">
-      <Title>Hey!</Title>
-      <Title>I Build Things With...</Title>
+      <Title>Hey there! 👋 </Title>
+      <Subtitle>Let's Bring Your Big Idea to Life.</Subtitle>
       <Content>
-        <DetailsTop>Passion</DetailsTop>
-
-        <DetailsMid>Integrity</DetailsMid>
-
-        <DetailsBottom>Creativity</DetailsBottom>
+        <DetailsTop>Creative Solutions</DetailsTop>
+        <DetailsMid>Passion & Creativity</DetailsMid>
+        <DetailsBottom>Open Communications</DetailsBottom>
       </Content>
     </Container>
   );
