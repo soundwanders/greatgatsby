@@ -3,7 +3,9 @@
 </p>
 
 <h1 align="center">
-  Developer Portfolio
+  <a href="https://www.jcoletta.com">
+    JCOLETTA.COM
+  </a>
 </h1>
 
 <a href="https://jcoletta.vercel.app" align="center">
@@ -12,6 +14,8 @@
 
 </a>
 
+
+
 ### 🛸 Built With...
 
 - Gatsby
@@ -19,9 +23,8 @@
 - Axios
 - Yup
 - Continuous Deployment with <a href="https://vercel.com/" rel="noopener noreferral" style="text-decoration: none;">Vercel</a>
-- Used <a href="https://formik.org/" rel="noopener noreferral" style="text-decoration: none;">Formik</a> to validate contact form data
-- Contact Form submissions are secured by Google Recaptcha
-- Form endpoint provided by <a href="https://formium.io" rel="noopener noreferral" style="text-decoration: none;">Formium</a>
+- Contact Form submissions secured by Google Recaptcha
+- Form submission endpoint provided by <a href="https://formium.io" rel="noopener noreferral" style="text-decoration: none;">Formium</a>
 
 <br /><br />
 
@@ -32,6 +35,8 @@
 2.  **`/src/assets`**: This directory holds all media files such as images, icons and illustrations (svgs, pngs, etc).
 
 3.  **`./components/common`**: This directory holds all 'common' components, which are reusable elements like Containers and Buttons.
+
+5.  **`./components/nav`**: This directory holds all navigation elements such as the navbar, side bar, and nav links.
 
 4.  **`./components/sections`**: This directory holds all of the page section components, which are imported into 'pages' directory to build the site.
 
@@ -55,6 +60,7 @@
 └─── src
      │
      └─── api
+     │    └── contact
      │
      └─── assets
      │    └── icons
@@ -72,9 +78,9 @@
      ├─── data
      │    └── config
      │
-     └─── pages
-     │
      └─── hooks
+     │
+     └─── pages
 
 ```
 
