@@ -52,28 +52,23 @@ export const Subtitle = styled.h1`
   font-family: 'LuloCleanW01-OneBold', 'Roboto', sans-serif;
   @media (max-width: 600px) {
     font-size: 2vmax;
-    transform: translateY(-4.5rem);
+    transform: translateY(-4rem);
   }
 `;
 
 export const ArrowContainer = styled.div`
-  display: inline-block;
-  position: absolute;
-  bottom: 4rem;
-  width: 99%;
+  display: flex;
+  max-width: 100%
   justify-content: center;
-  padding: 1rem 0;
+  padding: 4rem 0 0 0;
   margin: 0;
-  @media (max-width: 900px) {
-    bottom: 7rem;
-  }
 `;
 
 export const Arrow = styled.img`
-  display: block;
+  display: inherit;
   width: 3rem;
   margin: 0 auto;
   padding: 0.1rem;
-  opacity: 0.9;
+  opacity: 0.95;
   z-index: 2;
 `;
