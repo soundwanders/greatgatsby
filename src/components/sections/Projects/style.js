@@ -79,8 +79,8 @@ export const Item = styled.div`
       }
       @media (max-width: 600px) {
         width: 100%;
-        height: 200px;
-        max-height: 200px;
+        height: 210px;
+        max-height: 210px;
         padding: 0;
       }
     }
