@@ -62,8 +62,11 @@ export const ArrowContainer = styled.div`
   bottom: 4rem;
   width: 99%;
   justify-content: center;
-  padding: 0 0 3rem 0;
+  padding: 1rem 0;
   margin: 0;
+  @media (max-width: 900px) {
+    bottom: 7rem;
+  }
 `;
 
 export const Arrow = styled.img`
@@ -72,7 +75,5 @@ export const Arrow = styled.img`
   margin: 0 auto;
   padding: 0.1rem;
   opacity: 0.9;
-  z-index: 6;
-  @media (max-width: 900px) {
-  }
+  z-index: 2;
 `;
