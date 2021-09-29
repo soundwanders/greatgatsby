@@ -24,15 +24,17 @@ export const Container = styled.div`
 export const Title = styled.h1`
   display: inherit;
   text-align: center;
-  padding: 1rem 3rem;
+  padding: 1rem 0;
   font-size: 4vmax;
   font-family: 'Roboto', sans-serif;
 `;
-export const Subtitle = styled.h1`
+
+export const Subtitle = styled.h2`
   display: inherit;
+  width: 60%;
   text-align: inherit;
   padding: 1rem 3rem;
-  font-size: 2.5vmax;
+  font-size: 2vmax;
   font-family: inherit;
 `;
 
@@ -53,7 +55,7 @@ export const DetailsTop = styled.h1`
   display: inherit;
   text-align: center;
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 1rem 0 2rem 0;
   font-size: 5vmax;
   background: #5d2ad3;
   background: -webkit-linear-gradient(to right, #333399 15%, #ff662e 100%);
@@ -67,7 +69,7 @@ export const DetailsMid = styled.h1`
   display: inherit;
   text-align: inherit;
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 2rem 0;
   font-size: 5vmax;
   background: #5d2ad3;
   background: -webkit-linear-gradient(to right, #333399 15%, #ff662e 100%);
@@ -81,7 +83,7 @@ export const DetailsBottom = styled.h1`
   display: inherit;
   text-align: inherit;
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 2rem 0;
   padding-bottom: 3rem;
   font-size: 5vmax;
   background: #5d2ad3;
