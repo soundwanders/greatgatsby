@@ -24,18 +24,21 @@ export const Container = styled.div`
 export const Title = styled.h1`
   display: inherit;
   text-align: center;
-  padding: 1rem 0;
+  padding: 1rem;
   font-size: 4vmax;
   font-family: 'Roboto', sans-serif;
 `;
 
 export const Subtitle = styled.h2`
   display: inherit;
-  width: 60%;
+  width: 70%;
   text-align: inherit;
-  padding: 1rem 3rem;
+  padding: 1rem;
   font-size: 2vmax;
   font-family: inherit;
+  line-height: 1.5rem;
+  @media (max-width: 900px) {
+    font-size: 2.25vmax;
 `;
 
 export const Content = styled.div`
