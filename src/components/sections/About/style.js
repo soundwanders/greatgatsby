@@ -27,6 +27,7 @@ export const Title = styled.h1`
   padding: 1rem;
   font-size: 4vmax;
   font-family: 'Roboto', sans-serif;
+  color: #222;
 `;
 
 export const Subtitle = styled.h2`
@@ -36,11 +37,12 @@ export const Subtitle = styled.h2`
   padding: 1rem;
   font-size: 2vmax;
   font-family: inherit;
+  color: #222;  
   line-height: 1.5rem;
   @media (max-width: 900px) {
+    width: 60%;
     font-size: 2.25vmax;
 `;
-
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
@@ -50,6 +52,7 @@ export const Content = styled.div`
   max-width: 60%;
   margin: 0 auto;
   padding: 2rem 0;
+  color: #222;
   overflow-x: hidden;
   font-family: 'Filson Soft', 'Roboto', sans-serif;
 `;
