@@ -14,8 +14,6 @@
 
 </a>
 
-
-
 ### 🛸 Built With...
 
 - Gatsby
@@ -48,7 +46,7 @@
 
 9.  **`gatsby-config.js`**: This is the main configuration file for any Gatsby site. This is where you can specify information about your site like its title (metadata), which plugins you are using, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/) for more details).
 
-10.  **`gatsby-node.js`**: This file is where Gatsby expects to find the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/). When present, these allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+10. **`gatsby-node.js`**: This file is where Gatsby expects to find the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/). When present, these allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
 <br /><br />
 

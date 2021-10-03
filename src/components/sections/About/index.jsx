@@ -18,22 +18,21 @@ export const About = () => {
         provides. It offers me the perfect opportunity to improve my artistic
         and technical skills.
       </Subtitle>
-      
+
       <Subtitle>
         There is never a shortage of problems to solve, ideas to explore,
         knowledge to absorb, and that's a beautiful thing.
       </Subtitle>
-      
+
       <Subtitle>
-        I've stumbled a couple of times along the way (maybe even fell flat on
-        my face, sometimes). I have learned to embrace the adversity and enjoy
-        the growth that comes from it.
+        I've stumbled plenty of times along the way (maybe even fell flat on my
+        face, sometimes). I have learned to embrace the adversity and use it as
+        a catalyst for continuous growth.
       </Subtitle>
-      
+
       <Subtitle>
         While my journey as a Developer is only beginning, I have noticed that I
-        gravitate towards a few core concepts whenever I work on a new
-        project...
+        gravitate towards a few core concepts whenever I'm creating a project...
       </Subtitle>
 
       <Content>
