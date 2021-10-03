@@ -61,7 +61,7 @@ export const DetailsTop = styled.h1`
   display: inherit;
   text-align: center;
   margin: 0 auto;
-  padding: 1rem 0 2rem 0;
+  padding: 2rem 0;
   font-size: 5vmax;
   background: #5d2ad3;
   background: -webkit-linear-gradient(to right, #333399 15%, #ff662e 100%);
