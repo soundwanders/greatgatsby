@@ -2,8 +2,8 @@ import React from 'react';
 import {
   Container,
   Title,
-  Subtitle,
-  Content,
+  Section,
+  Concepts,
   DetailsTop,
   DetailsMid,
   DetailsBottom,
@@ -12,35 +12,34 @@ import {
 export const About = () => {
   return (
     <Container id="about">
-      <Title>Hey there! 👋 </Title>
-      <Subtitle>
+      <Title>Hey there! 👋</Title>
+      <Section>
         One reason I fell in love with web development is the creative outlet it
-        provides. It offers me the perfect opportunity to improve my artistic
-        and technical skills.
-      </Subtitle>
+        provides. It offers me the opportunity for technical and artistic growth.
+      </Section>
 
-      <Subtitle>
-        There is never a shortage of problems to solve, ideas to explore,
-        knowledge to absorb, and that's a beautiful thing.
-      </Subtitle>
+      <Section>
+        There is never a shortage of problems to solve, ideas to explore and
+        knowledge to absorb. It's a beautiful thing.
+      </Section>
 
-      <Subtitle>
+      <Section>
         I've stumbled plenty of times along the way (maybe even fell flat on my
-        face, sometimes). I have learned to embrace the adversity and use it as
-        a catalyst for continuous growth.
-      </Subtitle>
+        face, sometimes), but I have learned to embrace the adversity and use it as
+        a catalyst for continuous improvement.
+      </Section>
 
-      <Subtitle>
-        While my journey as a Developer is only beginning, I have noticed that I
-        gravitate towards a few core concepts whenever I'm creating a project...
-      </Subtitle>
+      <Section>
+        While my journey as a Developer has just begun, I have found myself
+        gravitating towards a few core concepts whenever I'm creating a project...
+      </Section>
 
-      <Content>
+      <Concepts>
         <DetailsTop>Clean Code</DetailsTop>
         <DetailsMid>Aesthetic Appeal</DetailsMid>
         <DetailsMid>Creative Solutions</DetailsMid>
         <DetailsBottom>Responsive Design</DetailsBottom>
-      </Content>
+      </Concepts>
     </Container>
   );
 };
