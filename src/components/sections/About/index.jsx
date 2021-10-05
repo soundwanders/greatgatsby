@@ -16,10 +16,12 @@ export const About = () => {
       <Section>
         I fell in love with web development because of the creative outlet it
         provides. It offers me a limitless opportunity for technical and artistic growth.
-        I have been passionate about art as far back as I can remember. I was 
-        was always doodling, whether it was a logo for my non-existent hockey team or 
-        a sketch of one of my favorite animals. The thing is, as much as I enjoy
-        the process, it turns out I'm a lousy artist. So, I decided to let the computer 
+      </Section>
+
+      <Section>
+        I have been passionate about art as far back as I can remember. I was always doodling, 
+        whether it was a logo for my non-existent hockey team or a sketch of my favorite animal.
+        Well, it turns out I'm a lousy artist. So I decided to let the computer 
         do the work for me. 🎨
       </Section>
 
