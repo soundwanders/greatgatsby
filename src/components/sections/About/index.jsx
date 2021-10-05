@@ -14,19 +14,24 @@ export const About = () => {
     <Container id="about">
       <Title>Hey there! 👋</Title>
       <Section>
-        One reason I fell in love with web development is the creative outlet it
-        provides. It offers me the opportunity for technical and artistic growth.
-      </Section>
-
-      <Section>
-        There is never a shortage of problems to solve, ideas to explore and
-        knowledge to absorb. It's a beautiful thing.
+        I fell in love with web development because of the creative outlet it
+        provides. It offers me a limitless opportunity for technical and artistic growth.
+        I have been passionate about art as far back as I can remember. I was 
+        was always doodling, whether it was a logo for my non-existent hockey team or 
+        a sketch of one of my favorite animals. The thing is, as much as I enjoy
+        the process, it turns out I'm a lousy artist. So, I decided to let the computer 
+        do the work for me. 🎨
       </Section>
 
       <Section>
         I've stumbled plenty of times along the way (maybe even fell flat on my
         face, sometimes), but I have learned to embrace the adversity and use it as
         a catalyst for continuous improvement.
+      </Section>
+
+      <Section>
+        There is never a shortage of problems to solve, ideas to explore and
+        knowledge to absorb. It's truly a beautiful thing.
       </Section>
 
       <Section>
