@@ -29,6 +29,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Bar = styled.div`
+  position: fixed;
   width: 1.7rem;
   height: 0.15rem;
   margin-bottom: 0.3rem;
