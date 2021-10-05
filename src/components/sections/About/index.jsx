@@ -19,8 +19,11 @@ export const About = () => {
       </Section>
 
       <Section>
-        I have been passionate about art as far back as I can remember. I was always doodling, 
+        As far back as I can remember, I have been passionate about art. I was always doodling, 
         whether it was a logo for my non-existent hockey team or a sketch of my favorite animal.
+      </Section>
+
+      <Section>
         Well, it turns out I'm a lousy artist. So I decided to let the computer 
         do the work for me. 🎨
       </Section>
