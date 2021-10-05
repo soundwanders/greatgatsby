@@ -25,7 +25,7 @@ export const About = () => {
 
       <Section>
         Well, it turns out I'm a lousy artist. So I decided to let the computer 
-        do the work for me. 🎨
+        do the work for me. 🎨🖌️
       </Section>
 
       <Section>
@@ -40,7 +40,7 @@ export const About = () => {
       </Section>
 
       <Section>
-        While my journey as a Developer has just begun, I have found myself
+        While my journey as a Developer has just begun, I have been consistently 
         gravitating towards a few core concepts whenever I'm creating a project...
       </Section>
 
