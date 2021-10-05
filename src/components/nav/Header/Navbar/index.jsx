@@ -9,7 +9,7 @@ const Navbar = () => {
     <Wrapper as={BlockContainer}>
       <Brand as={Link} to="/">
         <img
-          src="https://res.cloudinary.com/cloudwanders/image/upload/v1631840812/tmnt_qbkwup.svg"
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1633297909/glasses-with-mustache_qajfty.svg"
           alt="Click to Return to top of Home page"
           width="100%"
         />
