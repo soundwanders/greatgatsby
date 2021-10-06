@@ -11,6 +11,7 @@ const Navbar = () => {
         <img
           src="https://res.cloudinary.com/cloudwanders/image/upload/v1633297909/glasses-with-mustache_qajfty.svg"
           alt="Click to Return to top of Home page"
+          title="Return to top of page"
           width="100%"
         />
       </Brand>

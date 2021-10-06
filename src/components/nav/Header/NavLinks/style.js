@@ -5,15 +5,15 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
     a {
-    font-family: 'Roboto', Ubuntu, Helvetica, sans-serif;
-    color: #202060;
-    text-shadow: 0.2px 0px #f4f4f4;
-    font-weight: 600;
-    text-decoration: none;
-    z-index: 8;
-    @media (max-width: 960px) {
-        color: none;
-    }
+        font-family: 'Roboto', Ubuntu, Helvetica, sans-serif;
+        color: #302060;
+        text-shadow: 0.2px 0px #f4f4f4;
+        font-weight: 600;
+        text-decoration: none;
+        z-index: 8;
+        @media (max-width: 960px) {
+            color: none;
+        }
     ${({ desktop }) =>
       desktop
         ? `
@@ -30,7 +30,8 @@ export const Wrapper = styled.div`
                 &:last-child {
                     margin-right: unset;
                 }
-            }    img {
+            }
+            img {
                 display: flex;
                 flex-basis: 100%;
                 flex-direction: column;
@@ -50,7 +51,7 @@ export const Wrapper = styled.div`
         flex-wrap: nowrap;
         justify-content: center;
         margin: 0 auto;
-        padding: 1rem 0;
+        padding: 2.5rem 0 8px 0;
         transform: translateY(3rem);
         text-align: center;
         font-size: 1.25rem;
@@ -75,7 +76,6 @@ export const Socials = styled.div`
   @media (max-width: 900px) {
     padding: 4rem 1rem 0 1rem;
   }
-
   img {
     display: flex;
     flex-direction: column;

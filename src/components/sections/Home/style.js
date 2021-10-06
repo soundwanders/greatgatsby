@@ -58,17 +58,3 @@ export const Subtitle = styled.h1`
     transform: translateY(-4.5rem);
   }
 `;
-
-export const MobileBanner = styled.div`
-  display: block;
-  width: 100%;
-  padding: 0;
-  margin: 0 auto;
-  background: url(https://res.cloudinary.com/cloudwanders/image/upload/v1633297909/glasses-with-mustache_qajfty.svg);
-  background-repeat: no-repeat;
-  background-position: fixed;
-  background-fit: contain;
-  @media (min-width: 900px) {
-    display: none;
-  }
-`

@@ -63,15 +63,14 @@ export const Item = styled.div`
     img {
       display: flex;
       width: 700px;
-      height: 420px;
-      max-height: 420px;
+      height: 460px;
+      max-height: 460px;
       box-shadow: 9px 11px 3px -5px rgba(60, 60, 60, 0.4);
       -webkit-box-shadow: 9px 11px 3px -5px rgba(60, 60, 60, 0.4);
       -moz-box-shadow: 9px 11px 3px -5px rgba(60, 60, 60, 0.4);
       &:hover {
         cursor: pointer;
       }
-      
       @media (max-width: 900px) {
         width: 500px;
         height: 300px;

@@ -38,7 +38,7 @@
 
 5.  **`./components/sections`**: This directory holds all of the page section components, which are imported into 'pages' directory to build the site.
 
-6.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent, with plenty of customization options to suit your development style.
+6.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent, with plenty of customization options available.
 
 7.  **`gatsby-config.js`**: This is the main configuration file for any Gatsby site. This is where you can specify information about your site like its title (metadata), which plugins you are using, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/) for more details).
 

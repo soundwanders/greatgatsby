@@ -3,6 +3,7 @@ import {
   Container,
   Title,
   Section,
+  Icons,
   Concepts,
   DetailsTop,
   DetailsMid,
@@ -15,33 +16,39 @@ export const About = () => {
       <Title>Hey there! 👋</Title>
       <Section>
         I fell in love with web development because of the creative outlet it
-        provides. It offers me a limitless opportunity for technical and artistic growth.
+        provides. It offers me a limitless opportunity for technical and
+        artistic growth.
       </Section>
 
       <Section>
-        As far back as I can remember, I have been passionate about art. I was always doodling, 
-        whether it was a logo for my non-existent hockey team or a sketch of my favorite animal.
+        As far back as I can remember, I have been passionate about art. I was
+        always doodling, whether it was a logo for my non-existent hockey team
+        or a sketch of my favorite animal.
       </Section>
 
-      <Section>
-        Well, it turns out I'm a lousy artist. So I decided to let the computer 
-        do the work for me. 🎨🖌️
-      </Section>
+      <Section>Well, it turns out I'm a lousy artist...</Section>
+
+      <Section>So I decided to let the computer do the work for me.</Section>
+
+      <Icons>🎨 &#8594; 💻</Icons>
 
       <Section>
         I've stumbled plenty of times along the way (maybe even fell flat on my
-        face, sometimes), but I have learned to embrace the adversity and use it as
-        a catalyst for continuous improvement.
+        face), but I have learned to embrace the adversity and use it as a
+        catalyst for continuous improvement.
       </Section>
 
       <Section>
-        There is never a shortage of problems to solve, ideas to explore and
-        knowledge to absorb. It's truly a beautiful thing.
+        When it comes to development, there is an endless supply of problems to
+        solve, fresh ideas to explore and knowledge to absorb...
       </Section>
 
+      <Section>It's truly a beautiful thing.</Section>
+
       <Section>
-        While my journey as a Developer has just begun, I have been consistently 
-        gravitating towards a few core concepts whenever I'm creating a project...
+        While my journey feels like it has just begun, whenever I am working on
+        a project I have found myself gravitating towards a few core concepts
+        that resonate with me...
       </Section>
 
       <Concepts>

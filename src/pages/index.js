@@ -10,12 +10,12 @@ import {
 
 const Home = () => (
   <Layout>
-      <Seo />
-      <HomePage />
-      <About />
-      <Projects />
-      <Contact />
-      <Skills />
+    <Seo />
+    <HomePage />
+    <About />
+    <Projects />
+    <Contact />
+    <Skills />
   </Layout>
 );
 

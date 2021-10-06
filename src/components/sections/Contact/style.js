@@ -7,11 +7,11 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   background-image: linear-gradient(
     to bottom,
+    #39b1fb,
     #46b2f5,
     #53b8f7,
     #5fbef8,
-    #6bc3fa,
-    #76c9fb
+    #6bc3fa
   );
   overflow: hidden;
   @media (max-width: 900px) {
@@ -64,10 +64,10 @@ export const Photo = styled.div`
   display: inline-block;
   width: 55%;
   margin: 0 auto;
-  padding-top: 10%;
+  padding-top: 11%;
   overflow: hidden;
   @media (max-width: 600px) {
-    width: 70%;
+    width: 80%;
     margin-bottom: 1rem;
     padding-top: 1rem;
     padding-left: 4rem;

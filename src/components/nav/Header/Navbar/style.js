@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   display: flex;
   position: fixed;
   flex-wrap: nowrap;
-  max-width: 86%;
+  max-width: 86.5%;
   padding: 0.25rem 0;
   align-items: center;
   justify-content: space-between;
