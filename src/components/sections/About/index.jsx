@@ -15,8 +15,8 @@ export const About = () => {
     <Container id="about">
       <Title>Hey there! 👋</Title>
       <Section>
-        Growing up, I was always passionate about all sorts of different art. I was always creating, whether it was a logo for
-        my non-existent hockey team or writing songs for a band that never actually existed.
+        Growing up, I was always passionate about art. I was always creating, whether it was a logo for
+        my non-existent hockey team or writing songs for a band that never actually made it into existence.
       </Section>
 
       <Section>
@@ -24,11 +24,11 @@ export const About = () => {
       </Section>
 
       <Section>
-        The redeeming factor here is that I discovered pretty early on that I also love computers.
+        The redeeming factor here is that I discovered my love of computers pretty early on.
       </Section>
 
       <Section>
-        So, I decided to let the computer do the work for me.
+        So, I eventually decided to let the computer do the work for me.
       </Section>
 
       <Icons>🤖 &#8594; 🎨 </Icons>
