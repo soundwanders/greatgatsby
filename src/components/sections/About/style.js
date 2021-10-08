@@ -24,7 +24,7 @@ export const Title = styled.h1`
   display: flex;
   text-align: center;
   padding: 1rem;
-  font-size: 3.5vmax;
+  font-size: 4vmax;
   font-family: 'Roboto', sans-serif;
   color: inherit;
 `;
