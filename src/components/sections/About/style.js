@@ -76,6 +76,7 @@ export const DetailsTop = styled.h1`
   margin: 0 auto;
   padding: 2rem 0;
   font-size: 4vmax;
+  text-align: left;
   color: inherit;
   background: #5d2ad3;
   background: -webkit-linear-gradient(to right, #333399 15%, #ff662e 100%);
@@ -90,6 +91,7 @@ export const DetailsMid = styled.h1`
   margin: 0 auto;
   padding: 2rem 0;
   font-size: 4vmax;
+  text-align: left;
   color: inherit;
   background: #5d2ad3;
   background: -webkit-linear-gradient(to right, #333399 15%, #ff662e 100%);
@@ -105,6 +107,7 @@ export const DetailsBottom = styled.h1`
   padding: 2rem 0;
   padding-bottom: 3rem;
   font-size: 4vmax;
+  text-align: left;
   color: inherit;
   background: #5d2ad3;
   background: -webkit-linear-gradient(to right, #333399 15%, #ff662e 100%);
