@@ -77,10 +77,7 @@
 
 ```
 
-<h2>
-[Learn more about a Gatsby's project structure](https://www.gatsbyjs.com/docs/reference/gatsby-project-structure/)
-</h2>
-<br />
+<br /><br />
 
 ### 🐛 Report A Bug
 
