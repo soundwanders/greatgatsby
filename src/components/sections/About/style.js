@@ -73,7 +73,7 @@ export const Concepts = styled.div`
 
 export const DetailsTop = styled.h1`
   display: inherit;
-  text-align: inherit;
+  text-align: center;
   margin: 0 auto;
   padding: 2rem 0;
   font-size: 4vmax;
