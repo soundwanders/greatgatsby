@@ -15,8 +15,8 @@ export const About = () => {
     <Container id="about">
       <Title>How's it going? 👋</Title>
       <Section>
-        Growing up, I gravitated towards artistic outlets. I was constantly creating, whether it was a logo for
-        my non-existent hockey team or writing songs for a band that never actually made it into existence.
+        Growing up, I explored all sorts of artistic outlets. I was constantly creating, whether it was a new logo for
+        my hockey team or writing songs for a band that never actually made it into existence.
       </Section>
 
       <Section>
@@ -24,7 +24,7 @@ export const About = () => {
       </Section>
 
       <Section>
-        The redeeming factor here is that I discovered my love of computers pretty early on.
+        The redeeming factor in all of this is that I discovered a love of computers pretty early on.
       </Section>
 
       <Section>
@@ -47,12 +47,12 @@ export const About = () => {
 
       <Section>
         On a rainy day, you can find me reading some Kurt Vonnegut or
-        listening to a Ram Dass talk. I'm a sucker for a good story.
+        listening to a Ram Dass lecture.
       </Section>
 
       <Section>
-        While my journey as a Developer feels like it has just begun, I continue to
-        build a solid foundation that revolves around a few core concepts...
+        While my journey as a Developer feels like it has only just begun, I am committed to
+        building a solid foundation that revolves around a few core concepts...
       </Section>
 
       <Concepts>
