@@ -49,7 +49,7 @@ width: 25%;
 align-items: center;
 text-align: inherit;
 padding: 1rem 0;
-font-size: 5vmax;
+font-size: 4vmax;
 line-height: 1;
 color: inherit; 
 @media (max-width: 900px) {
