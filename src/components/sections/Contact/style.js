@@ -7,11 +7,11 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   background-image: linear-gradient(
     to bottom,
-    #39b1fb,
     #46b2f5,
     #53b8f7,
     #5fbef8,
-    #6bc3fa
+    #6bc3fa,
+    #76c9fb
   );
   overflow: hidden;
   @media (max-width: 900px) {
@@ -60,7 +60,7 @@ export const Title = styled.h2`
   }
 `;
 
-export const Photo = styled.div`
+export const Bird = styled.div`
   display: inline-block;
   width: 55%;
   margin: 0 auto;

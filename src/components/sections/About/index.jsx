@@ -15,22 +15,21 @@ export const About = () => {
     <Container id="about">
       <Title>Hey there! 👋</Title>
       <Section>
-        I fell in love with web development because of the creative outlet it
-        provides. It offers me a limitless opportunity for technical and
-        artistic growth.
+        Growing up, I was always passionate about and interested in all
+        different forms of art. I was always creating, whether it was a logo for
+        my non-existent hockey team or a sketch of an animal I just learned
+        about.
       </Section>
+
+      <Section>Well, it turns out I'm kind of a lousy artist...</Section>
 
       <Section>
-        As far back as I can remember, I have been passionate about art. I was
-        always doodling, whether it was a logo for my non-existent hockey team
-        or a sketch of my favorite animal.
+        The redeeming factor in all of this was that I also love computers.{' '}
+        <br />
+        So, I decided to let the machines do the work for me.
       </Section>
 
-      <Section>Well, it turns out I'm a lousy artist...</Section>
-
-      <Section>So I decided to let the computer do the work for me.</Section>
-
-      <Icons>🎨 &#8594; 💻</Icons>
+      <Icons>🤖 &#8594; 🎨 </Icons>
 
       <Section>
         I've stumbled plenty of times along the way (maybe even fell flat on my
@@ -39,16 +38,18 @@ export const About = () => {
       </Section>
 
       <Section>
-        When it comes to development, there is an endless supply of problems to
-        solve, fresh ideas to explore and knowledge to absorb...
+        When I'm not coding, I'd love to sit around and talk about hockey (Go
+        Avs!), animals, skateboarding, art, music, ancient history, true crime
+        &amp; unsolved mysteries.
       </Section>
 
-      <Section>It's truly a beautiful thing.</Section>
-
       <Section>
-        While my journey feels like it has just begun, whenever I am working on
-        a project I have found myself gravitating towards a few core concepts
-        that resonate with me...
+        On a rainy day, you might find me reading some Kurt Vonnegut or
+        listening to a Ram Dass talk. I'm a sucker for a good story.
+      </Section>
+      <Section>
+        While my journey as a Developer feels like it has just begun, I am
+        building a solid foundation that revolves around a few core concepts...
       </Section>
 
       <Concepts>

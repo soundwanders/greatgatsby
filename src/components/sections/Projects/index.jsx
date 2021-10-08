@@ -47,46 +47,76 @@ export class Projects extends Component {
 
             <Card>
               <Item>
-                <img
-                  src="https://res.cloudinary.com/cloudwanders/image/upload/v1632101037/2nebula_p6uq1n.png"
-                  alt="Project Showcase - Nebula"
-                />
+                <Modal
+                  show={this.state.show}
+                  handleClose={this.hideModal}
+                ></Modal>
+                <ModalWrapper type="button" onClick={this.showModal}>
+                  <img
+                    src="https://res.cloudinary.com/cloudwanders/image/upload/v1632101037/2nebula_p6uq1n.png"
+                    alt="Project Showcase - Nebula"
+                  />
+                </ModalWrapper>
               </Item>
             </Card>
 
             <Card>
               <Item>
-                <img
-                  src="https://res.cloudinary.com/cloudwanders/image/upload/v1632100133/2timbuktu_xthppi.png"
-                  alt="Project Showcase - Timbuktu"
-                />
+                <Modal
+                  show={this.state.show}
+                  handleClose={this.hideModal}
+                ></Modal>
+                <ModalWrapper type="button" onClick={this.showModal}>
+                  <img
+                    src="https://res.cloudinary.com/cloudwanders/image/upload/v1632100133/2timbuktu_xthppi.png"
+                    alt="Project Showcase - Timbuktu"
+                  />
+                </ModalWrapper>
               </Item>
             </Card>
 
             <Card>
               <Item>
-                <img
-                  src="https://res.cloudinary.com/cloudwanders/image/upload/v1632100133/2bravebear_gnod6e.png"
-                  alt="Project Showcase - BraveBear"
-                />
+                <Modal
+                  show={this.state.show}
+                  handleClose={this.hideModal}
+                ></Modal>
+                <ModalWrapper type="button" onClick={this.showModal}>
+                  <img
+                    src="https://res.cloudinary.com/cloudwanders/image/upload/v1632100133/2bravebear_gnod6e.png"
+                    alt="Project Showcase - BraveBear"
+                  />
+                </ModalWrapper>
               </Item>
             </Card>
 
             <Card>
               <Item>
-                <img
-                  src="https://res.cloudinary.com/cloudwanders/image/upload/v1632706808/2budget_xwrumq.png"
-                  alt="Project Showcase - Budget App"
-                />
+                <Modal
+                  show={this.state.show}
+                  handleClose={this.hideModal}
+                ></Modal>
+                <ModalWrapper type="button" onClick={this.showModal}>
+                  <img
+                    src="https://res.cloudinary.com/cloudwanders/image/upload/v1632706808/2budget_xwrumq.png"
+                    alt="Project Showcase - Budget App"
+                  />
+                </ModalWrapper>
               </Item>
             </Card>
 
             <Card>
               <Item>
-                <img
-                  src="https://res.cloudinary.com/cloudwanders/image/upload/v1632101036/2scraper_ce8h56.png"
-                  alt="Project Showcase - Node Web Scraper"
-                />
+                <Modal
+                  show={this.state.show}
+                  handleClose={this.hideModal}
+                ></Modal>
+                <ModalWrapper type="button" onClick={this.showModal}>
+                  <img
+                    src="https://res.cloudinary.com/cloudwanders/image/upload/v1632101036/2scraper_ce8h56.png"
+                    alt="Project Showcase - Node Web Scraper"
+                  />
+                </ModalWrapper>
               </Item>
             </Card>
           </Grid>

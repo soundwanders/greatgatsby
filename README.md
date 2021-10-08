@@ -32,9 +32,9 @@
 
 2.  **`/src/assets`**: This directory holds all media files such as images, icons and illustrations (svgs, pngs, etc).
 
-3.  **`./components/common`**: This directory holds all 'common' components, which are reusable elements like Containers and Buttons.
+3.  **`./components/common`**: This directory holds all 'common' components, which are the reusable elements like Containers and Buttons.
 
-4.  **`./components/nav`**: This directory holds all navigation elements such as the navbar, side bar, and nav links.
+4.  **`./components/nav`**: This directory holds all page navigation elements such as the navbar and sidebar.
 
 5.  **`./components/sections`**: This directory holds all of the page section components, which are imported into 'pages' directory to build the site.
 
@@ -67,11 +67,6 @@
      │   └── common
      │   └── nav
      │   └── sections
-     │       └── About
-     │       └── Contact
-     │       └── Home
-     │       └── Projects
-     │       └── Skills
      │
      ├─── data
      │    └── config
@@ -82,6 +77,9 @@
 
 ```
 
+<h2>
+[Learn more about a Gatsby's project structure](https://www.gatsbyjs.com/docs/reference/gatsby-project-structure/)
+</h2>
 <br />
 
 ### 🐛 Report A Bug

@@ -6,8 +6,9 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
     a {
         font-family: 'Roboto', Ubuntu, Helvetica, sans-serif;
-        color: #302060;
-        text-shadow: 0.2px 0px #f4f4f4;
+        -moz-osx-font-smoothing: auto;
+        font-smoothing: auto;
+        color: #252570;
         font-weight: 600;
         text-decoration: none;
         z-index: 8;
@@ -20,7 +21,7 @@ export const Wrapper = styled.div`
             display: flex;
             float: left;
             align-items: center;
-            margin: 0 2.5rem;
+            margin: 0 2.1rem;
             padding: 0;
             font-size: 2rem;
             font-weight: 600;

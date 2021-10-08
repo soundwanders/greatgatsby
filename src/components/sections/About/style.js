@@ -24,7 +24,7 @@ export const Title = styled.h1`
   display: flex;
   text-align: center;
   padding: 1rem;
-  font-size: 4vmax;
+  font-size: 3.5vmax;
   font-family: 'Roboto', sans-serif;
   color: inherit;
 `;
@@ -45,7 +45,7 @@ export const Section = styled.h2`
 
 export const Icons = styled.h1`
 display: inherit;
-width: 20%;
+width: 25%;
 align-items: center;
 text-align: inherit;
 padding: 1rem 0;
@@ -76,7 +76,7 @@ export const DetailsTop = styled.h1`
   text-align: inherit;
   margin: 0 auto;
   padding: 2rem 0;
-  font-size: 5vmax;
+  font-size: 4vmax;
   color: inherit;
   background: #5d2ad3;
   background: -webkit-linear-gradient(to right, #333399 15%, #ff662e 100%);
@@ -91,7 +91,7 @@ export const DetailsMid = styled.h1`
   text-align: inherit;
   margin: 0 auto;
   padding: 2rem 0;
-  font-size: 5vmax;
+  font-size: 4vmax;
   color: inherit;
   background: #5d2ad3;
   background: -webkit-linear-gradient(to right, #333399 15%, #ff662e 100%);
@@ -107,7 +107,7 @@ export const DetailsBottom = styled.h1`
   margin: 0 auto;
   padding: 2rem 0;
   padding-bottom: 3rem;
-  font-size: 5vmax;
+  font-size: 4vmax;
   color: inherit;
   background: #5d2ad3;
   background: -webkit-linear-gradient(to right, #333399 15%, #ff662e 100%);
