@@ -88,7 +88,7 @@ export const DetailsTop = styled.h1`
 
 export const DetailsMid = styled.h1`
   display: inherit;
-  text-align: inherit;
+  text-align: center;
   margin: 0 auto;
   padding: 2rem 0;
   font-size: 4vmax;
@@ -103,7 +103,7 @@ export const DetailsMid = styled.h1`
 
 export const DetailsBottom = styled.h1`
   display: inherit;
-  text-align: inherit;
+  text-align: center;
   margin: 0 auto;
   padding: 2rem 0;
   padding-bottom: 3rem;
