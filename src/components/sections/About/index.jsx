@@ -25,8 +25,10 @@ export const About = () => {
 
       <Section>
         The redeeming factor in all of this was that I also love computers.{' '}
-        <br />
-        So, I decided to let the machines do the work for me.
+      </Section>
+
+      <Section>
+        So, I decided to let the computer do the artwork for me.
       </Section>
 
       <Icons>🤖 &#8594; 🎨 </Icons>
