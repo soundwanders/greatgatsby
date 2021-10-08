@@ -13,9 +13,9 @@ import {
 export const About = () => {
   return (
     <Container id="about">
-      <Title>Hey there! 👋</Title>
+      <Title>How's it going? 👋</Title>
       <Section>
-        Growing up, I was always passionate about art. I was always creating, whether it was a logo for
+        Growing up, I gravitated towards artistic outlets. I was constantly creating, whether it was a logo for
         my non-existent hockey team or writing songs for a band that never actually made it into existence.
       </Section>
 
@@ -28,7 +28,7 @@ export const About = () => {
       </Section>
 
       <Section>
-        So, I eventually decided to let the computer do the work for me.
+        So, eventually I put down the paint brush and decided to let the computer do the work for me.
       </Section>
 
       <Icons>🤖 &#8594; 🎨 </Icons>
@@ -41,7 +41,7 @@ export const About = () => {
 
       <Section>
         When I'm not coding, I also really enjoy hockey (Go
-        Avs!), animals, skateboarding, art, music, ancient history. true crime
+        Avs!), animals, art, music, ancient history, skateboarding, true crime
         &amp; unsolved mysteries.
       </Section>
 
@@ -51,8 +51,8 @@ export const About = () => {
       </Section>
 
       <Section>
-        While my journey as a Developer feels like it has just begun, I am
-        building a solid foundation that revolves around a few core concepts...
+        While my journey as a Developer feels like it has just begun, I continue to
+        build a solid foundation that revolves around a few core concepts...
       </Section>
 
       <Concepts>
