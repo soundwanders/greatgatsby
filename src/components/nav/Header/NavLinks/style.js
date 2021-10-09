@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
         font-family: 'Roboto', Ubuntu, Helvetica, sans-serif;
         -moz-osx-font-smoothing: auto;
         font-smoothing: auto;
-        color: #252570;
+        color: #333399;
         font-weight: 600;
         text-decoration: none;
         z-index: 8;
@@ -38,11 +38,14 @@ export const Wrapper = styled.div`
                 flex-direction: column;
                 align-self: center;
                 flex-wrap: nowrap;
-            }
-            img {
                 padding: 0.25rem 0 0 0;
             }
-            @media (max-width: 960px) {
+            img:hover { 
+                transform: rotate(360deg);
+                transition: 0.75s;
+           
+            }
+            @media (max-width: 900px) {
                 display: none;
             }
         `

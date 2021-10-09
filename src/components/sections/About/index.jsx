@@ -15,43 +15,29 @@ export const About = () => {
     <Container id="about">
       <Title>How's it going? 👋</Title>
       <Section>
-        Growing up, I explored all sorts of artistic outlets. I was constantly creating, whether it was a new logo for
-        my hockey team or writing songs for a band that never actually made it into existence.
+        For as long as I can remember, I've been passionate about art.
       </Section>
 
       <Section>
-      Well, as it turns out I'm kind of a lousy artist...
+        Whether that was designing a new logo for a hockey team, or writing
+        songs for a band that never actually made it into existence, I was
+        always creating something.
       </Section>
 
       <Section>
-        The redeeming factor in all of this is that I discovered a love of computers pretty early on.
+        Eventually, I stumbled into web development. A few poorly constructed
+        static pages later, I realized just how much I love designing and
+        building websites. Something about it just 'clicked.'
       </Section>
-
-      <Section>
-        So, eventually I put down the paint brush and decided to let the computer do the work for me.
-      </Section>
-
-      <Icons>🤖 &#8594; 🎨 </Icons>
 
       <Section>
         I've stumbled plenty of times along the way (maybe even fell flat on my
-        face), but I embrace the adversity and use it as a
-        catalyst for continuous improvement.
+        face), but I embrace the adversity and use it as a catalyst for
+        continuous improvement.
       </Section>
 
       <Section>
-        When I'm not coding, I also really enjoy hockey (Go
-        Avs!), animals, art, music, ancient history, skateboarding, true crime
-        &amp; unsolved mysteries.
-      </Section>
-
-      <Section>
-        On a rainy day, you can find me reading some Kurt Vonnegut or
-        listening to a Ram Dass lecture.
-      </Section>
-
-      <Section>
-        While my journey as a Developer feels like it has only just begun, I am committed to
+        While my journey as a Developer feels like it has only just begun, I am
         building a solid foundation that revolves around a few core concepts...
       </Section>
 

@@ -11,7 +11,7 @@ const NavLinks = ({ desktop }) => {
       <AnchorLink href="#projects">Projects</AnchorLink>
       <AnchorLink href="#contact">Contact</AnchorLink>
       <Socials>
-        {socialData.map(({ id, name, link, icon, label }) => (
+        {socialData.map(({ id, name, link, icon }) => (
           <a
             key={id}
             href={link}
@@ -19,7 +19,7 @@ const NavLinks = ({ desktop }) => {
             rel="noopener noreferrer"
             aria-label={`Check out my ${name}`}
           >
-            <img width="36" src={icon} alt={name} title={label} />
+            <img width="36" src={icon} alt={name} />
           </a>
         ))}
       </Socials>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Seo } from 'components/common';
 import { HomeContainer, User, Subtitle } from './style';
 import config from 'data/config';

@@ -32,10 +32,10 @@ export const Bar = styled.div`
   width: 1.7rem;
   height: 0.15rem;
   margin-bottom: 0.3rem;
-  background-color: #222;
+  background-color: #13133a;
   box-shadow 250ms,
   opacity 500ms,
-	transition: transform 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91),
+	transition: transform 300ms cubic-bezier(0.6, 0.05, 0.28, 0.91),
 	@media (max-width: 600px) {
     width: 1.6rem;
   }
@@ -43,7 +43,7 @@ export const Bar = styled.div`
     top &&
     sidebar &&
     `
-		background-color: #ff662e;
+		background-color: #5d2ad3;
 		transform: translateY(8px) rotate(-135deg);
     `}
 
@@ -58,7 +58,7 @@ export const Bar = styled.div`
     bottom &&
     sidebar &&
     `
-        background-color: #ff662e;
+        background-color: #5d2ad3;
         transform: translateY(-6px) rotate(-45deg);
     `}
 `;
