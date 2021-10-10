@@ -60,8 +60,8 @@ export const Concepts = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 60%;
-  max-width: 60%;
+  width: 70%;
+  max-width: 70%;
   margin: 0 auto;
   padding: 0.5rem 0 2rem 0;
   font-family: 'Filson Soft', 'Roboto', sans-serif;
@@ -76,9 +76,6 @@ export const DetailsA = styled.h1`
   font-size: 5vmax;
   text-align: center;
   color: #f8f8f8;
-  @media (max-width: 900px) {
-    font-size: 4.5vmax;
-  }
 `;
 
 export const DetailsB = styled.h1`
@@ -86,10 +83,7 @@ export const DetailsB = styled.h1`
   margin: 0 auto;
   padding: 2rem 0;
   padding-bottom: 4rem;
-  font-size: 5vmax;
+  font-size: 5.5vmax;
   text-align: center;
   color: #f8f8f8;
-  @media (max-width: 900px) {
-    font-size: 4.5vmax;
-  }
 `;
