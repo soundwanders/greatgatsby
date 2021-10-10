@@ -6,7 +6,14 @@ export const Wrapper = styled.div`
   padding: 6rem 0;
   justify-content: space-between;
   background-color: #7a7ade;
-  background-image: linear-gradient(to bottom, #7676dc, #7a7ade, #7f7ee0, #8383e1, #8787e3);
+  background-image: linear-gradient(
+    to bottom,
+    #7676dc,
+    #7a7ade,
+    #7f7ee0,
+    #8383e1,
+    #8787e3
+  );
   background-attachment: fixed;
   background-size: cover;
   overflow: hidden;

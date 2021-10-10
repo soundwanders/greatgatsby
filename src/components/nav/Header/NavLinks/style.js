@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
         font-family: 'Roboto', Ubuntu, Helvetica, sans-serif;
         -moz-osx-font-smoothing: auto;
         font-smoothing: auto;
-        color: #472673;
+        color: #2d2d86;
         font-weight: 600;
         text-decoration: none;
         z-index: 8;
@@ -21,16 +21,13 @@ export const Wrapper = styled.div`
             display: flex;
             float: left;
             align-items: center;
-            margin: 0 2.1rem;
+            margin: 0 2.125rem;
             padding: 0;
             font-size: 2rem;
             font-weight: 600;
             white-space: pre;
             a {
                 padding-right: 1rem;
-                &:last-child {
-                    margin-right: unset;
-                }
             }
             img {
                 display: flex;
@@ -43,7 +40,6 @@ export const Wrapper = styled.div`
             img:hover { 
                 transform: rotate(360deg);
                 transition: 0.75s;
-           
             }
             @media (max-width: 900px) {
                 display: none;
@@ -74,6 +70,7 @@ export const Wrapper = styled.div`
 export const Socials = styled.div`
   display: grid;
   bottom: 0;
+  padding: 0 0 0.5rem 0;
   align-items: center;
   grid-template-columns: repeat(2, 0.5fr);
   grid-template-rows: 4fr;

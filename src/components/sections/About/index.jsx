@@ -35,8 +35,8 @@ export const About = () => {
       </Section>
 
       <Section>
-        While my journey as a Developer has only just begun, there's a few
-        core concepts that I try to adhere to whenever I'm working on a new
+        While my journey as a Developer has only just begun, there's a few core
+        concepts that I try to adhere to whenever I'm working on a new
         project...
       </Section>
 
