@@ -5,8 +5,8 @@ export const Button = styled.button`
   padding: 0.675rem 1.75rem;
   margin-right: 3rem;
   border: none;
-  background: #3f3d56;
-  color: #f8f8f8;
+  background: #f8f8f8;
+  color: #3f3d56;
   text-shadow: 0.125px 0 #fff;
   font-family: 'Roboto', Ubuntu, Helvetica, sans-serif;
   letter-spacing: 1px;
@@ -24,12 +24,12 @@ export const Button = styled.button`
     transform: scale(0.99);
   }
   &:disabled {
-    background: #f8f8f8;
+    background: rgb(200, 200, 200);
   }
   ${({ secondary }) =>
     secondary &&
     `
-    background: #3f3d56;
-    color: #f8f8f8;
+    background: #f8f8f8;
+    color: #3f3d56;
 	`}
 `;

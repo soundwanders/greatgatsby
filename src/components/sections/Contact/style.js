@@ -5,13 +5,11 @@ export const Wrapper = styled.div`
   align-items: flex-start;
   padding: 5rem 0;
   justify-content: space-between;
-  background-image: linear-gradient(
-    to bottom,
-    #46b2f5,
-    #53b8f7,
-    #5fbef8,
-    #6bc3fa,
-    #76c9fb
+  background: #1a1a4d;
+  background: linear-gradient(
+    0deg,
+    rgba(22, 10, 43, 1) 0%,
+    rgba(21, 4, 48, 1) 100%
   );
   overflow: hidden;
   @media (max-width: 900px) {

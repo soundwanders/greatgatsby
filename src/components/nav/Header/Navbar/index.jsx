@@ -15,7 +15,6 @@ const Navbar = () => {
           width="100%"
         />
       </Brand>
-
       <NavLinks desktop />
     </Wrapper>
   );

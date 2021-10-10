@@ -8,7 +8,6 @@ export const Wrapper = styled.div`
   padding: 0.25rem 0;
   align-items: center;
   justify-content: space-between;
-  overflow: hidden;
   background: transparent;
   z-index: 4;
 `;

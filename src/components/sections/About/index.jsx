@@ -3,11 +3,9 @@ import {
   Container,
   Title,
   Section,
-  Icons,
   Concepts,
-  DetailsTop,
-  DetailsMid,
-  DetailsBottom,
+  DetailsWhite,
+  DetailsOrange,
 } from './style';
 
 export const About = () => {
@@ -37,15 +35,16 @@ export const About = () => {
       </Section>
 
       <Section>
-        While my journey as a Developer feels like it has only just begun, I am
-        building a solid foundation that revolves around a few core concepts...
+        While my journey as a Web Developer has only just begun, there's a few
+        core concepts that I try to adhere to whenever I'm working on a new
+        project...
       </Section>
 
       <Concepts>
-        <DetailsTop>Clean Code</DetailsTop>
-        <DetailsMid>Aesthetic Appeal</DetailsMid>
-        <DetailsMid>Creative Solutions</DetailsMid>
-        <DetailsBottom>Responsive Design</DetailsBottom>
+        <DetailsOrange>Clean Code</DetailsOrange>
+        <DetailsWhite>Aesthetic Appeal</DetailsWhite>
+        <DetailsOrange>Creative Solutions</DetailsOrange>
+        <DetailsWhite>Responsive Design</DetailsWhite>
       </Concepts>
     </Container>
   );
