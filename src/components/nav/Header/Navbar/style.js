@@ -10,6 +10,9 @@ export const SpansMaxWidth = styled.div`
   padding: 4px 0;
   overflow: hidden;
   background: #f8f8f8;
+  @media (max-width: 900px) {
+    background: transparent;
+  }
 `;
 
 export const Wrapper = styled.div`
