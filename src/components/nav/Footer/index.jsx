@@ -1,11 +1,11 @@
 import React from 'react';
-import { BlockContainer } from 'components/common';
+import { Container } from 'components/common';
 import { Foot, Flex, Copyright } from './style';
 
 export const Footer = () => {
   return (
     <Foot>
-      <Flex as={BlockContainer}>
+      <Flex as={Container}>
         <Copyright>
           © {new Date().getFullYear()} soundwanders All Rights Reserved
           {` `}

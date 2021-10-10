@@ -1,5 +1,14 @@
 import styled from 'styled-components';
 
+export const SpansMaxWidth = styled.div`
+  display: flex;
+  position: fixed;
+  flex-wrap: nowrap;
+  width: 100%;
+  max-width: 100%;
+  background: #f8f8f8;
+`
+
 export const Wrapper = styled.div`
   display: flex;
   position: fixed;

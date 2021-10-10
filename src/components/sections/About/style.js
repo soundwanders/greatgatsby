@@ -10,14 +10,15 @@ export const Container = styled.div`
   margin: 0 auto;
   padding: 1rem 0;
   color: #f8f8f8;
-  background: #1a1a4d;
-  background: linear-gradient(
-    0deg,
-    rgba(22, 10, 43, 1) 0%,
-    rgba(21, 4, 48, 1) 100%
-  );
+  background-color: #7a7ade;
+  background-image: linear-gradient(to bottom, #7676dc, #7a7ade, #7f7ee0, #8383e1, #8787e3);
+  background-attachment: fixed;
   background-size: cover;
-  overflow-x: hidden;
+  overflow: hidden;
+  @media (max-width: 900px) {
+    padding: 4rem 0;
+    flex-direction: column;
+  }
 `;
 
 export const Title = styled.h1`
@@ -61,11 +62,11 @@ export const Concepts = styled.div`
   overflow-x: hidden;
 `;
 
-export const DetailsWhite = styled.h1`
+export const DetailsA = styled.h1`
   display: inherit;
   margin: 0 auto;
   padding: 2rem 0;
-  font-size: 5.5vmax;
+  font-size: 5vmax;
   text-align: center;
   color: #f8f8f8;
   @media (max-width: 900px) {
@@ -73,13 +74,14 @@ export const DetailsWhite = styled.h1`
   }
 `;
 
-export const DetailsOrange = styled.h1`
+export const DetailsB = styled.h1`
   display: inherit;
   margin: 0 auto;
   padding: 2rem 0;
-  font-size: 5.5vmax;
+  padding-bottom: 4rem;
+  font-size: 5vmax;
   text-align: center;
-  color: #ff662e;
+  color: #f8f8f8;
   @media (max-width: 900px) {
     font-size: 4.5vmax;
   }

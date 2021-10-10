@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
         font-family: 'Roboto', Ubuntu, Helvetica, sans-serif;
         -moz-osx-font-smoothing: auto;
         font-smoothing: auto;
-        color: #333399;
+        color: #472673;
         font-weight: 600;
         text-decoration: none;
         z-index: 8;

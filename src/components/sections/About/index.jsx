@@ -4,8 +4,8 @@ import {
   Title,
   Section,
   Concepts,
-  DetailsWhite,
-  DetailsOrange,
+  DetailsA,
+  DetailsB,
 } from './style';
 
 export const About = () => {
@@ -35,16 +35,16 @@ export const About = () => {
       </Section>
 
       <Section>
-        While my journey as a Web Developer has only just begun, there's a few
+        While my journey as a Developer has only just begun, there's a few
         core concepts that I try to adhere to whenever I'm working on a new
         project...
       </Section>
 
       <Concepts>
-        <DetailsOrange>Clean Code</DetailsOrange>
-        <DetailsWhite>Aesthetic Appeal</DetailsWhite>
-        <DetailsOrange>Creative Solutions</DetailsOrange>
-        <DetailsWhite>Responsive Design</DetailsWhite>
+        <DetailsA>Clean Code</DetailsA>
+        <DetailsA>Aesthetic Appeal</DetailsA>
+        <DetailsA>Creative Solutions</DetailsA>
+        <DetailsB>Responsive Design</DetailsB>
       </Concepts>
     </Container>
   );
