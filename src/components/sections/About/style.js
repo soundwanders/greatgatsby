@@ -82,7 +82,7 @@ export const DetailsB = styled.h1`
   display: inherit;
   margin: 0 auto;
   padding: 2rem 0;
-  padding-bottom: 4rem;
+  padding-bottom: 0;
   font-size: 5.5vmax;
   text-align: center;
   color: #f8f8f8;
