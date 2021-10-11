@@ -8,7 +8,7 @@ export const Container = styled.div`
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 6rem 0;
   color: #f8f8f8;
   background-color: #7a7ade;
   background-image: linear-gradient(
@@ -23,7 +23,7 @@ export const Container = styled.div`
   background-size: cover;
   overflow: hidden;
   @media (max-width: 900px) {
-    padding: 4rem 0;
+    padding: 3rem 0;
     flex-direction: column;
   }
 `;
@@ -32,12 +32,11 @@ export const Title = styled.h1`
   display: flex;
   text-align: center;
   padding: 2rem 0;
-  padding-top: 5rem;
   font-size: 4vmax;
   font-family: 'Roboto', sans-serif;
   color: inherit;
   @media (max-width: 900px) {
-    padding-top: 2rem;
+    padding: 0;
   }
 `;
 
