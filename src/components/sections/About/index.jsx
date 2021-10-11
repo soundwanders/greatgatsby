@@ -23,8 +23,8 @@ export const About = () => {
       </Section>
 
       <Section>
-        Eventually, I decided to give web development a shot. A few poorly constructed
-        static pages later, it clicked and I discovered how much I joy I find in
+        After exploring graphic design for a while, I decided to give web development a shot. A few poorly constructed
+        static pages later, something just clicked. I discovered how much I joy I find in
         building and designing for the web.
       </Section>
 
@@ -35,16 +35,15 @@ export const About = () => {
       </Section>
 
       <Section>
-        While my journey as a Developer has only just begun, there's a few core
-        concepts that I try to adhere to whenever I'm working on a
-        project...
+        While my journey as a Developer is a long road ahead, there's a few core
+        concepts that I adhere to whenever I'm working on a project...
       </Section>
 
       <Concepts>
         <DetailsA>Clean Code</DetailsA>
         <DetailsA>Creative Solutions</DetailsA>
         <DetailsA>Responsive Design</DetailsA>
-        <DetailsB>Aesthetic & Engaging</DetailsB>
+        <DetailsB>Engaging Aesthetics</DetailsB>
       </Concepts>
     </Container>
   );
