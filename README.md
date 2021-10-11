@@ -4,7 +4,7 @@
 
 <h1 align="center">
   <a href="https://www.jcoletta.com">
-    JCOLETTA.COM
+    JColetta.com
   </a>
 </h1>
 
@@ -15,14 +15,14 @@
 </a>
 
 ### 🛸 Built With...
-
 - Gatsby
 - React
 - Axios
 - Yup
 - Continuous Deployment with <a href="https://vercel.com/" rel="noopener noreferral" style="text-decoration: none;">Vercel</a>
-- Contact Form submissions secured by Google Recaptcha
+- Contact Form submissions secured with Google Recaptcha
 - Form submission endpoint provided by <a href="https://formium.io" rel="noopener noreferral" style="text-decoration: none;">Formium</a>
+- Images hosted &amp; delivered by <a href="https://cloudinary.com" rel="noopener noreferral" style="text-decoration: none;">Cloudinary</a>
 
 <br /><br />
 
@@ -81,14 +81,15 @@
 
 ### 🐛 Report A Bug
 
-If you encounter any bugs or issues, feel free to contribute &smile;
+If you encounter any bugs or issues, please reach out or create a pull request &smile;
 
 1. Fork the Project from branch 'main'
 2. Create your Update Branch (`git checkout -b update/PestControl`)
 3. Commit your Changes (`git commit -m 'Hey, you should fix this'`)
 4. Push to the Branch (`git push origin update/BugSquash`)
 5. Open a Pull Request
-   <br />
+
+<br /><br />
 
 ### License
 

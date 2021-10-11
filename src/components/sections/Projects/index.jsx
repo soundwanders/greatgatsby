@@ -35,7 +35,7 @@ export class Projects extends Component {
                 <Modal
                   show={this.state.show}
                   handleClose={this.hideModal}
-                >Hello everyone</Modal>
+                ></Modal>
                 <ModalWrapper type="button" onClick={this.showModal}>
                   <img
                     src="https://res.cloudinary.com/cloudwanders/image/upload/v1632100132/2shelter_dy1pwr.png"

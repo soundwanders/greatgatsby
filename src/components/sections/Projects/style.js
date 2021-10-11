@@ -24,6 +24,9 @@ export const ProjectContainer = styled.div`
   max-width: 100%;
   overflow-x: hidden;
   z-index: -2;
+  @media (max-width: 900px) {
+    padding: 0;
+  }
 `;
 
 export const Grid = styled.div`
