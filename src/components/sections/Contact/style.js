@@ -69,6 +69,8 @@ export const Bird = styled.div`
   margin: 0 auto;
   padding-top: 11%;
   overflow: hidden;
+  user-select: none;
+  pointer-events: none;
   @media (max-width: 600px) {
     width: 80%;
     margin-bottom: 1rem;

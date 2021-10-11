@@ -9,31 +9,33 @@ export const FormContainer = styled.div`
   overflow: hidden;
 `;
 export const Error = styled.span`
-  color: #ff4136;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #fff;
+  letter-spacing: 0.25px;
+  padding-bottom: 0.5rem;
 `;
 
 export const Center = styled.div`
   text-align: center;
-  h4 {
-    font-weight: normal;
-  }
 `;
 
 export const InputField = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   position: relative;
-  margin-bottom: 1rem;
-  width: 30vw;
+  width: 26vw;
   margin: 0 auto;
+  padding-bottom: 1rem;
   overflow: hidden;
 
   @media (max-width: 900px) {
-    display: flex;
-    justify-content: center;
+    min-width: 90%;
     width: 90%;
+    margin: 0 auto;
     padding-left: 0;
   }
-
-  @media (max-height: 500px) and (max-width: 890px) {
+  @media (max-height: 500px) and (max-width: 900px) {
     width: 55vw;
   }
 `;

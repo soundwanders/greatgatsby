@@ -29,7 +29,8 @@ export const Button = styled.button`
   ${({ secondary }) =>
     secondary &&
     `
-    background: #f8f8f8;
-    color: #3f3d56;
+    background: #3f3d56;
+    color: #f9f9f9;
+    border-radius: 6px;
 	`}
 `;

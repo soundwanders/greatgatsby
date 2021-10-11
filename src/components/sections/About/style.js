@@ -82,8 +82,11 @@ export const DetailsB = styled.h1`
   display: inherit;
   margin: 0 auto;
   padding: 2rem 0;
-  padding-bottom: 0;
+  padding-bottom: 3rem;
   font-size: 5.5vmax;
   text-align: center;
   color: #f8f8f8;
+  @media (max-width: 900px) {
+    padding-bottom: 0;
+  }
 `;
