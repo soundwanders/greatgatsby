@@ -32,11 +32,13 @@ export const Title = styled.h1`
   display: flex;
   text-align: center;
   padding: 2rem 0;
+  padding-top: 5rem;
   font-size: 4vmax;
   font-family: 'Roboto', sans-serif;
   color: inherit;
   @media (max-width: 900px) {
     padding: 0;
+    padding-top: 2rem;
   }
 `;
 
