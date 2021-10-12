@@ -85,6 +85,6 @@ export const DetailsB = styled.h1`
   font-size: 5.5vmax;
   color: #f8f8f8;
   @media (max-width: 900px) {
-    padding-bottom: 1rem;
+    padding-bottom: 0;
   }
 `;
