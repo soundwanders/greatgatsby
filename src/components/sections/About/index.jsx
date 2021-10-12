@@ -23,9 +23,10 @@ export const About = () => {
       </Section>
 
       <Section>
-        After exploring graphic design for a while, I decided to give web development a shot. A few poorly constructed
-        static pages later, something just clicked. I discovered how much I joy I find in
-        building and designing for the web.
+        After exploring graphic design for a while, I decided to give web
+        development a shot. A few poorly constructed static pages later,
+        something just clicked. I discovered how much I joy I find in building
+        and designing for the web.
       </Section>
 
       <Section>

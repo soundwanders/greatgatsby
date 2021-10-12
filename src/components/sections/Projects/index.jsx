@@ -40,6 +40,7 @@ export class Projects extends Component {
                   <img
                     src="https://res.cloudinary.com/cloudwanders/image/upload/v1632100132/2shelter_dy1pwr.png"
                     alt="Project Showcase - Helter Shelter"
+                    aria-label="Helter Shelter screenshot"
                   />
                 </ModalWrapper>
               </Item>
@@ -55,6 +56,7 @@ export class Projects extends Component {
                   <img
                     src="https://res.cloudinary.com/cloudwanders/image/upload/v1632101037/2nebula_p6uq1n.png"
                     alt="Project Showcase - Nebula"
+                    aria-label="Nebula screenshot"
                   />
                 </ModalWrapper>
               </Item>
@@ -70,6 +72,7 @@ export class Projects extends Component {
                   <img
                     src="https://res.cloudinary.com/cloudwanders/image/upload/v1632100133/2timbuktu_xthppi.png"
                     alt="Project Showcase - Timbuktu"
+                    aria-label="Timbuktu screenshot"
                   />
                 </ModalWrapper>
               </Item>
@@ -85,6 +88,7 @@ export class Projects extends Component {
                   <img
                     src="https://res.cloudinary.com/cloudwanders/image/upload/v1632100133/2bravebear_gnod6e.png"
                     alt="Project Showcase - BraveBear"
+                    aria-label="BraveBear screenshot"
                   />
                 </ModalWrapper>
               </Item>
@@ -100,6 +104,7 @@ export class Projects extends Component {
                   <img
                     src="https://res.cloudinary.com/cloudwanders/image/upload/v1632706808/2budget_xwrumq.png"
                     alt="Project Showcase - Budget App"
+                    aria-label="Budget screenshot"
                   />
                 </ModalWrapper>
               </Item>
@@ -115,6 +120,7 @@ export class Projects extends Component {
                   <img
                     src="https://res.cloudinary.com/cloudwanders/image/upload/v1632101036/2scraper_ce8h56.png"
                     alt="Project Showcase - Node Web Scraper"
+                    aria-label="Node Scraper screenshot"
                   />
                 </ModalWrapper>
               </Item>

@@ -16,7 +16,7 @@ export const Contact = () => (
       <img
         src="https://res.cloudinary.com/cloudwanders/image/upload/v1631420037/contact_zbo6bv.svg"
         alt="Contact Form to Send an Email"
-        aria-label="Submit contact form button"
+        aria-hidden="true"
       />
     </Bird>
   </Wrapper>

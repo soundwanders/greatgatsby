@@ -7,26 +7,6 @@
   background: inherit;
 }
 
-.ModalMain {
-  position: fixed;
-  width: 60%;
-  height: auto;
-  top: 50%;
-  left: 50%;
-  background: rgb(163, 163, 163);
-  transform: translate(-50% , -50%);
-  animation: animateModal 0.3s;
-}
-
-.CloseModal {
-  background: transparent;
-  color: #222;
-  padding: 1rem;
-  border-style: none;
-  border: none;
-  outline: none;
-}
-
 .DisplayBlock {
   display: block;
 }
@@ -37,9 +17,9 @@
 
 @keyframes animateModal {
   from {
-    transform: scale(0.5);
+    transform: rotateZ(90deg);
   }
   to {
-    transform: scale(1);
+    transform: rotateZ(-90deg);
   }
 }

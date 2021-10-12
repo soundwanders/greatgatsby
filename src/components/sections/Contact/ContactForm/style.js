@@ -30,8 +30,8 @@ export const InputField = styled.div`
   overflow: hidden;
 
   @media (max-width: 900px) {
-    min-width: 90%;
-    width: 90%;
+    min-width: 80%;
+    width: 80%;
     margin: 0 auto;
     padding-left: 0;
   }

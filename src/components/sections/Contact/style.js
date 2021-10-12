@@ -3,12 +3,12 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   display: flex;
   align-items: flex-start;
-  padding: 6rem 0;
   justify-content: space-between;
+  padding: 6rem 0;
+  padding-bottom: 3rem;
   background-color: #7a7ade;
   background-image: linear-gradient(
     to bottom,
-    #7676dc,
     #7a7ade,
     #7f7ee0,
     #8383e1,
@@ -18,10 +18,8 @@ export const Wrapper = styled.div`
   background-size: cover;
   overflow: hidden;
   @media (max-width: 900px) {
-    padding: 3rem 0;
-    padding-top: 4rem;
+    padding: 4rem 0 1rem 0;
     flex-direction: column;
-    
   }
 `;
 
@@ -67,9 +65,9 @@ export const Title = styled.h2`
 
 export const Bird = styled.div`
   display: inline-block;
-  width: 55%;
+  width: 57%;
   margin: 0 auto;
-  padding-top: 11%;
+  padding-top: 12%;
   overflow: hidden;
   user-select: none;
   pointer-events: none;

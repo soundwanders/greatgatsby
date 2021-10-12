@@ -8,7 +8,7 @@ export const Container = styled.div`
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
-  padding: 6rem 0;
+  padding: 5rem 0;
   color: #f8f8f8;
   background-color: #7a7ade;
   background-image: linear-gradient(
@@ -31,14 +31,13 @@ export const Container = styled.div`
 export const Title = styled.h1`
   display: flex;
   text-align: center;
-  padding: 2rem 0;
-  padding-top: 5rem;
-  font-size: 4vmax;
+  padding: 1rem 0 2rem 0;
+  font-size: 4.5vmax;
   font-family: 'Roboto', sans-serif;
   color: inherit;
   @media (max-width: 900px) {
+    font-size: 4vmax;
     padding: 0;
-    padding-top: 2rem;
   }
 `;
 
@@ -47,13 +46,13 @@ export const Section = styled.h2`
   width: 70%;
   text-align: inherit;
   padding: 1rem 0;
-  font-size: 2.25vmax;
+  font-size: 2.1vmax;
   font-family: inherit;
   line-height: 2;
   color: inherit;
   @media (max-width: 900px) {
     width: 60%;
-    font-size: 2.5vmax;
+    font-size: 2.75vmax;
 `;
 
 export const Concepts = styled.div`
@@ -61,10 +60,10 @@ export const Concepts = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 70%;
-  max-width: 70%;
+  width: 60%;
+  max-width: 60%;
   margin: 0 auto;
-  padding: 0.5rem 0 2rem 0;
+  padding: 0;
   font-family: 'Filson Soft', 'Roboto', sans-serif;
   color: inherit;
   overflow-x: hidden;
@@ -72,22 +71,20 @@ export const Concepts = styled.div`
 
 export const DetailsA = styled.h1`
   display: inherit;
-  margin: 0 auto;
   padding: 2rem 0;
   font-size: 5vmax;
-  text-align: center;
   color: #f8f8f8;
+  @media (max-width: 900px) {
+  }
 `;
 
 export const DetailsB = styled.h1`
   display: inherit;
-  margin: 0 auto;
   padding: 2rem 0;
-  padding-bottom: 3rem;
+  padding-bottom: 0.5rem;
   font-size: 5.5vmax;
-  text-align: center;
   color: #f8f8f8;
   @media (max-width: 900px) {
-    padding-bottom: 0;
+    padding-bottom: 1rem;
   }
 `;
