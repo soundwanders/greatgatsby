@@ -60,5 +60,5 @@ export const Skills = () => {
         />
       </Grid>
     </SkillsContainer>
-  );
+  )
 };
