@@ -55,7 +55,7 @@ export const About = () => {
         </Subtext>
         <DetailsA>Responsive Design</DetailsA>
         <Subtext>
-          Shout-out to the devs creating designs that fit all shapes and sizes.
+          Shout-out to the devs creating designs for all shapes and sizes.
           Seamless transition from mobile to desktop is key, with an emphasis on
           user experience and accessibility.
         </Subtext>
