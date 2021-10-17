@@ -71,6 +71,7 @@ export const Concepts = styled.div`
 
 export const DetailsA = styled.h1`
   display: inherit;
+  text-align: center;
   padding: 1rem 0 0.5rem 0;
   font-size: 5vmax;
   color: #f8f8f8;
@@ -81,6 +82,7 @@ export const DetailsA = styled.h1`
 
 export const DetailsB = styled.h1`
   display: inherit;
+  text-align: center;
   padding: 1rem 0 0.5rem 0;
   font-size: 5.5vmax;
   color: #f8f8f8;
@@ -91,7 +93,7 @@ export const DetailsB = styled.h1`
 
 export const Subtext = styled.p`
   display: inherit;
-  width: 60%;
+  width: 80%;
   text-align: center;
   padding: 0;
   font-size: 1.5vmax;
