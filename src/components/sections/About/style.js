@@ -93,7 +93,7 @@ export const DetailsB = styled.h1`
 
 export const Subtext = styled.p`
   display: inherit;
-  width: 80%;
+  width: 75%;
   text-align: center;
   padding: 0;
   font-size: 1.5vmax;
