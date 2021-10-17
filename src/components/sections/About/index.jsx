@@ -24,9 +24,8 @@ export const About = () => {
       </Section>
 
       <Section>
-        After exploring graphic design for a while, I decided to take the leap
-        and give web development a shot. A few poorly constructed static pages
-        later, something just clicked.
+        After a number of generic career tests and even more soul searching, I decided to take the leap into web development. 
+A few crudely constructed static sites later, something just clicked.
       </Section>
 
       <Section>
@@ -38,7 +37,7 @@ export const About = () => {
 
       <Section>
         Some days I feel like the hare, but most days I feel more like the
-        tortoise. That's alright though, I'm geared up for the long road ahead.
+        tortoise. That's alright with me though, I'm geared up for the long road ahead.
       </Section>
 
       <Concepts>
