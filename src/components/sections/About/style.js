@@ -63,7 +63,7 @@ export const Concepts = styled.div`
   width: 60%;
   max-width: 60%;
   margin: 0 auto;
-  padding: 0 1.25rem;
+  padding: 0 1rem;
   font-family: 'Filson Soft', 'Roboto', sans-serif;
   color: inherit;
   overflow-x: hidden;
@@ -71,17 +71,17 @@ export const Concepts = styled.div`
 
 export const DetailsA = styled.h1`
   display: inherit;
-  padding: 2rem 0;
+  padding: 1rem 0 0.5rem 0;
   font-size: 5vmax;
   color: #f8f8f8;
   @media (max-width: 900px) {
+  padding-bottom: 0;
   }
 `;
 
 export const DetailsB = styled.h1`
   display: inherit;
-  padding: 2rem 0;
-  padding-bottom: 0.5rem;
+  padding: 1rem 0 0.5rem 0;
   font-size: 5.5vmax;
   color: #f8f8f8;
   @media (max-width: 900px) {
@@ -98,4 +98,6 @@ export const Subtext = styled.p`
   font-family: inherit;
   line-height: 2;
   color: inherit;
+  @media (max-width:900px) {
+    font-size: 2vmax;
 `;
