@@ -6,7 +6,7 @@ export const SkillsContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin: 0;
-  padding: 3.5rem 0 1rem 0;
+  padding: 4rem 0 1rem 0;
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;

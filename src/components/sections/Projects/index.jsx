@@ -7,7 +7,13 @@ import {
   Card,
   Item,
   ModalWrapper,
+  ModalHeader,
+  ModalContent,
+  Close,
+  List,
+  ListItem,
 } from './style';
+import projectData from './projects.json';
 
 export class Projects extends Component {
   constructor(props) {
@@ -57,12 +63,14 @@ export class Projects extends Component {
                     }
                     contentLabel="Helter Shelter Modal"
                   >
-                    <div className="content">
-                      <button className="close" onClick={this.handleCloseModal}>
-                        X
-                      </button>
-                      <p>helter skelter shelter test</p>
-                    </div>
+                    <ModalContent>
+                      <Close onClick={this.handleCloseModal}>X</Close>
+                      <ModalHeader>{projectData[0].title}</ModalHeader>
+                      <List>
+                        <ListItem>{projectData[0].content}</ListItem>
+                        <ListItem>{projectData[0].link}</ListItem>
+                      </List>
+                    </ModalContent>
                   </Modal>
                 </Item>
               </Card>
@@ -88,12 +96,14 @@ export class Projects extends Component {
                     }
                     contentLabel="Nebula Modal"
                   >
-                    <div className="content">
-                      <button className="close" onClick={this.handleCloseModal}>
-                        X
-                      </button>
-                      <p>nebula test</p>
-                    </div>
+                    <ModalContent>
+                      <Close onClick={this.handleCloseModal}>X</Close>
+                      <ModalHeader>{projectData[1].title}</ModalHeader>
+                      <List>
+                        <ListItem>{projectData[1].content}</ListItem>
+                        <ListItem>{projectData[1].link}</ListItem>
+                      </List>
+                    </ModalContent>
                   </Modal>
                 </Item>
               </Card>
@@ -118,12 +128,14 @@ export class Projects extends Component {
                     }
                     contentLabel="Timbuktu Modal"
                   >
-                    <div className="content">
-                      <button className="close" onClick={this.handleCloseModal}>
-                        X
-                      </button>
-                      <p>buktu test</p>
-                    </div>
+                    <ModalContent>
+                      <Close onClick={this.handleCloseModal}>X</Close>
+                      <ModalHeader>{projectData[2].title}</ModalHeader>
+                      <List>
+                        <ListItem>{projectData[2].content}</ListItem>
+                        <ListItem>{projectData[2].link}</ListItem>
+                      </List>
+                    </ModalContent>
                   </Modal>
                 </Item>
               </Card>
@@ -149,12 +161,14 @@ export class Projects extends Component {
                     }
                     contentLabel="BraveBear Modal"
                   >
-                    <div className="content">
-                      <button className="close" onClick={this.handleCloseModal}>
-                        X
-                      </button>
-                      <p>brave test</p>
-                    </div>
+                    <ModalContent>
+                      <Close onClick={this.handleCloseModal}>X</Close>
+                      <ModalHeader>{projectData[3].title}</ModalHeader>
+                      <List>
+                        <ListItem>{projectData[3].content}</ListItem>
+                        <ListItem>{projectData[3].link}</ListItem>
+                      </List>
+                    </ModalContent>
                   </Modal>
                 </Item>
               </Card>
@@ -179,12 +193,14 @@ export class Projects extends Component {
                     }
                     contentLabel="Budget Modal"
                   >
-                    <div className="content">
-                      <button className="close" onClick={this.handleCloseModal}>
-                        X
-                      </button>
-                      <p>budget test</p>
-                    </div>
+                    <ModalContent>
+                      <Close onClick={this.handleCloseModal}>X</Close>
+                      <ModalHeader>{projectData[4].title}</ModalHeader>
+                      <List>
+                        <ListItem>{projectData[4].content}</ListItem>
+                        <ListItem>{projectData[4].link}</ListItem>
+                      </List>
+                    </ModalContent>
                   </Modal>
                 </Item>
               </Card>
@@ -210,12 +226,14 @@ export class Projects extends Component {
                     }
                     contentLabel="Node Scraper Modal"
                   >
-                    <div className="content">
-                      <button className="close" onClick={this.handleCloseModal}>
-                        X
-                      </button>
-                      <p>testing scraper</p>
-                    </div>
+                    <ModalContent>
+                      <Close onClick={this.handleCloseModal}>X</Close>
+                      <ModalHeader>{projectData[5].title}</ModalHeader>
+                      <List>
+                        <ListItem>{projectData[5].content}</ListItem>
+                        <ListItem>{projectData[5].link}</ListItem>
+                      </List>
+                    </ModalContent>
                   </Modal>
                 </Item>
               </Card>
@@ -223,6 +241,6 @@ export class Projects extends Component {
           </ProjectContainer>
         </Wrapper>
       </>
-    )
+    );
   }
-};
+}

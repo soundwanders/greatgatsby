@@ -14,6 +14,7 @@ const Navbar = () => {
             alt="Click to Return to top of Home page"
             title="Return to top of page"
             width="100%"
+            draggable="false"
           />
         </Brand>
         <NavLinks desktop />

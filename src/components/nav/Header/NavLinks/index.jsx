@@ -19,7 +19,7 @@ const NavLinks = ({ desktop }) => {
             rel="noopener noreferrer"
             aria-label={`Check out my ${name}`}
           >
-            <img width="36" src={icon} alt={name} />
+            <img width="36" src={icon} alt={name} draggable="false" />
           </a>
         ))}
       </Socials>

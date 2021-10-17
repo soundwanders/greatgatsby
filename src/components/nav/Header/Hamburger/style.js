@@ -29,16 +29,13 @@ export const Wrapper = styled.div`
 `;
 
 export const Bar = styled.div`
-  width: 1.7rem;
+  width: 1.6rem;
   height: 0.15rem;
   margin-bottom: 0.3rem;
-  background-color: #13133a;
+  background-color: #0d0614;
   box-shadow 250ms,
   opacity 500ms,
-	transition: transform 300ms cubic-bezier(0.6, 0.05, 0.28, 0.91),
-	@media (max-width: 600px) {
-    width: 1.6rem;
-  }
+	transition: transform 300ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
   ${({ top, sidebar }) =>
     top &&
     sidebar &&

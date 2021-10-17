@@ -18,8 +18,11 @@ export const Wrapper = styled.div`
   background-size: cover;
   overflow: hidden;
   @media (max-width: 900px) {
-    padding: 4rem 0 1rem 0;
+    padding: 0 0 1rem 0;
     flex-direction: column;
+  }
+  @media (max-width: 600px) {
+    padding: 4rem 0 2rem 0;
   }
 `;
 
