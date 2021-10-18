@@ -27,7 +27,7 @@
 
 <br /><br />
 
-### &#x1F9D0; What's Going On In There?
+### &#x1F9D0; Who's In There?
 
 1.  **`/src`**: This directory contains all of the code related to what you will see on the front-end of this portfolio site. Name `src` is a convention for “source code”.
 
