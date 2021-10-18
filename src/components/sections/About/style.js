@@ -53,6 +53,7 @@ export const Section = styled.h2`
   @media (max-width: 900px) {
     width: 60%;
     font-size: 2.5vmax;
+  }
 `;
 
 export const Concepts = styled.div`
@@ -63,7 +64,7 @@ export const Concepts = styled.div`
   width: 60%;
   max-width: 60%;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 1rem 1rem 0 1rem;
   font-family: 'Filson Soft', 'Roboto', sans-serif;
   color: inherit;
   overflow-x: hidden;
@@ -95,11 +96,15 @@ export const Subtext = styled.p`
   display: inherit;
   width: 75%;
   text-align: center;
-  padding: 0;
+  padding: 0.25rem 0;
   font-size: 1.5vmax;
   font-family: inherit;
   line-height: 2;
   color: inherit;
   @media (max-width:900px) {
     font-size: 2vmax;
+  }
+    &:last-child {
+      padding-bottom: 0;
+    }
 `;

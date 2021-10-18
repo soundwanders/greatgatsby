@@ -2,37 +2,42 @@
   {
     "id": 0,
     "title": "Helter-Shelter",
-    "content": "",
-    "link": "https://github.com/soundwanders/helter-shelter"
+    "date": "August 2021",
+    "repo": "https://github.com/soundwanders/helter-shelter",
+    "link": "https://soundwanders.github.io/helter-shelter"
   },
   {
     "id": 1,
     "title": "Nebula",
-    "content": "",
-    "link": "https://github.com/soundwanders/nebula"
+    "date": "April 2021",
+    "repo": "https://github.com/soundwanders/nebula",
+    "link": "https://soundwanders.github.io/nebula"
   },
   {
     "id": 2,
     "title": "Timbuktu",
-    "content": "",
-    "link": "https://github.com/soundwanders/timbuktu"
+    "date": "February 2021",
+    "repo": "https://github.com/soundwanders/timbuktu",
+    "link": "https://soundwanders.github.io/timbuktu"
   },
   {
     "id": 3,
     "title": "Brave Bear",
-    "content": "",
-    "link": "https://github.com/soundwanders/bravebear"
+    "date": "June 2021",
+    "repo": "https://github.com/soundwanders/bravebear",
+    "link": "https://bravebear.netlify.app"
   },
   {
     "id": 4,
     "title": "Budget",
-    "content": "",
-    "link": "https://github.com/soundwanders/budget"
+    "date": "October 2020",
+    "repo": "https://github.com/soundwanders/budget",
+    "link": "https://soundwanders.github.io/budget"
   },
   {
     "id": 5,
     "title": "Node Scraper",
-    "content": "",
-    "link": "https://github.com/soundwanders/nodescraper"
+    "date": "March 2021",
+    "repo": "https://github.com/soundwanders/nodescraper"
   }
 ]
