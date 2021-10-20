@@ -24,7 +24,7 @@ export const About = () => {
       </Section>
 
       <Section>
-        Skip ahead a couple decades, and I decided to take the leap into web development. 
+        Skip ahead a couple decades, I decided to take the leap into web development. 
         A few crudely constructed static sites later, it just clicked.
       </Section>
 
@@ -36,13 +36,13 @@ export const About = () => {
 
       <Section>
         Some days I feel like the hare, but most days I feel more like the tortoise. <br/>
-        I've got my hiking boots on and I'm geared up for the long road ahead.
+        It's all good, I've got my hiking boots on and I'm geared up for the long road ahead.
       </Section>
 
       <Concepts>
         <DetailsA>Clean Code</DetailsA>
         <Subtext>
-          Error-free, organized and easily maintainable code. I'm a big fan of 
+          Error-free, maintainable code. I'm a big fan of 
           well-structured code. The only spaghetti I'm down with is served on a plate and it's covered in sauce.
         </Subtext>
         <DetailsA>Creative Solutions</DetailsA>
