@@ -137,7 +137,7 @@ export const Global = createGlobalStyle`
     [type='submit']::-moz-focus-inner,
     button::-moz-focus-inner {
       border-style: none;
-      padg: 0;
+      padding: 0;
     }
     [type='button']:-moz-focusring,
     [type='reset']:-moz-focusring,
