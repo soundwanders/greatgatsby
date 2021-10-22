@@ -9,10 +9,18 @@ export const Wrapper = styled.div`
   background-color: #7a7ade;
   background-image: linear-gradient(
     to bottom,
-    #7a7ade,
-    #7f7ee0,
-    #8383e1,
-    #8787e3
+    #684eb3,
+    #694fb4,
+    #6a4fb5,
+    #6a50b6,
+    #6b51b7,
+    #6c52b8,
+    #6d53ba,
+    #6e54bb,
+    #7055bc,
+    #7156bd,
+    #7358bf,
+    #7459c0
   );
   background-attachment: fixed;
   background-size: cover;

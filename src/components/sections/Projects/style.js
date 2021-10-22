@@ -114,6 +114,7 @@ export const ModalHeader = styled.h1`
   font-size: 3vmax;
   padding: 2rem 0;
   text-align: center;
+  color: orange;
 `;
 
 export const Close = styled.button`
@@ -123,6 +124,7 @@ export const Close = styled.button`
   outline: none;
   font-size: 1.75vmax;
   color: #222;
+  cursor: pointer;
   @media (max-width: 900px) {
     font-size: inital;
   }
@@ -136,6 +138,10 @@ export const List = styled.ul`
 `;
 
 export const ListItem = styled.li`
-  font-size: 1.5vmax;
+  font-size: 1.75vmax;
+  padding: 2rem 0;
   list-style-type: none;
+  &:nth-child(3) {
+    font-size: 1.25vmax;
+  }
 `;

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
+import './index.css';
+import projectData from './projects.json';
 import {
   ProjectContainer,
   Wrapper,
@@ -13,7 +15,6 @@ import {
   List,
   ListItem,
 } from './style';
-import projectData from './projects.json';
 
 export class Projects extends Component {
   constructor(props) {
@@ -57,6 +58,7 @@ export class Projects extends Component {
                   </ModalWrapper>
 
                   <Modal
+                    closeTimeout={200}
                     isOpen={
                       this.state.handleOpenModal &&
                       this.state.activeModal === 'helter'
@@ -67,7 +69,9 @@ export class Projects extends Component {
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[0].title}</ModalHeader>
                       <List>
-                        <ListItem>Visit Repository: {projectData[0].repo}</ListItem>
+                        <ListItem>
+                          Visit Repository: {projectData[0].repo}
+                        </ListItem>
                         <ListItem>Demo Link: {projectData[0].link}</ListItem>
                         <ListItem>Date: {projectData[0].date}</ListItem>
                       </List>
@@ -96,12 +100,15 @@ export class Projects extends Component {
                       this.state.activeModal === 'nebula'
                     }
                     contentLabel="Nebula Modal"
+                    portalClassName="activeModal"
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[1].title}</ModalHeader>
                       <List>
-                        <ListItem>Visit Repository: {projectData[1].repo}</ListItem>
+                        <ListItem>
+                          Visit Repository: {projectData[1].repo}
+                        </ListItem>
                         <ListItem>Demo Link: {projectData[1].link}</ListItem>
                         <ListItem>Date: {projectData[1].date}</ListItem>
                       </List>
@@ -134,7 +141,9 @@ export class Projects extends Component {
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[2].title}</ModalHeader>
                       <List>
-                        <ListItem>Visit Repository: {projectData[2].repo}</ListItem>
+                        <ListItem>
+                          Visit Repository: {projectData[2].repo}
+                        </ListItem>
                         <ListItem>Demo Link: {projectData[2].link}</ListItem>
                         <ListItem>Date: {projectData[2].date}</ListItem>
                       </List>
@@ -168,7 +177,9 @@ export class Projects extends Component {
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[3].title}</ModalHeader>
                       <List>
-                        <ListItem>Visit Repository: {projectData[3].repo}</ListItem>
+                        <ListItem>
+                          Visit Repository: {projectData[3].repo}
+                        </ListItem>
                         <ListItem>Demo Link: {projectData[3].link}</ListItem>
                         <ListItem>Date: {projectData[3].date}</ListItem>
                       </List>
@@ -201,9 +212,11 @@ export class Projects extends Component {
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[4].title}</ModalHeader>
                       <List>
-                        <ListItem>Visit Repository: {projectData[4].repo}</ListItem>
+                        <ListItem>
+                          Visit Repository: {projectData[4].repo}
+                        </ListItem>
                         <ListItem>Demo Link: {projectData[4].link}</ListItem>
-                        <ListItem>Date:  {projectData[4].date}</ListItem>
+                        <ListItem>Date: {projectData[4].date}</ListItem>
                       </List>
                     </ModalContent>
                   </Modal>
@@ -235,7 +248,9 @@ export class Projects extends Component {
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[5].title}</ModalHeader>
                       <List>
-                        <ListItem>Visit Repository: {projectData[5].repo} </ListItem>
+                        <ListItem>
+                          Visit Repository: {projectData[5].repo}{' '}
+                        </ListItem>
                         <ListItem>Date: {projectData[5].date}</ListItem>
                       </List>
                     </ModalContent>
