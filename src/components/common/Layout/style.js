@@ -5,6 +5,7 @@ export const Global = createGlobalStyle`
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
+    font-size: 16px;
     font-family: 'Roboto', Helvetica, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
