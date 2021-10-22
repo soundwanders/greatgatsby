@@ -5,7 +5,7 @@ export const Global = createGlobalStyle`
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
-    font-size: 16px;
+    font-size: 100%;
     font-family: 'Roboto', Helvetica, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -187,7 +187,6 @@ export const Global = createGlobalStyle`
       font: inherit;
     }
     html {
-      font: 112.5%/1.45em georgia, serif;
       box-sizing: border-box;
       overflow-y: scroll;
     }
@@ -608,6 +607,7 @@ export const Global = createGlobalStyle`
       margin: 0;
       padding: 0;
       overflow-x: hidden;
+      font-size: 100%:
       font-family: 'Roboto', Helvetica, sans-serif;
       color: #663399,
       transition: .3s all;
