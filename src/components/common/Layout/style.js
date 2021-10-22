@@ -609,7 +609,7 @@ export const Global = createGlobalStyle`
       overflow-x: hidden;
       font-size: 1em;
       font-family: 'Roboto', Helvetica, sans-serif;
-      color: #663399,
+      color: #663399;
       transition: .3s all;
       font-weight: normal;
       word-wrap: break-word;
