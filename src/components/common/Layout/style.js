@@ -417,7 +417,7 @@ export const Global = createGlobalStyle`
     }
     blockquote {
       margin-left: 1.45rem;
-      : 1.45rem;
+      margin-right: 1.45rem;
       margin-top: 0;
       padding-bottom: 0;
       padding-left: 0;
