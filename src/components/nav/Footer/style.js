@@ -38,7 +38,7 @@ export const Copyright = styled.div`
   font-size: 1.1rem;
   letter-spacing: 0.5px;
 
-  @media (max-width: 900px) {
+  @media (max-width: 960px) {
     font-size: 0.875rem;
   }
 `;

@@ -29,7 +29,7 @@ export const Container = styled.div`
   background-attachment: fixed;
   background-size: cover;
   overflow: hidden;
-  @media (max-width: 900px) {
+  @media (max-width: 960px) {
     padding: 3rem 0;
     flex-direction: column;
   }
@@ -42,7 +42,7 @@ export const Title = styled.h1`
   font-size: 4.5vmax;
   font-family: 'Roboto', sans-serif;
   color: inherit;
-  @media (max-width: 900px) {
+  @media (max-width: 960px) {
     font-size: 4vmax;
     padding: 0;
   }
@@ -57,7 +57,7 @@ export const Section = styled.h2`
   font-family: inherit;
   line-height: 2;
   color: inherit;
-  @media (max-width: 900px) {
+  @media (max-width: 960px) {
     width: 60%;
     font-size: 2.5vmax;
   }
@@ -83,8 +83,11 @@ export const DetailsA = styled.h1`
   padding: 1rem 0 0.5rem 0;
   font-size: 5vmax;
   color: #f8f8f8;
-  @media (max-width: 900px) {
+  @media (max-width: 960px) {
     padding-bottom: 0;
+  }
+  &:first-child {
+    padding: 0;
   }
 `;
 
@@ -94,7 +97,7 @@ export const DetailsB = styled.h1`
   padding: 1rem 0 0.5rem 0;
   font-size: 5.5vmax;
   color: #f8f8f8;
-  @media (max-width: 900px) {
+  @media (max-width: 960px) {
     padding-bottom: 0;
   }
 `;
@@ -108,11 +111,41 @@ export const Subtext = styled.p`
   font-family: inherit;
   line-height: 2;
   color: inherit;
-  @media (max-width: 900px) {
+  @media (max-width: 960px) {
     font-size: 2vmax;
     width: 80%;
   }
   &:last-child {
     padding-bottom: 0;
+  }
+`;
+
+export const Woods = styled.img`
+  margin: 0 auto;
+  padding: 0.5em 0;
+  width: 13%;
+  @media (max-width: 900px) {
+    width: 33%;
+    padding: 0;
+  }
+`;
+
+export const Pathway = styled.img`
+  margin: 0 auto;
+  padding: 0.5em 0;
+  width: 13%;
+  @media (max-width: 900px) {
+    width: 33%;
+    padding: 0;
+  }
+`;
+
+export const TrailMarker = styled.img`
+  margin: 0 auto;
+  padding: 0.5em 0;
+  width: 20%;
+  @media (max-width: 900px) {
+    width: 40%;
+    padding: 1rem 0;
   }
 `;

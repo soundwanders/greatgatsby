@@ -49,17 +49,19 @@ export const Seo = ({
       <meta name="description" content={description} />
       <meta
         name="image"
-        content="https://res.cloudinary.com/cloudwanders/image/upload/v1632713646/thumbnail_bpik7e.png"
+        content="https://res.cloudinary.com/cloudwanders/image/upload/v1635020321/thumbnail.png"
       />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0 minimum-scale=0.86"
+      />
       <meta property="og:url" content={`${url}${location}/?ref=jcoletta.com`} />
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta
         property="og:image"
-        content="https://res.cloudinary.com/cloudwanders/image/upload/v1632713646/thumbnail_bpik7e.png"
+        content="https://res.cloudinary.com/cloudwanders/image/upload/v1635020321/thumbnail.png"
       />
 
       <meta name="twitter:card" content="summary" />
@@ -67,7 +69,7 @@ export const Seo = ({
       <meta name="twitter:description" content={description} />
       <meta
         name="twitter:image:src"
-        content="https://res.cloudinary.com/cloudwanders/image/upload/v1632713646/thumbnail_bpik7e.png"
+        content="https://res.cloudinary.com/cloudwanders/image/upload/v1635020321/thumbnail.png"
       />
       <script type="application/ld+json">{structuredDataOrganization}</script>
       <title>{title}</title>

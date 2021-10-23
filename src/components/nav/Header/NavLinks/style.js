@@ -41,7 +41,7 @@ export const Wrapper = styled.div`
                 transform: rotate(360deg);
                 transition: 0.75s;
             }
-            @media (max-width: 900px) {
+            @media (max-width: 960px) {
                 display: none;
             }
         `
@@ -74,7 +74,7 @@ export const Socials = styled.div`
   align-items: center;
   grid-template-columns: repeat(2, 0.5fr);
   grid-template-rows: 4fr;
-  @media (max-width: 900px) {
+  @media (max-width: 960px) {
     padding: 4rem 1rem 0 1rem;
   }
   img {

@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="JC" src="src/assets/icons/favicon.ico" width="40" />
+  <img alt="JC" src="src/assets/icons/icon.png" width="80" />
 </p>
 
 <h1 align="center">

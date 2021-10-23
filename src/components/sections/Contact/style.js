@@ -25,7 +25,7 @@ export const Wrapper = styled.div`
   background-attachment: fixed;
   background-size: cover;
   overflow: hidden;
-  @media (max-width: 900px) {
+  @media (max-width: 960px) {
     padding: 0 0 1rem 0;
     flex-direction: column;
   }
@@ -66,10 +66,10 @@ export const Title = styled.h2`
   color: #f8f8f8;
   padding: 1rem 0;
   margin: 0 auto;
-  @media (max-width: 900px) {
+  @media (max-width: 960px) {
     font-size: 1.75rem;
   }
-  @media (max-height: 600px) and (max-width: 900px) {
+  @media (max-height: 600px) and (max-width: 960px) {
     font-size: 2.25rem;
   }
 `;

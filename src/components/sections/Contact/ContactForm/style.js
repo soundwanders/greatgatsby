@@ -29,13 +29,13 @@ export const InputField = styled.div`
   padding-bottom: 1rem;
   overflow: hidden;
 
-  @media (max-width: 900px) {
+  @media (max-width: 960px) {
     min-width: 90%;
     width: 90%;
     margin: 0 auto;
     padding-left: 0;
   }
-  @media (max-height: 500px) and (max-width: 900px) {
+  @media (max-height: 500px) and (max-width: 960px) {
     width: 55vw;
   }
 `;

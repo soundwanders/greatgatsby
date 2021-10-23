@@ -1,8 +1,8 @@
 module.exports = {
   defaultTitle: 'JColetta',
-  defaultDescription: `Welcome to Jared Coletta's Developer Portfolio`,
+  defaultDescription: `Welcome to Jared Coletta's Developer Portfolio!`,
   author: 'soundwanders',
-  url: 'https://jcoletta.vercel.app/',
+  url: 'https://jcoletta.com/',
   role: 'Web Developer',
   logo: `src/assets/icons/favicon.png`,
   legalName: 'Jared Coletta',

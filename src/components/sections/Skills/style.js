@@ -40,7 +40,7 @@ export const Logo = styled.img`
   align-content: center;
   width: 30%;
   margin: 0 auto;
-  @media (min-width: 560px) and (max-width: 900px) {
+  @media (min-width: 560px) and (max-width: 960px) {
     width: 16%;
   }
 `;
@@ -51,7 +51,7 @@ export const ScaledLogo = styled.img`
   align-content: center;
   width: 37%;
   margin: 0 auto;
-  @media (min-width: 560px) and (max-width: 900px) {
+  @media (min-width: 560px) and (max-width: 960px) {
     width: 23%;
   }
 `;
