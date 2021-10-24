@@ -1,10 +1,10 @@
 <p align="center">
-  <img alt="JC" src="src/assets/icons/icon.png" width="80" />
+  <img alt="JC" src="src/assets/icons/icon.png" width="70" />
 </p>
 
 <h1 align="center">
   <a href="https://www.jcoletta.com">
-    JColetta.com
+    jcoletta.com
   </a>
 </h1>
 

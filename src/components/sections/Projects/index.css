@@ -1,17 +1,10 @@
 .ReactModal__Body--open,
 .ReactModal__Html--open {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .ReactModal__Overlay {
-    margin: 0 auto;
-    height: 100%;
-    width: 66%;
     transition: opacity 0.75s ease-in-out;
-    @media (max-width: 960px) {
-        height: 60%;
-        width: 90%;
-    }
 }
 
 .ReactModal__Overlay--after-open{
@@ -20,4 +13,10 @@
 
 .ReactModal__Overlay--before-close{
     opacity: 0;
+}
+
+.ReactModal__Content {
+    width: 60%;
+    height: 80%;
+    margin: 0 auto;
 }

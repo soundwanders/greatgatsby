@@ -121,12 +121,15 @@ export const Subtext = styled.p`
 `;
 
 export const Woods = styled.img`
+  position: relative;
   margin: 0 auto;
   padding: 0.5em 0;
-  width: 13%;
+  width: 9%;
+  opacity: 0.95;
+  z-index: 1;
   @media (max-width: 900px) {
-    width: 33%;
-    padding: 0;
+    width: 31%;
+    padding: 0.5em 0;
   }
 `;
 
@@ -135,17 +138,17 @@ export const Pathway = styled.img`
   padding: 0.5em 0;
   width: 13%;
   @media (max-width: 900px) {
-    width: 33%;
-    padding: 0;
+    width: 35%;
+    padding: 0.5em 0;
   }
 `;
 
 export const TrailMarker = styled.img`
   margin: 0 auto;
   padding: 0.5em 0;
-  width: 20%;
+  width: 16%;
   @media (max-width: 900px) {
-    width: 40%;
-    padding: 1rem 0;
+    width: 45%;
+    padding: 0.5em 0 1rem 0;
   }
 `;

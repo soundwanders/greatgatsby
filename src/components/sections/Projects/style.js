@@ -76,9 +76,8 @@ export const Item = styled.div`
       box-shadow: 9px 11px 3px -5px rgba(60, 60, 60, 0.4);
       -webkit-box-shadow: 9px 11px 3px -5px rgba(60, 60, 60, 0.4);
       -moz-box-shadow: 9px 11px 3px -5px rgba(60, 60, 60, 0.4);
-      &:hover {
-        cursor: pointer;
-      }
+      cursor: pointer;
+
       @media (max-width: 960px) {
         width: 500px;
         height: 300px;
@@ -104,14 +103,14 @@ export const ModalWrapper = styled.button`
 `;
 
 export const ModalContent = styled.div`
-  width: 100%;
   margin: 0 auto;
-  justify-content: center;
+  padding: 0;
+  }
 `;
 
 export const ModalHeader = styled.h1`
   font-family: 'Roboto', Ubuntu, sans-serif;
-  font-size: 3vmax;
+  font-size: 3.25vmax;
   padding: 2rem 0;
   text-align: center;
   color: orange;
@@ -139,7 +138,7 @@ export const List = styled.ul`
 
 export const ListItem = styled.li`
   font-size: 1.75vmax;
-  padding: 2rem 0;
+  padding: 1em 0;
   list-style-type: none;
   &:nth-child(3) {
     font-size: 1.25vmax;

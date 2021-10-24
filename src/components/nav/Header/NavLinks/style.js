@@ -26,6 +26,7 @@ export const Wrapper = styled.div`
             font-size: 2rem;
             font-weight: 600;
             white-space: pre;
+            z-index: 122;
             a {
                 padding-right: 1rem;
             }

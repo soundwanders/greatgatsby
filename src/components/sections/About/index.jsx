@@ -41,13 +41,12 @@ export const About = () => {
       <Section>
         Sometimes I feel like the hare, but most days I feel a lot more like the
         tortoise. <br />
-        Atleast I've picked up some things left behind by those who walked this
-        path before me...
+        While I've walked this long and winding road, I've learned a lesson or two...
       </Section>
 
       <Woods
         alt="Woods Decorative Image"
-        src="https://res.cloudinary.com/cloudwanders/image/upload/v1635021298/path_xks00p.png"
+        src="https://res.cloudinary.com/cloudwanders/image/upload/v1635095072/woods_kdhoy6.png"
         aria-hidden="true"
       />
 
@@ -74,7 +73,7 @@ export const About = () => {
 
         <Pathway
           alt="Trail Pathway Decorative Image"
-          src="https://res.cloudinary.com/cloudwanders/image/upload/v1635021849/pathwaytohezen.png"
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1635087492/pathwayright_pin3ne.png"
           aria-hidden="true"
         />
 
@@ -98,11 +97,13 @@ export const About = () => {
           content to encourage users to stick around.
         </Subtext>
 
-        <TrailMarker
-          alt="Trail Marker Decorative Image"
-          src="https://res.cloudinary.com/cloudwanders/image/upload/v1635020052/sign-post_g43aif.png"
-          aria-hidden="true"
-        />
+      
+      <TrailMarker
+        alt="Trail Marker Decorative Image"
+        src="https://res.cloudinary.com/cloudwanders/image/upload/v1635020052/sign-post_g43aif.png"
+        aria-hidden="true"
+      />
+
       </Concepts>
     </Container>
   );
