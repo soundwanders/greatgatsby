@@ -41,7 +41,7 @@ export const About = () => {
       <Section>
         Sometimes I feel like the hare, but most days I feel a lot more like the
         tortoise. <br />
-        While I've walked this long and winding road, I've learned a lesson or two...
+        I like to think I've learned a lesson or two as I've walked this long and winding road...      
       </Section>
 
       <Woods
