@@ -69,8 +69,20 @@ export class Projects extends Component {
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[0].title}</ModalHeader>
                       <List>
-                      <ListItem> <a href={projectData[0].repo}> Visit Repository </a> </ListItem>
-                        <ListItem> <a href={projectData[0].link}> Visit Project Demo </a> </ListItem>
+                        <ListItem>
+                          {' '}
+                          <a href={projectData[0].repo}>
+                            {' '}
+                            Visit Repository{' '}
+                          </a>{' '}
+                        </ListItem>
+                        <ListItem>
+                          {' '}
+                          <a href={projectData[0].link}>
+                            {' '}
+                            Visit Project Demo{' '}
+                          </a>{' '}
+                        </ListItem>
                         <ListItem>Date: {projectData[0].date}</ListItem>
                       </List>
                     </ModalContent>
@@ -104,8 +116,20 @@ export class Projects extends Component {
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[1].title}</ModalHeader>
                       <List>
-                        <ListItem> <a href={projectData[1].repo}> Visit Repository </a> </ListItem>
-                        <ListItem> <a href={projectData[1].link}> Visit Project Demo </a> </ListItem>
+                        <ListItem>
+                          {' '}
+                          <a href={projectData[1].repo}>
+                            {' '}
+                            Visit Repository{' '}
+                          </a>{' '}
+                        </ListItem>
+                        <ListItem>
+                          {' '}
+                          <a href={projectData[1].link}>
+                            {' '}
+                            Visit Project Demo{' '}
+                          </a>{' '}
+                        </ListItem>
                         <ListItem>Date: {projectData[1].date}</ListItem>
                       </List>
                     </ModalContent>
@@ -137,8 +161,20 @@ export class Projects extends Component {
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[2].title}</ModalHeader>
                       <List>
-                      <ListItem> <a href={projectData[2].repo}> Visit Repository </a> </ListItem>
-                        <ListItem> <a href={projectData[2].link}> Visit Project Demo </a> </ListItem>
+                        <ListItem>
+                          {' '}
+                          <a href={projectData[2].repo}>
+                            {' '}
+                            Visit Repository{' '}
+                          </a>{' '}
+                        </ListItem>
+                        <ListItem>
+                          {' '}
+                          <a href={projectData[2].link}>
+                            {' '}
+                            Visit Project Demo{' '}
+                          </a>{' '}
+                        </ListItem>
                         <ListItem>Date: {projectData[2].date}</ListItem>
                       </List>
                     </ModalContent>
@@ -171,8 +207,20 @@ export class Projects extends Component {
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[3].title}</ModalHeader>
                       <List>
-                      <ListItem> <a href={projectData[3].repo}> Visit Repository </a> </ListItem>
-                        <ListItem> <a href={projectData[3].link}> Visit Project Demo </a> </ListItem>
+                        <ListItem>
+                          {' '}
+                          <a href={projectData[3].repo}>
+                            {' '}
+                            Visit Repository{' '}
+                          </a>{' '}
+                        </ListItem>
+                        <ListItem>
+                          {' '}
+                          <a href={projectData[3].link}>
+                            {' '}
+                            Visit Project Demo{' '}
+                          </a>{' '}
+                        </ListItem>
                         <ListItem>Date: {projectData[3].date}</ListItem>
                       </List>
                     </ModalContent>
@@ -204,8 +252,20 @@ export class Projects extends Component {
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[4].title}</ModalHeader>
                       <List>
-                      <ListItem> <a href={projectData[4].repo}> Visit Repository </a> </ListItem>
-                        <ListItem> <a href={projectData[4].link}> Visit Project Demo </a> </ListItem>
+                        <ListItem>
+                          {' '}
+                          <a href={projectData[4].repo}>
+                            {' '}
+                            Visit Repository{' '}
+                          </a>{' '}
+                        </ListItem>
+                        <ListItem>
+                          {' '}
+                          <a href={projectData[4].link}>
+                            {' '}
+                            Visit Project Demo{' '}
+                          </a>{' '}
+                        </ListItem>
                         <ListItem>Date: {projectData[4].date}</ListItem>
                       </List>
                     </ModalContent>
@@ -238,7 +298,13 @@ export class Projects extends Component {
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[5].title}</ModalHeader>
                       <List>
-                      <ListItem> <a href={projectData[5].repo}> Visit Repository </a> </ListItem>
+                        <ListItem>
+                          {' '}
+                          <a href={projectData[5].repo}>
+                            {' '}
+                            Visit Repository{' '}
+                          </a>{' '}
+                        </ListItem>
                         <ListItem>Date: {projectData[5].date}</ListItem>
                       </List>
                     </ModalContent>

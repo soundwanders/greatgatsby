@@ -41,7 +41,7 @@ export const About = () => {
       <Section>
         Sometimes I feel like the hare, but most days I feel a lot more like the
         tortoise. <br />
-        I like to think I've learned a lesson or two as I've walked this long and winding road...      
+        I'm grateful to have picked up a few useful things I found along the way...
       </Section>
 
       <Woods
@@ -53,9 +53,9 @@ export const About = () => {
       <Concepts>
         <DetailsA>Clean Code</DetailsA>
         <Subtext>
-          I'm a big fan of well-structured code. Error-free, maintainable code
-          that is pretty to look at makes me happy. The only spaghetti I'm down
-          with is served on a plate and it's covered in sauce.
+          No needles in these haystacks. Error-free, easily maintainable code that is 
+          clear in its purpose and efficient in its execution makes me happy.
+          The only spaghetti I'm down with is served on a plate and it's covered in sauce.
         </Subtext>
 
         <Pathway
@@ -66,7 +66,7 @@ export const About = () => {
 
         <DetailsA>Creative Solutions</DetailsA>
         <Subtext>
-          Diving headfirst into exciting ideas, with the courage to fail and the
+          Diving headfirst into exciting ideas, with the courage to fail miserably and the
           perseverance to get back up and try again. Solving problems is the
           name of the game.
         </Subtext>
@@ -97,13 +97,11 @@ export const About = () => {
           content to encourage users to stick around.
         </Subtext>
 
-      
-      <TrailMarker
-        alt="Trail Marker Decorative Image"
-        src="https://res.cloudinary.com/cloudwanders/image/upload/v1635020052/sign-post_g43aif.png"
-        aria-hidden="true"
-      />
-
+        <TrailMarker
+          alt="Trail Marker Decorative Image"
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1635020052/sign-post_g43aif.png"
+          aria-hidden="true"
+        />
       </Concepts>
     </Container>
   );
