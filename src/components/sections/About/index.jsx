@@ -41,7 +41,8 @@ export const About = () => {
       <Section>
         Sometimes I feel like the hare, but most days I feel a lot more like the
         tortoise. <br />
-        I'm grateful to have picked up a few useful things I found along the way...
+        I'm grateful to have picked up a few useful things I found along the
+        way...
       </Section>
 
       <Woods
@@ -53,9 +54,10 @@ export const About = () => {
       <Concepts>
         <DetailsA>Clean Code</DetailsA>
         <Subtext>
-          No needles in these haystacks. Error-free, easily maintainable code that is 
-          clear in its purpose and efficient in its execution makes me happy.
-          The only spaghetti I'm down with is served on a plate and it's covered in sauce.
+          No needles in these haystacks. Error-free, easily maintainable code
+          that is clear in its purpose and efficient in its execution makes me
+          happy. The only spaghetti I'm down with is served on a plate and it's
+          covered in sauce.
         </Subtext>
 
         <Pathway
@@ -66,9 +68,9 @@ export const About = () => {
 
         <DetailsA>Creative Solutions</DetailsA>
         <Subtext>
-          Diving headfirst into exciting ideas, with the courage to fail miserably and the
-          perseverance to get back up and try again. Solving problems is the
-          name of the game.
+          Diving headfirst into exciting ideas, with the courage to fail
+          miserably and the perseverance to get back up and try again. Solving
+          problems is the name of the game.
         </Subtext>
 
         <Pathway

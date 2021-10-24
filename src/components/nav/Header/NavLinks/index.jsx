@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Wrapper, Socials } from './style';
 import socialData from './socials.json';
@@ -10,6 +11,7 @@ const NavLinks = ({ desktop }) => {
       <AnchorLink href="#about">About</AnchorLink>
       <AnchorLink href="#projects">Projects</AnchorLink>
       <AnchorLink href="#contact">Contact</AnchorLink>
+      <Link to="blog">Blog</Link>
       <Socials>
         {socialData.map(({ id, name, link, icon }) => (
           <a
