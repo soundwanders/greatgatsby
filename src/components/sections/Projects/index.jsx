@@ -71,14 +71,14 @@ export class Projects extends Component {
                       <List>
                         <ListItem>
                           - Helter-Shelter is a site supporting New Hampshire
-                          animal shelters and rescue organizations. <br />
-                          - Embedded custom map with Leaflet.js. <br />
+                          animal shelters and rescue organizations. <br /><br />
+                          - Embedded custom map with Leaflet.js. <br /><br />
                           - Collapsible data table generated with JavaScript.{' '}
-                          <br />
-                          - Table populated by looping through an array of
-                          Objects then appending to display. <br />
-                          - Layout achieved with CSS Flexbox, focusing on a
-                          mobile-friendly design. <br />- Bundled with Webpack.
+                          <br /><br />
+                          - Table is populated by looping through an array of
+                          Objects then appending to display. <br /><br />
+                          - Mobile-friendly design focused on CSS Flexbox. <br /><br />
+                          - Bundled with Webpack, deployed using Netlify. <br /><br />
                         </ListItem>
                         <ListItem>
                           {' '}
@@ -91,7 +91,7 @@ export class Projects extends Component {
                           {' '}
                           <a href={projectData[0].link}>
                             {' '}
-                            Visit Project Demo{' '}
+                            Project Demo{' '}
                           </a>{' '}
                         </ListItem>
                         <ListItem>Date: {projectData[0].date}</ListItem>
@@ -128,13 +128,10 @@ export class Projects extends Component {
                       <ModalHeader>{projectData[1].title}</ModalHeader>
                       <List>
                         <ListItem>
-                          - An image gallery of nebulae, using content cards as
-                          the display medium. - Built with Bootstrap. - Card
-                          content containers, with a separate card for every
-                          individual nebula. - Each nebula's image is a modal,
-                          pops out to full screen when active. - Dynamic grid
-                          layout changes at specified breakpoints for responsive
-                          design.
+                          - An image gallery built with Bootstrap, showcasing high-res photographs of nebulae. <br /><br />
+                          - Responsive content cards hold photos with their description underneath. <br /><br />
+                          - Each nebula's image is a modal that pops out to full-screen. <br /><br />
+                          - Use of media query breakpoints allows dynamic resizing of grid layout. <br />
                         </ListItem>
                         <ListItem>
                           {' '}
@@ -147,7 +144,7 @@ export class Projects extends Component {
                           {' '}
                           <a href={projectData[1].link}>
                             {' '}
-                            Visit Project Demo{' '}
+                            Project Demo{' '}
                           </a>{' '}
                         </ListItem>
                         <ListItem>Date: {projectData[1].date}</ListItem>
@@ -182,15 +179,16 @@ export class Projects extends Component {
                       <ModalHeader>{projectData[2].title}</ModalHeader>
                       <List>
                         <ListItem>
-                          - Timbuktu is a demo digital library focused on
-                          ancient civilizations. <br />
+                          - Timbuktu is a demo digital library centered around
+                          ancient civilizations. <br /><br />
                           - Library holds Book title, author, format,
-                          civilization. <br />
-                          - Newly constructed Objects pushed to the library
-                          array. <br />
+                          civilization. <br /><br />
+                          - Objects constructed and pushed to the library
+                          array. <br /><br />
                           - Skeleton CSS used to achieve a clean, responsive
-                          design <br />- LocalStorage methods used to save and
-                          retrieve library data.
+                          design. <br /><br />
+                          - LocalStorage methods save and
+                          load library data to preserve state on page refresh. <br />
                         </ListItem>
                         <ListItem>
                           {' '}
@@ -203,7 +201,7 @@ export class Projects extends Component {
                           {' '}
                           <a href={projectData[2].link}>
                             {' '}
-                            Visit Project Demo{' '}
+                            Project Demo{' '}
                           </a>{' '}
                         </ListItem>
                         <ListItem>Date: {projectData[2].date}</ListItem>
@@ -240,14 +238,15 @@ export class Projects extends Component {
                       <List>
                         <ListItem>
                           - Bravebear features three templates with different
-                          color schemes. <br />
+                          color schemes. <br /><br />
                           - Built with React, more specifically
-                          create-react-app. <br />
+                          create-react-app. <br /><br />
                           - Each template is a standalone component exported
-                          into the app. <br />
+                          into the main App directory. <br /><br />
                           - React-router switches between pages without
-                          reloading. <br />- Mobile-first design that scales up,
-                          layout uses CSS Grid.
+                          reloading. <br /><br />
+                          - Mobile-first design scales up to any device, page
+                          layout built with CSS Grid. <br />
                         </ListItem>
                         <ListItem>
                           {' '}
@@ -260,7 +259,7 @@ export class Projects extends Component {
                           {' '}
                           <a href={projectData[3].link}>
                             {' '}
-                            Visit Project Demo{' '}
+                            Project Demo{' '}
                           </a>{' '}
                         </ListItem>
                         <ListItem>Date: {projectData[3].date}</ListItem>
@@ -296,17 +295,14 @@ export class Projects extends Component {
                       <List>
                         <ListItem>
                           - Simple Budget application written in JavaScript.{' '}
-                          <br />
+                          <br /><br />
                           - User can input monthly income, create an expense
-                          list and calculate available budget. <br />
-                          - Expense name and cost combined into one variable
-                          before appending to expense list. <br />
+                          list and calculate available budget. <br /><br />
                           - Regular expressions are used to check all user
-                          inputs for correct values. <br />
+                          inputs for correct values. <br /><br />
                           - Runs boolean checks to validate the data passing
-                          through regular expressions. <br />- To retrieve
-                          localStorage data, uses JSON to stringify and parse
-                          the budget data.
+                          through regular expressions. <br /><br />
+                          - LocalStorage data stringified/parsed with JSON. <br />
                         </ListItem>
                         <ListItem>
                           {' '}
@@ -319,7 +315,7 @@ export class Projects extends Component {
                           {' '}
                           <a href={projectData[4].link}>
                             {' '}
-                            Visit Project Demo{' '}
+                            Project Demo{' '}
                           </a>{' '}
                         </ListItem>
                         <ListItem>Date: {projectData[4].date}</ListItem>
@@ -355,15 +351,14 @@ export class Projects extends Component {
                       <ModalHeader>{projectData[5].title}</ModalHeader>
                       <List>
                         <ListItem>
-                          - Exploring Web Scraping with Node. <br />
-                          - Crawling the web, exploring use of CSS selectors and
-                          accessing APIs. <br />
-                          - Scraping data with Axios, Cheerio, Puppeteer,
-                          Request. <br />
-                          - First scraper pulls results from Minnesota High
-                          School Hockey State Championships. <br />
+                          - Exploring Web Scraping with Node. <br /><br />
+                          - Retrieving data with Axios, Cheerio, Puppeteer,
+                          Request. <br /><br />
+                          - First scraper pulls results from the Minnesota High
+                          School Hockey State Championships. <br /><br />
                           - Second scraper retrieves NHL game results and
-                          current statistic leaders. <br />- Third scraper
+                          current statistic leaders. <br /><br />
+                          - Third scraper
                           gathers data on endangered and at-risk animal
                           populations.
                         </ListItem>

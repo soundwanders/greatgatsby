@@ -8,7 +8,7 @@ import {
   DetailsB,
   Subtext,
   TrailMarker,
-  Pathway,
+  Pathway, 
   Woods,
 } from './style';
 
@@ -27,15 +27,15 @@ export const About = () => {
       </Section>
 
       <Section>
-        Skip ahead a couple decades, I decided to take the leap into web
-        development. A few crudely constructed static sites later, it just
-        clicked.
+        Skipping ahead a couple decades, I decided to take the leap into web
+        development and began building (crudely constructed) static sites. Almost 
+        immediately, it clicked. I knew that I found something special.
       </Section>
 
       <Section>
-        I've stumbled plenty of times along the way (maybe even fell flat on my
-        face), but I embrace the discomfort and battle through adversity, using
-        it as a catalyst for continuous improvement.
+        I've stumbled plenty of times along the way, maybe even fell flat on my
+        face, but I embrace the adversity and use it as a catalyst for 
+        continuous improvement.
       </Section>
 
       <Section>
@@ -45,16 +45,16 @@ export const About = () => {
         way...
       </Section>
 
-      <Woods
-        alt="Woods Decorative Image"
-        src="https://res.cloudinary.com/cloudwanders/image/upload/v1635095072/woods_kdhoy6.png"
-        aria-hidden="true"
-      />
-
       <Concepts>
+        <Woods
+          alt="Woods Decorative Image"
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1635181706/woods_1_yvdbrs.png"
+          aria-hidden="true"
+        />
+
         <DetailsA>Clean Code</DetailsA>
         <Subtext>
-          No needles in these haystacks. Error-free, easily maintainable code
+          No needles, no haystacks. Error-free, easily maintainable code
           that is clear in its purpose and efficient in its execution makes me
           happy. The only spaghetti I'm down with is served on a plate and it's
           covered in sauce.

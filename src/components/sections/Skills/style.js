@@ -26,7 +26,7 @@ export const Grid = styled.div`
   gap: 3rem 0.5rem;
   justify-content: center;
   margin: 0;
-  @media (max-width: 960px) {
+  @media (max-width: 940px) {
     grid-template-columns: repeat(3, 1fr);
   }
   @media (max-width: 600px) {
@@ -40,7 +40,7 @@ export const Logo = styled.img`
   align-content: center;
   width: 30%;
   margin: 0 auto;
-  @media (min-width: 560px) and (max-width: 960px) {
+  @media (min-width: 560px) and (max-width: 940px) {
     width: 16%;
   }
 `;
@@ -51,7 +51,7 @@ export const ScaledLogo = styled.img`
   align-content: center;
   width: 37%;
   margin: 0 auto;
-  @media (min-width: 560px) and (max-width: 960px) {
+  @media (min-width: 560px) and (max-width: 940px) {
     width: 23%;
   }
 `;

@@ -18,7 +18,7 @@ export const Wrapper = styled.div`
         width: 20%;
         right: 0px;
         opacity: 1;
-        @media (max-width: 960px) {
+        @media (max-width: 940px) {
             width: 40%;
         }
         @media (max-width: 600px) {

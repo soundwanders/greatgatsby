@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const FormContainer = styled.div`
+  position: relative;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -20,6 +21,7 @@ export const Center = styled.div`
 `;
 
 export const InputField = styled.div`
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -28,14 +30,15 @@ export const InputField = styled.div`
   margin: 0 auto;
   padding-bottom: 1rem;
   overflow: hidden;
+  z-index: 2;
 
-  @media (max-width: 960px) {
+  @media (max-width: 940px) {
     min-width: 90%;
     width: 90%;
     margin: 0 auto;
     padding-left: 0;
   }
-  @media (max-height: 500px) and (max-width: 960px) {
+  @media (max-height: 500px) and (max-width: 940px) {
     width: 55vw;
   }
 `;

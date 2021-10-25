@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   transition: left 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
   z-index: 5;
 
-  @media (max-width: 960px) {
+  @media (max-width: 940px) {
     display: block;
   }
 
@@ -18,7 +18,7 @@ export const Wrapper = styled.div`
     `
       right: 18%;
       top: 1.3rem;
-      @media (max-width: 960px) {
+      @media (max-width: 940px) {
           right: 35%;
           position: fixed;
       }

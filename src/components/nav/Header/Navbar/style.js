@@ -10,7 +10,7 @@ export const SpansMaxWidth = styled.div`
   padding: 4px 0;
   overflow: hidden;
   background: #f8f8f8;
-  @media (max-width: 960px) {
+  @media (max-width: 940px) {
     background: transparent;
   }
 `;
@@ -24,13 +24,13 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   background: transparent;
-  z-index: 4;
+  z-index: 22;
 `;
 
 export const Brand = styled.div`
   max-width: 3rem;
   padding: 1rem;
-  @media (max-width: 960px) {
+  @media (max-width: 940px) {
     max-width: 2rem;
   }
   img.svg {

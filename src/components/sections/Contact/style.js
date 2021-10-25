@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.div`  
+  position: relative;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -25,7 +26,8 @@ export const Wrapper = styled.div`
   background-attachment: fixed;
   background-size: cover;
   overflow: hidden;
-  @media (max-width: 960px) {
+  z-index: -2; 
+  @media (max-width: 940px) {
     padding: 0 0 1rem 0;
     flex-direction: column;
   }
@@ -44,7 +46,7 @@ export const Details = styled.div`
   display: flex;
   flex-direction: column;
   flex: 1;
-  @media (max-width: 960px) {
+  @media (max-width: 940px) {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
@@ -66,10 +68,10 @@ export const Title = styled.h2`
   color: #f8f8f8;
   padding: 1rem 0;
   margin: 0 auto;
-  @media (max-width: 960px) {
+  @media (max-width: 940px) {
     font-size: 1.75rem;
   }
-  @media (max-height: 600px) and (max-width: 960px) {
+  @media (max-height: 600px) and (max-width: 940px) {
     font-size: 2.25rem;
   }
 `;

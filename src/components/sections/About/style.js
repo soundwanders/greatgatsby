@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,6 +11,7 @@ export const Container = styled.div`
   margin: 0 auto;
   padding: 5rem 0;
   color: #f8f8f8;
+  z-index: -4;
   background-color: #7a7ade;
   background-image: linear-gradient(
     to bottom,
@@ -29,7 +31,7 @@ export const Container = styled.div`
   background-attachment: fixed;
   background-size: cover;
   overflow: hidden;
-  @media (max-width: 960px) {
+  @media (max-width: 940px) {
     padding: 3rem 0;
     flex-direction: column;
   }
@@ -42,7 +44,7 @@ export const Title = styled.h1`
   font-size: 4.5vmax;
   font-family: 'Roboto', sans-serif;
   color: inherit;
-  @media (max-width: 960px) {
+  @media (max-width: 940px) {
     font-size: 4vmax;
     padding: 0;
   }
@@ -52,12 +54,12 @@ export const Section = styled.h2`
   display: inherit;
   width: 70%;
   text-align: inherit;
-  padding: 1rem 0;
+  padding: 1rem 0 0.5rem 0;
   font-size: 1.8vmax;
   font-family: inherit;
   line-height: 2;
   color: inherit;
-  @media (max-width: 960px) {
+  @media (max-width: 940px) {
     width: 60%;
     font-size: 2.5vmax;
   }
@@ -83,7 +85,7 @@ export const DetailsA = styled.h1`
   padding: 1rem 0 0.5rem 0;
   font-size: 5vmax;
   color: #f8f8f8;
-  @media (max-width: 960px) {
+  @media (max-width: 940px) {
     padding-bottom: 0;
   }
   &:first-child {
@@ -97,7 +99,7 @@ export const DetailsB = styled.h1`
   padding: 1rem 0 0.5rem 0;
   font-size: 5.5vmax;
   color: #f8f8f8;
-  @media (max-width: 960px) {
+  @media (max-width: 940px) {
     padding-bottom: 0;
   }
 `;
@@ -111,7 +113,7 @@ export const Subtext = styled.p`
   font-family: inherit;
   line-height: 2;
   color: inherit;
-  @media (max-width: 960px) {
+  @media (max-width: 940px) {
     font-size: 2vmax;
     width: 80%;
   }
@@ -121,21 +123,21 @@ export const Subtext = styled.p`
 `;
 
 export const Woods = styled.img`
-  position: relative;
-  margin: 0 auto;
-  padding: 0.5em 0;
-  width: 9%;
-  opacity: 0.95;
-  z-index: 1;
-  @media (max-width: 900px) {
-    width: 31%;
-    padding: 0.5em 0;
-  }
+position: relative;
+margin: 0 auto;
+padding: 0 0 0.5rem 0;
+width: 17%;
+opacity: 0.95;
+z-index: 0;
+@media (max-width: 900px) {
+  width: 45%;
+  padding: 0.5em 0 1rem 0;
+}
 `;
 
 export const Pathway = styled.img`
   margin: 0 auto;
-  padding: 0.5em 0;
+  padding: 0.5rem 0;
   width: 13%;
   @media (max-width: 900px) {
     width: 35%;
@@ -145,8 +147,8 @@ export const Pathway = styled.img`
 
 export const TrailMarker = styled.img`
   margin: 0 auto;
-  padding: 0.5em 0;
-  width: 16%;
+  padding: 0.5rem 0 2rem 0;
+  width: 17%;
   @media (max-width: 900px) {
     width: 45%;
     padding: 0.5em 0 1rem 0;

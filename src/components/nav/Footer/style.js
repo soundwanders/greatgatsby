@@ -21,7 +21,7 @@ export const Flex = styled.div`
   padding: 1rem 0;
   white-space: nowrap;
 
-  @media (max-width: 960px) {
+  @media (max-width: 940px) {
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -38,7 +38,7 @@ export const Copyright = styled.div`
   font-size: 1.1rem;
   letter-spacing: 0.5px;
 
-  @media (max-width: 960px) {
+  @media (max-width: 940px) {
     font-size: 0.875rem;
   }
 `;

@@ -10,7 +10,7 @@ export const Button = styled.button`
   text-shadow: 0.125px 0 #fff;
   font-family: 'Roboto', Ubuntu, Helvetica, sans-serif;
   letter-spacing: 1px;
-  @media (max-width: 960px) {
+  @media (max-width: 940px) {
     text-align: center;
     margin: 0 auto;
     margin-right: 0;
