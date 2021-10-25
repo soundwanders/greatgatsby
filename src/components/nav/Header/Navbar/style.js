@@ -16,15 +16,15 @@ export const SpansMaxWidth = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  display: flex;
   position: fixed;
+  display: flex;
   flex-wrap: nowrap;
   max-width: 86.25%;
   padding: 0.25rem 0;
   align-items: center;
   justify-content: space-between;
   background: transparent;
-  z-index: 22;
+  z-index: 10;
 `;
 
 export const Brand = styled.div`

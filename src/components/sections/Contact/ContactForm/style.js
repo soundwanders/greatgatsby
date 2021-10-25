@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const FormContainer = styled.div`
-  position: relative;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -21,17 +20,13 @@ export const Center = styled.div`
 `;
 
 export const InputField = styled.div`
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  position: relative;
   width: 26vw;
   margin: 0 auto;
   padding-bottom: 1rem;
   overflow: hidden;
-  z-index: 2;
-
   @media (max-width: 940px) {
     min-width: 90%;
     width: 90%;

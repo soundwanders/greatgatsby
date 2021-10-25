@@ -10,6 +10,7 @@ import {
   Item,
   ModalWrapper,
   ModalHeader,
+  Swatch,
   ModalContent,
   Close,
   List,
@@ -69,22 +70,26 @@ export class Projects extends Component {
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[0].title}</ModalHeader>
+                      <Swatch
+                        src="https://res.cloudinary.com/cloudwanders/image/upload/v1635202021/gradient_yv70qf.png"
+                        alt="Gradient underline"
+                        aria-hidden="true"
+                        draggable="false"
+                      />
+
                       <List>
                         <ListItem>
                           <Info>
-                            Helter-Shelter is a site supporting New Hampshire
-                            animal shelters and rescue organizations.
+                            Helter-Shelter supports New Hampshire animal
+                            shelters &amp; rescue organizations.
                           </Info>
                           <Info>
                             Embedded custom map containing shelter locations,
                             built with Leaflet.js.
                           </Info>
                           <Info>
-                            Collapsible data table generated with JavaScript.{' '}
-                          </Info>
-                          <Info>
-                            Table is populated by looping through an array of
-                            Objects then appending to display.
+                            Collapsible data table is an array of objects
+                            generated with JavaScript.{' '}
                           </Info>
                           <Info>
                             Mobile-friendly design crafted with CSS Flexbox.
@@ -145,6 +150,13 @@ export class Projects extends Component {
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[1].title}</ModalHeader>
+                      <Swatch
+                        src="https://res.cloudinary.com/cloudwanders/image/upload/v1635202021/gradient_yv70qf.png"
+                        alt="Gradient underline"
+                        aria-hidden="true"
+                        draggable="false"
+                      />
+
                       <List>
                         <ListItem>
                           <Info>
@@ -217,6 +229,13 @@ export class Projects extends Component {
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[2].title}</ModalHeader>
+                      <Swatch
+                        src="https://res.cloudinary.com/cloudwanders/image/upload/v1635202021/gradient_yv70qf.png"
+                        alt="Gradient underline"
+                        aria-hidden="true"
+                        draggable="false"
+                      />
+
                       <List>
                         <ListItem>
                           <Info>
@@ -293,15 +312,18 @@ export class Projects extends Component {
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[3].title}</ModalHeader>
+                      <Swatch
+                        src="https://res.cloudinary.com/cloudwanders/image/upload/v1635202021/gradient_yv70qf.png"
+                        alt="Gradient underline"
+                        aria-hidden="true"
+                        draggable="false"
+                      />
+
                       <List>
                         <ListItem>
                           <Info>
                             Bravebear features three templates with different
-                            color schemes.
-                          </Info>
-                          <Info>
-                            Built with React, more specifically
-                            create-react-app.
+                            color schemes, built with React.
                           </Info>
                           <Info>
                             Each template is a standalone component exported
@@ -369,6 +391,13 @@ export class Projects extends Component {
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[4].title}</ModalHeader>
+                      <Swatch
+                        src="https://res.cloudinary.com/cloudwanders/image/upload/v1635202021/gradient_yv70qf.png"
+                        alt="Gradient underline"
+                        aria-hidden="true"
+                        draggable="false"
+                      />
+
                       <List>
                         <ListItem>
                           <Info>
@@ -444,25 +473,30 @@ export class Projects extends Component {
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
                       <ModalHeader>{projectData[5].title}</ModalHeader>
+                      <Swatch
+                        src="https://res.cloudinary.com/cloudwanders/image/upload/v1635202021/gradient_yv70qf.png"
+                        alt="Gradient underline"
+                        aria-hidden="true"
+                        draggable="false"
+                      />
+
                       <List>
                         <ListItem>
-                          <Info>Exploring Web Scraping with Node.</Info>
                           <Info>
-                            Retrieving data with Axios, Cheerio, Puppeteer,
-                            Request.
+                            Exploring Web Scraping with Node, Axios, Cheerio,
+                            Puppeteer, Request.
                           </Info>
                           <Info>
-                            Pull historical records of Minnesota High School
-                            State Hockey Championship winners &amp; runner-ups.
+                            Pulls all recorded winners &amp; runner-ups of the
+                            Minnesota High School State Hockey Championship.
                           </Info>
                           <Info>
-                            Gather a list of current NHL statistic leaders or
-                            display a list of the most recent game results.
+                            Gather a list of the current NHL points leaders, or
+                            display a list of today's game results.
                           </Info>
                           <Info>
-                            Access the World Wildlife Endangermenet's database
-                            to discover endangered species and their
-                            conservation status.
+                            Scrape the World Wildlife Fund's site to discover
+                            endangered species and their conservation status.
                           </Info>
                         </ListItem>
                         <ListItem>
@@ -475,6 +509,9 @@ export class Projects extends Component {
                             {' '}
                             Visit Repository{' '}
                           </a>{' '}
+                        </ListItem>
+                        <ListItem>
+                          Runs in Terminal, No Demo Available.
                         </ListItem>
                         <ListItem>Date: {projectData[5].date}</ListItem>
                       </List>

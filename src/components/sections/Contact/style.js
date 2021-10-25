@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  position: relative;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -26,7 +25,6 @@ export const Wrapper = styled.div`
   background-attachment: fixed;
   background-size: cover;
   overflow: hidden;
-  z-index: -2;
   @media (max-width: 940px) {
     padding: 0 0 1rem 0;
     flex-direction: column;

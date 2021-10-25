@@ -103,18 +103,30 @@ export const ModalWrapper = styled.button`
 `;
 
 export const ModalContent = styled.div`
-  margin: 0 auto;
   padding: 0;
 `;
 
 export const ModalHeader = styled.h1`
   font-family: 'Roboto', Ubuntu, sans-serif;
   font-size: 3.25vmax;
-  padding: 0.25rem 0 0.5rem 0;
+  padding: 0.5rem 0 0.5rem 0;
   text-align: center;
-  color: #ffa500;
+  color: #f17232;
   @media (max-width: 940px) {
     padding: 0.25rem 0 0 0;
+  }
+`;
+
+export const Swatch = styled.img`
+  display: flex;
+  width: 20%;
+  margin: 0 auto;
+  margin-top: -1.25rem;
+  padding: 0 0 2rem 0;
+  @media (max-width: 940px) {
+    width: 40%;
+    padding: 0 0 1rem 0;
+    margin-top: -1.1rem;
   }
 `;
 
@@ -139,29 +151,33 @@ export const List = styled.ul`
 `;
 
 export const ListItem = styled.li`
+  padding: 0.5rem 0;
+  font-family: 'Roboto', Ubuntu, sans-serif;
   font-size: 1.33vmax;
   color: #222;
-  padding: 1rem 0;
   list-style-type: none;
   @media (max-width: 940px) {
     font-size: 2vmax;
-    padding: 0.25rem 0;
   }
   &:nth-child(1) {
     font-size: 1.25vmax;
-    padding: 0.25rem 0 1rem 0;
+    padding: 0rem 0 0.5rem 0;
     @media (max-width: 940px) {
+      padding: 0.25rem 0 1rem 0;
       font-size: 1.75vmax;
     }
   }
-
   &:nth-child(2) {
-    padding: 0;
+    padding: 2rem 0;
+    @media (max-width: 940px) {
+      padding: 0.5rem 0;
+    }
   }
   &:nth-child(4) {
+    padding: 2rem 0;
     font-size: 1vmax;
-    color: #222;
     @media (max-width: 940px) {
+      padding: 0.5rem 0;
       font-size: 1.75vmax;
     }
   }
@@ -176,11 +192,16 @@ export const ListItem = styled.li`
 `;
 
 export const Info = styled.li`
-  text-align: left;
-  padding: 0.25rem 0;
+  padding: 0.5rem 0;
+  text-align: center;
+  line-height: 1.25;
   list-style-type: initial;
-  &:last-child {
-    padding-bottom: 0;
+  @media (max-width: 940px) {
+    padding: 0.25rem 0;
+    text-align: left;
+    margin-left: 0.5rem;
+    &:last-child {
+      padding-bottom: 1rem;
+    }
   }
-  margin-left: 0.5rem;
 `;
