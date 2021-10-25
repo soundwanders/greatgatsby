@@ -8,7 +8,7 @@ import {
   DetailsB,
   Subtext,
   TrailMarker,
-  Pathway, 
+  Pathway,
   Woods,
 } from './style';
 
@@ -28,21 +28,21 @@ export const About = () => {
 
       <Section>
         Skipping ahead a couple decades, I decided to take the leap into web
-        development and began building (crudely constructed) static sites. Almost 
-        immediately, it clicked. I knew that I found something special.
+        development and began building (crudely constructed) static sites.
+        Almost immediately, it clicked and I knew that I found something
+        special.
       </Section>
 
       <Section>
-        I've stumbled plenty of times along the way, maybe even fell flat on my
-        face, but I embrace the adversity and use it as a catalyst for 
+        I've stumbled plenty of times, maybe even fell flat on my face, but I
+        continue to embrace the adversity and use it as a catalyst for
         continuous improvement.
       </Section>
 
       <Section>
         Sometimes I feel like the hare, but most days I feel a lot more like the
-        tortoise. <br />
-        I'm grateful to have picked up a few useful things I found along the
-        way...
+        tortoise. I'm grateful to have picked up a few useful things I found
+        along the way...
       </Section>
 
       <Concepts>
@@ -54,10 +54,10 @@ export const About = () => {
 
         <DetailsA>Clean Code</DetailsA>
         <Subtext>
-          No needles, no haystacks. Error-free, easily maintainable code
-          that is clear in its purpose and efficient in its execution makes me
-          happy. The only spaghetti I'm down with is served on a plate and it's
-          covered in sauce.
+          No needles, no haystacks. Error-free, easily maintainable code that is
+          clear in its purpose and efficient in its execution makes me happy.
+          The only spaghetti I'm down with is served on a plate and it's covered
+          in sauce.
         </Subtext>
 
         <Pathway

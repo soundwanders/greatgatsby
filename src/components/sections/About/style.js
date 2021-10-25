@@ -123,16 +123,16 @@ export const Subtext = styled.p`
 `;
 
 export const Woods = styled.img`
-position: relative;
-margin: 0 auto;
-padding: 0 0 0.5rem 0;
-width: 17%;
-opacity: 0.95;
-z-index: 0;
-@media (max-width: 900px) {
-  width: 45%;
-  padding: 0.5em 0 1rem 0;
-}
+  position: relative;
+  margin: 0 auto;
+  padding: 0 0 0.5rem 0;
+  width: 17%;
+  opacity: 0.95;
+  z-index: 0;
+  @media (max-width: 900px) {
+    width: 45%;
+    padding: 0.5em 0 1rem 0;
+  }
 `;
 
 export const Pathway = styled.img`

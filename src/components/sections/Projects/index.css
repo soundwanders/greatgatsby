@@ -19,8 +19,11 @@
     width: 60%;
     height: 85%;
     margin: 0 auto;
-    @media (max-width: 940px) {
-        width: 90%;
-        height: 60%;
+}
+
+@media (max-width: 940px) {
+    .ReactModal__Content {
+    width: auto;
+    height: 60%
     }
 }

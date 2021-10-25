@@ -3,7 +3,7 @@ module.exports = {
   defaultDescription: `Welcome to Jared Coletta's Developer Portfolio!`,
   author: 'soundwanders',
   url: 'https://jcoletta.com/',
-  role: 'Web Developer',
+  role: 'Front-End Developer',
   logo: `src/assets/icons/favicon.png`,
   legalName: 'Jared Coletta',
   socialLinks: {

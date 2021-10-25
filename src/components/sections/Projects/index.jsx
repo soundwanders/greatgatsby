@@ -14,6 +14,7 @@ import {
   Close,
   List,
   ListItem,
+  Info,
 } from './style';
 
 export class Projects extends Component {
@@ -51,7 +52,7 @@ export class Projects extends Component {
                   >
                     <img
                       src="https://res.cloudinary.com/cloudwanders/image/upload/v1632100132/2shelter_dy1pwr.png"
-                      alt="Project Showcase - Helter Shelter"
+                      alt="Project Showcase -- Helter Shelter"
                       aria-label="Helter Shelter screenshot"
                       draggable="false"
                     />
@@ -70,26 +71,44 @@ export class Projects extends Component {
                       <ModalHeader>{projectData[0].title}</ModalHeader>
                       <List>
                         <ListItem>
-                          - Helter-Shelter is a site supporting New Hampshire
-                          animal shelters and rescue organizations. <br /><br />
-                          - Embedded custom map with Leaflet.js. <br /><br />
-                          - Collapsible data table generated with JavaScript.{' '}
-                          <br /><br />
-                          - Table is populated by looping through an array of
-                          Objects then appending to display. <br /><br />
-                          - Mobile-friendly design focused on CSS Flexbox. <br /><br />
-                          - Bundled with Webpack, deployed using Netlify. <br /><br />
+                          <Info>
+                            Helter-Shelter is a site supporting New Hampshire
+                            animal shelters and rescue organizations.
+                          </Info>
+                          <Info>
+                            Embedded custom map containing shelter locations,
+                            built with Leaflet.js.
+                          </Info>
+                          <Info>
+                            Collapsible data table generated with JavaScript.{' '}
+                          </Info>
+                          <Info>
+                            Table is populated by looping through an array of
+                            Objects then appending to display.
+                          </Info>
+                          <Info>
+                            Mobile-friendly design crafted with CSS Flexbox.
+                          </Info>
                         </ListItem>
+
                         <ListItem>
                           {' '}
-                          <a href={projectData[0].repo}>
+                          <a
+                            href={projectData[0].repo}
+                            rel="noreferrer"
+                            target="_blank"
+                          >
                             {' '}
                             Visit Repository{' '}
                           </a>{' '}
                         </ListItem>
                         <ListItem>
                           {' '}
-                          <a href={projectData[0].link}>
+                          <a
+                            href={projectData[0].link}
+                            rel="noreferrer"
+                            target="_blank"
+                          >
                             {' '}
                             Project Demo{' '}
                           </a>{' '}
@@ -109,7 +128,7 @@ export class Projects extends Component {
                   >
                     <img
                       src="https://res.cloudinary.com/cloudwanders/image/upload/v1632101037/2nebula_p6uq1n.png"
-                      alt="Project Showcase - Nebula"
+                      alt="Project Showcase -- Nebula"
                       aria-label="Nebula screenshot"
                       draggable="false"
                     />
@@ -128,21 +147,42 @@ export class Projects extends Component {
                       <ModalHeader>{projectData[1].title}</ModalHeader>
                       <List>
                         <ListItem>
-                          - An image gallery built with Bootstrap, showcasing high-res photographs of nebulae. <br /><br />
-                          - Responsive content cards hold photos with their description underneath. <br /><br />
-                          - Each nebula's image is a modal that pops out to full-screen. <br /><br />
-                          - Use of media query breakpoints allows dynamic resizing of grid layout. <br />
+                          <Info>
+                            An image gallery built with Bootstrap, showcasing
+                            high-res photographs of nebulae.
+                          </Info>
+                          <Info>
+                            Responsive content cards hold photos with their
+                            description underneath.
+                          </Info>
+                          <Info>
+                            Each nebula's image is a modal that pops out to
+                            full-screen.
+                          </Info>
+                          <Info>
+                            Use of media query breakpoints allows dynamic
+                            resizing of grid layout.
+                          </Info>
                         </ListItem>
+
                         <ListItem>
                           {' '}
-                          <a href={projectData[1].repo}>
+                          <a
+                            href={projectData[1].repo}
+                            rel="noreferrer"
+                            target="_blank"
+                          >
                             {' '}
                             Visit Repository{' '}
                           </a>{' '}
                         </ListItem>
                         <ListItem>
                           {' '}
-                          <a href={projectData[1].link}>
+                          <a
+                            href={projectData[1].link}
+                            rel="noreferrer"
+                            target="_blank"
+                          >
                             {' '}
                             Project Demo{' '}
                           </a>{' '}
@@ -162,7 +202,7 @@ export class Projects extends Component {
                   >
                     <img
                       src="https://res.cloudinary.com/cloudwanders/image/upload/v1632100133/2timbuktu_xthppi.png"
-                      alt="Project Showcase - Timbuktu"
+                      alt="Project Showcase -- Timbuktu"
                       aria-label="Timbuktu screenshot"
                       draggable="false"
                     />
@@ -179,27 +219,45 @@ export class Projects extends Component {
                       <ModalHeader>{projectData[2].title}</ModalHeader>
                       <List>
                         <ListItem>
-                          - Timbuktu is a demo digital library centered around
-                          ancient civilizations. <br /><br />
-                          - Library holds Book title, author, format,
-                          civilization. <br /><br />
-                          - Objects constructed and pushed to the library
-                          array. <br /><br />
-                          - Skeleton CSS used to achieve a clean, responsive
-                          design. <br /><br />
-                          - LocalStorage methods save and
-                          load library data to preserve state on page refresh. <br />
+                          <Info>
+                            Timbuktu is a demo digital library centered around
+                            ancient civilizations.
+                          </Info>
+
+                          <Info>
+                            Library holds Book title, author, format,
+                            civilization.
+                          </Info>
+
+                          <Info>
+                            Skeleton CSS used to achieve a clean, responsive
+                            design.
+                          </Info>
+
+                          <Info>
+                            LocalStorage methods saves &amp; loads data to
+                            preserve state on page refresh.
+                          </Info>
                         </ListItem>
+
                         <ListItem>
                           {' '}
-                          <a href={projectData[2].repo}>
+                          <a
+                            href={projectData[2].repo}
+                            rel="noreferrer"
+                            target="_blank"
+                          >
                             {' '}
                             Visit Repository{' '}
                           </a>{' '}
                         </ListItem>
                         <ListItem>
                           {' '}
-                          <a href={projectData[2].link}>
+                          <a
+                            href={projectData[2].link}
+                            rel="noreferrer"
+                            target="_blank"
+                          >
                             {' '}
                             Project Demo{' '}
                           </a>{' '}
@@ -219,7 +277,7 @@ export class Projects extends Component {
                   >
                     <img
                       src="https://res.cloudinary.com/cloudwanders/image/upload/v1632100133/2bravebear_gnod6e.png"
-                      alt="Project Showcase - BraveBear"
+                      alt="Project Showcase -- BraveBear"
                       aria-label="BraveBear screenshot"
                       draggable="false"
                     />
@@ -237,27 +295,46 @@ export class Projects extends Component {
                       <ModalHeader>{projectData[3].title}</ModalHeader>
                       <List>
                         <ListItem>
-                          - Bravebear features three templates with different
-                          color schemes. <br /><br />
-                          - Built with React, more specifically
-                          create-react-app. <br /><br />
-                          - Each template is a standalone component exported
-                          into the main App directory. <br /><br />
-                          - React-router switches between pages without
-                          reloading. <br /><br />
-                          - Mobile-first design scales up to any device, page
-                          layout built with CSS Grid. <br />
+                          <Info>
+                            Bravebear features three templates with different
+                            color schemes.
+                          </Info>
+                          <Info>
+                            Built with React, more specifically
+                            create-react-app.
+                          </Info>
+                          <Info>
+                            Each template is a standalone component exported
+                            into the main App directory.
+                          </Info>
+                          <Info>
+                            React-router switches between pages without
+                            reloading.
+                          </Info>
+                          <Info>
+                            Mobile-first design scales up to any device, page
+                            layout built with CSS Grid.
+                          </Info>
                         </ListItem>
+
                         <ListItem>
                           {' '}
-                          <a href={projectData[3].repo}>
+                          <a
+                            href={projectData[3].repo}
+                            rel="noreferrer"
+                            target="_blank"
+                          >
                             {' '}
                             Visit Repository{' '}
                           </a>{' '}
                         </ListItem>
                         <ListItem>
                           {' '}
-                          <a href={projectData[3].link}>
+                          <a
+                            href={projectData[3].link}
+                            rel="noreferrer"
+                            target="_blank"
+                          >
                             {' '}
                             Project Demo{' '}
                           </a>{' '}
@@ -277,7 +354,7 @@ export class Projects extends Component {
                   >
                     <img
                       src="https://res.cloudinary.com/cloudwanders/image/upload/v1632706808/2budget_xwrumq.png"
-                      alt="Project Showcase - Budget App"
+                      alt="Project Showcase -- Simple Budget"
                       aria-label="Budget screenshot"
                       draggable="false"
                     />
@@ -294,26 +371,44 @@ export class Projects extends Component {
                       <ModalHeader>{projectData[4].title}</ModalHeader>
                       <List>
                         <ListItem>
-                          - Simple Budget application written in JavaScript.{' '}
-                          <br /><br />
-                          - User can input monthly income, create an expense
-                          list and calculate available budget. <br /><br />
-                          - Regular expressions are used to check all user
-                          inputs for correct values. <br /><br />
-                          - Runs boolean checks to validate the data passing
-                          through regular expressions. <br /><br />
-                          - LocalStorage data stringified/parsed with JSON. <br />
+                          <Info>
+                            Simple Budget application written in JavaScript.{' '}
+                          </Info>
+                          <Info>
+                            User can input monthly income, create an expense
+                            list and calculate available budget.
+                          </Info>
+                          <Info>
+                            Regular expressions are used to check all user
+                            inputs for correct values.
+                          </Info>
+                          <Info>
+                            Runs boolean checks to validate the data passing
+                            through regular expressions.
+                          </Info>
+                          <Info>
+                            LocalStorage data stringified/parsed with JSON.
+                          </Info>
                         </ListItem>
+
                         <ListItem>
                           {' '}
-                          <a href={projectData[4].repo}>
+                          <a
+                            href={projectData[4].repo}
+                            rel="noreferrer"
+                            target="_blank"
+                          >
                             {' '}
                             Visit Repository{' '}
                           </a>{' '}
                         </ListItem>
                         <ListItem>
                           {' '}
-                          <a href={projectData[4].link}>
+                          <a
+                            href={projectData[4].link}
+                            rel="noreferrer"
+                            target="_blank"
+                          >
                             {' '}
                             Project Demo{' '}
                           </a>{' '}
@@ -333,7 +428,7 @@ export class Projects extends Component {
                   >
                     <img
                       src="https://res.cloudinary.com/cloudwanders/image/upload/v1632101036/2scraper_ce8h56.png"
-                      alt="Project Showcase - Node Web Scraper"
+                      alt="Project Showcase -- Node Scraper"
                       aria-label="Node Scraper screenshot"
                       draggable="false"
                     />
@@ -351,20 +446,32 @@ export class Projects extends Component {
                       <ModalHeader>{projectData[5].title}</ModalHeader>
                       <List>
                         <ListItem>
-                          - Exploring Web Scraping with Node. <br /><br />
-                          - Retrieving data with Axios, Cheerio, Puppeteer,
-                          Request. <br /><br />
-                          - First scraper pulls results from the Minnesota High
-                          School Hockey State Championships. <br /><br />
-                          - Second scraper retrieves NHL game results and
-                          current statistic leaders. <br /><br />
-                          - Third scraper
-                          gathers data on endangered and at-risk animal
-                          populations.
+                          <Info>Exploring Web Scraping with Node.</Info>
+                          <Info>
+                            Retrieving data with Axios, Cheerio, Puppeteer,
+                            Request.
+                          </Info>
+                          <Info>
+                            Pull historical records of Minnesota High School
+                            State Hockey Championship winners &amp; runner-ups.
+                          </Info>
+                          <Info>
+                            Gather a list of current NHL statistic leaders or
+                            display a list of the most recent game results.
+                          </Info>
+                          <Info>
+                            Access the World Wildlife Endangermenet's database
+                            to discover endangered species and their
+                            conservation status.
+                          </Info>
                         </ListItem>
                         <ListItem>
                           {' '}
-                          <a href={projectData[5].repo}>
+                          <a
+                            href={projectData[5].repo}
+                            rel="noreferrer"
+                            target="_blank"
+                          >
                             {' '}
                             Visit Repository{' '}
                           </a>{' '}

@@ -105,15 +105,17 @@ export const ModalWrapper = styled.button`
 export const ModalContent = styled.div`
   margin: 0 auto;
   padding: 0;
-  }
 `;
 
 export const ModalHeader = styled.h1`
   font-family: 'Roboto', Ubuntu, sans-serif;
   font-size: 3.25vmax;
-  padding: 0.25rem 0 1rem 0;
+  padding: 0.25rem 0 0.5rem 0;
   text-align: center;
   color: #ffa500;
+  @media (max-width: 940px) {
+    padding: 0.25rem 0 0 0;
+  }
 `;
 
 export const Close = styled.button`
@@ -125,15 +127,15 @@ export const Close = styled.button`
   color: #222;
   cursor: pointer;
   @media (max-width: 940px) {
-    font-size: inital;
+    font-size: 2.75vmax;
   }
 `;
 
 export const List = styled.ul`
   display: block;
   text-align: center;
-  justify-content: center;
   margin: 0 auto;
+  white-space: wrap;
 `;
 
 export const ListItem = styled.li`
@@ -141,12 +143,27 @@ export const ListItem = styled.li`
   color: #222;
   padding: 1rem 0;
   list-style-type: none;
+  @media (max-width: 940px) {
+    font-size: 2vmax;
+    padding: 0.25rem 0;
+  }
   &:nth-child(1) {
     font-size: 1.25vmax;
+    padding: 0.25rem 0 1rem 0;
+    @media (max-width: 940px) {
+      font-size: 1.75vmax;
+    }
+  }
+
+  &:nth-child(2) {
+    padding: 0;
   }
   &:nth-child(4) {
     font-size: 1vmax;
     color: #222;
+    @media (max-width: 940px) {
+      font-size: 1.75vmax;
+    }
   }
   a {
     color: #196aff;
@@ -156,4 +173,14 @@ export const ListItem = styled.li`
     color: #ffa500;
     text-decoration: underline;
   }
+`;
+
+export const Info = styled.li`
+  text-align: left;
+  padding: 0.25rem 0;
+  list-style-type: initial;
+  &:last-child {
+    padding-bottom: 0;
+  }
+  margin-left: 0.5rem;
 `;
