@@ -23,14 +23,14 @@ export const About = () => {
       <Section>
         Whether that was designing a new logo for my favorite hockey team or
         writing songs for a band that never actually made it into existence, I
-        was always creating something.
+        was always busy creating something.
       </Section>
 
       <Section>
-        Skipping ahead a couple decades, I decided to take the leap into web
-        development and began building (crudely constructed) static sites.
-        Almost immediately, it clicked and I knew that I found something
-        special.
+        Once I decided to take the leap into web development, I began building 
+        (crudely constructed) static pages. And right away, something just clicked. 
+        The rest is history.
+        
       </Section>
 
       <Section>
@@ -41,7 +41,7 @@ export const About = () => {
 
       <Section>
         Sometimes I feel like the hare, but most days I feel a lot more like the
-        tortoise. I'm grateful to have picked up a few useful things I found
+        tortoise. Atleast I've picked up a few useful things I found
         along the way...
       </Section>
 

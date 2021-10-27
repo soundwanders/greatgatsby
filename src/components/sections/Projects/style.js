@@ -109,9 +109,10 @@ export const ModalContent = styled.div`
 export const ModalHeader = styled.h1`
   font-family: 'Roboto', Ubuntu, sans-serif;
   font-size: 3.25vmax;
+  letter-spacing: 0.25px;
   padding: 0.5rem 0 0.5rem 0;
   text-align: center;
-  color: #f17232;
+  color: #44287d;
   @media (max-width: 940px) {
     padding: 0.25rem 0 0 0;
   }
@@ -139,14 +140,13 @@ export const Close = styled.button`
   color: #222;
   cursor: pointer;
   @media (max-width: 940px) {
-    font-size: 2.75vmax;
+    font-size: 3vmax;
   }
 `;
 
 export const List = styled.ul`
   display: block;
   text-align: center;
-  margin: 0 auto;
   white-space: wrap;
 `;
 
@@ -193,6 +193,7 @@ export const ListItem = styled.li`
 
 export const Info = styled.li`
   padding: 0.5rem 0;
+  font-family: 'Roboto', Ubuntu, sans-serif;
   text-align: center;
   line-height: 1.25;
   list-style-type: initial;

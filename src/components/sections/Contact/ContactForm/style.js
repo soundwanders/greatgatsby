@@ -23,6 +23,7 @@ export const InputField = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  min-width: 26vw;
   width: 26vw;
   margin: 0 auto;
   padding-bottom: 1rem;
@@ -34,6 +35,7 @@ export const InputField = styled.div`
     padding-left: 0;
   }
   @media (max-height: 500px) and (max-width: 940px) {
+    min-width: 55vw;
     width: 55vw;
   }
 `;

@@ -487,16 +487,15 @@ export class Projects extends Component {
                             Puppeteer, Request.
                           </Info>
                           <Info>
-                            Pulls all recorded winners &amp; runner-ups of the
+                            View the winners &amp; runner-ups of the
                             Minnesota High School State Hockey Championship.
                           </Info>
                           <Info>
-                            Gather a list of the current NHL points leaders, or
-                            display a list of today's game results.
+                            Browse NHL's statistic leaders or
+                            display the final results of recent NHL games.
                           </Info>
                           <Info>
-                            Scrape the World Wildlife Fund's site to discover
-                            endangered species and their conservation status.
+                            Fetch a list of endangered species and their conservation status.
                           </Info>
                         </ListItem>
                         <ListItem>

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-// the ? : operators for the desktop style props is an Inline If-Else with a conditional operator
-// Logic ==> condition ? true : false
+// the ? : operators for the desktop style is an Inline If-Else with a conditional operator
+// Logic is ( condition ? true : false )
 
 export const Wrapper = styled.div`
     a {
@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
             align-items: center;
             margin: 0 2.125rem;
             padding: 0;
-            font-size: 2rem;
+            font-size: 1.75vmax;
             font-weight: 600;
             white-space: pre;
             a {
@@ -31,7 +31,6 @@ export const Wrapper = styled.div`
             }
             img {
                 display: flex;
-                flex-basis: 100%;
                 flex-direction: column;
                 align-self: center;
                 flex-wrap: nowrap;
@@ -60,9 +59,6 @@ export const Wrapper = styled.div`
         float: none;
         a {
             margin-bottom: 1rem;
-            &:last-child {
-                margin-bottom: unset;
-            }
         }
     `}
 `;

@@ -24,11 +24,11 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   background: transparent;
-  z-index: 10;
+  z-index: 4;
 `;
 
 export const Brand = styled.div`
-  max-width: 3rem;
+  max-width: 2.2vmax;
   padding: 1rem;
   @media (max-width: 940px) {
     max-width: 2rem;

@@ -16,9 +16,9 @@ const ContactForm = () => (
       success: false,
     }}
     validationSchema={Yup.object().shape({
-      name: Yup.string().required('Full name field is required'),
+      name: Yup.string().required('Name field is required'),
       email: Yup.string()
-        .email('Invalid email')
+        .email('Invalid email, try again!')
         .required('Email field is required'),
       message: Yup.string().required('Message field is required'),
       recaptcha:
