@@ -19,7 +19,6 @@ export const Wrapper = styled.div`
       desktop
         ? `
             display: flex;
-            flex-wrap: nowrap;
             float: left;
             align-items: center;
             margin: 0 2.125rem;
