@@ -114,8 +114,8 @@ export const Subtext = styled.p`
   line-height: 2;
   color: inherit;
   @media (max-width: 940px) {
-    font-size: 2vmax;
-    width: 80%;
+    font-size: 2.1vmax;
+    width: 82%;
   }
   &:last-child {
     padding-bottom: 0;
