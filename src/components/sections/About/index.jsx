@@ -27,10 +27,9 @@ export const About = () => {
       </Section>
 
       <Section>
-        Once I decided to take the leap into web development, I began building 
-        (crudely constructed) static pages. And right away, something just clicked. 
-        The rest is history.
-        
+        Once I decided to take the leap into web development, I began building
+        (crudely constructed) static pages. And right away, something just
+        clicked. The rest is history.
       </Section>
 
       <Section>
@@ -41,8 +40,8 @@ export const About = () => {
 
       <Section>
         Sometimes I feel like the hare, but most days I feel a lot more like the
-        tortoise. Atleast I've picked up a few useful things I found
-        along the way...
+        tortoise. Atleast I've picked up a few useful things I found along the
+        way...
       </Section>
 
       <Concepts>

@@ -31,6 +31,7 @@ export const Wrapper = styled.div`
             }
             img {
                 display: flex;
+                flex-basis: 100%;
                 flex-direction: column;
                 align-self: center;
                 flex-wrap: nowrap;
@@ -59,6 +60,9 @@ export const Wrapper = styled.div`
         float: none;
         a {
             margin-bottom: 1rem;
+            &:last-child {
+                margin-bottom: unset;
+            }
         }
     `}
 `;

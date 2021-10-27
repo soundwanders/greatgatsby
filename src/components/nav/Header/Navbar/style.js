@@ -28,7 +28,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Brand = styled.div`
-  max-width: 2.2vmax;
+  max-width: 3rem;
   padding: 1rem;
   @media (max-width: 940px) {
     max-width: 2rem;

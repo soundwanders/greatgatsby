@@ -31,6 +31,7 @@ export const User = styled.h1`
   text-align: center;
   margin: 0 auto;
   font-size: 11vmax;
+  font-weight: 600;
   background: #5d2ad3;
   background: -webkit-linear-gradient(to right, #333399 30%, #ff662e 100%);
   background: -moz-linear-gradient(to right, #333399 30%, #ff662e 100%);
@@ -45,7 +46,7 @@ export const User = styled.h1`
 export const Subtitle = styled.h1`
   display: inherit;
   max-width: 100%;
-  height: 20%;
+  height: 25%;
   margin: 0 auto;
   padding: 2rem 0 0 0;
   white-space: nowrap;
@@ -54,8 +55,8 @@ export const Subtitle = styled.h1`
   letter-spacing: -2px;
   font-size: 2.2vmax;
   font-family: 'LuloCleanW01-OneBold', 'Roboto', 'Ubuntu', sans-serif;
+  text-rendering: optimizeSpeed;
   @media (max-width: 600px) {
-    font-display: swap;
     font-size: 2vmax;
     padding: 0 0 2rem 0;
   }

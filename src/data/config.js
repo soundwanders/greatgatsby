@@ -1,8 +1,8 @@
 module.exports = {
   defaultTitle: 'JColetta',
-  defaultDescription: `Welcome to Jared Coletta's Developer Portfolio!`,
+  defaultDescription: `Jared Coletta's Developer Portfolio`,
   author: 'soundwanders',
-  url: 'https://jcoletta.com/',
+  url: 'https://www.jcoletta.com/',
   role: 'Front-End Developer',
   logo: `src/assets/icons/favicon.png`,
   legalName: 'Jared Coletta',
