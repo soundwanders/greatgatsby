@@ -148,6 +148,7 @@ export const List = styled.ul`
   display: block;
   text-align: center;
   white-space: wrap;
+  margin: 0 auto;
 `;
 
 export const ListItem = styled.li`
