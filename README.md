@@ -25,7 +25,7 @@
 - Form submission endpoint provided by <a href="https://formium.io" rel="noopener noreferral" style="text-decoration: none;">Formium</a>
 - Images hosted &amp; delivered by <a href="https://cloudinary.com" rel="noopener noreferral" style="text-decoration: none;">Cloudinary</a>
 
-<br /><br />
+<br />
 
 ### &#x1F9D0; Who's In There?
 
@@ -49,7 +49,7 @@
 
 10. **`gatsby-node.js`**: This file is where Gatsby expects to find the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/). When present, these allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-<br /><br />
+<br />
 
 ### 🌳 Project Structure
 
@@ -78,7 +78,7 @@
 
 ```
 
-<br /><br />
+<br />
 
 ### 🐛 Report A Bug
 
