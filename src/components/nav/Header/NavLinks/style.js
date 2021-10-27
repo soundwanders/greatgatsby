@@ -19,11 +19,12 @@ export const Wrapper = styled.div`
       desktop
         ? `
             display: flex;
+            flex-wrap: nowrap;
             float: left;
             align-items: center;
             margin: 0 2.125rem;
             padding: 0;
-            font-size: 1.75vmax;
+            font-size: 2rem;
             font-weight: 600;
             white-space: pre;
             a {
