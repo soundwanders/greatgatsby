@@ -200,7 +200,6 @@ export const Global = createGlobalStyle`
       box-sizing: inherit;
     }
     img {
-      max-width: 100%;
       margin-left: 0;
       margin-right: 0;
       margin-top: 0;
