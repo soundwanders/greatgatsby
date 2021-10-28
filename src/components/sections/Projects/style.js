@@ -197,6 +197,7 @@ export const ListItem = styled.li`
 export const Info = styled.li`
   padding: 0.5rem 0;
   font-family: 'Roboto', Ubuntu, sans-serif;
+  margin: 0 auto;
   text-align: center;
   line-height: 1.25;
   list-style-type: initial;
