@@ -56,12 +56,12 @@ export const Section = styled.h2`
   text-align: inherit;
   padding: 1rem 0 0.5rem 0;
   font-size: 1.8vmax;
-  font-family: inherit;
+  font-family: 'Filson Soft', 'Roboto', sans-serif;
   line-height: 2;
   color: inherit;
   @media (max-width: 940px) {
     width: 60%;
-    font-size: 2.5vmax;
+    font-size: 2.3vmax;
   }
 `;
 
@@ -106,7 +106,7 @@ export const DetailsB = styled.h1`
 
 export const Subtext = styled.p`
   display: inherit;
-  width: 75%;
+  width: 74%;
   text-align: center;
   padding: 0.5rem 0;
   font-size: 1.5vmax;
@@ -114,7 +114,7 @@ export const Subtext = styled.p`
   line-height: 2;
   color: inherit;
   @media (max-width: 940px) {
-    font-size: 2.1vmax;
+    font-size: 2.15vmax;
     width: 82%;
   }
   &:last-child {

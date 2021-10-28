@@ -114,6 +114,7 @@ export const ModalHeader = styled.h1`
   text-align: center;
   color: #44287d;
   @media (max-width: 940px) {
+    font-size: 3.75vmax;
     padding: 0.25rem 0 0 0;
   }
 `;
@@ -124,6 +125,7 @@ export const Swatch = styled.img`
   margin: 0 auto;
   margin-top: -1.25rem;
   padding: 0 0 2rem 0;
+  transform: scaleX(1.3);
   @media (max-width: 940px) {
     width: 40%;
     padding: 0 0 1rem 0;
@@ -136,7 +138,7 @@ export const Close = styled.button`
   border: none;
   border-style: none;
   outline: none;
-  font-size: 1.75vmax;
+  font-size: 1.8vmax;
   color: #222;
   cursor: pointer;
   @media (max-width: 940px) {

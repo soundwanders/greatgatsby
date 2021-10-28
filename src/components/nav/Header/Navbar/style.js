@@ -19,7 +19,8 @@ export const Wrapper = styled.div`
   position: fixed;
   display: flex;
   flex-wrap: nowrap;
-  max-width: 86.25%;
+  width: 86.3%;
+  max-width: 86.3%;
   padding: 0.25rem 0;
   align-items: center;
   justify-content: space-between;
@@ -28,10 +29,10 @@ export const Wrapper = styled.div`
 `;
 
 export const Brand = styled.div`
-  max-width: 3rem;
+  max-width: 2.7%;
   padding: 1rem;
   @media (max-width: 940px) {
-    max-width: 2rem;
+    max-width: 10.7%;
   }
   img.svg {
     -webkit-user-select: none;
