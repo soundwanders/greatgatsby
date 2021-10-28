@@ -31,7 +31,7 @@ export const Wrapper = styled.div`
 export const Brand = styled.div`
   max-width: 2.7%;
   padding: 1rem;
-  @media (max-width: 940px) {
+  @media (max-width: 600px) {
     max-width: 10.7%;
   }
   img.svg {
