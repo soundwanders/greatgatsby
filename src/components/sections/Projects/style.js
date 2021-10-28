@@ -205,6 +205,7 @@ export const Info = styled.li`
   @media (max-width: 940px) {
     padding: 0.25rem 0;
     text-align: left;
+    list-style-type: initial;
     margin-left: 0.5rem;
     &:last-child {
       padding-bottom: 1rem;
