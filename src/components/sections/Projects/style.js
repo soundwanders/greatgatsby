@@ -200,6 +200,7 @@ export const Info = styled.li`
   margin: 0 auto;
   text-align: center;
   line-height: 1.25;
+  list-style-position: inside;
   list-style-type: initial;
   @media (max-width: 940px) {
     padding: 0.25rem 0;
