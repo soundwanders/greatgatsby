@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
 import './index.css';
+import { StaticImage } from "gatsby-plugin-image"
 import projectData from './projects.json';
 import {
   ProjectContainer,

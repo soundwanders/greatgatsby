@@ -106,22 +106,25 @@ export const DetailsB = styled.h1`
 
 export const Subtext = styled.p`
   display: inherit;
-  width: 74%;
+  width: 70%;
   text-align: center;
   padding: 0.5rem 0;
   font-size: 1.5vmax;
   font-family: inherit;
   line-height: 2;
   color: inherit;
+  &:nth-child(3) {
+    width: 50%;
+  }
+  &:nth-child(12) {
+    width: 80%;
+    padding-bottom: 0;
+  }
   @media (max-width: 940px) {
     font-size: 2.15vmax;
     width: 82%;
   }
-  &:last-child {
-    padding-bottom: 0;
-  }
 `;
-
 export const Woods = styled.img`
   position: relative;
   margin: 0 auto;

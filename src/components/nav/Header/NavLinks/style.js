@@ -23,8 +23,9 @@ export const Wrapper = styled.div`
             align-items: center;
             margin: 0 2.125rem;
             padding: 0;
-            font-size: 2rem;
+            font-size: 1.8vmax;
             font-weight: 600;
+            line-height: 1.2;
             white-space: pre;
             a {
                 padding-right: 1rem;
@@ -78,6 +79,7 @@ export const Socials = styled.div`
   }
   img {
     display: flex;
+    width: 1.8vmax;
     flex-direction: column;
     align-self: center;
     flex-wrap: nowrap;

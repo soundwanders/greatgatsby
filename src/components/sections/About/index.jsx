@@ -29,7 +29,7 @@ export const About = () => {
       <Section>
         Once I decided to take the leap into web development, I began building
         (crudely constructed) static pages. And right away, something just
-        clicked. The rest is history.
+        clicked.
       </Section>
 
       <Section>
@@ -80,9 +80,9 @@ export const About = () => {
 
         <DetailsA>Responsive Design</DetailsA>
         <Subtext>
-          Shout-out to the devs creating designs for devices of all shapes and
-          sizes. Seamless transitions between mobile and desktop is key, with an
-          emphasis on user experience and accessibility.
+          Shout-out to the devs designing for devices of all shapes and sizes.
+          Seamless transitions from mobile to desktop is key, with an emphasis
+          on accessibility and lightning-fast load times.
         </Subtext>
 
         <Pathway

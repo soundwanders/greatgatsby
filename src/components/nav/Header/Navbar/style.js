@@ -6,8 +6,8 @@ export const SpansMaxWidth = styled.div`
   flex-wrap: nowrap;
   width: 100%;
   max-width: 100%;
-  height: 5rem;
-  padding: 4px 0;
+  min-height: 4vmax;
+  padding: 0;
   overflow: hidden;
   background: #f8f8f8;
   @media (max-width: 940px) {
@@ -19,20 +19,23 @@ export const Wrapper = styled.div`
   position: fixed;
   display: flex;
   flex-wrap: nowrap;
-  width: 86.3%;
-  max-width: 86.3%;
-  padding: 0.25rem 0;
   align-items: center;
   justify-content: space-between;
+  width: 86.3%;
+  max-width: 86.3%;
+  padding: 0;
   background: transparent;
   z-index: 4;
 `;
 
 export const Brand = styled.div`
-  max-width: 2.7%;
+  max-width: 2.5%;
   padding: 1rem;
+  @media (max-width: 940px) {
+    max-width: 5%;
+  }
   @media (max-width: 600px) {
-    max-width: 10.7%;
+    max-width: 10.5%;
   }
   img.svg {
     -webkit-user-select: none;
