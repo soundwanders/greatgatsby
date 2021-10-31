@@ -70,7 +70,6 @@ export const Item = styled.div`
     img {
       display: flex;
       width: 28vmax;
-      max-width: 28vmax;
       height: 20vmax;
       max-height: 20vmax;
       -webkit-box-shadow: 9px 11px 3px -5px rgba(160, 160, 160, 0.4), 
