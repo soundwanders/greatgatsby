@@ -29,15 +29,16 @@
 
 @media (max-width: 940px) {
     .ReactModal__Content {
-    height: 65%;
-    width: auto;
+       height: 65%;
+       width: auto;
     }
 }
 
 @media (max-width: 600px) {
     .ReactModal__Content {
-    height: 70%;
-    max-height: 70%;
-    width: auto;
+       transform: translateY(-4rem);
+       height: 70%;
+       width: auto;
+       overflow: hidden; 
     }
 }
