@@ -29,14 +29,15 @@
 
 @media (max-width: 940px) {
     .ReactModal__Content {
-    height: 60%;
+    height: 65%;
     width: auto;
     }
 }
 
 @media (max-width: 600px) {
     .ReactModal__Content {
-    height: 75%;
+    height: 70%;
+    max-height: 70%;
     width: auto;
     }
 }
