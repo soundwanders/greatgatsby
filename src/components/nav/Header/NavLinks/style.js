@@ -84,5 +84,8 @@ export const Socials = styled.div`
     align-self: center;
     flex-wrap: nowrap;
     padding: 0.1rem;
+@media (max-width:940px) {
+    width: 36px;
+    }
   }
 `;
