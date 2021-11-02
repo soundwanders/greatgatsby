@@ -123,6 +123,8 @@ export const Subtext = styled.p`
   @media (max-width: 940px) {
     font-size: 2.2vmax;
     width: 82%;
+    &:nth-child(3) {
+      width: 82%;
   }
 `;
 export const Woods = styled.img`
