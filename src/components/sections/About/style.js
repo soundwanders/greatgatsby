@@ -121,7 +121,7 @@ export const Subtext = styled.p`
     padding-bottom: 0;
   }
   @media (max-width: 940px) {
-    font-size: 2.15vmax;
+    font-size: 2.2vmax;
     width: 82%;
   }
 `;
