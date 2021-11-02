@@ -413,7 +413,7 @@ export class Projects extends Component {
                             inputs for correct values.
                           </Info>
                           <Info>
-                            Runs boolean checks to validate the data passing
+                            Runs boolean checks to validate data passing
                             through regular expressions.
                           </Info>
                           <Info>
