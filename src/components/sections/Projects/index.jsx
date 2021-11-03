@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
 import './index.css';
-import { StaticImage } from "gatsby-plugin-image"
+import { StaticImage } from 'gatsby-plugin-image';
 import projectData from './projects.json';
 import {
   ProjectContainer,
@@ -413,8 +413,8 @@ export class Projects extends Component {
                             inputs for correct values.
                           </Info>
                           <Info>
-                            Runs boolean checks to validate data passing
-                            through regular expressions.
+                            Runs boolean checks to validate data passing through
+                            regular expressions.
                           </Info>
                           <Info>
                             LocalStorage data stringified/parsed with JSON.
