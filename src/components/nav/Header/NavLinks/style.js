@@ -54,6 +54,7 @@ export const Wrapper = styled.div`
         margin: 0 auto;
         padding: 2.5rem 0 8px 0;
         transform: translateY(3rem);
+        color: #3f3d56;
         text-align: center;
         font-size: 1.25rem;
         text-shadow: 0.5px 0px #f8f8f8;

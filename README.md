@@ -24,6 +24,7 @@
 - Contact Form submissions secured with Google Recaptcha
 - Form submission endpoint provided by <a href="https://formium.io" rel="noopener noreferral" style="text-decoration: none;">Formium</a>
 - Images hosted &amp; delivered by <a href="https://cloudinary.com" rel="noopener noreferral" style="text-decoration: none;">Cloudinary</a>
+- Icons from <a href="https://www.freepik.com" title="Freepik" target="_blank">Freepik</a>
 
 <br />
 

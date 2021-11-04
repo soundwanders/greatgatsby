@@ -62,7 +62,7 @@ export const Title = styled.h2`
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3vmax;
   color: #f8f8f8;
   padding: 1rem 0;
   margin: 0 auto;

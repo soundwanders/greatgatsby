@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
 import './index.css';
-import { StaticImage } from 'gatsby-plugin-image';
 import projectData from './projects.json';
 import {
   ProjectContainer,
@@ -19,6 +18,8 @@ import {
   Info,
 } from './style';
 
+Modal.setAppElement('#___gatsby');
+
 export class Projects extends Component {
   constructor(props) {
     super(props);
@@ -33,6 +34,7 @@ export class Projects extends Component {
   handleOpenModal(val) {
     this.setState({ activeModal: val });
     this.setState({ handleOpenModal: true });
+    Modal.setAppElement('#___gatsby');
   }
 
   handleCloseModal() {
@@ -67,6 +69,8 @@ export class Projects extends Component {
                       this.state.activeModal === 'helter'
                     }
                     contentLabel="Helter Shelter Modal"
+                    onRequestClose={this.handleCloseModal}
+                    shouldCloseOnOverlayClick={true}
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
@@ -147,6 +151,8 @@ export class Projects extends Component {
                     }
                     contentLabel="Nebula Modal"
                     portalClassName="activeModal"
+                    onRequestClose={this.handleCloseModal}
+                    shouldCloseOnOverlayClick={true}
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
@@ -226,6 +232,8 @@ export class Projects extends Component {
                       this.state.activeModal === 'timbuktu'
                     }
                     contentLabel="Timbuktu Modal"
+                    onRequestClose={this.handleCloseModal}
+                    shouldCloseOnOverlayClick={true}
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
@@ -309,6 +317,8 @@ export class Projects extends Component {
                       this.state.activeModal === 'bravebear'
                     }
                     contentLabel="BraveBear Modal"
+                    onRequestClose={this.handleCloseModal}
+                    shouldCloseOnOverlayClick={true}
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
@@ -388,6 +398,8 @@ export class Projects extends Component {
                       this.state.activeModal === 'budget'
                     }
                     contentLabel="Budget Modal"
+                    onRequestClose={this.handleCloseModal}
+                    shouldCloseOnOverlayClick={true}
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
@@ -470,6 +482,8 @@ export class Projects extends Component {
                       this.state.activeModal === 'scraper'
                     }
                     contentLabel="Node Scraper Modal"
+                    onRequestClose={this.handleCloseModal}
+                    shouldCloseOnOverlayClick={true}
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>

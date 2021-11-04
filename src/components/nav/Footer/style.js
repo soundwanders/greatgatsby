@@ -35,9 +35,8 @@ export const Copyright = styled.div`
   margin: 0 auto;
   overflow: hidden;
   font-family: Ubuntu, 'Roboto', Helvetica, sans-serif;
-  font-size: 1.1rem;
+  font-size: 1vmax;
   letter-spacing: 0.5px;
-
   @media (max-width: 940px) {
     font-size: 0.875rem;
   }

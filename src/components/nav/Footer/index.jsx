@@ -7,7 +7,7 @@ export const Footer = () => {
     <Foot>
       <Flex as={Container}>
         <Copyright>
-          © {new Date().getFullYear()} soundwanders All Rights Reserved
+          © {new Date().getFullYear()} soundwanders
           {` `}
         </Copyright>
       </Flex>

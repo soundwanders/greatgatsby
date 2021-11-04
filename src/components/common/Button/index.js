@@ -5,7 +5,7 @@ export const Button = styled.button`
   margin-right: 3rem;
   background: #f8f8f8;
   color: #3f3d56;
-  text-shadow: 0.125px 0 #fff;
+  text-shadow: 0.1px 0 #fff;
   font-family: 'Roboto', Ubuntu, Helvetica, sans-serif;
   letter-spacing: 1px;
   border: none;
@@ -33,7 +33,7 @@ export const Button = styled.button`
     secondary &&
     `
     background: #3f3d56;
-    color: #f9f9f9;
+    color: #f8f8f8;
     border-radius: 6px;
 	`}
 `;

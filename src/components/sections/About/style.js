@@ -41,8 +41,8 @@ export const Title = styled.h1`
   display: flex;
   text-align: center;
   padding: 1rem 0 2rem 0;
-  font-size: 4.5vmax;
   font-family: 'Roboto', sans-serif;
+  font-size: 4.5vmax;
   color: inherit;
   @media (max-width: 940px) {
     font-size: 4vmax;
@@ -55,8 +55,8 @@ export const Section = styled.h2`
   width: 70%;
   text-align: inherit;
   padding: 1rem 0 0.5rem 0;
-  font-size: 1.8vmax;
   font-family: 'Filson Soft', 'Roboto', sans-serif;
+  font-size: 1.8vmax;
   line-height: 2;
   color: inherit;
   @media (max-width: 940px) {

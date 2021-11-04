@@ -23,16 +23,29 @@ export const InputField = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  min-width: 26vw;
-  width: 26vw;
+  min-width: 26vmax;
+  width: 26vmax;
   margin: 0 auto;
   padding-bottom: 1rem;
   overflow: hidden;
+  &:nth-child(1) {
+    min-height: 2vmax;
+  }
+  &:nth-child(2) {
+    min-height: 2vmax;
+  }
+  &:nth-child(3) {
+    min-height: 10vmax;
+  }
+
   @media (max-width: 940px) {
     min-width: 90%;
     width: 90%;
     margin: 0 auto;
     padding-left: 0;
+    &:nth-child(3) {
+      min-height: 0;
+    }
   }
   @media (max-height: 500px) and (max-width: 940px) {
     min-width: 55vw;

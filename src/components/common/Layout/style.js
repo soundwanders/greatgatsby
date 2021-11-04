@@ -607,6 +607,7 @@ export const Global = createGlobalStyle`
       padding: 0;
       overflow-x: hidden;
       font-family: 'Roboto', Helvetica, sans-serif;
+      font-size: 16px;
       color: #663399;
       transition: .3s all;
       font-weight: normal;
