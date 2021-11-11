@@ -21,27 +21,24 @@ export const About = () => {
       </Section>
 
       <Section>
-        Whether that was designing a new logo for my favorite hockey team or
-        writing songs for a band that never actually made it into existence, I
+        Whether that was designing new logos for my favorite sports teams or
+        album covers for a band that never actually made it into existence, I
         was always busy creating something.
       </Section>
 
       <Section>
         Once I decided to take the leap into web development, I began building
-        (crudely constructed) static pages. And right away, something just
-        clicked.
+        (crudely constructed) static pages and immediately it just clicked. 
       </Section>
 
       <Section>
-        I've stumbled plenty of times, maybe even fell flat on my face, but I
-        continue to embrace the adversity and use it as a catalyst for
-        continuous improvement.
+      Each day I try to leave fresh footprints in the snow behind me, even if it's only a couple of steps. 
+      Sometimes I feel like the hare, but most days I feel a lot more like the tortoise.
       </Section>
 
       <Section>
-        Sometimes I feel like the hare, but most days I feel a lot more like the
-        tortoise. Atleast I've picked up a few useful things I found along the
-        way...
+        As I've made my way down this long and winding trail,
+        I'm grateful to pick up a few useful things I found along the way...
       </Section>
 
       <Concepts>

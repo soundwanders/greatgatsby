@@ -2,15 +2,9 @@ import { useState, useEffect } from 'react';
 
 const useMedia = (queries, values, defaultValue) => {
   const [value, setValue] = useState(null);
-  const isMounted = useIsMounted();
 
   useEffect(() => {
     const mediaQueryLists = queries.map(q => window.matchMedia(q));
-    asyncOperation().then(data => {
-      if (isMounted.current) {
-        setState(data);
-      }
-    });
 
     const getValue = () => {
       const index = mediaQueryLists.findIndex(mql => mql.matches);
