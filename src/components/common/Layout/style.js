@@ -622,7 +622,7 @@ export const Global = createGlobalStyle`
     }
     @media (max-width: 600px) {
         body {
-           height: 92vh;
+           height: 94vh;
         }
     }
     a {
