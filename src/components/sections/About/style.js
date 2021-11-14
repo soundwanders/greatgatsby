@@ -52,15 +52,14 @@ export const Title = styled.h1`
 
 export const Section = styled.h2`
   display: inherit;
-  width: 70%;
-  text-align: inherit;
+  width: 60%;
+  text-align: initial;
   padding: 1rem 0 0.5rem 0;
   font-family: 'Filson Soft', 'Roboto', sans-serif;
   font-size: 1.8vmax;
   line-height: 2;
   color: inherit;
   @media (max-width: 940px) {
-    width: 60%;
     font-size: 2.3vmax;
   }
 `;

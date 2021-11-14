@@ -103,8 +103,6 @@ export const ModalWrapper = styled.button`
 
 export const ModalContent = styled.div`
   padding: 0;
-  border: 1px solid white;
-  border-radius: 12px;
 `;
 
 export const ModalHeader = styled.h1`
@@ -124,7 +122,7 @@ export const Swatch = styled.img`
   display: flex;
   width: 20%;
   margin: 0 auto;
-  margin-top: -1.5rem;
+  margin-top: -2rem;
   padding: 0 0 2rem 0;
   transform: scale(1.3, 0.8);
   @media (max-width: 940px) {
@@ -158,7 +156,7 @@ export const ListItem = styled.li`
   padding: 0.5rem 0;
   font-family: 'Roboto', Ubuntu, sans-serif;
   font-size: 1.33vmax;
-  color: #222;
+  color: #362064;
   list-style-type: none;
   @media (max-width: 940px) {
     font-size: 2vmax;
@@ -172,13 +170,13 @@ export const ListItem = styled.li`
     }
   }
   &:nth-child(2) {
-    padding: 2rem 0;
+    padding: 1rem 0;
     @media (max-width: 940px) {
       padding: 0.5rem 0;
     }
   }
   &:nth-child(4) {
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     font-size: 1vmax;
     @media (max-width: 940px) {
       padding: 0.5rem 0;

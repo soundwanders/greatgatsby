@@ -54,7 +54,7 @@ export const Wrapper = styled.div`
         margin: 0 auto;
         padding: 2.5rem 0 8px 0;
         transform: translateY(3rem);
-        color: #3f3d56;
+        color: #222222;
         text-align: center;
         font-size: 1.25rem;
         text-shadow: 0.5px 0px #f8f8f8;
@@ -76,7 +76,7 @@ export const Socials = styled.div`
   grid-template-columns: repeat(2, 0.5fr);
   grid-template-rows: 4fr;
   @media (max-width: 940px) {
-    padding: 4rem 1rem 0 1rem;
+    padding: 3rem 1rem 0 1rem;
   }
   img {
     display: flex;

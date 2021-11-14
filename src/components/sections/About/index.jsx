@@ -32,7 +32,7 @@ export const About = () => {
       </Section>
 
       <Section>
-      Each day I try to leave fresh footprints in the snow behind me, even if it's only a couple of steps. 
+      Each day I try to leave fresh footprints behind me, even if it's only a couple of steps. 
       Sometimes I feel like the hare, but most days I feel a lot more like the tortoise.
       </Section>
 
@@ -52,8 +52,7 @@ export const About = () => {
         <Subtext>
           No needles, no haystacks. Error-free, easily maintainable code that is
           clear in its purpose and efficient in its execution makes me happy.
-          The only spaghetti I'm down with is served on a plate and it's covered
-          in sauce.
+          The only spaghetti I enjoy is served on a plate and covered in sauce.
         </Subtext>
 
         <Pathway
@@ -65,8 +64,8 @@ export const About = () => {
         <DetailsA>Creative Solutions</DetailsA>
         <Subtext>
           Diving headfirst into exciting ideas, with the courage to fail
-          miserably and the perseverance to get back up and try again. Solving
-          problems is the name of the game.
+          miserably and the perseverance to get back up and try again. 
+          Solving problems is the name of the game.
         </Subtext>
 
         <Pathway
