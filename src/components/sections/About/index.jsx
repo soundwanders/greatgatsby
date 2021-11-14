@@ -38,7 +38,7 @@ export const About = () => {
 
       <Section>
         As I've made my way down this long and winding trail,
-        I'm grateful to pick up a few useful things I found along the way...
+        I'm grateful to have picked up a few useful things I found along the way...
       </Section>
 
       <Concepts>
