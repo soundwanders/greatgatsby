@@ -620,7 +620,11 @@ export const Global = createGlobalStyle`
       -webkit-tap-highlight-color: transparent;
       -webkit-touch-callout: none;
     }
-
+    @media (max-width: 600px) {
+        body {
+           height: 92vh;
+        }
+    }
     a {
       text-decoration: none;
     }
