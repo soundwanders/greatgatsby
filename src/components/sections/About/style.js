@@ -41,7 +41,7 @@ export const Title = styled.h1`
   display: flex;
   text-align: center;
   padding: 1rem 0 2rem 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Filson Pro', 'Filson Soft', 'Roboto', sans-serif;
   font-size: 4.5vmax;
   color: inherit;
   @media (max-width: 940px) {
@@ -56,7 +56,7 @@ export const Section = styled.h2`
   text-align: initial;
   padding: 1rem 0 0.5rem 0;
   font-family: 'Filson Soft', 'Roboto', sans-serif;
-  font-size: 1.8vmax;
+  font-size: 1.75vmax;
   line-height: 2;
   color: inherit;
   @media (max-width: 940px) {
@@ -96,7 +96,7 @@ export const DetailsB = styled.h1`
   display: inherit;
   text-align: center;
   padding: 1rem 0 0.5rem 0;
-  font-size: 5.5vmax;
+  font-size: 5vmax;
   color: #f8f8f8;
   @media (max-width: 940px) {
     padding-bottom: 0;
@@ -108,7 +108,7 @@ export const Subtext = styled.p`
   width: 70%;
   text-align: center;
   padding: 0.5rem 0;
-  font-size: 1.5vmax;
+  font-size: 1.55vmax;
   font-family: inherit;
   line-height: 2;
   color: inherit;

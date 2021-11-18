@@ -42,6 +42,9 @@ export const Wrapper = styled.div`
                 transform: rotate(360deg);
                 transition: 0.75s;
             }
+            &:hover {
+                color: #424292
+            }
             @media (max-width: 940px) {
                 display: none;
             }

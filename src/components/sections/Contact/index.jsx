@@ -1,5 +1,6 @@
 import React from 'react';
-import { Title, Container, Wrapper, Details, Bird } from './style';
+import { Container } from 'components/common';
+import { Title, Wrapper, Details, Bird } from './style';
 import ContactForm from './ContactForm';
 
 export const Snail = 'Save the Snails 🐌';

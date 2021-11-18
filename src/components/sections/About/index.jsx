@@ -28,17 +28,18 @@ export const About = () => {
 
       <Section>
         Once I decided to take the leap into web development, I began building
-        (crudely constructed) static pages and immediately it just clicked. 
+        (crudely constructed) static pages and immediately it just clicked.
       </Section>
 
       <Section>
-      Each day I try to leave fresh footprints behind me, even if it's only a couple of steps. 
-      Sometimes I feel like the hare, but most days I feel a lot more like the tortoise.
+        Sometimes I feel like the hare, but most days I feel a lot more like the
+        tortoise. Each day I make sure that I leave more footprints behind me,
+        even if it's only a couple of steps.
       </Section>
 
       <Section>
-        As I've made my way down this long and winding trail,
-        I'm grateful to have picked up a few useful things I found along the way...
+        As I've made my way down this long and winding trail, I'm grateful to
+        have picked up a few useful things I found along the way...
       </Section>
 
       <Concepts>
@@ -64,8 +65,8 @@ export const About = () => {
         <DetailsA>Creative Solutions</DetailsA>
         <Subtext>
           Diving headfirst into exciting ideas, with the courage to fail
-          miserably and the perseverance to get back up and try again. 
-          Solving problems is the name of the game.
+          miserably and the perseverance to get back up and try again. Solving
+          problems is the name of the game.
         </Subtext>
 
         <Pathway
@@ -78,7 +79,7 @@ export const About = () => {
         <Subtext>
           Shout-out to the devs designing for devices of all shapes and sizes.
           Seamless transitions from mobile to desktop is key, with an emphasis
-          on accessibility and lightning-fast load times.
+          on accessibility and adaptability.
         </Subtext>
 
         <Pathway

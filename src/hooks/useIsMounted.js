@@ -11,9 +11,7 @@ export function useIsMounted() {
   return isMounted;
 }
 
-
 //   const isMounted = useIsMounted();
-
 //     asyncOperation().then(data => {
 //      if (isMounted.current) {
 //    setState(data);

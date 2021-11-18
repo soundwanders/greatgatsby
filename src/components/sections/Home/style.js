@@ -57,7 +57,7 @@ export const Subtitle = styled.h1`
   font-display: swap;
   @media (max-width: 940px) {
     padding: 0.5rem 0 2rem 0;
-    font-size: 1.8vmax;
+    font-size: 1.75vmax;
   }
   @media (max-width: 600px) {
     height: 25%;

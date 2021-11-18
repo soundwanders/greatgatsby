@@ -34,12 +34,6 @@ export const Wrapper = styled.div`
   }
 `;
 
-export const Container = styled.div`
-  width: 100%;
-  overflow-x: hidden;
-  margin: 0 auto;
-`;
-
 export const Details = styled.div`
   display: flex;
   flex-direction: column;

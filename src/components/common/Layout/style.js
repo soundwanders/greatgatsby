@@ -639,4 +639,7 @@ export const Global = createGlobalStyle`
   @font-face {
     font-family: "Filson Soft"; src: url("//db.onlinewebfonts.com/t/c5fc2b05949b051c07482453e8e0c1e6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c5fc2b05949b051c07482453e8e0c1e6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c5fc2b05949b051c07482453e8e0c1e6.woff") format("woff"), url("//db.onlinewebfonts.com/t/c5fc2b05949b051c07482453e8e0c1e6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c5fc2b05949b051c07482453e8e0c1e6.svg#Filson Soft") format("svg"); 
   }
+  @font-face {
+    font-family: "Filson Pro"; src: url("//db.onlinewebfonts.com/t/7af422d3673e325273ef7450c569aa73.eot"); src: url("//db.onlinewebfonts.com/t/7af422d3673e325273ef7450c569aa73.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7af422d3673e325273ef7450c569aa73.woff2") format("woff2"); 
+  }
 `;

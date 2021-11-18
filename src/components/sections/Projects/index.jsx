@@ -26,9 +26,14 @@ export class Projects extends Component {
     this.state = {
       handleOpenModal: false,
       activeModal: '',
+      _isMounted: false,
     };
     this.handleOpenModal = this.handleOpenModal.bind(this);
     this.handleCloseModal = this.handleCloseModal.bind(this);
+  }
+
+  componentWillMount() {
+    this._isMounted = true;
   }
 
   handleOpenModal(val) {
@@ -40,6 +45,10 @@ export class Projects extends Component {
   handleCloseModal() {
     this.setState({ handleOpenModal: false });
     this.setState({ handleOpenModal: '' });
+  }
+
+  componentWillUnmount() {
+    this._isMounted = false;
   }
 
   render() {
@@ -83,23 +92,21 @@ export class Projects extends Component {
                       />
 
                       <List>
-                        <ListItem>
-                          <Info>
-                            Helter-Shelter supports New Hampshire animal
-                            shelters &amp; rescue organizations.
-                          </Info>
-                          <Info>
-                            Embedded custom map containing shelter locations,
-                            built with Leaflet.js.
-                          </Info>
-                          <Info>
-                            Collapsible data table is an array of objects
-                            generated with JavaScript.{' '}
-                          </Info>
-                          <Info>
-                            Mobile-friendly design crafted with CSS Flexbox.
-                          </Info>
-                        </ListItem>
+                        <Info>
+                          Helter-Shelter supports New Hampshire animal shelters
+                          &amp; rescue organizations.
+                        </Info>
+                        <Info>
+                          Embedded custom map containing shelter locations,
+                          built with Leaflet.js.
+                        </Info>
+                        <Info>
+                          Collapsible data table is an array of objects
+                          generated with JavaScript.{' '}
+                        </Info>
+                        <Info>
+                          CSS Flexbox &amp; Grid used to achieve a fluid layout.
+                        </Info>
 
                         <ListItem>
                           {' '}
@@ -165,24 +172,22 @@ export class Projects extends Component {
                       />
 
                       <List>
-                        <ListItem>
-                          <Info>
-                            An image gallery built with Bootstrap, showcasing
-                            high-res photographs of nebulae.
-                          </Info>
-                          <Info>
-                            Responsive content cards hold photos with their
-                            description underneath.
-                          </Info>
-                          <Info>
-                            Each nebula's image is a modal that pops out to
-                            full-screen.
-                          </Info>
-                          <Info>
-                            Use of media query breakpoints allows dynamic
-                            resizing of grid layout.
-                          </Info>
-                        </ListItem>
+                        <Info>
+                          An image gallery built with Bootstrap, showcasing
+                          high-res photographs of nebulae.
+                        </Info>
+                        <Info>
+                          Responsive content cards hold photos with their
+                          description underneath.
+                        </Info>
+                        <Info>
+                          Each nebula's image is a modal that pops out to
+                          full-screen.
+                        </Info>
+                        <Info>
+                          Use of media query breakpoints allows dynamic resizing
+                          of grid layout.
+                        </Info>
 
                         <ListItem>
                           {' '}
@@ -246,27 +251,25 @@ export class Projects extends Component {
                       />
 
                       <List>
-                        <ListItem>
-                          <Info>
-                            Timbuktu is a demo digital library centered around
-                            ancient civilizations.
-                          </Info>
+                        <Info>
+                          Timbuktu is a demo digital library centered around
+                          ancient civilizations.
+                        </Info>
 
-                          <Info>
-                            Library holds Book title, author, format,
-                            civilization.
-                          </Info>
+                        <Info>
+                          Library holds Book title, author, format,
+                          civilization.
+                        </Info>
 
-                          <Info>
-                            Skeleton CSS used to achieve a clean, responsive
-                            design.
-                          </Info>
+                        <Info>
+                          Skeleton CSS used to achieve a clean, responsive
+                          design.
+                        </Info>
 
-                          <Info>
-                            LocalStorage methods saves &amp; loads data to
-                            preserve state on page refresh.
-                          </Info>
-                        </ListItem>
+                        <Info>
+                          LocalStorage methods saves &amp; loads data to
+                          preserve state on page refresh.
+                        </Info>
 
                         <ListItem>
                           {' '}
@@ -331,24 +334,21 @@ export class Projects extends Component {
                       />
 
                       <List>
-                        <ListItem>
-                          <Info>
-                            Bravebear features three templates with different
-                            color schemes, built with React.
-                          </Info>
-                          <Info>
-                            Each template is a standalone component exported
-                            into the main App directory.
-                          </Info>
-                          <Info>
-                            React-router switches between pages without
-                            reloading.
-                          </Info>
-                          <Info>
-                            Mobile-first design scales up to any device, page
-                            layout built with CSS Grid.
-                          </Info>
-                        </ListItem>
+                        <Info>
+                          Bravebear features three templates with different
+                          color schemes, built with React.
+                        </Info>
+                        <Info>
+                          Each template is a standalone component exported into
+                          the main App directory.
+                        </Info>
+                        <Info>
+                          React-router switches between pages without reloading.
+                        </Info>
+                        <Info>
+                          Mobile-first design scales up to larger devices, page
+                          layout built with CSS Grid.
+                        </Info>
 
                         <ListItem>
                           {' '}
@@ -412,26 +412,21 @@ export class Projects extends Component {
                       />
 
                       <List>
-                        <ListItem>
-                          <Info>
-                            Simple Budget application written in JavaScript.{' '}
-                          </Info>
-                          <Info>
-                            User can input monthly income, create an expense
-                            list and calculate available budget.
-                          </Info>
-                          <Info>
-                            Regular expressions are used to check all user
-                            inputs for correct values.
-                          </Info>
-                          <Info>
-                            Runs boolean checks to validate data passing through
-                            regular expressions.
-                          </Info>
-                          <Info>
-                            LocalStorage data stringified/parsed with JSON.
-                          </Info>
-                        </ListItem>
+                        <Info>
+                          Simple Budget application written in JavaScript.{' '}
+                        </Info>
+                        <Info>
+                          User can input monthly income, create an expense list
+                          and calculate a spending budget.
+                        </Info>
+                        <Info>
+                          Regular expressions are used to validate all user
+                          inputs.
+                        </Info>
+                        <Info>
+                          Strings are reformatted and converted to numbers
+                          before calculating data.
+                        </Info>
 
                         <ListItem>
                           {' '}
@@ -496,24 +491,23 @@ export class Projects extends Component {
                       />
 
                       <List>
-                        <ListItem>
-                          <Info>
-                            Exploring Web Scraping with Node, Axios, Cheerio,
-                            Puppeteer, Request.
-                          </Info>
-                          <Info>
-                            View the winners &amp; runner-ups of the Minnesota
-                            High School State Hockey Championship.
-                          </Info>
-                          <Info>
-                            Browse NHL's statistic leaders or display the final
-                            results of recent NHL games.
-                          </Info>
-                          <Info>
-                            Fetch a list of endangered species and their
-                            conservation status.
-                          </Info>
-                        </ListItem>
+                        <Info>
+                          Exploring Web Scraping with Node, Axios, Cheerio,
+                          Puppeteer, Request.
+                        </Info>
+                        <Info>
+                          View the winners &amp; runner-ups of the Minnesota
+                          High School State Hockey Championship.
+                        </Info>
+                        <Info>
+                          Browse NHL's statistic leaders or display the final
+                          results of recent NHL games.
+                        </Info>
+                        <Info>
+                          Fetch a list of endangered species and their
+                          conservation status.
+                        </Info>
+
                         <ListItem>
                           {' '}
                           <a
@@ -525,9 +519,7 @@ export class Projects extends Component {
                             Visit Repository{' '}
                           </a>{' '}
                         </ListItem>
-                        <ListItem>
-                          Runs in Terminal, No Demo Available.
-                        </ListItem>
+                        <ListItem>Runs in Terminal, No Live Demo</ListItem>
                         <ListItem>Date: {projectData[5].date}</ListItem>
                       </List>
                     </ModalContent>

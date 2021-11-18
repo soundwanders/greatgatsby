@@ -3,7 +3,7 @@ import axios from 'axios';
 import Recaptcha from 'react-google-recaptcha';
 import * as Yup from 'yup';
 import { Formik, Form, FastField, ErrorMessage } from 'formik';
-import { Button, Input } from 'components/common';
+import { Input, Button } from './Input';
 import { FormContainer, Error, Center, InputField } from './style';
 
 const ContactForm = () => (

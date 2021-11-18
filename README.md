@@ -34,7 +34,7 @@
 
 2.  **`/src/assets`**: This directory holds all media files such as images, icons and illustrations (svgs, pngs, etc).
 
-3.  **`./components/common`**: This directory holds all 'common' components, which are the reusable elements like Containers and Buttons.
+3.  **`./components/common`**: This directory holds all 'common' components, including Global styles and SEO config.
 
 4.  **`./components/nav`**: This directory holds all page navigation elements such as the navbar and sidebar.
 

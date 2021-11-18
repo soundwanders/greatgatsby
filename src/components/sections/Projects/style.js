@@ -107,7 +107,7 @@ export const ModalContent = styled.div`
 
 export const ModalHeader = styled.h1`
   font-family: 'Roboto', Ubuntu, sans-serif;
-  font-size: 3.25vmax;
+  font-size: 3.5vmax;
   letter-spacing: 0.25px;
   padding: 0.5rem 0 0.5rem 0;
   text-align: center;
@@ -121,6 +121,7 @@ export const ModalHeader = styled.h1`
 export const Swatch = styled.img`
   display: flex;
   width: 20%;
+  background: #fff;
   margin: 0 auto;
   margin-top: -2rem;
   padding: 0 0 2rem 0;
@@ -152,36 +153,39 @@ export const List = styled.ul`
   margin: 0 auto;
 `;
 
+export const Info = styled.li`
+  padding: 1rem 0;
+  font-family: 'Roboto', Ubuntu, sans-serif;
+  font-size: 1.3vmax;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.25;
+  list-style-position: inside;
+  list-style-type: initial;
+
+  @media (max-width: 940px) {
+    padding: 0.25rem 0;
+    font-size: 2vmax;
+    text-align: left;
+    list-style-type: initial;
+    margin-left: 0.5rem;
+    &:first-child {
+      padding-top: 1rem;
+    }
+    &:last-child {
+      padding-bottom: 1rem;
+    }
+  }
+`;
+
 export const ListItem = styled.li`
-  padding: 0.5rem 0;
+  padding: 0.75rem 0;
   font-family: 'Roboto', Ubuntu, sans-serif;
   font-size: 1.33vmax;
   color: #362064;
   list-style-type: none;
-  @media (max-width: 940px) {
-    font-size: 2vmax;
-  }
-  &:nth-child(1) {
-    font-size: 1.33vmax;
-    padding: 0.25rem 0 0.25rem 0;
-    @media (max-width: 940px) {
-      padding: 0.25rem 0 1rem 0;
-      font-size: 1.75vmax;
-    }
-  }
-  &:nth-child(2) {
-    padding: 1rem 0;
-    @media (max-width: 940px) {
-      padding: 0.5rem 0;
-    }
-  }
-  &:nth-child(4) {
-    padding: 1.5rem 0;
-    font-size: 1vmax;
-    @media (max-width: 940px) {
-      padding: 0.5rem 0;
-      font-size: 1.75vmax;
-    }
+  &:nth-child(5) {
+    padding: 3rem 0 1rem 0;
   }
   a {
     color: #196aff;
@@ -191,23 +195,11 @@ export const ListItem = styled.li`
     color: #ffa500;
     text-decoration: underline;
   }
-`;
-
-export const Info = styled.li`
-  padding: 0.5rem 0;
-  font-family: 'Roboto', Ubuntu, sans-serif;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 1.25;
-  list-style-position: inside;
-  list-style-type: initial;
   @media (max-width: 940px) {
-    padding: 0.25rem 0;
-    text-align: left;
-    list-style-type: initial;
-    margin-left: 0.5rem;
-    &:last-child {
-      padding-bottom: 1rem;
+    font-size: 2.2vmax;
+    padding: 0.5rem 0;
+    &:nth-child(5) {
+      padding: 2rem 0 0.5rem 0;
     }
   }
 `;
