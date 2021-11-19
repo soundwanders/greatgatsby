@@ -80,6 +80,14 @@ export class Projects extends Component {
                     contentLabel="Helter Shelter Modal"
                     onRequestClose={this.handleCloseModal}
                     shouldCloseOnOverlayClick={true}
+                    style={{
+                      content: {
+                        background: '#f9f9f9',
+                        border: '1px solid #dbdbdb',
+                        borderRadius: '12px',
+                        boxShadow: '0px 10px 13px -12px rgba(0, 0, 0, 0.1)',
+                      },
+                    }}
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
@@ -130,7 +138,7 @@ export class Projects extends Component {
                             Project Demo{' '}
                           </a>{' '}
                         </ListItem>
-                        <ListItem>Date: {projectData[0].date}</ListItem>
+                        <ListItem>{projectData[0].date}</ListItem>
                       </List>
                     </ModalContent>
                   </Modal>
@@ -160,6 +168,14 @@ export class Projects extends Component {
                     portalClassName="activeModal"
                     onRequestClose={this.handleCloseModal}
                     shouldCloseOnOverlayClick={true}
+                    style={{
+                      content: {
+                        background: '#f9f9f9',
+                        border: '1px solid #dbdbdb',
+                        borderRadius: '12px',
+                        boxShadow: '0px 10px 13px -12px rgba(0, 0, 0, 0.1)',
+                      },
+                    }}
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
@@ -211,7 +227,7 @@ export class Projects extends Component {
                             Project Demo{' '}
                           </a>{' '}
                         </ListItem>
-                        <ListItem>Date: {projectData[1].date}</ListItem>
+                        <ListItem>{projectData[1].date}</ListItem>
                       </List>
                     </ModalContent>
                   </Modal>
@@ -239,6 +255,14 @@ export class Projects extends Component {
                     contentLabel="Timbuktu Modal"
                     onRequestClose={this.handleCloseModal}
                     shouldCloseOnOverlayClick={true}
+                    style={{
+                      content: {
+                        background: '#f9f9f9',
+                        border: '1px solid #dbdbdb',
+                        borderRadius: '12px',
+                        boxShadow: '0px 10px 13px -12px rgba(0, 0, 0, 0.1)',
+                      },
+                    }}
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
@@ -293,7 +317,7 @@ export class Projects extends Component {
                             Project Demo{' '}
                           </a>{' '}
                         </ListItem>
-                        <ListItem>Date: {projectData[2].date}</ListItem>
+                        <ListItem>{projectData[2].date}</ListItem>
                       </List>
                     </ModalContent>
                   </Modal>
@@ -322,6 +346,14 @@ export class Projects extends Component {
                     contentLabel="BraveBear Modal"
                     onRequestClose={this.handleCloseModal}
                     shouldCloseOnOverlayClick={true}
+                    style={{
+                      content: {
+                        background: '#f9f9f9',
+                        border: '1px solid #dbdbdb',
+                        borderRadius: '12px',
+                        boxShadow: '0px 10px 13px -12px rgba(0, 0, 0, 0.1)',
+                      },
+                    }}
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
@@ -335,19 +367,17 @@ export class Projects extends Component {
 
                       <List>
                         <Info>
-                          Bravebear features three templates with different
-                          color schemes, built with React.
+                          Brave Bear features multiple layouts built with React.
                         </Info>
                         <Info>
-                          Each template is a standalone component exported into
-                          the main App directory.
+                          Each template is a React component with its own path.
                         </Info>
                         <Info>
-                          React-router switches between pages without reloading.
+                          React-router used to switch between pages without
+                          reloading content.
                         </Info>
                         <Info>
-                          Mobile-first design scales up to larger devices, page
-                          layout built with CSS Grid.
+                          Mobile-first design that scales up to desktop.
                         </Info>
 
                         <ListItem>
@@ -372,7 +402,7 @@ export class Projects extends Component {
                             Project Demo{' '}
                           </a>{' '}
                         </ListItem>
-                        <ListItem>Date: {projectData[3].date}</ListItem>
+                        <ListItem>{projectData[3].date}</ListItem>
                       </List>
                     </ModalContent>
                   </Modal>
@@ -400,6 +430,14 @@ export class Projects extends Component {
                     contentLabel="Budget Modal"
                     onRequestClose={this.handleCloseModal}
                     shouldCloseOnOverlayClick={true}
+                    style={{
+                      content: {
+                        background: '#f9f9f9',
+                        border: '1px solid #dbdbdb',
+                        borderRadius: '12px',
+                        boxShadow: '0px 10px 13px -12px rgba(0, 0, 0, 0.1)',
+                      },
+                    }}
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
@@ -413,19 +451,20 @@ export class Projects extends Component {
 
                       <List>
                         <Info>
-                          Simple Budget application written in JavaScript.{' '}
+                          Simple Budget application built with vanilla
+                          JavaScript.{' '}
                         </Info>
                         <Info>
                           User can input monthly income, create an expense list
                           and calculate a spending budget.
                         </Info>
                         <Info>
-                          Regular expressions are used to validate all user
-                          inputs.
+                          Regular expression checks are used to validate all
+                          user inputs.
                         </Info>
                         <Info>
-                          Strings are reformatted and converted to numbers
-                          before calculating data.
+                          Strings are reformatted and converted to numbers to
+                          enable Math calculations.
                         </Info>
 
                         <ListItem>
@@ -450,7 +489,7 @@ export class Projects extends Component {
                             Project Demo{' '}
                           </a>{' '}
                         </ListItem>
-                        <ListItem>Date: {projectData[4].date}</ListItem>
+                        <ListItem>{projectData[4].date}</ListItem>
                       </List>
                     </ModalContent>
                   </Modal>
@@ -479,6 +518,14 @@ export class Projects extends Component {
                     contentLabel="Node Scraper Modal"
                     onRequestClose={this.handleCloseModal}
                     shouldCloseOnOverlayClick={true}
+                    style={{
+                      content: {
+                        background: '#f9f9f9',
+                        border: '1px solid #dbdbdb',
+                        borderRadius: '12px',
+                        boxShadow: '0px 10px 13px -12px rgba(0, 0, 0, 0.1)',
+                      },
+                    }}
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
@@ -493,15 +540,15 @@ export class Projects extends Component {
                       <List>
                         <Info>
                           Exploring Web Scraping with Node, Axios, Cheerio,
-                          Puppeteer, Request.
+                          Puppeteer.
                         </Info>
                         <Info>
                           View the winners &amp; runner-ups of the Minnesota
                           High School State Hockey Championship.
                         </Info>
                         <Info>
-                          Browse NHL's statistic leaders or display the final
-                          results of recent NHL games.
+                          Browse NHL's statistic leaders or display the results
+                          of recent NHL games.
                         </Info>
                         <Info>
                           Fetch a list of endangered species and their
@@ -520,7 +567,7 @@ export class Projects extends Component {
                           </a>{' '}
                         </ListItem>
                         <ListItem>Runs in Terminal, No Live Demo</ListItem>
-                        <ListItem>Date: {projectData[5].date}</ListItem>
+                        <ListItem>{projectData[5].date}</ListItem>
                       </List>
                     </ModalContent>
                   </Modal>

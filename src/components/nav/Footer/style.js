@@ -31,10 +31,10 @@ export const Flex = styled.div`
 
 export const Copyright = styled.div`
   display: inherit;
-  padding: 2rem 0 1rem 0;
+  padding: 2rem 0 0.5rem 0;
   margin: 0 auto;
   overflow: hidden;
-  font-family: Ubuntu, 'Roboto', Helvetica, sans-serif;
+  font-family: 'Filson Soft', 'Roboto', Helvetica, sans-serif;
   font-size: 1vmax;
   letter-spacing: 0.5px;
   @media (max-width: 940px) {

@@ -15,6 +15,10 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-styled-components`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
@@ -29,8 +33,6 @@ module.exports = {
         ignore: [`**/\.*`],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -43,7 +45,5 @@ module.exports = {
         icon: `src/assets/icons/favicon.png`,
       },
     },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-mdx`,
   ],
 };

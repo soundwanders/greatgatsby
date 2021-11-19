@@ -72,10 +72,10 @@ export const Item = styled.div`
       width: 28vmax;
       height: 19vmax;
       max-height: 19vmax;
-      -webkit-box-shadow: 9px 11px 3px -5px rgba(160, 160, 160, 0.4), 
-      -2px 2px 4px 1px rgba(25, 32, 36, 0.1);
-      box-shadow: 9px 11px 3px -5px rgba(160, 160, 160, 0.4), 
-      -2px 2px 4px 1px rgba(25, 32, 36, 0.1);
+      -webkit-box-shadow: 9px 11px 3px -5px rgba(50, 50, 50, 0.1), 
+      -2px 2px 6px 1px rgba(50, 50, 50, 0.2);
+      box-shadow: 9px 11px 3px -5px rgba(50, 50, 50, 0.1), 
+      -2px 2px 6px 1px rgba(50, 50, 50, 0.2);
       cursor: pointer;
       @media (max-width: 940px) {
         width: 500px;
@@ -121,11 +121,11 @@ export const ModalHeader = styled.h1`
 export const Swatch = styled.img`
   display: flex;
   width: 20%;
-  background: #fff;
+  background: #f9f9f9;
   margin: 0 auto;
   margin-top: -2rem;
   padding: 0 0 2rem 0;
-  transform: scale(1.3, 0.8);
+  transform: scale(1.33, 0.8);
   @media (max-width: 940px) {
     width: 40%;
     padding: 0 0 1rem 0;
@@ -158,6 +158,7 @@ export const Info = styled.li`
   font-family: 'Roboto', Ubuntu, sans-serif;
   font-size: 1.3vmax;
   margin: 0 auto;
+  color: #44287d;
   text-align: center;
   line-height: 1.25;
   list-style-position: inside;
@@ -181,11 +182,14 @@ export const Info = styled.li`
 export const ListItem = styled.li`
   padding: 0.75rem 0;
   font-family: 'Roboto', Ubuntu, sans-serif;
-  font-size: 1.33vmax;
-  color: #362064;
+  font-size: 1.3vmax;
   list-style-type: none;
   &:nth-child(5) {
     padding: 3rem 0 1rem 0;
+  }
+  &:nth-child(7) {
+    font-size: 1.1vmax;
+    color: #44287d;
   }
   a {
     color: #196aff;
@@ -196,10 +200,13 @@ export const ListItem = styled.li`
     text-decoration: underline;
   }
   @media (max-width: 940px) {
-    font-size: 2.2vmax;
-    padding: 0.5rem 0;
+    font-size: 2.3vmax;
+    padding: 0.4rem 0;
     &:nth-child(5) {
-      padding: 2rem 0 0.5rem 0;
+      padding: 2rem 0 0.4rem 0;
+    }
+    &:nth-child(7) {
+      font-size: 2vmax;
     }
   }
 `;
