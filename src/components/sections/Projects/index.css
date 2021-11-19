@@ -32,7 +32,7 @@
 @media (max-width: 600px) {
     .ReactModal__Content {
        transform: translateY(2rem);
-       height: 82%;
+       height: 80%;
        width: auto;
        overflow: hidden; 
     }
