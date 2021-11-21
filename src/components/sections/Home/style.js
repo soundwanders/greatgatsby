@@ -1,4 +1,14 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+export const Slide = keyframes`
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+`;
 
 export const HomeContainer = styled.div`
   display: flex;
@@ -37,6 +47,7 @@ export const User = styled.h1`
   background: linear-gradient(to right, #333399 30%, #ff662e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: 0.8s ease-out 0s 1 ${Slide};
   @media (max-width: 940px) {
     font-size: 11.25vmax;
     height: 30%;
@@ -49,12 +60,11 @@ export const Subtitle = styled.h1`
   margin: 0 auto;
   padding: 2rem 0 0 0;
   white-space: nowrap;
-  font-display: swap;
   color: #333399;
   letter-spacing: -2px;
   font-size: 2.2vmax;
   font-family: 'LuloCleanW01-OneBold', 'Roboto', sans-serif;
-  font-display: swap;
+  animation: 0.8s ease-in-out 0s 1 ${Slide};
   @media (max-width: 940px) {
     padding: 0.5rem 0 2rem 0;
     font-size: 1.75vmax;
