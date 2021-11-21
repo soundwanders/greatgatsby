@@ -76,7 +76,7 @@ export const Socials = styled.div`
   bottom: 0;
   padding: 0 0 0.5rem 0;
   align-items: center;
-  grid-template-columns: repeat(2, 0.5fr);
+  grid-template-columns: repeat(3, 0.5fr);
   grid-template-rows: 4fr;
   @media (max-width: 940px) {
     padding: 3rem 1rem 0 1rem;
@@ -90,6 +90,13 @@ export const Socials = styled.div`
     padding: 0.1rem;
     @media (max-width: 940px) {
       width: 36px;
+    }
+  }
+
+  a:nth-child(3) > img:nth-child(1) {
+    width: 2.1vmax;
+    @media (max-width: 940px) {
+      width: 44px;
     }
   }
 `;

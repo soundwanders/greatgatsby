@@ -10,5 +10,11 @@
     "name": "LinkedIn",
     "link": "https://linkedin.com/in/jared-coletta",
     "icon": "https://res.cloudinary.com/cloudwanders/image/upload/v1632713296/linkedin_iij1rz.svg"
+  },
+  {
+    "id": 2,
+    "name": "Resume",
+    "link": "https://resume.creddle.io/resume/f3r7gb0jdjt",
+    "icon": "https://res.cloudinary.com/cloudwanders/image/upload/v1637452358/reshot-icon-resume-286AWVXNTL_hyhsks.svg"
   }
 ]
