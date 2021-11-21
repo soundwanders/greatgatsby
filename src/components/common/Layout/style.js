@@ -638,5 +638,7 @@ export const Global = createGlobalStyle`
   @font-face {
     font-family: "Filson Pro"; src: url("//db.onlinewebfonts.com/t/7af422d3673e325273ef7450c569aa73.eot"); src: url("//db.onlinewebfonts.com/t/7af422d3673e325273ef7450c569aa73.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7af422d3673e325273ef7450c569aa73.woff2") format("woff2"); 
   }
-  @import url(//db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold);
+  @font-face {
+    font-family: "LuloCleanW01-OneBold"; src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot"); src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff") format("woff"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold") format("svg"); 
+  } 
 `;
