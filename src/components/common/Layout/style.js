@@ -623,7 +623,6 @@ export const Global = createGlobalStyle`
     a {
       text-decoration: none;
     }
-
     input, select, textarea, button {
       &:focus {
         border: none;
