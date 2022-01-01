@@ -63,7 +63,7 @@ export const Subtitle = styled.h1`
   color: #333399;
   letter-spacing: -2px;
   font-size: 2.2vmax;
-  font-family: 'LuloCleanW01-OneBold', 'Roboto', sans-serif;
+  font-family: 'Poppins', 'Roboto', sans-serif;
   animation: 0.8s ease-in-out 0s 1 ${Slide};
   @media (max-width: 940px) {
     padding: 0.5rem 0 2rem 0;
