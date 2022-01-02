@@ -17,6 +17,10 @@ export const Wrapper = styled.div`
 `;
 
 export const ProjectContainer = styled.div`
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,6 +72,10 @@ export const Item = styled.div`
     padding: 1.75rem 0;
   }
     img {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
       display: flex;
       width: 28vmax;
       height: 19vmax;
@@ -119,6 +127,10 @@ export const ModalHeader = styled.h1`
 `;
 
 export const Swatch = styled.img`
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   width: 20%;
   background: #f9f9f9;

@@ -609,7 +609,10 @@ export const Global = createGlobalStyle`
       font-family: 'Roboto', Helvetica, sans-serif;
       font-size: 16px;
       color: #663399;
-      transition: .3s all;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
       font-weight: normal;
       word-wrap: break-word;
       font-kerning: normal;

@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 export const FormContainer = styled.div`
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -20,6 +24,10 @@ export const Center = styled.div`
 `;
 
 export const InputField = styled.div`
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

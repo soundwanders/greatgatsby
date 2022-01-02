@@ -18,7 +18,11 @@ export const Wrapper = styled.div`
     ${({ desktop }) =>
       desktop
         ? `
-            display: flex;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: flex;
             float: left;
             align-items: center;
             margin: 0 2.125rem;
@@ -31,6 +35,10 @@ export const Wrapper = styled.div`
                 padding-right: 1rem;
             }
             img {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -moz-box;
+                display: -ms-flexbox;
                 display: flex;
                 flex-basis: 100%;
                 flex-direction: column;
@@ -39,8 +47,15 @@ export const Wrapper = styled.div`
                 padding: 0.25rem 0 0 0;
             }
             img:hover { 
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
                 transform: rotate(360deg);
-                transition: 0.75s;
+                -webkit-transition: 0.7s;
+                -o-transition: 0.7s;
+                -moz-transition: 0.7s;
+                transition: 0.7s;
             }
             &:hover {
                 color: #424292
@@ -50,12 +65,20 @@ export const Wrapper = styled.div`
             }
         `
         : `
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
         margin: 0 auto;
         padding: 2.5rem 0 8px 0;
+        -webkit-transform: translateY(3rem);
+        -moz-transform: translateY(3rem);
+        -ms-transform: translateY(3rem);
+        -o-transform: translateY(3rem);
         transform: translateY(3rem);
         color: #222222;
         text-align: center;
@@ -82,6 +105,10 @@ export const Socials = styled.div`
     padding: 3rem 1rem 0 1rem;
   }
   img {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     width: 1.8vmax;
     flex-direction: column;

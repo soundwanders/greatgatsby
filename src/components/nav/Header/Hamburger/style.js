@@ -6,7 +6,10 @@ export const Wrapper = styled.div`
   top: 1.6rem;
   right: 1.8rem;
   cursor: pointer;
-  transition: left 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
+  -webkit-transform: left 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
+  -o-transform: left 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
+  -moz-transform: left 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
+  transform: left 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
   z-index: 5;
 
   @media (max-width: 940px) {
@@ -35,12 +38,15 @@ export const Bar = styled.div`
   background-color: #0d0614;
   box-shadow 250ms,
   opacity 500ms,
-	transition: transform 300ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
+	transform: transform 300ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
   ${({ top, sidebar }) =>
     top &&
     sidebar &&
     `
 		background-color: #5d2ad3;
+    -webkit-transform: translateY(8px) rotate(-135deg);
+    -o-transform: translateY(8px) rotate(-135deg);
+    -moz-transform: translateY(8px) rotate(-135deg);
 		transform: translateY(8px) rotate(-135deg);
     `}
 
@@ -56,6 +62,9 @@ export const Bar = styled.div`
     sidebar &&
     `
         background-color: #5d2ad3;
+        -webkit-transform: translateY(-6px) rotate(-45deg);
+        -o-transform: translateY(-6px) rotate(-45deg);
+        -moz-transform: translateY(-6px) rotate(-45deg);
         transform: translateY(-6px) rotate(-45deg);
     `}
 `;

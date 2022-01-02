@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -35,6 +39,10 @@ export const Wrapper = styled.div`
 `;
 
 export const Details = styled.div`
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -83,6 +91,10 @@ export const Bird = styled.div`
     padding-left: 4rem;
   }
   img {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     flex: 1;
     flex-direction: column;

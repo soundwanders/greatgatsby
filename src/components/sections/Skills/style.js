@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 export const SkillsContainer = styled.div`
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,6 +39,10 @@ export const Grid = styled.div`
 `;
 
 export const Logo = styled.img`
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -46,6 +54,10 @@ export const Logo = styled.img`
 `;
 
 export const ScaledLogo = styled.img`
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-content: center;

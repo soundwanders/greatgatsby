@@ -1,11 +1,18 @@
 import styled from 'styled-components';
 
 export const Input = styled.input`
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   box-sizing: border-box;
   border: 1px solid #1e90ff;
   border-radius: 0.5rem;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  -moz-transition: 0.3s;
   transition: 0.3s;
   padding: 0.8rem 1rem;
   margin: 0;

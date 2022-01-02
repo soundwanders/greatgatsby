@@ -11,6 +11,10 @@ export const Slide = keyframes`
 `;
 
 export const HomeContainer = styled.div`
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   max-width: 100%;
@@ -61,7 +65,7 @@ export const Subtitle = styled.h1`
   padding: 2rem 0 0 0;
   white-space: nowrap;
   color: #333399;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   font-size: 2.2vmax;
   font-family: 'Poppins', 'Roboto', sans-serif;
   animation: 0.8s ease-in-out 0s 1 ${Slide};

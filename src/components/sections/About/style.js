@@ -2,6 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,6 +42,10 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h1`
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   text-align: center;
   padding: 1rem 0 2rem 0;
@@ -65,7 +73,11 @@ export const Section = styled.h2`
 `;
 
 export const Concepts = styled.div`
-  display: flex;
+display: -webkit-box;
+display: -webkit-flex;
+display: -moz-box;
+display: -ms-flexbox;
+display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
