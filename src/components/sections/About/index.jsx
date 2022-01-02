@@ -27,13 +27,12 @@ export const About = () => {
       </Section>
 
       <Section>
-        Once I decided to take the leap into web development, I began building
-        (crudely constructed) static pages and immediately it just clicked.
+        These days, I spend a lot of time in the Front-End world. Learn, build, learn more, build more. 
       </Section>
 
       <Section>
         Sometimes I feel like the hare, but most days I feel a lot more like the
-        tortoise. Each day I make sure that I leave more footprints behind me,
+        tortoise. Each day, I make sure I leave fresh footprints behind me,
         even if it's only a couple of steps.
       </Section>
 
