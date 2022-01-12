@@ -22,7 +22,7 @@ export const About = () => {
       </Section>
     
       <Section>
-        In an effort towards constant improvement, that whole, 'an object in motion' thing has helped out so far. Thanks, Newton.
+        In an effort towards constant improvement, the whole 'an object in motion' thing has really helped out. Thanks, Newton.
       </Section>
     
       <Section>
