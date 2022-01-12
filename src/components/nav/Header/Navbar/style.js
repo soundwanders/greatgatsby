@@ -10,8 +10,14 @@ export const SpansMaxWidth = styled.div`
   padding: 0;
   overflow: hidden;
   background: #f8f8f8;
+  -webkit-box-shadow: 0 7px 6px -6px #999;
+  -moz-box-shadow: 0 7px 6px -6px #999;
+  box-shadow: 0 7px 6px -6px #999;
   @media (max-width: 940px) {
     background: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
   }
 `;
 
