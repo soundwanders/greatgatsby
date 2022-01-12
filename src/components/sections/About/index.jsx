@@ -22,13 +22,7 @@ export const About = () => {
       </Section>
     
       <Section>
-        In an effort towards constant improvement, the whole "an object in motion" thing has really helped out. Thanks, Newton.
-      </Section>
-    
-      <Section>
-        Sometimes I feel like the hare, but most days I feel a lot more like the
-        tortoise. Each day, I leave fresh footprints behind me,
-        even if it's only a couple of steps.
+        In an effort towards constant improvement, that whole "an object in motion" thing has really helped me out. Thank you, Newton.
       </Section>
 
       <Section>
