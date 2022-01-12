@@ -18,8 +18,11 @@ export const About = () => {
       <Title>How's it going? 👋</Title>
 
       <Section>
-        I can't read binary and I'm not a programming wizard, but I care deeply about my work and I love what I do. 
-        That whole, 'an object in motion' thing has helped me out so far. I just keep moving forward.
+        I can't read binary and I'm not a programming wizard, but I care deeply about my work and I love what I do.
+      </Section>
+    
+      <Section>
+        In an effort towards constant improvement, that whole, 'an object in motion' thing has helped out so far. Thanks, Newton.
       </Section>
     
       <Section>
@@ -81,7 +84,8 @@ export const About = () => {
         <DetailsB>Engaging Aesthetics</DetailsB>
         <Subtext>
           No squinting, no head tilting. Complimentary color schemes, easy-to-digest content and 
-          user interfaces that make sense. No need to overcomplicate things.
+          user interfaces that make sense. No need to overcomplicate things. Mostly because they're already 
+          complicated enough!
         </Subtext>
 
         <TrailMarker
