@@ -21,14 +21,14 @@
 - Axios
 - Yup
 - Continuous Deployment with <a href="https://vercel.com/" rel="noopener noreferral" style="text-decoration: none;">Vercel</a>
-- Contact Form submissions secured with Google Recaptcha
 - Form submission endpoint provided by <a href="https://formium.io" rel="noopener noreferral" style="text-decoration: none;">Formium</a>
+- Contact Form submissions secured with Google Recaptcha
 - Images hosted &amp; delivered by <a href="https://cloudinary.com" rel="noopener noreferral" style="text-decoration: none;">Cloudinary</a>
 - Icons from <a href="https://www.freepik.com" title="Freepik" target="_blank">Freepik</a>
 
 <br />
 
-### &#x1F9D0; Who's In There?
+### &#x1F9D0; Who's There?
 
 1.  **`/src`**: This directory contains all of the code related to what you will see on the front-end of this portfolio site. Name `src` is a convention for “source code”.
 
@@ -83,7 +83,7 @@
 
 ### 🐛 Report A Bug
 
-If you encounter any bugs or issues, please reach out or create a pull request &smile;
+If you encounter any issues, please reach out or create a pull request &smile;
 
 1. Fork the Project from branch 'main'
 2. Create your Update Branch (`git checkout -b update/PestControl`)
@@ -91,7 +91,7 @@ If you encounter any bugs or issues, please reach out or create a pull request &
 4. Push to the Branch (`git push origin update/BugSquash`)
 5. Open a Pull Request
 
-<br /><br />
+<br />
 
 ### License
 
