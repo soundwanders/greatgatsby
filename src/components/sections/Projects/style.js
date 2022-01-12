@@ -114,7 +114,7 @@ export const ModalContent = styled.div`
 `;
 
 export const ModalHeader = styled.h1`
-  font-family: 'Roboto', Ubuntu, sans-serif;
+  font-family: 'Filson Soft', Ubuntu, sans-serif;
   font-size: 3.5vmax;
   letter-spacing: 0.25px;
   padding: 0.5rem 0 0.5rem 0;
@@ -167,7 +167,7 @@ export const List = styled.ul`
 
 export const Info = styled.li`
   padding: 1rem 0;
-  font-family: 'Roboto', Ubuntu, sans-serif;
+  font-family: 'Filson Soft', Ubuntu, sans-serif;
   font-size: 1.3vmax;
   margin: 0 auto;
   color: #44287d;
@@ -193,7 +193,7 @@ export const Info = styled.li`
 
 export const ListItem = styled.li`
   padding: 0.75rem 0;
-  font-family: 'Roboto', Ubuntu, sans-serif;
+  font-family: 'Filson Soft', Ubuntu, sans-serif;
   font-size: 1.3vmax;
   list-style-type: none;
   &:nth-child(5) {
