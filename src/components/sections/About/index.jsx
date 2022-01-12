@@ -16,29 +16,20 @@ export const About = () => {
   return (
     <Container id="about">
       <Title>How's it going? 👋</Title>
-      <Section>
-        For as long as I can remember, I've been passionate about art.
-      </Section>
 
       <Section>
-        Whether that was designing new logos for my favorite sports teams or
-        album covers for a band that never actually made it into existence, I
-        was always busy creating something.
+        I can't read binary and I'm not a programming wizard, but I care deeply about my work and I love what I do. 
+        That whole, 'an object in motion' thing has helped me out so far. I just keep moving forward.
       </Section>
-
-      <Section>
-        These days, I spend a lot of time in the Front-End world. Learn, build, learn more, build more. 
-      </Section>
-
+    
       <Section>
         Sometimes I feel like the hare, but most days I feel a lot more like the
-        tortoise. Each day, I make sure I leave fresh footprints behind me,
+        tortoise. Each day, I leave fresh footprints behind me,
         even if it's only a couple of steps.
       </Section>
 
       <Section>
-        As I've made my way down this long and winding trail, I'm grateful to
-        have picked up a few useful things I found along the way...
+        As I've made my way down this long and winding trail, I've picked up a few things I found along the way...
       </Section>
 
       <Concepts>
@@ -50,7 +41,7 @@ export const About = () => {
 
         <DetailsA>Clean Code</DetailsA>
         <Subtext>
-          No needles, no haystacks. Error-free, easily maintainable code that is
+          No needles, no haystacks. Error-free, maintainable code that is
           clear in its purpose and efficient in its execution makes me happy.
           The only spaghetti I enjoy is served on a plate and covered in sauce.
         </Subtext>
@@ -77,8 +68,8 @@ export const About = () => {
         <DetailsA>Responsive Design</DetailsA>
         <Subtext>
           Shout-out to the devs designing for devices of all shapes and sizes.
-          Seamless transitions from mobile to desktop is key, with an emphasis
-          on accessibility and adaptability.
+          Seamless transitions from mobile to desktop, emphasizing
+          on adaptability and accessibility to accomodate all users.
         </Subtext>
 
         <Pathway
@@ -89,9 +80,8 @@ export const About = () => {
 
         <DetailsB>Engaging Aesthetics</DetailsB>
         <Subtext>
-          No squinting, no head tilting, and no questionable contrast. Intuitive
-          site navigation, complimentary color schemes, and easy-to-digest
-          content to encourage users to stick around.
+          No squinting, no head tilting. Complimentary color schemes, easy-to-digest content and 
+          user interfaces that make sense. No need to overcomplicate things.
         </Subtext>
 
         <TrailMarker
