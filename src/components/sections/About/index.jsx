@@ -77,9 +77,8 @@ export const About = () => {
 
         <DetailsB>Engaging Aesthetics</DetailsB>
         <Subtext>
-          No squinting, no head tilting. Complimentary color schemes, easy-to-digest content and 
-          user interfaces that make sense. No need to overcomplicate things. Mostly because they're already 
-          complicated enough!
+          No squinting, no tilting of the head or neck. Complimentary color schemes, easy-to-digest content and 
+          user interfaces that just plain make sense.
         </Subtext>
 
         <TrailMarker
