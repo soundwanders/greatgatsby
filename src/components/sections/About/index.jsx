@@ -44,8 +44,8 @@ export const About = () => {
 
         <DetailsA>Clean Code</DetailsA>
         <Subtext>
-          No needles, no haystacks. Error-free, maintainable code that is
-          clear in its purpose and efficient in its execution makes me happy.
+          No needles, no haystacks. Maintainable code written with purpose 
+          and efficient in its execution makes me happy.
           The only spaghetti I enjoy is served on a plate and covered in sauce.
         </Subtext>
 
