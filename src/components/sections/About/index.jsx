@@ -18,7 +18,7 @@ export const About = () => {
       <Title>How's it going? 👋</Title>
 
       <Section>
-        I can't read binary and I'm not a programming wizard, but I care deeply about my work and I love what I do.
+        I'm not a programming wizard and I can't read binary, but I care deeply about my work and I love what I do.
       </Section>
     
       <Section>
