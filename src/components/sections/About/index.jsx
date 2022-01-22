@@ -38,8 +38,7 @@ export const About = () => {
 
         <DetailsA>Clean Code</DetailsA>
         <Subtext>
-          No needles, no haystacks. Maintainable code written with purpose 
-          and efficient in its execution makes me happy.
+          No needles, no haystacks. Code written with purpose and organized efficiently.
           The only spaghetti I enjoy is served on a plate and covered in sauce.
         </Subtext>
 
@@ -51,8 +50,8 @@ export const About = () => {
 
         <DetailsA>Creative Solutions</DetailsA>
         <Subtext>
-          Diving headfirst into exciting ideas, with the courage to fail
-          miserably and the perseverance to get back up and try again. Solving
+          Diving headfirst into new ideas, with the courage to fail
+          miserably and the perseverance to get up and try again. Solving
           problems is the name of the game.
         </Subtext>
 
@@ -64,9 +63,8 @@ export const About = () => {
 
         <DetailsA>Responsive Design</DetailsA>
         <Subtext>
-          Shout-out to the devs designing for devices of all shapes and sizes.
-          Seamless transitions from mobile to desktop, emphasizing
-          on adaptability and accessibility to accomodate all users.
+          Seamless transitions from mobile to desktop, with an emphasis on building
+          adaptable interfaces. Bonus points for a proactive approach to compliance with web accessibility standards.
         </Subtext>
 
         <Pathway

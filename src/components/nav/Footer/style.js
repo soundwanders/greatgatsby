@@ -14,6 +14,10 @@ export const Foot = styled.footer`
 `;
 
 export const Flex = styled.div`
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;

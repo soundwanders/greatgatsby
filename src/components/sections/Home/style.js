@@ -51,7 +51,7 @@ export const User = styled.h1`
   background: linear-gradient(to right, #333399 30%, #ff662e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: 0.8s ease-out 0s 1 ${Slide};
+  animation: 0.6s ease-out 0s 1 ${Slide};
   @media (max-width: 940px) {
     font-size: 11.25vmax;
     height: 30%;
@@ -68,7 +68,7 @@ export const Subtitle = styled.h1`
   letter-spacing: -1px;
   font-size: 2.2vmax;
   font-family: 'Poppins', 'Roboto', sans-serif;
-  animation: 0.8s ease-in-out 0s 1 ${Slide};
+  animation: 0.6s ease-in-out 0s 1 ${Slide};
   @media (max-width: 940px) {
     padding: 0.5rem 0 2rem 0;
     font-size: 1.75vmax;

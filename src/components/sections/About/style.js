@@ -73,11 +73,11 @@ export const Section = styled.h2`
 `;
 
 export const Concepts = styled.div`
-display: -webkit-box;
-display: -webkit-flex;
-display: -moz-box;
-display: -ms-flexbox;
-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;

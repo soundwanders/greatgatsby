@@ -12,6 +12,7 @@ module.exports = {
     siteUrl: config.url,
   },
   plugins: [
+    `gatsby-plugin-preload-fonts`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-styled-components`,
@@ -19,12 +20,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-mdx`,
-    {
-      resolve: `gatsby-plugin-canonical-urls`,
-      options: {
-        siteUrl: config.url,
-      },
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
