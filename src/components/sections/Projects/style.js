@@ -122,7 +122,7 @@ export const ModalHeader = styled.h1`
   color: #44287d;
   @media (max-width: 940px) {
     font-size: 3.75vmax;
-    padding: 0.25rem 0 0 0;
+    padding: 1rem 0 0 0;
   }
 `;
 

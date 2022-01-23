@@ -24,12 +24,12 @@ export const About = () => {
 
       <Section>
         In an effort towards constant improvement, that whole "an object in
-        motion" thing has really helped me out. Thank you, Newton.
+        motion" thing has really helped me out. Thanks, Newton.
       </Section>
 
       <Section>
-        As I've made my way down this long and winding trail, I've picked up a
-        few things I found along the way...
+        As I've made my way down this winding trail, I've picked up a
+        few useful things I found along the way...
       </Section>
 
       <Concepts>
