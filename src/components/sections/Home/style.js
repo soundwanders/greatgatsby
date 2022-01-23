@@ -4,6 +4,9 @@ export const Slide = keyframes`
   0% {
     opacity: 0;
   }
+  50% {
+    opacity: 0.5;
+  }
   100% {
     opacity: 1.0;
   }
@@ -52,6 +55,7 @@ export const User = styled.h1`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: 0.8s ease-out 0s 1 ${Slide};
+  animation-delay: 2s;
   @media (max-width: 940px) {
     font-size: 11.25vmax;
     height: 30%;
@@ -69,6 +73,7 @@ export const Subtitle = styled.h1`
   font-size: 2.2vmax;
   font-family: 'Poppins', 'Roboto', sans-serif;
   animation: 0.6s ease-in-out 0s 1 ${Slide};
+  animation-delay: 2s;
   @media (max-width: 940px) {
     padding: 0.5rem 0 2rem 0;
     font-size: 1.75vmax;
