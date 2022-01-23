@@ -61,10 +61,10 @@ export const Title = styled.h1`
 export const Section = styled.h2`
   display: inherit;
   width: 60%;
-  text-align: initial;
   padding: 1rem 0 0.5rem 0;
   font-family: 'Filson Soft', 'Roboto', sans-serif;
   font-size: 1.75vmax;
+  text-align: center;
   line-height: 2;
   color: inherit;
   @media (max-width: 940px) {
@@ -120,7 +120,7 @@ export const Subtext = styled.p`
   width: 70%;
   text-align: center;
   padding: 0.5rem 0;
-  font-size: 1.55vmax;
+  font-size: 1.5vmax;
   font-family: inherit;
   line-height: 2;
   color: inherit;

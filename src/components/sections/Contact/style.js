@@ -64,7 +64,9 @@ export const Title = styled.h2`
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  font-size: 3vmax;
+  font-family: 'Filson Soft', 'Roboto', sans-serif;
+  font-size: 2.75vmax;
+  font-weight: 800;
   color: #f8f8f8;
   padding: 1rem 0;
   margin: 0 auto;
@@ -80,7 +82,7 @@ export const Bird = styled.div`
   display: inline-block;
   width: 57%;
   margin: 0 auto;
-  padding-top: 12%;
+  padding-top: 10%;
   overflow: hidden;
   user-select: none;
   pointer-events: none;

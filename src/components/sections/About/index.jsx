@@ -18,15 +18,18 @@ export const About = () => {
       <Title>How's it going? 👋</Title>
 
       <Section>
-        I'm not a programming wizard and I can't read binary, but I care deeply about my work and I love what I do.
-      </Section>
-    
-      <Section>
-        In an effort towards constant improvement, that whole "an object in motion" thing has really helped me out. Thank you, Newton.
+        I'm not a programming wizard and I can't read binary, but I care deeply
+        about my work and I love what I do.
       </Section>
 
       <Section>
-        As I've made my way down this long and winding trail, I've picked up a few things I found along the way...
+        In an effort towards constant improvement, that whole "an object in
+        motion" thing has really helped me out. Thank you, Newton.
+      </Section>
+
+      <Section>
+        As I've made my way down this long and winding trail, I've picked up a
+        few things I found along the way...
       </Section>
 
       <Concepts>
@@ -38,7 +41,7 @@ export const About = () => {
 
         <DetailsA>Clean Code</DetailsA>
         <Subtext>
-          No needles, no haystacks. Code written with purpose and organized efficiently.
+          Code that is clear in its purpose and efficient in its organization.
           The only spaghetti I enjoy is served on a plate and covered in sauce.
         </Subtext>
 
@@ -50,7 +53,7 @@ export const About = () => {
 
         <DetailsA>Creative Solutions</DetailsA>
         <Subtext>
-          Diving headfirst into new ideas, with the courage to fail
+          Navigating through unfamiliar terrain, with the courage to fail
           miserably and the perseverance to get up and try again. Solving
           problems is the name of the game.
         </Subtext>
@@ -63,8 +66,9 @@ export const About = () => {
 
         <DetailsA>Responsive Design</DetailsA>
         <Subtext>
-          Seamless transitions from mobile to desktop, with an emphasis on building
-          adaptable interfaces. Bonus points for a proactive approach to compliance with web accessibility standards.
+          Seamless transitions from mobile to desktop, utilizing common
+          breakpoints to create flexible designs that fit devices of all shapes
+          and sizes.
         </Subtext>
 
         <Pathway
@@ -75,8 +79,9 @@ export const About = () => {
 
         <DetailsB>Engaging Aesthetics</DetailsB>
         <Subtext>
-          No squinting, no tilting of the head or neck. Complimentary color schemes, easy-to-digest content and 
-          user interfaces that just plain make sense.
+          No squinting, no tilting of the head or neck. Complimentary color
+          schemes, easy-to-digest content and user interfaces that just plain
+          make sense.
         </Subtext>
 
         <TrailMarker
