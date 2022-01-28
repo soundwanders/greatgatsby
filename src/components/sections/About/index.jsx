@@ -23,11 +23,6 @@ export const About = () => {
       </Section>
 
       <Section>
-        In an effort towards constant improvement, that whole "an object in
-        motion" thing has really helped me out. Thanks, Newton.
-      </Section>
-
-      <Section>
         As I've made my way down this winding trail, I've picked up a
         few useful things I found along the way...
       </Section>
@@ -40,9 +35,8 @@ export const About = () => {
         />
 
         <DetailsA>Clean Code</DetailsA>
-        <Subtext>
-          Code that is clear in its purpose and efficient in its organization.
-          The only spaghetti I enjoy is served on a plate and covered in sauce.
+          Maintainable code written with purpose and organized efficiently.
+          The only spaghetti I enjoy is served on a plate.
         </Subtext>
 
         <Pathway
@@ -53,9 +47,8 @@ export const About = () => {
 
         <DetailsA>Creative Solutions</DetailsA>
         <Subtext>
-          Navigating through unfamiliar terrain, with the courage to fail
-          miserably and the perseverance to get up and try again. Solving
-          problems is the name of the game.
+          An open-minded approach to problem solving, with the 
+perseverance to push through failure and complete the task at hand.
         </Subtext>
 
         <Pathway
@@ -79,7 +72,7 @@ export const About = () => {
 
         <DetailsB>Engaging Aesthetics</DetailsB>
         <Subtext>
-          No squinting, no tilting of the head or neck. Complimentary color
+          Designing complimentary color
           schemes, easy-to-digest content and user interfaces that just plain
           make sense.
         </Subtext>
