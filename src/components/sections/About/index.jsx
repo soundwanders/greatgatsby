@@ -35,6 +35,7 @@ export const About = () => {
         />
 
         <DetailsA>Clean Code</DetailsA>
+        <Subtext>
           Maintainable code written with purpose and organized efficiently.
           The only spaghetti I enjoy is served on a plate.
         </Subtext>
@@ -48,7 +49,7 @@ export const About = () => {
         <DetailsA>Creative Solutions</DetailsA>
         <Subtext>
           An open-minded approach to problem solving, with the 
-perseverance to push through failure and complete the task at hand.
+          courage to go off the beaten path to get the job done.
         </Subtext>
 
         <Pathway
@@ -72,8 +73,8 @@ perseverance to push through failure and complete the task at hand.
 
         <DetailsB>Engaging Aesthetics</DetailsB>
         <Subtext>
-          Designing complimentary color
-          schemes, easy-to-digest content and user interfaces that just plain
+          Carefully designing complimentary color
+          schemes, easy-to-digest content and a user experience that just plain
           make sense.
         </Subtext>
 
