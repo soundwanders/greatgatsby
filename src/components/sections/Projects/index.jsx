@@ -113,7 +113,7 @@ export class Projects extends Component {
                           generated with JavaScript.{' '}
                         </Info>
                         <Info>
-                          CSS Flexbox &amp; Grid used to achieve a fluid layout.
+                          CSS Flexbox &amp; Grid combined to achieve a fluid layout.
                         </Info>
 
                         <ListItem>
@@ -197,12 +197,11 @@ export class Projects extends Component {
                           description underneath.
                         </Info>
                         <Info>
-                          Each nebula's image is a modal that pops out to
-                          full-screen.
+                          Each nebula's image is a modal that renders as a full-screen image on click.
                         </Info>
                         <Info>
-                          Use of media query breakpoints allows dynamic resizing
-                          of grid layout.
+                          Use of common media query breakpoints creates a dynamic
+                          grid layout.
                         </Info>
 
                         <ListItem>
@@ -281,12 +280,12 @@ export class Projects extends Component {
                         </Info>
 
                         <Info>
-                          Library holds Book title, author, format,
-                          civilization.
+                          Library holds constructed Object 'Book' with properties for title, author, media
+                          and civilization.
                         </Info>
 
                         <Info>
-                          Skeleton CSS used to achieve a clean, responsive
+                          Skeleton CSS framework used to achieve fast load times with a clean, responsive
                           design.
                         </Info>
 
@@ -367,14 +366,14 @@ export class Projects extends Component {
 
                       <List>
                         <Info>
-                          Brave Bear features multiple layouts built with React.
+                          Brave Bear features multiple layouts built with React, exploring a component-based build.
                         </Info>
                         <Info>
-                          Each template is a React component with its own path.
+                          Each template is a React component that serves as a Route to its path.
                         </Info>
                         <Info>
                           React-router used to switch between pages without
-                          reloading content.
+                          reloading content. No need for repeated HTTP requests.
                         </Info>
                         <Info>
                           Mobile-first design that scales up to desktop.
@@ -455,11 +454,11 @@ export class Projects extends Component {
                           JavaScript.{' '}
                         </Info>
                         <Info>
-                          User can input monthly income, create an expense list
-                          and calculate a spending budget.
+                          User inputs monthly income, creates an expense list
+                          and calculates budget.
                         </Info>
                         <Info>
-                          Regular expression checks are used to validate all
+                          Regular expression checks used to validate all
                           user inputs.
                         </Info>
                         <Info>
