@@ -37,7 +37,6 @@ export const Container = styled.div`
   overflow: hidden;
   @media (max-width: 940px) {
     padding: 3rem 0;
-    flex-direction: column;
   }
 `;
 
