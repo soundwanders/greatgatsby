@@ -36,7 +36,7 @@ export const About = () => {
 
         <DetailsA>Clean Code</DetailsA>
         <Subtext>
-          Human-friendly code that is organized and executed efficiently.
+          Code that is organized and executed with a clear purpose. Written for humans, by humans.
           The only spaghetti I enjoy is served on a plate.
         </Subtext>
 
@@ -48,8 +48,8 @@ export const About = () => {
 
         <DetailsA>Creative Solutions</DetailsA>
         <Subtext>
-          Mending broken browsers, squashing sneaky bugs and solving headache-inducing problems. 
-          Somebody's gotta do it, right?
+          Mending broken browsers, squashing sneaky bugs and solving those headache-inducing problems. 
+          Someone's gotta do it, right?
         </Subtext>
 
         <Pathway
@@ -61,7 +61,7 @@ export const About = () => {
         <DetailsA>Responsive Design</DetailsA>
         <Subtext>
           Seamless transitions from mobile to desktop, utilizing common
-          breakpoints to create flexible designs that fit devices of all shapes
+          breakpoints to build flexible designs that fit devices of all shapes
           and sizes.
         </Subtext>
 
@@ -74,7 +74,7 @@ export const About = () => {
         <DetailsB>Engaging Aesthetics</DetailsB>
         <Subtext>
           Carefully designing complimentary color
-          schemes, easy-to-digest content and a user experience that just plain
+          schemes and easy-to-digest content to create a user experience that just plain
           make sense.
         </Subtext>
 
