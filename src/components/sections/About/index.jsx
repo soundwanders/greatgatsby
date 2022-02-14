@@ -36,7 +36,7 @@ export const About = () => {
 
         <DetailsA>Clean Code</DetailsA>
         <Subtext>
-          Maintainable code written with purpose and organized efficiently.
+          Human-friendly code that is organized and executed efficiently.
           The only spaghetti I enjoy is served on a plate.
         </Subtext>
 
@@ -48,8 +48,8 @@ export const About = () => {
 
         <DetailsA>Creative Solutions</DetailsA>
         <Subtext>
-          An open-minded approach to problem solving, with the 
-          courage to go off the beaten path to get the job done.
+          Mending broken browsers, squashing sneaky bugs and solving headache-inducing problems. 
+          Somebody's gotta do it, right?
         </Subtext>
 
         <Pathway
