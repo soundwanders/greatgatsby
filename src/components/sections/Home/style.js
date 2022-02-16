@@ -70,7 +70,7 @@ export const Subtitle = styled.h1`
   font-family: 'Poppins', 'Roboto', sans-serif;
   animation: 1s ease-in-out 0s 1 ${Slide};
   @media (max-width: 940px) {
-    padding: 0.5rem 0 2.5rem 0;
+    padding: 0.33rem 0 2.5rem 0;
     font-size: 1.75vmax;
   }
   @media (max-width: 600px) {
