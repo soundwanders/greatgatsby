@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
         text-decoration: none;
         z-index: 8;
         @media (max-width: 940px) {
-            color: none;
+          color: none;
         }
     ${({ desktop }) =>
       desktop
@@ -23,46 +23,46 @@ export const Wrapper = styled.div`
           display: -moz-box;
           display: -ms-flexbox;
           display: flex;
-            float: left;
-            align-items: center;
-            margin: 0 2.125rem;
-            padding: 0;
-            font-size: 1.8vmax;
-            font-weight: 600;
-            line-height: 1.2;
-            white-space: pre;
-            a {
-                padding-right: 1rem;
-            }
-            img {
-                display: -webkit-box;
-                display: -webkit-flex;
-                display: -moz-box;
-                display: -ms-flexbox;
-                display: flex;
-                flex-basis: 100%;
-                flex-direction: column;
-                align-self: center;
-                flex-wrap: nowrap;
-                padding: 0.25rem 0 0 0;
-            }
-            img:hover { 
-                -webkit-transform: rotate(360deg);
-                -moz-transform: rotate(360deg);
-                -ms-transform: rotate(360deg);
-                -o-transform: rotate(360deg);
-                transform: rotate(360deg);
-                -webkit-transition: 0.7s;
-                -o-transition: 0.7s;
-                -moz-transition: 0.7s;
-                transition: 0.7s;
-            }
-            &:hover {
-                color: #424292
-            }
-            @media (max-width: 940px) {
-                display: none;
-            }
+          float: left;
+          align-items: center;
+          margin: 0 2.125rem;
+          padding: 0;
+          font-size: 1.8vmax;
+          font-weight: 600;
+          line-height: 1.2;
+          white-space: pre;
+          a {
+            padding-right: 1rem;
+          }
+          img {
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -moz-box;
+              display: -ms-flexbox;
+              display: flex;
+              flex-basis: 100%;
+              flex-direction: column;
+              align-self: center;
+              flex-wrap: nowrap;
+              padding: 0.25rem 0 0 0;
+          }
+          img:hover { 
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+            -webkit-transition: 0.7s;
+            -o-transition: 0.7s;
+            -moz-transition: 0.7s;
+            transition: 0.7s;
+          }
+          &:hover {
+            color: #424292;
+          }
+          @media (max-width: 940px) {
+            display: none;
+          }
         `
         : `
         display: -webkit-box;
@@ -80,15 +80,15 @@ export const Wrapper = styled.div`
         -ms-transform: translateY(3rem);
         -o-transform: translateY(3rem);
         transform: translateY(3rem);
-        color: #222222;
+        color: #26123A;
         text-align: center;
-        font-size: 1.25rem;
+        font-size: 1.3rem;
         text-shadow: 0.5px 0px #f8f8f8;
         float: none;
         a {
-            margin-bottom: 1rem;
+          margin-bottom: 1rem;
             &:last-child {
-                margin-bottom: unset;
+              margin-bottom: unset;
             }
         }
     `}

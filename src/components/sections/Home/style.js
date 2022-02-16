@@ -54,7 +54,7 @@ export const User = styled.h1`
   animation: 1s ease-out 0s 1 ${Slide};
   @media (max-width: 940px) {
     font-size: 11.25vmax;
-    height: 30%;
+    height: 28%;
   }
 `;
 
@@ -68,9 +68,9 @@ export const Subtitle = styled.h1`
   letter-spacing: -1px;
   font-size: 2.2vmax;
   font-family: 'Poppins', 'Roboto', sans-serif;
-  animation: 1s ease-in-out 0s 1 ${Slide};
+  animation: 1s ease-out 0s 1 ${Slide};
   @media (max-width: 940px) {
-    padding: 0.33rem 0 2.5rem 0;
+    padding: 0.5rem 0;
     font-size: 1.75vmax;
   }
   @media (max-width: 600px) {
