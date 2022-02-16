@@ -68,6 +68,7 @@ export const Section = styled.h2`
   color: inherit;
   @media (max-width: 940px) {
     font-size: 2.3vmax;
+    padding: 0.5rem 0;
   }
 `;
 
