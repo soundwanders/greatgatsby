@@ -85,6 +85,9 @@ export const Item = styled.div`
       box-shadow: 9px 11px 3px -5px rgba(50, 50, 50, 0.1), 
       -2px 2px 6px 1px rgba(50, 50, 50, 0.2);
       cursor: pointer;
+      &:hover {
+        opacity: 0.85
+      }
       @media (max-width: 940px) {
         width: 500px;
         height: 300px;
