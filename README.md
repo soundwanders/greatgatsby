@@ -20,13 +20,12 @@
 - React
 - Axios
 - Yup
-- Continuous Deployment with <a href="https://vercel.com/" rel="noopener noreferral" style="text-decoration: none;">Vercel</a>
+- Continuous deployment and free hosting thanks to the team at <a href="https://vercel.com/" rel="noopener noreferral" style="text-decoration: none;">Vercel</a>
 - Form submission endpoint provided by <a href="https://formium.io" rel="noopener noreferral" style="text-decoration: none;">Formium</a>
 - Contact Form submissions secured with Google Recaptcha
 - Images hosted &amp; delivered by <a href="https://cloudinary.com" rel="noopener noreferral" style="text-decoration: none;">Cloudinary</a>
 - Icons from <a href="https://www.freepik.com" title="Freepik" target="_blank">Freepik</a>
-
-<br />
+  <br />
 
 ### &#x1F9D0; Who's There?
 
@@ -34,21 +33,19 @@
 
 2.  **`/src/assets`**: This directory holds all media files such as images, icons and illustrations (svgs, pngs, etc).
 
-3.  **`./components/common`**: This directory holds all 'common' components, including Global styles and SEO config.
+3.  **`./components/common`**: This directory holds all 'common' components, including the global stylesheet and SEO.
 
-4.  **`./components/nav`**: This directory holds all page navigation elements such as the navbar and sidebar.
+4.  **`./components/nav`**: This directory holds the header, footer, and page navigation components.
 
-5.  **`./components/sections`**: This directory holds all of the page section components, which are imported into 'pages' directory to build the site.
+5.  **`./components/sections`**: This directory holds all of the site's main content, which are imported into 'pages' directory to build the single page application.
 
 6.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent, with plenty of customization options available.
 
-7.  **`gatsby-config.js`**: This is the main configuration file for any Gatsby site. This is where you can specify information about your site like its title (metadata), which plugins you are using, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/) for more details).
+7.  **`gatsby-config.js`**: This is the main configuration file for any Gatsby site. This is where you can specify information about your site like its title (metadata), which plugins you are using, etc.
 
 8.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/). These allow customization/extension of default Gatsby settings affecting the browser.
 
-9.  **`gatsby-config.js`**: This is the main configuration file for any Gatsby site. This is where you can specify information about your site like its title (metadata), which plugins you are using, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/) for more details).
-
-10. **`gatsby-node.js`**: This file is where Gatsby expects to find the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/). When present, these allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+9. **`gatsby-node.js`**: This file is where Gatsby expects to find the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/). When present, these allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
 <br />
 
@@ -83,7 +80,7 @@
 
 ### 🐛 Report A Bug
 
-If you encounter any issues, please reach out or create a pull request &smile;
+If you encounter any issues regarding bugs, broken browsers, or accessibility issues, please reach out or create a pull request &smile;
 
 1. Fork the Project from branch 'main'
 2. Create your Update Branch (`git checkout -b update/PestControl`)

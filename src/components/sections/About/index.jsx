@@ -23,8 +23,8 @@ export const About = () => {
       </Section>
 
       <Section>
-        As I've made my way down this winding trail, I've picked up a
-        few useful things I found along the way...
+        As I've made my way down this winding trail, I've picked up a few useful
+        things I found along the way...
       </Section>
 
       <Concepts>
@@ -36,8 +36,8 @@ export const About = () => {
 
         <DetailsA>Clean Code</DetailsA>
         <Subtext>
-          Code that is organized and executed with a clear purpose. Written for humans, by humans.
-          The only spaghetti I enjoy is served on a plate.
+          Code that is organized and executed with a clear purpose. Written for
+          humans, by humans. The only spaghetti I enjoy is served on a plate.
         </Subtext>
 
         <Pathway
@@ -48,8 +48,9 @@ export const About = () => {
 
         <DetailsA>Creative Solutions</DetailsA>
         <Subtext>
-          Mending broken browsers, squashing sneaky bugs and solving those headache-inducing problems. 
-          Someone's gotta do it, right?
+          Mending broken browsers, squashing sneaky bugs and solving those
+          headache-inducing problems. If your brain doesn't hurt, are you even
+          learning?
         </Subtext>
 
         <Pathway
@@ -73,9 +74,8 @@ export const About = () => {
 
         <DetailsB>Engaging Aesthetics</DetailsB>
         <Subtext>
-          Carefully designing complimentary color
-          schemes and easy-to-digest content to create a user experience that just plain
-          make sense.
+          Carefully designing complimentary color schemes and easy-to-digest
+          content to create a user experience that just plain makes sense.
         </Subtext>
 
         <TrailMarker

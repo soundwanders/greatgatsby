@@ -4,29 +4,22 @@ export const Wrapper = styled.div`
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   padding: 6rem 0;
   padding-bottom: 3rem;
-  background-color: #7a7ade;
+  background-color: #5d46a2;
   background-image: linear-gradient(
     to bottom,
-    #684eb3,
-    #694fb4,
-    #6a4fb5,
-    #6a50b6,
-    #6b51b7,
-    #6c52b8,
-    #6d53ba,
-    #6e54bb,
-    #7055bc,
-    #7156bd,
-    #7358bf,
-    #7459c0
+    #5d46a2,
+    #5f49a1,
+    #5f4a9e,
+    #5d499a,
+    #5e4a99,
+    #5d4a96,
+    #5d4b92
   );
-  background-attachment: fixed;
   background-size: cover;
   overflow: hidden;
   @media (max-width: 940px) {
@@ -42,7 +35,6 @@ export const Details = styled.div`
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -65,7 +57,7 @@ export const Title = styled.h2`
   justify-content: center;
   text-align: center;
   font-family: 'Filson Soft', 'Roboto', sans-serif;
-  font-size: 2.75vmax;
+  font-size: 2.8vmax;
   font-weight: 800;
   color: #f8f8f8;
   padding: 1rem 0;
@@ -80,15 +72,15 @@ export const Title = styled.h2`
 
 export const Bird = styled.div`
   display: inline-block;
-  width: 57%;
+  width: 56%;
   margin: 0 auto;
-  padding-top: 10%;
+  padding-top: 16%;
   overflow: hidden;
   user-select: none;
   pointer-events: none;
   @media (max-width: 600px) {
     width: 80%;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     padding-top: 1rem;
     padding-left: 4rem;
   }
@@ -96,10 +88,38 @@ export const Bird = styled.div`
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
-    display: -ms-flexbox;
     display: flex;
     flex: 1;
     flex-direction: column;
     width: 80%;
+  }
+`;
+
+export const MailTime = styled.div`
+  display: inline-block;
+  position: absolute;
+  width: 56%;
+  right: 0;
+  opacity: 0.9;
+  pointer-events: none;
+  img {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 60%;
+    transform: translateY(1rem);
+  }
+  @media (max-width: 600px) {
+    position: relative;
+    width: 90%;
+    left: 23%;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+  }
+  @media (max-width: 940px) and (max-height: 440px) and (orientation: landscape) {
+    display: none;
   }
 `;

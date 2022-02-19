@@ -4,7 +4,6 @@ export const Container = styled.div`
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   margin: 0;

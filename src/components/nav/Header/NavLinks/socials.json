@@ -4,11 +4,5 @@
     "name": "Github",
     "link": "https://github.com/soundwanders",
     "icon": "https://res.cloudinary.com/cloudwanders/image/upload/v1632713180/github.svg"
-  },
-  {
-    "id": 1,
-    "name": "LinkedIn",
-    "link": "https://linkedin.com/in/jared-coletta",
-    "icon": "https://res.cloudinary.com/cloudwanders/image/upload/v1632713296/linkedin_iij1rz.svg"
   }
 ]

@@ -32,7 +32,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Bar = styled.div`
-  width: 1.6rem;
+  width: 1.3rem;
   height: 0.15rem;
   margin-bottom: 0.3rem;
   background-color: #0d0614;

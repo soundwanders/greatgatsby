@@ -13,12 +13,10 @@ export const Foot = styled.footer`
   z-index: -2;
 `;
 
-
 export const Flex = styled.div`
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -36,14 +34,14 @@ export const Flex = styled.div`
 
 export const Copyright = styled.div`
   display: inherit;
-  padding: 2rem 0 0.5rem 0;
+  padding: 2.5rem 0 0.5rem 0;
   margin: 0 auto;
   overflow: hidden;
   font-family: 'Filson Soft', 'Roboto', Helvetica, sans-serif;
-  font-size: 1vmax;
+  font-size: 0.85vmax;
   letter-spacing: 0.5px;
   @media (max-width: 940px) {
     padding: 1rem 0;
-    font-size: 0.875rem;
+    font-size: 0.75rem;
   }
 `;

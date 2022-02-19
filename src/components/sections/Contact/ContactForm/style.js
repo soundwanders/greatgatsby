@@ -4,7 +4,6 @@ export const FormContainer = styled.div`
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -27,7 +26,6 @@ export const InputField = styled.div`
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -43,7 +41,7 @@ export const InputField = styled.div`
     min-height: 2vmax;
   }
   &:nth-child(3) {
-    min-height: 10vmax;
+    min-height: 8vmax;
   }
 
   @media (max-width: 940px) {

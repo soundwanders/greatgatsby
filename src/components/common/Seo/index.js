@@ -53,7 +53,7 @@ export const Seo = ({
       />
       <meta
         name="viewport"
-        content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0"
+        content="width=width=device-width, initial-scale=1.0, shrink-to-fit=no"
       />
       <meta property="og:url" content={`${url}${location}/?ref=jcoletta.com`} />
       <meta property="og:type" content="website" />
@@ -61,14 +61,6 @@ export const Seo = ({
       <meta property="og:description" content={description} />
       <meta
         property="og:image"
-        content="https://res.cloudinary.com/cloudwanders/image/upload/v1635020321/thumbnail.png"
-      />
-
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={description} />
-      <meta
-        name="twitter:image:src"
         content="https://res.cloudinary.com/cloudwanders/image/upload/v1635020321/thumbnail.png"
       />
       <script type="application/ld+json">{structuredDataOrganization}</script>

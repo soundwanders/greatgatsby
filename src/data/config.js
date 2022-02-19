@@ -1,14 +1,14 @@
 module.exports = {
-  defaultTitle: 'JColetta',
-  defaultDescription: 'Welcome. I am a developer who loves building and designing websites. If you would like a custom built and highly scalable solution for your personal or professional website, we should talk! ',
+  defaultTitle: 'soundwanders',
+  defaultDescription:
+    'Welcome! I am a developer who loves building and designing responsive, accessible websites. If you are craving a flexible, scalable solution for your personal or professional website, reach out to me today! ',
   author: 'soundwanders',
   url: 'https://www.jcoletta.com/',
-  role: 'Front-End Developer',
+  role: 'Designer, Developer',
   logo: `src/assets/icons/favicon.png`,
   legalName: 'Jared Coletta',
   socialLinks: {
     github: 'https://github.com/soundwanders',
-    linkedin: 'https://www.linkedin.com/in/jared-coletta',
   },
   themeColor: '#323299',
   backgroundColor: '#323299',

@@ -20,7 +20,6 @@ export const ProjectContainer = styled.div`
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +62,7 @@ export const Item = styled.div`
   display: grid;
   justify-content: center;
   margin: 0;
-  padding: 2rem 4rem;
+  padding: 2rem 5rem;
   overflow: hidden;
   @media (max-width: 940px) {
     padding: 2rem 2rem;
@@ -75,19 +74,15 @@ export const Item = styled.div`
       display: -webkit-box;
       display: -webkit-flex;
       display: -moz-box;
-      display: -ms-flexbox;
       display: flex;
       width: 28vmax;
-      height: 19vmax;
-      max-height: 19vmax;
-      -webkit-box-shadow: 9px 11px 3px -5px rgba(50, 50, 50, 0.1), 
-      -2px 2px 6px 1px rgba(50, 50, 50, 0.2);
-      box-shadow: 9px 11px 3px -5px rgba(50, 50, 50, 0.1), 
-      -2px 2px 6px 1px rgba(50, 50, 50, 0.2);
+      height: 18.5vmax;
+      max-height: 18.5vmax;
+      -webkit-box-shadow: 4px 8px 9px 0px rgba(0,0,0,0.25);
+      -moz-box-shadow: 4px 8px 9px 0px rgba(0,0,0,0.25);
+      box-shadow: 4px 8px 9px 0px rgba(0,0,0,0.25);
+      border-radius: 12px;
       cursor: pointer;
-      &:hover {
-        opacity: 0.85
-      }
       @media (max-width: 940px) {
         width: 500px;
         height: 300px;
@@ -99,6 +94,10 @@ export const Item = styled.div`
         max-height: 200px;
         padding: 0;
       }
+    }
+    &:focus {
+      opacity: 0.88;
+      border: 1px solid transparent;
     }
   }
 `;
@@ -133,7 +132,6 @@ export const Swatch = styled.img`
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
   width: 20%;
   background: #f9f9f9;

@@ -1,11 +1,57 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const Global = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  @font-face {
+    font-family: "Filson Soft"; src: url("//db.onlinewebfonts.com/t/c5fc2b05949b051c07482453e8e0c1e6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c5fc2b05949b051c07482453e8e0c1e6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c5fc2b05949b051c07482453e8e0c1e6.woff") format("woff"), url("//db.onlinewebfonts.com/t/c5fc2b05949b051c07482453e8e0c1e6.svg#Filson Soft") format("svg"); 
+  }
+  @font-face {
+    font-family: "Filson Pro"; src: url("//db.onlinewebfonts.com/t/7af422d3673e325273ef7450c569aa73.eot"); src: url("//db.onlinewebfonts.com/t/7af422d3673e325273ef7450c569aa73.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7af422d3673e325273ef7450c569aa73.woff2") format("woff2"); 
+  }
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/pacifico/v21/FwZY7-Qmy14u9lezJ-6K6MmTpA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/pacifico/v21/FwZY7-Qmy14u9lezJ-6D6MmTpA.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/pacifico/v21/FwZY7-Qmy14u9lezJ-6J6MmTpA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/pacifico/v21/FwZY7-Qmy14u9lezJ-6H6Mk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
   html {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
     font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 16px;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
@@ -602,12 +648,11 @@ export const Global = createGlobalStyle`
       }
     }
     body {
+      width: 100%;
       max-width:100%;
       margin: 0;
       padding: 0;
       overflow-x: hidden;
-      font-family: 'Roboto', Helvetica, sans-serif;
-      font-size: 16px;
       color: #663399;
       -webkit-transition: all 0.3s;
       -o-transition: all 0.3s;
@@ -616,12 +661,12 @@ export const Global = createGlobalStyle`
       font-weight: normal;
       word-wrap: break-word;
       font-kerning: normal;
+      -webkit-text-size-adjust: 100%; 
       -moz-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
       -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
       -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
       font-feature-settings: 'kern', 'liga', 'clig', 'calt';
       -webkit-tap-highlight-color: transparent;
-      -webkit-touch-callout: none;
     }
     a {
       text-decoration: none;
@@ -633,14 +678,4 @@ export const Global = createGlobalStyle`
       }
     }
   }
-
-  @font-face {
-    font-family: "Filson Soft"; src: url("//db.onlinewebfonts.com/t/c5fc2b05949b051c07482453e8e0c1e6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c5fc2b05949b051c07482453e8e0c1e6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c5fc2b05949b051c07482453e8e0c1e6.woff") format("woff"), url("//db.onlinewebfonts.com/t/c5fc2b05949b051c07482453e8e0c1e6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c5fc2b05949b051c07482453e8e0c1e6.svg#Filson Soft") format("svg"); 
-  }
-  @font-face {
-    font-family: "Filson Pro"; src: url("//db.onlinewebfonts.com/t/7af422d3673e325273ef7450c569aa73.eot"); src: url("//db.onlinewebfonts.com/t/7af422d3673e325273ef7450c569aa73.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7af422d3673e325273ef7450c569aa73.woff2") format("woff2"); 
-  }
-  @font-face {
-    font-family: "Poppins"; src: url(url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"); src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff") format("woff"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold") format("svg"); 
-  } 
 `;

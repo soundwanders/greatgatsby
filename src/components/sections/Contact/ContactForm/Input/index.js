@@ -4,12 +4,12 @@ export const Input = styled.input`
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   box-sizing: border-box;
-  border: 1px solid #1e90ff;
-  border-radius: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -37,7 +37,7 @@ export const Button = styled.button`
   letter-spacing: 1px;
   border: none;
   border-bottom: 1px solid #333;
-  border-radius: 5px;
+  border-radius: 8px;
   @media (max-width: 940px) {
     text-align: center;
     margin: 0 auto;
@@ -61,6 +61,6 @@ export const Button = styled.button`
     `
     background: #3f3d56;
     color: #f8f8f8;
-    border-radius: 6px;
+    border-radius: 12px;
 	`}
 `;

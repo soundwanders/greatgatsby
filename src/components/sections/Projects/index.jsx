@@ -61,6 +61,94 @@ export class Projects extends Component {
                 <Item>
                   <ModalWrapper
                     type="button"
+                    aria-label="Coral Dashboard screenshot"
+                    onClick={() => this.handleOpenModal('coral')}
+                  >
+                    <img
+                      src="https://res.cloudinary.com/cloudwanders/image/upload/v1648933306/coral_zfdr8d.png"
+                      alt="Project Showcase -- Coral Dashboard"
+                      draggable="false"
+                    />
+                  </ModalWrapper>
+
+                  <Modal
+                    isOpen={
+                      this.state.handleOpenModal &&
+                      this.state.activeModal === 'coral'
+                    }
+                    contentLabel="Coral Modal"
+                    onRequestClose={this.handleCloseModal}
+                    shouldCloseOnOverlayClick={true}
+                    style={{
+                      content: {
+                        background: '#f9f9f9',
+                        border: '1px solid #dbdbdb',
+                        borderRadius: '12px',
+                        boxShadow: '0px 10px 13px -12px rgba(0, 0, 0, 0.1)',
+                      },
+                    }}
+                  >
+                    <ModalContent>
+                      <Close onClick={this.handleCloseModal}>X</Close>
+                      <ModalHeader>{projectData[0].title}</ModalHeader>
+                      <Swatch
+                        src="https://res.cloudinary.com/cloudwanders/image/upload/v1635202021/gradient_yv70qf.png"
+                        alt="Gradient underline"
+                        aria-hidden="true"
+                        draggable="false"
+                      />
+
+                      <List>
+                        <Info>
+                          Coral Dashboard is a React application beautified with
+                          styled-components.
+                        </Info>
+                        <Info>
+                          Mock json database holds client data that is used to
+                          populate page content.
+                        </Info>
+                        <Info>
+                          Utilizes ES6 array methods map, filter, reduce while
+                          working with fetched data.
+                        </Info>
+                        <Info>
+                          Flexbox-based responsive design with a modified UI on
+                          mobile devices.
+                        </Info>
+
+                        <ListItem>
+                          {' '}
+                          <a
+                            href={projectData[0].repo}
+                            rel="noreferrer"
+                            target="_blank"
+                          >
+                            {' '}
+                            Visit Repository{' '}
+                          </a>{' '}
+                        </ListItem>
+                        <ListItem>
+                          {' '}
+                          <a
+                            href={projectData[0].link}
+                            rel="noreferrer"
+                            target="_blank"
+                          >
+                            {' '}
+                            Project Demo{' '}
+                          </a>{' '}
+                        </ListItem>
+                        <ListItem>{projectData[0].date}</ListItem>
+                      </List>
+                    </ModalContent>
+                  </Modal>
+                </Item>
+              </Card>
+
+              <Card>
+                <Item>
+                  <ModalWrapper
+                    type="button"
                     onClick={() => this.handleOpenModal('helter')}
                   >
                     <img
@@ -91,7 +179,7 @@ export class Projects extends Component {
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
-                      <ModalHeader>{projectData[0].title}</ModalHeader>
+                      <ModalHeader>{projectData[1].title}</ModalHeader>
                       <Swatch
                         src="https://res.cloudinary.com/cloudwanders/image/upload/v1635202021/gradient_yv70qf.png"
                         alt="Gradient underline"
@@ -113,13 +201,14 @@ export class Projects extends Component {
                           generated with JavaScript.{' '}
                         </Info>
                         <Info>
-                          CSS Flexbox &amp; Grid combined to achieve a fluid layout.
+                          CSS Flexbox &amp; Grid combined to achieve a fluid
+                          layout.
                         </Info>
 
                         <ListItem>
                           {' '}
                           <a
-                            href={projectData[0].repo}
+                            href={projectData[1].repo}
                             rel="noreferrer"
                             target="_blank"
                           >
@@ -130,7 +219,7 @@ export class Projects extends Component {
                         <ListItem>
                           {' '}
                           <a
-                            href={projectData[0].link}
+                            href={projectData[1].link}
                             rel="noreferrer"
                             target="_blank"
                           >
@@ -138,7 +227,7 @@ export class Projects extends Component {
                             Project Demo{' '}
                           </a>{' '}
                         </ListItem>
-                        <ListItem>{projectData[0].date}</ListItem>
+                        <ListItem>{projectData[1].date}</ListItem>
                       </List>
                     </ModalContent>
                   </Modal>
@@ -179,7 +268,7 @@ export class Projects extends Component {
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
-                      <ModalHeader>{projectData[1].title}</ModalHeader>
+                      <ModalHeader>{projectData[2].title}</ModalHeader>
                       <Swatch
                         src="https://res.cloudinary.com/cloudwanders/image/upload/v1635202021/gradient_yv70qf.png"
                         alt="Gradient underline"
@@ -197,17 +286,18 @@ export class Projects extends Component {
                           description underneath.
                         </Info>
                         <Info>
-                          Each nebula's image is a modal that renders as a full-screen image on click.
+                          Each nebula's image is a modal that renders as a
+                          full-screen image on click.
                         </Info>
                         <Info>
-                          Use of common media query breakpoints creates a dynamic
-                          grid layout.
+                          Use of common media query breakpoints creates a
+                          dynamic grid layout.
                         </Info>
 
                         <ListItem>
                           {' '}
                           <a
-                            href={projectData[1].repo}
+                            href={projectData[2].repo}
                             rel="noreferrer"
                             target="_blank"
                           >
@@ -218,7 +308,7 @@ export class Projects extends Component {
                         <ListItem>
                           {' '}
                           <a
-                            href={projectData[1].link}
+                            href={projectData[2].link}
                             rel="noreferrer"
                             target="_blank"
                           >
@@ -226,7 +316,7 @@ export class Projects extends Component {
                             Project Demo{' '}
                           </a>{' '}
                         </ListItem>
-                        <ListItem>{projectData[1].date}</ListItem>
+                        <ListItem>{projectData[2].date}</ListItem>
                       </List>
                     </ModalContent>
                   </Modal>
@@ -265,7 +355,7 @@ export class Projects extends Component {
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
-                      <ModalHeader>{projectData[2].title}</ModalHeader>
+                      <ModalHeader>{projectData[3].title}</ModalHeader>
                       <Swatch
                         src="https://res.cloudinary.com/cloudwanders/image/upload/v1635202021/gradient_yv70qf.png"
                         alt="Gradient underline"
@@ -280,13 +370,13 @@ export class Projects extends Component {
                         </Info>
 
                         <Info>
-                          Library holds constructed Object 'Book' with properties for title, author, media
-                          and civilization.
+                          Library holds constructed Object 'Book' with
+                          properties for title, author, media and civilization.
                         </Info>
 
                         <Info>
-                          Skeleton CSS framework used to achieve fast load times with a clean, responsive
-                          design.
+                          Skeleton CSS framework used to achieve fast load times
+                          with a clean, responsive design.
                         </Info>
 
                         <Info>
@@ -297,7 +387,7 @@ export class Projects extends Component {
                         <ListItem>
                           {' '}
                           <a
-                            href={projectData[2].repo}
+                            href={projectData[3].repo}
                             rel="noreferrer"
                             target="_blank"
                           >
@@ -308,7 +398,7 @@ export class Projects extends Component {
                         <ListItem>
                           {' '}
                           <a
-                            href={projectData[2].link}
+                            href={projectData[3].link}
                             rel="noreferrer"
                             target="_blank"
                           >
@@ -316,7 +406,7 @@ export class Projects extends Component {
                             Project Demo{' '}
                           </a>{' '}
                         </ListItem>
-                        <ListItem>{projectData[2].date}</ListItem>
+                        <ListItem>{projectData[3].date}</ListItem>
                       </List>
                     </ModalContent>
                   </Modal>
@@ -356,7 +446,7 @@ export class Projects extends Component {
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
-                      <ModalHeader>{projectData[3].title}</ModalHeader>
+                      <ModalHeader>{projectData[4].title}</ModalHeader>
                       <Swatch
                         src="https://res.cloudinary.com/cloudwanders/image/upload/v1635202021/gradient_yv70qf.png"
                         alt="Gradient underline"
@@ -366,10 +456,12 @@ export class Projects extends Component {
 
                       <List>
                         <Info>
-                          Brave Bear features multiple layouts built with React, exploring a component-based build.
+                          Brave Bear features multiple layouts built with React,
+                          exploring a component-based build.
                         </Info>
                         <Info>
-                          Each template is a React component that serves as a Route to its path.
+                          Each template is a React component that serves as a
+                          Route to its path.
                         </Info>
                         <Info>
                           React-router used to switch between pages without
@@ -382,7 +474,7 @@ export class Projects extends Component {
                         <ListItem>
                           {' '}
                           <a
-                            href={projectData[3].repo}
+                            href={projectData[4].repo}
                             rel="noreferrer"
                             target="_blank"
                           >
@@ -393,7 +485,7 @@ export class Projects extends Component {
                         <ListItem>
                           {' '}
                           <a
-                            href={projectData[3].link}
+                            href={projectData[4].link}
                             rel="noreferrer"
                             target="_blank"
                           >
@@ -401,7 +493,7 @@ export class Projects extends Component {
                             Project Demo{' '}
                           </a>{' '}
                         </ListItem>
-                        <ListItem>{projectData[3].date}</ListItem>
+                        <ListItem>{projectData[4].date}</ListItem>
                       </List>
                     </ModalContent>
                   </Modal>
@@ -440,7 +532,7 @@ export class Projects extends Component {
                   >
                     <ModalContent>
                       <Close onClick={this.handleCloseModal}>X</Close>
-                      <ModalHeader>{projectData[4].title}</ModalHeader>
+                      <ModalHeader>{projectData[5].title}</ModalHeader>
                       <Swatch
                         src="https://res.cloudinary.com/cloudwanders/image/upload/v1635202021/gradient_yv70qf.png"
                         alt="Gradient underline"
@@ -458,100 +550,12 @@ export class Projects extends Component {
                           and calculates budget.
                         </Info>
                         <Info>
-                          Regular expression checks used to validate all
-                          user inputs.
+                          Regular expression checks used to validate all user
+                          inputs.
                         </Info>
                         <Info>
                           Strings are reformatted and converted to numbers to
                           enable Math calculations.
-                        </Info>
-
-                        <ListItem>
-                          {' '}
-                          <a
-                            href={projectData[4].repo}
-                            rel="noreferrer"
-                            target="_blank"
-                          >
-                            {' '}
-                            Visit Repository{' '}
-                          </a>{' '}
-                        </ListItem>
-                        <ListItem>
-                          {' '}
-                          <a
-                            href={projectData[4].link}
-                            rel="noreferrer"
-                            target="_blank"
-                          >
-                            {' '}
-                            Project Demo{' '}
-                          </a>{' '}
-                        </ListItem>
-                        <ListItem>{projectData[4].date}</ListItem>
-                      </List>
-                    </ModalContent>
-                  </Modal>
-                </Item>
-              </Card>
-
-              <Card>
-                <Item>
-                  <ModalWrapper
-                    type="button"
-                    onClick={() => this.handleOpenModal('scraper')}
-                  >
-                    <img
-                      src="https://res.cloudinary.com/cloudwanders/image/upload/v1632101036/2scraper_ce8h56.png"
-                      alt="Project Showcase -- Node Scraper"
-                      aria-label="Node Scraper screenshot"
-                      draggable="false"
-                    />
-                  </ModalWrapper>
-
-                  <Modal
-                    isOpen={
-                      this.state.handleOpenModal &&
-                      this.state.activeModal === 'scraper'
-                    }
-                    contentLabel="Node Scraper Modal"
-                    onRequestClose={this.handleCloseModal}
-                    shouldCloseOnOverlayClick={true}
-                    style={{
-                      content: {
-                        background: '#f9f9f9',
-                        border: '1px solid #dbdbdb',
-                        borderRadius: '12px',
-                        boxShadow: '0px 10px 13px -12px rgba(0, 0, 0, 0.1)',
-                      },
-                    }}
-                  >
-                    <ModalContent>
-                      <Close onClick={this.handleCloseModal}>X</Close>
-                      <ModalHeader>{projectData[5].title}</ModalHeader>
-                      <Swatch
-                        src="https://res.cloudinary.com/cloudwanders/image/upload/v1635202021/gradient_yv70qf.png"
-                        alt="Gradient underline"
-                        aria-hidden="true"
-                        draggable="false"
-                      />
-
-                      <List>
-                        <Info>
-                          Exploring Web Scraping with Node, Axios, Cheerio,
-                          Puppeteer.
-                        </Info>
-                        <Info>
-                          View the winners &amp; runner-ups of the Minnesota
-                          High School State Hockey Championship.
-                        </Info>
-                        <Info>
-                          Browse NHL's statistic leaders or display the results
-                          of recent NHL games.
-                        </Info>
-                        <Info>
-                          Fetch a list of endangered species and their
-                          conservation status.
                         </Info>
 
                         <ListItem>
@@ -565,7 +569,17 @@ export class Projects extends Component {
                             Visit Repository{' '}
                           </a>{' '}
                         </ListItem>
-                        <ListItem>Runs in Terminal, No Live Demo</ListItem>
+                        <ListItem>
+                          {' '}
+                          <a
+                            href={projectData[5].link}
+                            rel="noreferrer"
+                            target="_blank"
+                          >
+                            {' '}
+                            Project Demo{' '}
+                          </a>{' '}
+                        </ListItem>
                         <ListItem>{projectData[5].date}</ListItem>
                       </List>
                     </ModalContent>

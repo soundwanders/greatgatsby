@@ -13,9 +13,7 @@ const PageNotFound = () => (
     <Seo title="404 Not Found" />
     <Title>&#129306; 404: Not Found</Title>
 
-    <ErrorText>
-      Sorry, page cannot be found. It may be lost in space...
-    </ErrorText>
+    <ErrorText>Sorry, page not found. It may be lost in space...</ErrorText>
 
     <StaticImage
       src="../assets/lost.png"

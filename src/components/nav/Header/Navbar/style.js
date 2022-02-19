@@ -20,13 +20,12 @@ export const Wrapper = styled.div`
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
-  width: 86.3%;
-  max-width: 86.3%;
+  width: 85%;
+  max-width: 85%;
   padding: 0;
   background: transparent;
   z-index: 4;
