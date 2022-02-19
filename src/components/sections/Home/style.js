@@ -65,9 +65,8 @@ export const Subtitle = styled.h1`
   padding: 2rem 0 0 0;
   white-space: nowrap;
   color: #333399;
-  letter-spacing: -1px;
   font-size: 2.2vmax;
-  font-family: 'Poppins', 'Roboto', sans-serif;
+  font-weight: 600;
   animation: 1s ease-out 0s 1 ${Slide};
   @media (max-width: 940px) {
     padding: 0.5rem 0;
