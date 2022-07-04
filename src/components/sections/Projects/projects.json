@@ -4,7 +4,7 @@
     "title": "Coral Dashboard",
     "date": "March 2022",
     "repo": "https://github.com/soundwanders/coral",
-    "link": "https://coralquarrel.netlify.app/"
+    "link": "https://coraldash.netlify.app/"
   },
   {
     "id": 1,
@@ -36,7 +36,7 @@
   },
   {
     "id": 5,
-    "title": "Simple Budget",
+    "title": "Budget Web App",
     "date": "October 2020",
     "repo": "https://github.com/soundwanders/budget",
     "link": "https://soundwanders.github.io/budget"
