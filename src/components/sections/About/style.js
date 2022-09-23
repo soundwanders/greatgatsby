@@ -93,13 +93,13 @@ export const DetailsA = styled.h1`
   text-rendering: optimizeLegibility;
   color: #f8f8f8;
 
+  &:first-child {
+    padding: 0;
+  }
+
   @media (max-width: 940px) {
     padding-bottom: 0;
     mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
-  }
-  
-  &:first-child {
-    padding: 0;
   }
 `;
 
@@ -110,8 +110,10 @@ export const DetailsB = styled.h1`
   font-size: 5vmax;
   text-rendering: optimizeLegibility;
   color: #f8f8f8;
+
   @media (max-width: 940px) {
     padding-bottom: 0;
+    mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
   }
 `;
 

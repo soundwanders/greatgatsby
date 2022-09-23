@@ -1,5 +1,4 @@
-import React, { useContext, Component } from 'react';
-import { ThemeContext } from 'providers/ThemeProvider';
+import React, { Component } from 'react';
 import Modal from 'react-modal';
 import './index.css';
 import projectData from './projects.json';
@@ -53,12 +52,10 @@ export class Projects extends Component {
   }
 
   render() {
-    const { theme } = useContext(ThemeContext);
-    
     return (
       <>
         <Wrapper theme={theme}>
-          <ProjectContainer id="projects" theme={theme}>
+          <ProjectContainer id="projects">
             <Grid>
               <Card>
                 <Item>

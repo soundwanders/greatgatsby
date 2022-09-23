@@ -20,16 +20,16 @@
 - React
 - Axios
 - Yup
+- Eslint / Prettier
 - Continuous deployment and free hosting thanks to the team at <a href="https://vercel.com/" rel="noopener noreferral" style="text-decoration: none;">Vercel</a>
 - Form submission endpoint provided by <a href="https://formium.io" rel="noopener noreferral" style="text-decoration: none;">Formium</a>
 - Contact Form submissions secured with Google Recaptcha
 - Images hosted &amp; delivered by <a href="https://cloudinary.com" rel="noopener noreferral" style="text-decoration: none;">Cloudinary</a>
 - Icons from <a href="https://www.freepik.com" title="Freepik" target="_blank">Freepik</a>
-- Eslint/Prettier configured
-- Light/Dark Themes built with ThemeProvider and React Hooks (useContext)
+- Light/Dark Theme
   <br />
 
-### &#x1F9D0; Who's There?
+### &#x1F9D0; Who Goes There?
 
 1.  **`/src`**: This directory contains all of the code related to what you will see on the front-end of this portfolio site. Name `src` is a convention for “source code”.
 
