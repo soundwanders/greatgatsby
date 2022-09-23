@@ -5,7 +5,7 @@ import { HomeContainer, User, Subtitle } from './style';
 import config from 'data/config';
 
 export const HomePage = () => {
-  const { theme } = useContext(ThemeContext)
+  const { theme } = useContext(ThemeContext);
   
   return (
     <HomeContainer id="home" theme={theme}>
