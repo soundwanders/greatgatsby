@@ -1,12 +1,15 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import { ThemeContext } from 'providers/ThemeProvider';
 import { Link } from 'gatsby';
 import { Container } from 'components/common';
 import { SpansMaxWidth, Wrapper, Brand } from './style';
 import NavLinks from '../NavLinks';
 
 const Navbar = () => {
+  const { theme } = useContext(ThemeContext);
+
   return (
-    <SpansMaxWidth>
+    <SpansMaxWidth theme={theme}>
       <Wrapper as={Container}>
         <Brand as={Link} to="/">
           <img

@@ -11,7 +11,7 @@ export const HomePage = () => {
     <HomeContainer id="home" theme={theme}>
       <Seo title="Home" />
       <User> {config.legalName} </User>
-      <Subtitle> &#60; {config.role} &#47;&nbsp;&#62;</Subtitle>
+      <Subtitle theme={theme}> &#60; {config.role} &#47;&nbsp;&#62;</Subtitle>
     </HomeContainer>
   );
 };

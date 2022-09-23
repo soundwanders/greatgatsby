@@ -52,34 +52,12 @@ export const Bar = styled.div`
 		transform: translateY(8px) rotate(-135deg);
   `}
 
-
-	${({ top, sidebar, theme }) =>
-    top &&
-    sidebar &&
-		`
-		background-color: ${(theme === 'light' ? '#212121' : '#f8f8f8')};
-		transform: translateY(8px) rotate(-135deg);
-		
-	`}
-
   ${({ mid, sidebar }) =>
     mid &&
     sidebar &&
     `
 		transform: scale(0);
     `}
-	
-  ${({ bottom, sidebar }) =>
-    bottom &&
-    sidebar &&
-    `
-        background-color: #5d2ad3;
-        -webkit-transform: translateY(-6px) rotate(-45deg);
-        -o-transform: translateY(-6px) rotate(-45deg);
-        -moz-transform: translateY(-6px) rotate(-45deg);
-        transform: translateY(-6px) rotate(-45deg);
-    `}
-
 
 	${({ bottom, sidebar, theme }) =>
     bottom &&

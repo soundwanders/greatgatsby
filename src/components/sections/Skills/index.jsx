@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ThemeContext } from 'providers/ThemeProvider';
 import { SkillsContainer, Grid, Logo, ScaledLogo } from './style';
 
 export const Skills = () => {
+  const { theme } = useContext(ThemeContext);
+
   return (
-    <SkillsContainer id="skills">
+    <SkillsContainer id="skills" theme={theme}>
       <Grid>
         <Logo
           src="https://res.cloudinary.com/cloudwanders/image/upload/v1632075358/html_wrecgz.png"

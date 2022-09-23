@@ -1,15 +1,12 @@
 import styled from 'styled-components';
 
-// the ? : operators for the desktop style is an Inline If-Else with a conditional operator
-// Logic is ( condition ? true : false )
-
 export const Wrapper = styled.div`
   a {
     font-family: 'Roboto', Ubuntu, Helvetica, sans-serif;
     -moz-osx-font-smoothing: auto;
-    color: #2d2d86;
     font-weight: 700;
     text-decoration: none;
+    color: ${({ theme }) => (theme === 'light' ? '#2d2d86' : '#f8f8f8')};
     z-index: 8;
 
     @media (max-width: 960px) {
@@ -87,7 +84,7 @@ export const Wrapper = styled.div`
       text-shadow: 0.5px 0px #f8f8f8;
       float: none;
       a {
-        margin-bottom: 1rem;
+        margin-bottom: 0;
       }
   `}
 `;
@@ -98,9 +95,11 @@ export const Socials = styled.div`
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 4fr;
+
   @media (max-width: 940px) {
-    padding: 2rem;
+    padding: 2rem 1.5rem;
   }
+
   img {
     display: -webkit-box;
     display: -webkit-flex;
@@ -110,10 +109,14 @@ export const Socials = styled.div`
     flex-direction: column;
     align-self: center;
     flex-wrap: nowrap;
-    padding: 0 0.5rem;
+    padding: ${({ theme }) => (theme === 'light' ? '0 0.5rem' : '0.25rem 0.55rem')};
+    border-radius: ${({ theme }) => (theme === 'light' ? '0' : '10px')};
     margin-top: 0.9rem;
+    background:  ${({ theme }) => (theme === 'light' ? '#f8f8f8' : '#fefefe')};
+    
     @media (max-width: 940px) {
       width: 36px;
+      padding: 0.25rem 0.5rem;
     }
   }
 `;

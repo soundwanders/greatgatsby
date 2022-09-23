@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ThemeContext } from 'providers/ThemeProvider';
 import {
   Container,
   Title,
@@ -13,14 +14,15 @@ import {
 } from './style';
 
 export const About = () => {
+  const { theme } = useContext(ThemeContext);
 
   return (
-    <Container id="about">
+    <Container id="about" theme={theme}>
       <Title>How's it going? 👋</Title>
 
       <Section>
-        I'm not a programming wizard and I can't read binary, but I care deeply
-        about my work  and I love what I do.
+        I'm no programming wizard and I don't dream in binary, but
+        I love what I do. Hoping some day I'll get pretty good at it.
       </Section>
 
       <Section>
@@ -76,7 +78,7 @@ export const About = () => {
         <DetailsB>Engaging Aesthetics</DetailsB>
         <Subtext>
           Carefully designing complimentary color schemes and easy-to-digest
-          content to create a user experience that just plain makes sense. (To me, atleast 🤘)
+          content to create a user experience that just plain makes sense. Pretty sweet! 🍓
         </Subtext>
 
         <TrailMarker

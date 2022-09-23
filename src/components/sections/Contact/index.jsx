@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ThemeContext } from 'providers/ThemeProvider';
 import { Container } from 'components/common';
 import { Title, Wrapper, Details, MailTime, Bird } from './style';
 import MailTrail from './wingmail.png';
@@ -7,8 +8,12 @@ import ContactForm from './ContactForm';
 export const Snail = 'Save the Snails 🐌';
 export const Mail = 'E-mail Me Instead!';
   
-export const Contact = () => (
-    <Wrapper as={Container} id="contact">
+
+export const Contact = () => {
+  const { theme } = useContext(ThemeContext);
+
+  return (
+    <Wrapper as={Container} id="contact" theme={theme}>
       <Details>
         <Title>{Snail}</Title>
         <Title>{Mail}</Title>
@@ -25,4 +30,5 @@ export const Contact = () => (
         />
       </Bird>
     </Wrapper>
-);
+  )
+};

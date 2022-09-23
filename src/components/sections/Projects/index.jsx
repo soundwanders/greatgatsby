@@ -54,7 +54,7 @@ export class Projects extends Component {
   render() {
     return (
       <>
-        <Wrapper theme={theme}>
+        <Wrapper>
           <ProjectContainer id="projects">
             <Grid>
               <Card>

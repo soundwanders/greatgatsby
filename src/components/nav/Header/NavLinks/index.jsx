@@ -17,7 +17,7 @@ const NavLinks = ({ desktop }) => {
       <AnchorLink href="#contact">Contact</AnchorLink>
       <Link to="blog">Blog</Link>
 
-      <Socials>
+      <Socials theme={theme}>
         {socialData.map(({ id, name, link, icon }) => (
           <a
             key={id}
@@ -30,7 +30,7 @@ const NavLinks = ({ desktop }) => {
           </a>
         ))}
 
-      <ToggleTheme />
+        <ToggleTheme />
       </Socials>
     </Wrapper>
   );

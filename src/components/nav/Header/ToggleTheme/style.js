@@ -27,6 +27,8 @@ export const Wrapper = styled.button`
     flex-wrap: nowrap;
     padding: 0 0.5rem;
     margin-top: 0.9rem;
+    fill: ${({ theme }) => (theme === 'light' ? '#030303' : '#f8f8f8')};;
+
     @media (max-width: 940px) {
       width: 36px;
     }

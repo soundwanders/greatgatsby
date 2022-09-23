@@ -1,5 +1,24 @@
 import styled from 'styled-components';
 
+const LightGradient = 
+  `linear-gradient(
+    to bottom,
+    #5d46a2,
+    #5f49a1,
+    #5f4a9e,
+    #5d499a,
+    #5e4a99,
+    #5d4a96,
+    #5d4b92
+  );`
+
+const DarkGradient =
+  `linear-gradient(
+    to bottom,
+    #18132a,
+    #221b3c
+  );`
+
 export const Wrapper = styled.div`
   display: -webkit-box;
   display: -webkit-flex;
@@ -9,19 +28,11 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   padding: 6rem 0;
   padding-bottom: 3rem;
-  background-color: #5d46a2;
-  background-image: linear-gradient(
-    to bottom,
-    #5d46a2,
-    #5f49a1,
-    #5f4a9e,
-    #5d499a,
-    #5e4a99,
-    #5d4a96,
-    #5d4b92
-  );
+  background-color: ${({ theme }) => (theme === 'light' ? '#5f49a1' : '#18132a' )};
+  background-image: ${({ theme }) => (theme === 'light' ? LightGradient : DarkGradient )};
   background-size: cover;
   overflow: hidden;
+  
   @media (max-width: 940px) {
     padding: 0 0 1rem 0;
     flex-direction: column;
