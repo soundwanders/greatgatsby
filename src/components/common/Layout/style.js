@@ -653,8 +653,8 @@ export const Global = createGlobalStyle`
       max-width:100%;
       margin: 0;
       padding: 0;
-      color: ${({ theme }) => (theme === 'light' ? 'hsla(0, 0%, 0%, 0.8)' : '#fff')};
-      background-color: ${({ theme }) => (theme === 'light' ? '#fff' : '#212121')};
+      color: ${({ theme }) => (theme === 'light' ? 'hsla(0, 0%, 0%, 0.8)' : '#f8f8f8')};
+      background-color: ${({ theme }) => (theme === 'light' ? '#f8f8f8' : '#212121')};
       -webkit-transition: all 0.3s;
       -o-transition: all 0.3s;
       -moz-transition: all 0.3s;

@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
     z-index: 8;
 
     @media (max-width: 960px) {
-      color: ${({ theme }) => (theme === 'light' ? '#2d2d86' : '#fff')};
+      color: ${({ theme }) => (theme === 'light' ? '#2d2d86' : '#f8f8f8')};
     }
   }
   

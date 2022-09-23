@@ -13,7 +13,7 @@ export const FormContainer = styled.div`
 `;
 export const Error = styled.span`
   font-family: Ubuntu, Helvetica, sans-serif;
-  color: #fff;
+  color: #f8f8f8;
   letter-spacing: 0.25px;
   padding-bottom: 0.5rem;
 `;

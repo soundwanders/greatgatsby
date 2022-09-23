@@ -15,13 +15,20 @@ export const Wrapper = styled.button`
     text-align: left;
   }
 
+  
   img {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
     display: flex;
     width: 1.8vmax;
+    flex-direction: column;
+    align-self: center;
+    flex-wrap: nowrap;
     padding: 0 0.5rem;
     margin-top: 0.9rem;
+    @media (max-width: 940px) {
+      width: 36px;
+    }
   }
 `;

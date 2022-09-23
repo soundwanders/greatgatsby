@@ -57,7 +57,7 @@ export const Bar = styled.div`
     top &&
     sidebar &&
 		`
-		background-color: ${(theme === 'light' ? '#212121' : '#fff')};
+		background-color: ${(theme === 'light' ? '#212121' : '#f8f8f8')};
 		transform: translateY(8px) rotate(-135deg);
 		
 	`}
@@ -85,7 +85,7 @@ export const Bar = styled.div`
     bottom &&
     sidebar &&
 		`
-			background-color: ${(theme === 'light' ? '#5d2ad3' : '#fff')};
+			background-color: ${(theme === 'light' ? '#5d2ad3' : '#f8f8f8')};
      -webkit-transform: translateY(-6px) rotate(-45deg);
       -o-transform: translateY(-6px) rotate(-45deg);
       -moz-transform: translateY(-6px) rotate(-45deg);

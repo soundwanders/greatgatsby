@@ -1,5 +1,4 @@
-import React, { useContext } from 'react';
-import { ThemeContext } from 'providers/ThemeProvider';
+import React from 'react';
 import {
   Container,
   Title,
@@ -14,7 +13,6 @@ import {
 } from './style';
 
 export const About = () => {
-  const { theme } = useContext(ThemeContext);
 
   return (
     <Container id="about">
@@ -22,7 +20,7 @@ export const About = () => {
 
       <Section>
         I'm not a programming wizard and I can't read binary, but I care deeply
-        about my work and I love what I do.
+        about my work  and I love what I do.
       </Section>
 
       <Section>
@@ -37,7 +35,7 @@ export const About = () => {
           aria-hidden="true"
         />
 
-        <DetailsA theme={theme}>Clean Code</DetailsA>
+        <DetailsA>Clean Code</DetailsA>
         <Subtext>
           Code that is organized and executed with a clear purpose. Written for
           humans, by humans. The only spaghetti I enjoy is served on a plate.
@@ -49,7 +47,7 @@ export const About = () => {
           aria-hidden="true"
         />
 
-        <DetailsA theme={theme}>Creative Solutions</DetailsA>
+        <DetailsA>Creative Solutions</DetailsA>
         <Subtext>
           Mending broken browsers, squashing sneaky bugs and solving all the
           headache-inducing problems. If your brain doesn't hurt, are you even
@@ -62,7 +60,7 @@ export const About = () => {
           aria-hidden="true"
         />
 
-        <DetailsA theme={theme}>Responsive Design</DetailsA>
+        <DetailsA>Responsive Design</DetailsA>
         <Subtext>
           Seamless transitions from mobile to desktop, utilizing common
           breakpoints to build flexible designs that fit devices of all shapes
@@ -75,7 +73,7 @@ export const About = () => {
           aria-hidden="true"
         />
 
-        <DetailsB theme={theme}>Engaging Aesthetics</DetailsB>
+        <DetailsB>Engaging Aesthetics</DetailsB>
         <Subtext>
           Carefully designing complimentary color schemes and easy-to-digest
           content to create a user experience that just plain makes sense. (To me, atleast 🤘)
