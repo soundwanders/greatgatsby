@@ -36,19 +36,31 @@ export const Bar = styled.div`
   height: 0.15rem;
   margin-bottom: 0.3rem;
   background-color: #0d0614;
-  box-shadow 250ms,
-  opacity 500ms,
-	transform: transform 300ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
-  ${({ top, sidebar }) =>
+  transition: transform 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91),
+	opacity 500ms,
+	box-shadow 250ms,
+	background-color 500ms;
+
+  ${({ top, sidebar, theme }) =>
     top &&
     sidebar &&
     `
-		background-color: #5d2ad3;
+		background-color: ${(theme === 'light' ? '#0d0614' : '#f9f9f9')};
     -webkit-transform: translateY(8px) rotate(-135deg);
     -o-transform: translateY(8px) rotate(-135deg);
     -moz-transform: translateY(8px) rotate(-135deg);
 		transform: translateY(8px) rotate(-135deg);
-    `}
+  `}
+
+
+	${({ top, sidebar, theme }) =>
+    top &&
+    sidebar &&
+		`
+		background-color: ${(theme === 'light' ? '#212121' : '#fff')};
+		transform: translateY(8px) rotate(-135deg);
+		
+	`}
 
   ${({ mid, sidebar }) =>
     mid &&
@@ -67,4 +79,17 @@ export const Bar = styled.div`
         -moz-transform: translateY(-6px) rotate(-45deg);
         transform: translateY(-6px) rotate(-45deg);
     `}
+
+
+	${({ bottom, sidebar, theme }) =>
+    bottom &&
+    sidebar &&
+		`
+			background-color: ${(theme === 'light' ? '#5d2ad3' : '#fff')};
+     -webkit-transform: translateY(-6px) rotate(-45deg);
+      -o-transform: translateY(-6px) rotate(-45deg);
+      -moz-transform: translateY(-6px) rotate(-45deg);
+      transform: translateY(-6px) rotate(-45deg);
+			transform: translateY(-6px) rotate(-45deg);
+	`}
 `;

@@ -1,7 +1,7 @@
 module.exports = {
   defaultTitle: 'soundwanders',
   defaultDescription:
-    'Welcome! I am a developer who loves building and designing responsive, accessible websites. If you are craving a flexible, scalable solution for your personal or professional website, reach out to me today! ',
+    'Welcome! I am a developer who loves building and designing for the web. If you are seeking a modern, aesthetic solution for your personal or professional website, please reach out. I\'d love to work together! ',
   author: 'soundwanders',
   url: 'https://www.jcoletta.com/',
   role: 'Designer, Developer',

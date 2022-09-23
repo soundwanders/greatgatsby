@@ -25,6 +25,8 @@
 - Contact Form submissions secured with Google Recaptcha
 - Images hosted &amp; delivered by <a href="https://cloudinary.com" rel="noopener noreferral" style="text-decoration: none;">Cloudinary</a>
 - Icons from <a href="https://www.freepik.com" title="Freepik" target="_blank">Freepik</a>
+- Eslint/Prettier configured
+- Light/Dark Themes built with ThemeProvider and React Hooks (useContext)
   <br />
 
 ### &#x1F9D0; Who's There?
@@ -46,6 +48,8 @@
 8.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/). These allow customization/extension of default Gatsby settings affecting the browser.
 
 9. **`gatsby-node.js`**: This file is where Gatsby expects to find the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/). When present, these allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+
+10. **`gatsby-ssr.js`**: The file gatsby-ssr.jsx/gatsby-ssr.tsx lets you alter the content of static HTML files as they are being Server-Side Rendered (SSR) by Gatsby and Node.js.
 
 <br />
 
@@ -73,6 +77,10 @@
      └─── hooks
      │
      └─── pages
+     │
+     └─── providers
+          └── ThemeProvider
+
 
 ```
 

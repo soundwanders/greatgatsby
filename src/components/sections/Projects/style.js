@@ -99,7 +99,6 @@ export const Item = styled.div`
       opacity: 0.88;
       border: 1px solid transparent;
     }
-  }
 `;
 
 export const ModalWrapper = styled.button`

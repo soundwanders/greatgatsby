@@ -1,17 +1,22 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import { Link } from 'gatsby';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import ToggleTheme from 'components/nav/Header/ToggleTheme';
+import { ThemeContext } from 'providers/ThemeProvider';
 import { Wrapper, Socials } from './style';
 import socialData from './socials.json';
 
 const NavLinks = ({ desktop }) => {
+  const { theme } = useContext(ThemeContext);
+
   return (
-    <Wrapper desktop={desktop}>
+    <Wrapper desktop={desktop} theme={theme}>
       <AnchorLink href="#home">Home</AnchorLink>
       <AnchorLink href="#about">About</AnchorLink>
       <AnchorLink href="#projects">Projects</AnchorLink>
       <AnchorLink href="#contact">Contact</AnchorLink>
       <Link to="blog">Blog</Link>
+
       <Socials>
         {socialData.map(({ id, name, link, icon }) => (
           <a
@@ -24,6 +29,8 @@ const NavLinks = ({ desktop }) => {
             <img src={icon} alt={name} draggable="false" />
           </a>
         ))}
+
+      <ToggleTheme />
       </Socials>
     </Wrapper>
   );
