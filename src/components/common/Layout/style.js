@@ -647,13 +647,14 @@ export const Global = createGlobalStyle`
         font-size: 100%;
       }
     }
+    
     body {
       width: 100%;
       max-width:100%;
       margin: 0;
       padding: 0;
-      overflow-x: hidden;
-      color: #663399;
+      color: ${({ theme }) => (theme === 'light' ? 'hsla(0, 0%, 0%, 0.8)' : '#fff')};
+      background-color: ${({ theme }) => (theme === 'light' ? '#fff' : '#212121')};
       -webkit-transition: all 0.3s;
       -o-transition: all 0.3s;
       -moz-transition: all 0.3s;
@@ -667,6 +668,7 @@ export const Global = createGlobalStyle`
       -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
       font-feature-settings: 'kern', 'liga', 'clig', 'calt';
       -webkit-tap-highlight-color: transparent;
+      overflow-x: hidden;
     }
     a {
       text-decoration: none;
