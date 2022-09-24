@@ -109,7 +109,6 @@ export const DetailsA = styled.h1`
 
   @media (max-width: 940px) {
     padding-bottom: 0;
-    mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
   }
 `;
 
@@ -123,7 +122,6 @@ export const DetailsB = styled.h1`
 
   @media (max-width: 940px) {
     padding-bottom: 0;
-    mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
   }
 `;
 

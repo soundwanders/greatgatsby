@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ThemeContext } from 'providers/ThemeProvider';
 import { Container } from 'components/common';
 import { Foot, Flex, Copyright } from './style';
 
 export const Footer = () => {
+  const { theme } = useContext(ThemeContext);
+
   return (
-    <Foot>
+    <Foot theme={theme}>
       <Flex as={Container}>
         <Copyright>
-          © {new Date().getFullYear()} soundwanders
+           Built with 🧡
           {` `}
         </Copyright>
       </Flex>

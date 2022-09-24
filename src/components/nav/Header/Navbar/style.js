@@ -7,7 +7,7 @@ export const SpansMaxWidth = styled.div`
   width: 100%;
   max-width: 100%;
   min-height: 4vmax;
-  padding: 0;
+  padding: 0 0 1rem 0;
   overflow: hidden;
   background-color: ${({ theme }) => (theme === 'light' ? '#f8f8f8' : '#030303')};
   @media (max-width: 940px) {

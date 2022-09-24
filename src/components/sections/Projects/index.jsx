@@ -108,11 +108,11 @@ export class Projects extends Component {
                           populate page content.
                         </Info>
                         <Info>
-                          Utilizes ES6 array methods map, filter, reduce while
-                          working with fetched data.
+                          Utilizes ES6 array methods map, filter, reduce,
+                          manipulating fetched data to eliminate redundant code.
                         </Info>
                         <Info>
-                          Flexbox-based responsive design with a modified UI on
+                          Flexbox-based responsive design with a modified UI for
                           mobile devices.
                         </Info>
 
@@ -193,16 +193,16 @@ export class Projects extends Component {
                           &amp; rescue organizations.
                         </Info>
                         <Info>
-                          Embedded custom map containing shelter locations,
+                          Embedded custom interactive map containing shelter locations,
                           built with Leaflet.js.
                         </Info>
                         <Info>
                           Collapsible data table is an array of objects
-                          generated with JavaScript.{' '}
+                          generated from JSON data.{' '}
                         </Info>
                         <Info>
                           CSS Flexbox &amp; Grid combined to achieve a fluid
-                          layout.
+                          layout suitable for all devices.
                         </Info>
 
                         <ListItem>
@@ -278,7 +278,7 @@ export class Projects extends Component {
 
                       <List>
                         <Info>
-                          An image gallery built with Bootstrap, showcasing
+                          An image gallery built to demo Bootstrap, showcasing
                           high-res photographs of nebulae.
                         </Info>
                         <Info>
@@ -291,8 +291,7 @@ export class Projects extends Component {
                         </Info>
                         <Info>
                           Use of common media query breakpoints creates a
-                          dynamic grid layout.
-                        </Info>
+                          dynamic, adaptable grid layout. </Info>
 
                         <ListItem>
                           {' '}

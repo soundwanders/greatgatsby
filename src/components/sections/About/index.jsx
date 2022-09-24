@@ -22,7 +22,7 @@ export const About = () => {
 
       <Section>
         I'm no programming wizard and I don't dream in binary, but
-        I love what I do. Hoping some day I'll get pretty good at it.
+        I love what I do and I'm always exploring ways to improve.
       </Section>
 
       <Section>

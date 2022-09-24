@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   a {
-    font-family: 'Roboto', Ubuntu, Helvetica, sans-serif;
+    font-family: 'Filson Pro', 'Roboto', Helvetica, sans-serif;
     -moz-osx-font-smoothing: auto;
     font-weight: 700;
     text-decoration: none;
@@ -30,7 +30,7 @@ export const Wrapper = styled.div`
         line-height: 1;
         white-space: pre;
         a {
-          padding-right: 1rem;
+          padding-right: 2rem;
         }
         img {
             display: -webkit-box;
@@ -49,10 +49,10 @@ export const Wrapper = styled.div`
           -ms-transform: rotate(360deg);
           -o-transform: rotate(360deg);
           transform: rotate(360deg);
-          -webkit-transition: 0.7s;
-          -o-transition: 0.7s;
-          -moz-transition: 0.7s;
-          transition: 0.7s;
+          -webkit-transition: 0.9s;
+          -o-transition: 0.9s;
+          -moz-transition: 0.9s;
+          transition: 0.9s;
         }
         &:hover {
           color: #424292;
@@ -84,20 +84,25 @@ export const Wrapper = styled.div`
       text-shadow: 0.5px 0px #f8f8f8;
       float: none;
       a {
+        margin-bottom: 0.75rem;
+      }
+      
+      div:nth-child(6) > a:nth-child(1) {
         margin-bottom: 0;
       }
   `}
 `;
-
 export const Socials = styled.div`
   display: grid;
   bottom: 0;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 4fr;
+  margin: 0 0 0 1.5rem !important;
 
   @media (max-width: 940px) {
     padding: 2rem 1.5rem;
+    margin-left: 0 !important;
   }
 
   img {
@@ -105,18 +110,18 @@ export const Socials = styled.div`
     display: -webkit-flex;
     display: -moz-box;
     display: flex;
-    width: 1.8vmax;
+    width: 1.6vmax;
     flex-direction: column;
     align-self: center;
     flex-wrap: nowrap;
-    padding: ${({ theme }) => (theme === 'light' ? '0 0.5rem' : '0.25rem 0.55rem')};
-    border-radius: ${({ theme }) => (theme === 'light' ? '0' : '10px')};
-    margin-top: 0.9rem;
-    background:  ${({ theme }) => (theme === 'light' ? '#f8f8f8' : '#fefefe')};
+    margin-top: 1.2rem;
+    padding: ${({ theme }) => (theme === 'light' ? '0.1rem 0.5rem' : '0.5rem 0.5rem')};
+    border-radius: ${({ theme }) => (theme === 'light' ? '0' : '120px')};
+    background:  ${({ theme }) => (theme === 'light' ? 'transparent' : '#eeeeee')};
     
     @media (max-width: 940px) {
-      width: 36px;
-      padding: 0.25rem 0.5rem;
+      width: 26px;
+      margin: 0.3rem auto;
     }
   }
 `;

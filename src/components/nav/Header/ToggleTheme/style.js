@@ -21,16 +21,17 @@ export const Wrapper = styled.button`
     display: -webkit-flex;
     display: -moz-box;
     display: flex;
-    width: 1.8vmax;
+    width: 1.5vmax;
     flex-direction: column;
     align-self: center;
     flex-wrap: nowrap;
-    padding: 0 0.5rem;
-    margin-top: 0.9rem;
-    fill: ${({ theme }) => (theme === 'light' ? '#030303' : '#f8f8f8')};;
+    margin-top: 1.2rem;
+    padding: ${({ theme }) => (theme === 'light' ? '0.1rem 0.5rem' : '0.5rem 0.5rem')};
+    border-radius: ${({ theme }) => (theme === 'light' ? '0' : '120px')};
 
     @media (max-width: 940px) {
-      width: 36px;
+      width: 26px;
+      margin-top: 0.8rem;
     }
   }
 `;
