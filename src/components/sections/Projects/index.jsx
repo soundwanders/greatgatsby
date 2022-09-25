@@ -65,7 +65,7 @@ export class Projects extends Component {
                     onClick={() => this.handleOpenModal('coral')}
                   >
                     <img
-                      src="https://res.cloudinary.com/cloudwanders/image/upload/v1648933306/coral_zfdr8d.png"
+                      src="https://res.cloudinary.com/cloudwanders/image/upload/v1664139976/coral_gd6xu3.png"
                       alt="Project Showcase -- Coral Dashboard"
                       draggable="false"
                     />

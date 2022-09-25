@@ -4,7 +4,6 @@ export const Wrapper = styled.div`
   a {
     font-family: 'Filson Pro', 'Roboto', Helvetica, sans-serif;
     -moz-osx-font-smoothing: auto;
-    font-weight: 700;
     text-decoration: none;
     color: ${({ theme }) => (theme === 'light' ? '#2d2d86' : '#f8f8f8')};
     z-index: 8;
@@ -95,7 +94,7 @@ export const Wrapper = styled.div`
 export const Socials = styled.div`
   display: grid;
   bottom: 0;
-  align-items: center;
+  align-items: baseline;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 4fr;
   margin: 0 0 0 1.5rem !important;
@@ -103,6 +102,7 @@ export const Socials = styled.div`
   @media (max-width: 940px) {
     padding: 2rem 1.5rem;
     margin-left: 0 !important;
+    justify-content: center;
   }
 
   img {
@@ -120,8 +120,9 @@ export const Socials = styled.div`
     background:  ${({ theme }) => (theme === 'light' ? 'transparent' : '#eeeeee')};
     
     @media (max-width: 940px) {
-      width: 26px;
+      width: 20px;
       margin: 0.3rem auto;
+      justify-items: start;
     }
   }
 `;

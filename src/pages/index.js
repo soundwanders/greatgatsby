@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout, Seo } from 'components/common';
 import {
   HomePage,
-  Projects,
+  // Projects,
   About,
   Contact,
   Skills,
@@ -13,7 +13,7 @@ const Home = () => (
     <Seo />
     <HomePage />
     <About />
-    <Projects />
+    {/* <Projects /> */}
     <Contact />
     <Skills />
   </Layout>

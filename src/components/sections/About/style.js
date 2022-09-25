@@ -64,7 +64,7 @@ export const Section = styled.h2`
   width: 60%;
   padding: 1rem 0 0.5rem 0;
   font-family: 'Filson Soft', 'Roboto', sans-serif;
-  font-size: 1.75vmax;
+  font-size: 1.7vmax;
   text-align: center;
   line-height: 2;
   color: inherit;
@@ -109,6 +109,7 @@ export const DetailsA = styled.h1`
 
   @media (max-width: 940px) {
     padding-bottom: 0;
+    font-size: 4.5vmax;
   }
 `;
 
@@ -122,6 +123,7 @@ export const DetailsB = styled.h1`
 
   @media (max-width: 940px) {
     padding-bottom: 0;
+    font-size: 4.5vmax;
   }
 `;
 

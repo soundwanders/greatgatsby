@@ -32,10 +32,10 @@ export const Skills = () => {
           aria-label="React Logo"
         />
 
-        <Logo
-          src="https://res.cloudinary.com/cloudwanders/image/upload/v1632075358/bootstrap_bhw6mi.png"
-          alt="Bootstrap Logo"
-          aria-label="Bootstrap Logo"
+        <ScaledLogo
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1684109189/styled-components_pbfgrj.png"
+          alt="Styled Components Logo"
+          aria-label="Styled Components Logo"
         />
 
         <Logo
@@ -44,6 +44,7 @@ export const Skills = () => {
           aria-label="Gatsby Logo"
         />
 
+      {/* 
         <Logo
           src="https://res.cloudinary.com/cloudwanders/image/upload/v1631672260/linux_pyqt33.svg"
           alt="Linux Logo"
@@ -56,11 +57,18 @@ export const Skills = () => {
           aria-label="Git Logo"
         />
 
+        <Logo
+          src="https://res.cloudinary.com/cloudwanders/image/upload/v1632075358/bootstrap_bhw6mi.png"
+          alt="Bootstrap Logo"
+          aria-label="Bootstrap Logo"
+        />
+        
         <ScaledLogo
           src="https://res.cloudinary.com/cloudwanders/image/upload/v1631672260/npm_c7fgg7.svg"
           alt="npm Logo"
           aria-label="npm Logo"
-        />
+        /> 
+      */}
       </Grid>
     </SkillsContainer>
   );

@@ -21,13 +21,13 @@ export const About = () => {
       <Title>How's it going? 👋</Title>
 
       <Section>
-        I'm no programming wizard and I don't dream in binary, but
-        I love what I do and I'm always exploring ways to improve.
+        I'm not a programming wizard and I don't dream in binary, but I am passionate
+        about crafting elegant and practical web solutions that just simply work.
       </Section>
 
       <Section>
-        As I've made my way down this winding trail, I've picked up a few useful
-        things I found along the way...
+        As I've made my way down this long and winding trail, I've picked up a few useful
+        things along the way...
       </Section>
 
       <Concepts>
@@ -39,8 +39,8 @@ export const About = () => {
 
         <DetailsA>Clean Code</DetailsA>
         <Subtext>
-          Code that is organized and executed with a clear purpose. Written for
-          humans, by humans. The only spaghetti I enjoy is served on a plate.
+          Elegant code that is organized and executed with a clear purpose. Written for
+          humans, by humans. The only spaghetti I enjoy is served on a plate. (Results may vary) 🧘‍♂️
         </Subtext>
 
         <Pathway
@@ -53,7 +53,7 @@ export const About = () => {
         <Subtext>
           Mending broken browsers, squashing sneaky bugs and solving all the
           headache-inducing problems. If your brain doesn't hurt, are you even
-          learning?
+          learning? 🙇‍♀️
         </Subtext>
 
         <Pathway
@@ -66,7 +66,7 @@ export const About = () => {
         <Subtext>
           Seamless transitions from mobile to desktop, utilizing common
           breakpoints to build flexible designs that fit devices of all shapes
-          and sizes.
+          and sizes. 🪄
         </Subtext>
 
         <Pathway
@@ -78,7 +78,7 @@ export const About = () => {
         <DetailsB>Engaging Aesthetics</DetailsB>
         <Subtext>
           Carefully designing complimentary color schemes and easy-to-digest
-          content to create a user experience that just plain makes sense. Pretty sweet! 🍓
+          content to create a user experience that plain old makes sense. Pretty sweet! 🍓
         </Subtext>
 
         <TrailMarker

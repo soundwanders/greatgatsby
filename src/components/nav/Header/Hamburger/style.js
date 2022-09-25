@@ -5,6 +5,7 @@ export const Wrapper = styled.div`
   position: fixed;
   top: 1.6rem;
   right: 1.8rem;
+  padding: 3px;
   cursor: pointer;
   -webkit-transform: left 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);
   -o-transform: left 500ms cubic-bezier(0.6, 0.05, 0.28, 0.91);

@@ -13,7 +13,7 @@ const NavLinks = ({ desktop }) => {
     <Wrapper desktop={desktop} theme={theme}>
       <AnchorLink href="#home">Home</AnchorLink>
       <AnchorLink href="#about">About</AnchorLink>
-      <AnchorLink href="#projects">Projects</AnchorLink>
+      {/* <AnchorLink href="#projects">Projects</AnchorLink> */}
       <AnchorLink href="#contact">Contact</AnchorLink>
       <Link to="blog">Blog</Link>
 

@@ -67,8 +67,8 @@ export const Title = styled.h2`
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  font-family: 'Filson Soft', 'Roboto', sans-serif;
-  font-size: 2.8vmax;
+  font-family: 'Filson Pro', 'Roboto', sans-serif;
+  font-size: 2.6vmax;
   font-weight: 800;
   color: #f8f8f8;
   padding: 1rem 0;
