@@ -51,7 +51,7 @@ export const Logo = styled.img`
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 30%;
+  width: 25%;
   margin: 0 auto;
   @media (min-width: 560px) and (max-width: 940px) {
     width: 16%;
@@ -65,9 +65,23 @@ export const ScaledLogo = styled.img`
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 37%;
+  width: 31%;
   margin: 0 auto;
   @media (min-width: 560px) and (max-width: 940px) {
     width: 23%;
+  }
+`;
+
+export const StyledComponentsLogo = styled.img`
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 29%;
+  margin: 0 auto;
+  @media (min-width: 560px) and (max-width: 940px) {
+    width: 21%;
   }
 `;

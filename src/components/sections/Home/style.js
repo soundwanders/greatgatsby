@@ -22,7 +22,7 @@ export const HomeContainer = styled.div`
   justify-content: center;
   margin: 0 auto;
   padding: 1rem 0 3rem 0;
-  background-color: ${({ theme }) => (theme === 'light' ? '#f8f8f8' : '#221b3c ')};
+  background-color: ${({ theme }) => (theme === 'light' ? '#f8f8f8' : '#18132a')};
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='700 -10 1600 900'%3E%3Cpolygon fill='%23dde1ff' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23c4c6f3' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23dadffe' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23c5c6f3' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d7ddfd' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23c6c7f2' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d4dafd' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23c7c7f2' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23d1d8fc' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23c8c8f1' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23ced6fb' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23c9c8f1' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
   background-size: cover;
   overflow-x: hidden;
