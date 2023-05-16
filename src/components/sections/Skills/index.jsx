@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from 'providers/ThemeProvider';
-import { SkillsContainer, Grid, Logo, ScaledLogo } from './style';
+import { SkillsContainer, Grid, Logo, ReactLogo, ScaledLogo } from './style';
 
 export const Skills = () => {
   const { theme } = useContext(ThemeContext);
@@ -26,7 +26,7 @@ export const Skills = () => {
           aria-label="JavaScript Logo"
         />
 
-        <ScaledLogo
+        <ReactLogo
           src="https://res.cloudinary.com/cloudwanders/image/upload/v1632075358/rjs_h2l79p.png"
           alt="React Logo"
           aria-label="React Logo"
@@ -38,7 +38,7 @@ export const Skills = () => {
           aria-label="Styled Components Logo"
         />
 
-        <Logo
+        <ScaledLogo
           src="https://res.cloudinary.com/cloudwanders/image/upload/v1632080285/gb_tzlwo0.png"
           alt="Gatsby Logo"
           aria-label="Gatsby Logo"

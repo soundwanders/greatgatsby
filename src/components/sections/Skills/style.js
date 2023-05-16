@@ -58,7 +58,7 @@ export const Logo = styled.img`
   }
 `;
 
-export const ScaledLogo = styled.img`
+export const ReactLogo = styled.img`
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -72,16 +72,16 @@ export const ScaledLogo = styled.img`
   }
 `;
 
-export const StyledComponentsLogo = styled.img`
+export const ScaledLogo = styled.img`
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 29%;
+  width: 27%;
   margin: 0 auto;
   @media (min-width: 560px) and (max-width: 940px) {
-    width: 21%;
+    width: 19%;
   }
 `;
